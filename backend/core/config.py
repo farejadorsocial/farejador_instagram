@@ -1,9 +1,19 @@
 import json
+import os
 from pathlib import Path
+
+from dotenv import load_dotenv
+
 
 BASE = Path(__file__).resolve().parents[2]
 FRONTEND = BASE / "frontend"
 PERMISSOES_CONFIG = BASE / "sistema" / "config" / "permissoes_navegador.json"
+
+# Carrega as variáveis do arquivo .env na raiz do projeto, quando existir.
+load_dotenv(BASE / ".env")
+
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+
 
 def carregar_permissoes_navegador() -> dict:
     padrao = {
