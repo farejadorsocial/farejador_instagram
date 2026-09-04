@@ -1,10 +1,8 @@
-import os
 from typing import Optional
 
 from sqlalchemy import Engine, create_engine, text
 
-
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+from backend.core.config import DATABASE_URL
 
 
 def _normalizar_database_url(url: str) -> str:
