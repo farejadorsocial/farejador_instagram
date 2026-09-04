@@ -1,0 +1,9 @@
+/* Botão de página pública */
+.public-page-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;min-height:44px;padding-inline:16px;font-weight:850;box-shadow:0 8px 22px color-mix(in srgb,var(--accent) 12%,transparent)}
+.profile-head-actions{justify-content:flex-end;align-self:stretch;align-items:center}
+@media(max-width:680px){
+  .public-page-btn{width:100%;min-width:0;padding:11px 12px;font-size:12px}
+  .profile-head .actions,.analysis .profile-head .actions{width:100%;display:flex;flex-wrap:wrap;gap:8px}
+  .profile-head .actions .public-page-btn{flex:1 1 100%;width:100%}
+  .profile-head-actions{grid-column:1/-1;align-items:stretch}
+}

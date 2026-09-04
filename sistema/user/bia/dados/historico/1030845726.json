@@ -1,0 +1,29 @@
+[
+    {
+        "perfil": {
+            "pk": 1030845726,
+            "id": "17841401851796106",
+            "username": "yhagocinaudis",
+            "nome": "Yhago Cinaudis",
+            "biografia": "☁️ A visão vem antes do resultado",
+            "privado": true,
+            "verificado": false,
+            "memorializado": false,
+            "seguidores": 404,
+            "seguindo": 404,
+            "total_posts": 10,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/623267357_18556848082061727_8021925719719673459_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MTYuQzMifQ%3D%3D&_nc_ohc=xWi1wEheVuIQ7kNvwF0Uvxy&_nc_oc=AdqBmlrzPbnenhj4jn5uEAkVave0rbhPJUWEAVPz4dZHFPqHRRnRko4HQc6y--FNPPS9DWkJ2Lzadhd45kvOthPl&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=r7Ofbj81uiWdNsxfrmZUdg&_nc_ss=70689&oh=00_AQLIVjgtc9oOb4WfTys8SdIwDOfl_yH6L5qj2AVER7ZTeQ&oe=6A9D5C7F"
+        },
+        "hash": "db5c57b611a2daf28b07fadfdddbf5350a2b09724d6e996ba996653cf6503e55",
+        "timestamp_capture": "2026-09-01T23:43:00.528412",
+        "conteudo": {
+            "posts": [],
+            "reels": [],
+            "destaques": []
+        }
+    }
+]

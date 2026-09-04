@@ -1,0 +1,286 @@
+{
+    "perfil": {
+        "pk": 427553890,
+        "id": "17841401016706680",
+        "username": "leomessi",
+        "nome": "Leo Messi",
+        "biografia": "Bienvenidos a la cuenta oficial de Instagram de Leo Messi / Welcome to the official Leo Messi Instagram account",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 516257583,
+        "seguindo": 369,
+        "total_posts": 1534,
+        "total_reels": 0,
+        "total_destaques": 3,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "http://instagram.com/uecornella"
+            },
+            {
+                "url": "http://themessiexperience.com"
+            },
+            {
+                "url": "https://www.lowes.com/l/sports"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/424905549_7243065989106669_45026390061580919_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=7JixVd8uOpYQ7kNvwHUuMuy&_nc_oc=AdrSilXevlrNesDah_kEkptcukPj5bfLPK5JA5eJK8S4UKcp8anePEBae4V6noLyM_FRcNfmsxRczA1Fa0t6zYT5&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQHZUjWrMtHEJ4rqacp0RuPbeEqQBnvYBtrqhTsYHH4xhg&oe=6A944671"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3918833827158423297",
+                "code": "DZifppZj_cB",
+                "accessibility_caption": "Photo by Leo Messi on June 13, 2026.",
+                "caption": {
+                    "text": "2️⃣0️⃣0️⃣6️⃣⚽️2️⃣0️⃣2️⃣6️⃣"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/723852964_18671634790033891_5913310136316501119_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nysS-JtuzO0Q7kNvwE5nov5&_nc_oc=Adrnk2AcX4HBpGbpHmlsVQq-TPivp_Ncfh-hBbkbsG8T-0r1agKW9Gfa3MCswqIiOLnzB6U20Ex1Mo6XzIvuDJiF&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQGiRcGhSVrcyCj15F1YztBir4wGq2eXAeTLwzNiIR0s7w&oe=6A944038",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 6,
+                "id": "POLARIS_3918833827158423297"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3782016322394630326",
+                "code": "DR8a86nD6i2",
+                "accessibility_caption": "Photo by Leo Messi on December 06, 2025.",
+                "caption": {
+                    "text": "¡¡¡SOMOS CAMPEONES DE LA MLS!!! 🏆🙌😃\n\nDesde que llegué a Miami soñaba con este día. De a poquito fuimos creciendo, mejorando y construyendo algo especial hasta llegar a este campeonato. Gracias a mi familia y a todos los hinchas por el apoyo, a todo el equipo, el staff y la dirigencia de @intermiamicf por la ambición y el laburo que pusieron.\n\nY gracias Busi y Jordi por acompañarme en esta aventura y cerrarla de la mejor manera. Me pone también muy feliz compartir esto con ustedes."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/588259935_18614409406033891_1740298813920926699_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7RudAYXSTuIQ7kNvwGvhyPU&_nc_oc=AdobPiTrolxm1gUbY_0zBLr6a6iRMpUP6NDQd_T5bvpSzy6tcBclhMPRxdm092TBaHK9FxXu7RWI18zpVxtyNMeM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQGePf8sPa2Y8pTiICwWAt8kNmuGSS0yPdUeV4236iBsBw&oe=6A9433A6",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 16,
+                "id": "POLARIS_3782016322394630326"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3762701545612571046",
+                "code": "DQ3zR6-DPGm",
+                "accessibility_caption": "Photo by Leo Messi on November 10, 2025.",
+                "caption": {
+                    "text": "Anoche volví a un lugar que extraño con el alma. Un lugar donde fui inmensamente feliz, donde ustedes me hicieron sentir mil veces la persona más feliz del mundo. Ojalá algún día pueda volver, y no solo para despedirme como jugador, como nunca pude hacerlo…\n💙❤️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/576509622_18610049248033891_2918831360435687959_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Mq1RhNSNmIwQ7kNvwGoITMc&_nc_oc=Adp7P7-23QPVWoUOMklD79ghZzvuHe4O35RhE426Wevfa2EzPyntXPH2UQ_gGEnoET3eiulTTn-0asmmxHwh8AE0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQGoEAOC_DXHuIf0j-ZohLKVwq801HOHNDH9LFnTBwUSSg&oe=6A945F06",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 6,
+                "id": "POLARIS_3762701545612571046"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3962096240158411522",
+                "code": "Db8MYnQjYsC",
+                "accessibility_caption": "Photo by Leo Messi on August 12, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Te amo, pa. ❤️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/773183755_18690761002033891_8904613113989338946_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=plHSQmm3oOEQ7kNvwHlWgtn&_nc_oc=Adp9hZweurc53BIayPIDjmcSuA4orWLHbC3_E3GuzHHyZXpMz_EPxVbk1gSOVPDzeo0knFucaQRm9DtX4IJjGPbD&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQEt2FpicdrJbb6i3wimbMN07DccZ2R70JalZXIvZ3xjPw&oe=6A942DE9",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 3,
+                "id": "POLARIS_3962096240158411522"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3958570314011295480",
+                "code": "DbvqropDL74",
+                "accessibility_caption": "Photo by Leo Messi on August 07, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Germany 2006. South Africa 2010. Brazil 2014. Russia 2018. Qatar 2022. Canada, Mexico and United States 2026. Six FIFA World Cups. Relive the journey with my official FIFA World Cup™ signed collection - available only at Icons.com\n\nAlemania 2006. Sudáfrica 2010. Brasil 2014. Rusia 2018. Qatar 2022. Canadá, México y Estados Unidos 2026.\nSeis Copas del Mundo. Reviví todo el camino con mi colección oficial firmada de la Copa Mundial de la FIFA™. Disponible exclusivamente en Icons.com"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/769168379_18689146543033891_8442267417450076757_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0gCXCRPKIUkQ7kNvwEiENPl&_nc_oc=AdqhquhrqPwvKoz8rgGFmiS259DxQ_wrOudACb5pntU7FaaBf_6zXs2tPHMDEX4CnUHE69Kw_tiKaNYZ5Q2DciTQ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQFWR9hn9RvxXMTrSsptvh1bxhcdHFKp4ZkN6LJ3Xx9oAw&oe=6A94344F",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 7,
+                "id": "POLARIS_3958570314011295480"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3957059313607737351",
+                "code": "DbqTHr2vYAH",
+                "accessibility_caption": "Video by Major League Soccer on August 05, 2026. Pode ser uma imagem de futebol americano, futebol, estádio e texto.",
+                "caption": {
+                    "text": "Thanks world, we’ll take it from here. 🌎\n\nMLS & Leagues Cup are back in a big way."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/767641869_18608641195026136_2948430944906535825_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8JmN9jXqxqsQ7kNvwE30U4X&_nc_oc=AdpcNWza1K1OtrARk3kFMEn8JrG18prNRibfBeEyMirWQajEN0omHmvCZiS1GJo7oy9Sy7jEW7SV2jIXq2wU-g0P&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQHho4wXHQNYvS3-3q5Bx_XfaLvAH1uyebyCOt5J37H-KA&oe=6A943DAC",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "288090135",
+                    "username": "mls",
+                    "id": "17841400784054501"
+                },
+                "id": "POLARIS_3957059313607737351"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3953557811585963017",
+                "code": "Dbd2-H-jVQJ",
+                "accessibility_caption": "Photo by adidas Football on July 31, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "golden memories. ✨ \n\nthe new Leo Messi x Originals collection, available tomorrow."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/763103206_18624449698038257_4577527712976202796_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sE6Yy_KvgckQ7kNvwGrWpti&_nc_oc=AdqctQ32Y-IgRdbU41poRDbN9n6kknzsZPPp0Xx5s0g6NFnK4BxJQjdj3jkPFMS2xT2BrGua-OU_JCP_ojk6oxc0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQFVGqvCO6JVNzu5dZDUZiQNpUiFrSs4sr7uoqBovGu2lQ&oe=6A942DFD",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "640806256",
+                    "username": "adidasfootball",
+                    "id": "17841401147690012"
+                },
+                "carousel_media_count": 9,
+                "id": "POLARIS_3953557811585963017"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3953520464591484507",
+                "code": "Dbduep4NnZb",
+                "accessibility_caption": "Video by Leo Messi on July 31, 2026. Pode ser um close-up de uma ou mais pessoas e texto.",
+                "caption": {
+                    "text": "Introducing the new Leo Messi x Originals collection, available tomorrow. Certified gold. 🏅\n\nDescubrí la nueva colección Leo Messi x Originals. Disponible desde mañana. Puro oro. 🏅"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.71878-15/762070982_3569802329833520_6891416413697524009_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Rme5skz4i4sQ7kNvwHSyTB-&_nc_oc=Adq49_vJsJ3X-OZn7t9GHSPENgdQUactuGdRe3_76PhsA-73KlBmVl2vd9uCy07KQRU7j5Kd1QlhYU04_XERv1MC&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQGKiqXTjRpCKUc0RPM8P1skryW6Akx5_CwC9InA-vtysw&oe=6A945800",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "id": "POLARIS_3953520464591484507"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3945562909155809121",
+                "code": "DbBdI-3MFdh",
+                "accessibility_caption": "Photo by Leo Messi on July 20, 2026. Pode ser uma imagem de futebol, futebol americano, estádio e texto.",
+                "caption": {
+                    "text": "El dolor es muy grande y va a costar que cierre esta herida. Pero también me quedo con todo lo bueno… Con los partidos que dimos vuelta dejando todo y que quedarán para siempre en la memoria, con el apoyo de un país entero que junto con el trabajo y el esfuerzo de este grupo nos llevó a volver a estar, una vez más, entre los mejores del mundo. Hoy cuesta valorar lo que hicimos, pero este grupo llegó a dos finales consecutivas de la Copa del Mundo.\n\nMuchas gracias de corazón por cada saludo y por cada mensaje. Una vez más logramos unirnos como país y estar todos juntos, compartiendo el inmenso orgullo de ser argentinos.\n\nTambién quiero felicitar a España por el campeonato."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/752609804_18683428996033891_3173015693156310447_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3yGl8eRUgJEQ7kNvwF7ybo2&_nc_oc=AdoEOBZ3DdF8ZuL7VoBnnk6cRixNyUBplxWfu-_8ct30r7vFwfhKr4H-UVU5xIN3KpBmNXbzz4qs2AdRwc0PADH-&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQHdyGtqBZMrkEiN9iH5wmMxb9qKAlm-NS4UGQclTfGqqA&oe=6A9459CD",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "id": "POLARIS_3945562909155809121"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3944383524835400379",
+                "code": "Da9Q-rnt5q7",
+                "accessibility_caption": "Photo by Leo Messi on July 18, 2026. Pode ser uma imagem de em pé, multidão e texto que diz \"an EDT\".",
+                "caption": {
+                    "text": "Lo más lindo de todos estos años nunca fueron solamente los títulos, sino todo el camino. Compartir el día a día con este grupo, competir juntos, levantarnos en los momentos difíciles y disfrutar cada paso.\n\nGracias a cada uno de mis compañeros, al cuerpo técnico y a todas las personas que trabajan todos los días para que esta Selección siga siendo una familia.\n\nPase lo que pase mañana, este grupo ya escribió una historia que nunca vamos a olvidar y que nadie podrá borrar.\n\nVAMOS ARGENTINA ❤️🇦🇷"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/742405981_18682867990033891_3483524916724107245_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=PDw9Xrfl9IIQ7kNvwEdU-ZV&_nc_oc=Adqu8f31VovOY9haJ5UKvMXirwv0ZICSt1yD1BSGdgEy4k36HSvdkkkmo4H2Yf-_W00bpUsSHRvn8tcZnrN44jHU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQFxNStw_4g_Zqjy_2XLgAyamPDFD3P92l4AR_S1231-zw&oe=6A94484F",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "id": "POLARIS_3944383524835400379"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3944014780751051180",
+                "code": "Da79Iv7jnms",
+                "accessibility_caption": "Photo by Leo Messi on July 18, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Qué viaje estamos teniendo juntos, @adidasfootball... con ‘El ultimo tango’... 👟 vamos por la final, vamos Argentina!!! 🇦🇷🩵"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/741745523_18682678603033891_6138093683173128148_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aC8RZ9DoZfUQ7kNvwGVi5m-&_nc_oc=Adp_b7YekjCc-UB3u5oA-3uRfEawoHJzZ9-ycrVkrQS97cSd78LJA-UgmR_J9yfFZgtHjm3L684n4IuhIpnZtWXZ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQGNpFZRuWHa9R2Iso8a86xtJEwf1C0zsB3L8jFJxIXhRA&oe=6A94417D",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3944014780751051180"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3942141713695211027",
+                "code": "Da1TQCTDX4T",
+                "accessibility_caption": "Photo by Leo Messi on July 15, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "A LA FINAL!!!!! 🇦🇷🇦🇷🇦🇷\nVolvimos a sacar fuerza para hacer otro gran partido. Muchas gracias a todos los que confiaron en este grupo!!! 🙌🏻🙌🏻🙌🏻 Vamos Argentina carajo!!!! #TodosJuntos"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/746439917_18681890464033891_9125849746088736089_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4k5NO14SkpYQ7kNvwFvAgpq&_nc_oc=AdobyIeq5R0V3ZfOWuRTpudlzxFK85pKwlERt0IwUWNCdJt4zfDgbBx88izHHBwAF1saSfgG1UxYPEK7XQ_ge45E&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HqiotOt_u5F1mQdPzv0N0g&_nc_ss=70689&oh=00_AQHUr2R2sAv2DLVSY9HD8NWqYrc7Ki97qhvNFXfheeeQ-w&oe=6A94501D",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "427553890",
+                    "username": "leomessi",
+                    "id": "17841401016706680"
+                },
+                "carousel_media_count": 8,
+                "id": "POLARIS_3942141713695211027"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\427553890.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\427553890.json"
+}

@@ -1,0 +1,27 @@
+{
+    "perfil": {
+        "pk": 1030845726,
+        "id": "17841401851796106",
+        "username": "yhagocinaudis",
+        "nome": "Yhago Cinaudis",
+        "biografia": "☁️ A visão vem antes do resultado",
+        "privado": true,
+        "verificado": false,
+        "memorializado": false,
+        "seguidores": 400,
+        "seguindo": 400,
+        "total_posts": 10,
+        "total_reels": 0,
+        "total_destaques": 0,
+        "pronomes": [],
+        "links": [],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/623267357_18556848082061727_8021925719719673459_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MTYuQzMifQ%3D%3D&_nc_ohc=-uXK7NOp07EQ7kNvwFs3rm4&_nc_oc=AdrsrWKDD_VvBM2JoXh3UwTPjP2DPgEPwnPz3gaEesxgjKgR79EPfJYSb7G3fUCyZDL-_khUQI8yV98RqdWEB0JW&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ic5fMY0RI6osh8WFniFkoA&_nc_ss=70689&oh=00_AQFMldToJ3zcIRE-hw4zFWD-BH1tlC7k_tZqECo1IPhaHw&oe=6A96547F"
+    },
+    "conteudo": {
+        "posts": [],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\projeto\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\1030845726.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\projeto\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\1030845726.json"
+}

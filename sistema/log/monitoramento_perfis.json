@@ -1,0 +1,248 @@
+{
+    "config_sistema": {
+        "monitoramento_ativo": true,
+        "intervalo": 3600
+    },
+    "perfis": {
+        "perfis": [
+            {
+                "pk": 1030845726,
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-09-01T23:53:46.598675",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 173560420,
+                "username": "cristiano",
+                "nome": "Cristiano Ronaldo",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:13.760811",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 22079794,
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:14.801401",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 228269326,
+                "username": "flamengo",
+                "nome": "Flamengo",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:16.300179",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 26633036,
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:17.827551",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 266439562,
+                "username": "virginia",
+                "nome": "Virginia",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:19.472088",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 26669533,
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:21.423112",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 284920884,
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:23.320237",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 406936928,
+                "username": "carlinhos",
+                "nome": "Carlinhos Maia",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:25.200842",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 427553890,
+                "username": "leomessi",
+                "nome": "Leo Messi",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:27.658021",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 46587073075,
+                "username": "bonus_de_apostas",
+                "nome": "Bonus e Promoções",
+                "sleep": 10,
+                "monitorando": false,
+                "atualizado": "2026-08-27T11:43:08.529003",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 9281904,
+                "username": "paollaoliveirareal",
+                "nome": "Paolla Oliveira",
+                "sleep": 10,
+                "monitorando": false,
+                "atualizado": "2026-08-27T11:43:07.599200",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 1030845726,
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-31T11:58:30.023146",
+                "cliente_usuario": "bia"
+            }
+        ],
+        "ativos": [
+            {
+                "pk": 1030845726,
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-09-01T23:53:46.598675",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 173560420,
+                "username": "cristiano",
+                "nome": "Cristiano Ronaldo",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:13.760811",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 22079794,
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:14.801401",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 228269326,
+                "username": "flamengo",
+                "nome": "Flamengo",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:16.300179",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 26633036,
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:17.827551",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 266439562,
+                "username": "virginia",
+                "nome": "Virginia",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:19.472088",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 26669533,
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:21.423112",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 284920884,
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:23.320237",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 406936928,
+                "username": "carlinhos",
+                "nome": "Carlinhos Maia",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:25.200842",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 427553890,
+                "username": "leomessi",
+                "nome": "Leo Messi",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-27T22:35:27.658021",
+                "cliente_usuario": "admin"
+            },
+            {
+                "pk": 1030845726,
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "sleep": 10,
+                "monitorando": true,
+                "atualizado": "2026-08-31T11:58:30.023146",
+                "cliente_usuario": "bia"
+            }
+        ],
+        "total": 13,
+        "total_ativos": 11
+    },
+    "status": {
+        "monitorando": true,
+        "intervalo": 3600,
+        "erro": false
+    },
+    "erro": {
+        "perfil": null,
+        "mensagem": null
+    },
+    "ciclo": 2,
+    "ultima_atualizacao": "2026-09-01T23:57:28",
+    "timestamp": "2026-09-01T23:57:28",
+    "erros": [],
+    "resultado_ciclo": {
+        "total_processados": 11,
+        "total_erros": 0,
+        "total_sucessos": 11
+    }
+}

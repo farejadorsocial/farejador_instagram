@@ -1,0 +1,3915 @@
+[
+  {
+    "tipo": "cadastro",
+    "timestamp": "2026-08-25T13:20:04.711638",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:214:a115:4dca:dc70:88ff:fe60:d42f",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      },
+      "permissoes": {
+        "localizacao": {
+          "status": "granted",
+          "atualizado_em": "2026-08-25T16:20:06.565Z"
+        },
+        "camera": {
+          "status": "prompt",
+          "atualizado_em": "2026-08-25T16:20:06.573Z"
+        },
+        "microfone": {
+          "status": "prompt",
+          "atualizado_em": "2026-08-25T16:20:06.581Z"
+        },
+        "notificacoes": {
+          "status": "default",
+          "atualizado_em": "2026-08-25T16:20:06.588Z"
+        }
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T13:20:04.789760",
+    "session_id": "dce8b2e573eb10aaa750da3a4c28af0e",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:214:a115:4dca:dc70:88ff:fe60:d42f",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T16:20:06.565Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:20:06.573Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:20:06.581Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T16:20:06.588Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T13:24:29.710343",
+    "session_id": "dce8b2e573eb10aaa750da3a4c28af0e",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:214:a115:4dca:dc70:88ff:fe60:d42f",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T13:28:11.194474",
+    "session_id": "667ab451b78a7f74df11ae2a9f7a8c38",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:b808:4841:cad:f9d0",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T16:28:09.235Z",
+        "dados": {
+          "latitude": -15.825252662655991,
+          "longitude": -48.064895927323526,
+          "precisao_metros": 164
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:28:09.237Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:28:09.237Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T16:28:09.238Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T13:28:11.555932",
+    "session_id": "d5e0bf08d7b42e1cd95584b1fda6aef8",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:b808:4841:cad:f9d0",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T16:28:11.405Z",
+        "dados": {
+          "latitude": -15.825252662655991,
+          "longitude": -48.064895927323526,
+          "precisao_metros": 164
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:28:11.406Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T16:28:11.406Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T16:28:11.406Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T13:37:54.001777",
+    "session_id": "d5e0bf08d7b42e1cd95584b1fda6aef8",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:b808:4841:cad:f9d0",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T15:53:25.469194",
+    "session_id": "654cb5dd308201c494ec64e376664072",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T18:53:27.477Z",
+        "dados": {
+          "latitude": -15.8251954,
+          "longitude": -48.0648024,
+          "precisao_metros": 13.336000442504883
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T18:53:27.480Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T18:53:27.482Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T18:53:27.484Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T15:56:27.909856",
+    "session_id": "79262a8c38fe80fe70d68006787e8ace",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:b808:4841:cad:f9d0",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T18:56:27.393Z",
+        "dados": {
+          "latitude": -15.825230053267816,
+          "longitude": -48.06476503677083,
+          "precisao_metros": 150
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T18:56:27.394Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T18:56:27.394Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T18:56:27.395Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T16:01:52.650515",
+    "session_id": "654cb5dd308201c494ec64e376664072",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://easy-pts-polyester-slight.trycloudflare.com/",
+        "site": "easy-pts-polyester-slight.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T18:27:29.810487",
+    "session_id": "030e5c6a35b4458f54c110888ac465ae",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:34e0:6d0c:cd1e:cc6b",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T21:27:29.246Z",
+        "dados": {
+          "latitude": -15.82543369051202,
+          "longitude": -48.06493567498862,
+          "precisao_metros": 109
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T21:27:29.247Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T21:27:29.247Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T21:27:29.248Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T18:35:42.063849",
+    "session_id": "030e5c6a35b4458f54c110888ac465ae",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:34e0:6d0c:cd1e:cc6b",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T18:36:17.656632",
+    "session_id": "df356246ab3a8f947f3c85bf927320d8",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T21:36:20.573Z",
+        "dados": {
+          "latitude": -15.8251756,
+          "longitude": -48.0647973,
+          "precisao_metros": 13.163000106811523
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T21:36:20.587Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T21:36:20.588Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T21:36:20.593Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T19:17:05.822311",
+    "session_id": "df356246ab3a8f947f3c85bf927320d8",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T19:20:44.029180",
+    "session_id": "f1a2677b8b4ebd0714ecf0b645ca4244",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T22:20:46.940Z",
+        "dados": {
+          "latitude": -15.8252035,
+          "longitude": -48.0647913,
+          "precisao_metros": 13.36299991607666
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:20:46.945Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:20:46.946Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T22:20:46.949Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T19:22:09.625650",
+    "session_id": "f1a2677b8b4ebd0714ecf0b645ca4244",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T19:40:59.448280",
+    "session_id": "98b9c16f8571ea2e7be37b9e9d3d7a39",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T22:41:02.312Z",
+        "dados": {
+          "latitude": -15.8252018,
+          "longitude": -48.064803,
+          "precisao_metros": 16.854000091552734
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:41:02.315Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:41:02.317Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T22:41:02.318Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-25T19:47:56.682137",
+    "session_id": "98b9c16f8571ea2e7be37b9e9d3d7a39",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-25T19:59:17.891299",
+    "session_id": "be1c240fac5640fe564740aa0ce53a56",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://committees-meetup-dreams-organisations.trycloudflare.com/",
+        "site": "committees-meetup-dreams-organisations.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-25T22:59:20.766Z",
+        "dados": {
+          "latitude": -15.8251882,
+          "longitude": -48.064805,
+          "precisao_metros": 13.432000160217285
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:59:20.772Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-25T22:59:20.774Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-25T22:59:20.777Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T00:43:06.310330",
+    "session_id": "7da06d4911237e0d520c22fafa2a6e9a",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://portraits-mrna-paragraphs-and.trycloudflare.com/perfil/yhagocinaudis",
+        "site": "portraits-mrna-paragraphs-and.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-26T03:43:07.018Z",
+        "dados": {
+          "latitude": -15.8251673,
+          "longitude": -48.0648105,
+          "precisao_metros": 14.909000396728516
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T03:43:07.033Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T03:43:07.034Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T03:43:07.045Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T09:01:01.849190",
+    "session_id": "c21946b735f77718ebcb71c5c8670fef",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:583c:a75b:563c:2668",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://success-brothers-carnival-protective.trycloudflare.com/",
+        "site": "success-brothers-carnival-protective.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-26T12:01:01.593Z",
+        "dados": {
+          "latitude": -15.825222202346968,
+          "longitude": -48.064745997423124,
+          "precisao_metros": 150
+        }
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T12:01:01.594Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T12:01:01.594Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T12:01:01.594Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-26T10:48:43.989390",
+    "session_id": "c21946b735f77718ebcb71c5c8670fef",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:583c:a75b:563c:2668",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://success-brothers-carnival-protective.trycloudflare.com/",
+        "site": "success-brothers-carnival-protective.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T11:03:21.866961",
+    "session_id": "c42430a11028e32aba32c79000f6e740",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://success-brothers-carnival-protective.trycloudflare.com/",
+        "site": "success-brothers-carnival-protective.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T14:03:23.216Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T14:03:23.249Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T14:03:23.255Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T14:03:23.263Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T11:39:21.897256",
+    "session_id": "b55dce0c83933be4b87ed2c048ead2b5",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:583c:a75b:563c:2668",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://success-brothers-carnival-protective.trycloudflare.com/",
+        "site": "success-brothers-carnival-protective.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-26T14:39:21.270Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T14:39:21.270Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T14:39:21.270Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T14:39:21.271Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T16:12:35.650315",
+    "session_id": "7a61e3164a9b95a9a60b6d291ca0e69b",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://success-brothers-carnival-protective.trycloudflare.com/",
+        "site": "success-brothers-carnival-protective.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.169",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T19:12:36.767Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T19:12:36.770Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T19:12:36.774Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T19:12:36.775Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T19:15:25.325415",
+    "session_id": "a285d18c9f60f5a34c29e9116dc6d635",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:f91b:ff67:d4aa:2b72",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/perfil/carlinhos",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:15:25.122Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:15:25.122Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:15:25.122Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T22:15:25.123Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-26T19:37:07.691051",
+    "session_id": "a285d18c9f60f5a34c29e9116dc6d635",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:f91b:ff67:d4aa:2b72",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/perfil/carlinhos",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T19:41:41.709328",
+    "session_id": "df20c8e6fc8fead10e2bafc8998a2c96",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:f91b:ff67:d4aa:2b72",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/perfil/carlinhos",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:41:41.521Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:41:41.522Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:41:41.522Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T22:41:41.523Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-26T19:44:59.321536",
+    "session_id": "df20c8e6fc8fead10e2bafc8998a2c96",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:f91b:ff67:d4aa:2b72",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/perfil/carlinhos",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T19:45:44.701635",
+    "session_id": "fd7425e079dfb0e48fd7bf07cd312971",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:f91b:ff67:d4aa:2b72",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/explorar",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:45:44.528Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:45:44.528Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-26T22:45:44.528Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-26T22:45:44.528Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T23:41:58.282740",
+    "session_id": "b188990ffe86d355c9c6b0d316de6cca",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/perfil/cristiano",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-27T02:41:58.108Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T02:41:58.108Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T02:41:58.108Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T02:41:58.108Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-26T23:59:34.541868",
+    "session_id": "95c70dd837bb4ac461a1e2b09adb297e",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/comparar?a=gusttavolima&b=flamengo",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T02:59:35.247Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T02:59:35.251Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T02:59:35.252Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T02:59:35.254Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-27T00:00:42.545258",
+    "session_id": "95c70dd837bb4ac461a1e2b09adb297e",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/comparar?a=gusttavolima&b=flamengo",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T00:07:02.511875",
+    "session_id": "acedda5bbd74a0bdc5ce9ac295e5d74d",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T03:07:03.210Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T03:07:03.212Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T03:07:03.215Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T03:07:03.218Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-27T00:16:28.857144",
+    "session_id": "acedda5bbd74a0bdc5ce9ac295e5d74d",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://mineral-intake-coordinated-browse.trycloudflare.com/",
+        "site": "mineral-intake-coordinated-browse.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T07:32:18.107486",
+    "session_id": "3db539bbc5f8171f944b9cc0693ed7ed",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://traveller-volvo-afternoon-intervals.trycloudflare.com/comparar",
+        "site": "traveller-volvo-afternoon-intervals.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T10:32:18.847Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T10:32:18.874Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T10:32:18.877Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T10:32:18.917Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T08:29:58.377301",
+    "session_id": "9d6f9cd6be1d5ed14767a25358c13ba2",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://compete-columnists-problems-zen.trycloudflare.com/perfil/gusttavolima",
+        "site": "compete-columnists-problems-zen.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T11:29:59.390Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T11:29:59.420Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T11:29:59.421Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T11:29:59.427Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T10:11:40.975577",
+    "session_id": "9ac75c0d295fd19ead533a4ca8225df7",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/perfil/gusttavolima",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": null,
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": null,
+        "sec_ch_mobile": null,
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:11:40.897Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:11:40.897Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:11:40.897Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T13:11:40.897Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T10:55:47.154523",
+    "session_id": "02a6ac892cf4abbbe5b1e7309b3fe7a1",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://requires-lime-assisted-trademarks.trycloudflare.com/",
+        "site": "requires-lime-assisted-trademarks.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:55:47.949Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:55:47.964Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T13:55:47.967Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T13:55:47.979Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T11:23:03.670330",
+    "session_id": "75b7a96d144758762844276f7cfb3b32",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/perfil/gusttavolima",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-27T14:23:03.559Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T14:23:03.561Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T14:23:03.561Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T14:23:03.565Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T11:54:46.369809",
+    "session_id": "5b1b1164718a2eabb19bdefd7ebd5d7a",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://headset-ethernet-ambien-hair.trycloudflare.com/perfil/anitta",
+        "site": "headset-ethernet-ambien-hair.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T14:54:48.795Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T14:54:48.818Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T14:54:48.820Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T14:54:48.830Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-27T12:26:03.640268",
+    "session_id": "5b1b1164718a2eabb19bdefd7ebd5d7a",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://headset-ethernet-ambien-hair.trycloudflare.com/perfil/anitta",
+        "site": "headset-ethernet-ambien-hair.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T13:01:48.913611",
+    "session_id": "57f57df29cc1c8797ce8420ee6220912",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://headset-ethernet-ambien-hair.trycloudflare.com/",
+        "site": "headset-ethernet-ambien-hair.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:01:50.624Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:01:50.641Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:01:50.642Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T16:01:50.652Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-27T13:02:34.828538",
+    "session_id": "57f57df29cc1c8797ce8420ee6220912",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://headset-ethernet-ambien-hair.trycloudflare.com/",
+        "site": "headset-ethernet-ambien-hair.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T13:06:01.441389",
+    "session_id": "a71792accafb735a25d312c1d022c6d4",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:d1fe:af5c:674f:d197",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://bath-once-pleased-paris.trycloudflare.com/",
+        "site": "bath-once-pleased-paris.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:06:00.862Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:06:00.863Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:06:00.863Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T16:06:00.863Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-27T13:09:11.000907",
+    "session_id": "a71792accafb735a25d312c1d022c6d4",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:d1fe:af5c:674f:d197",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://bath-once-pleased-paris.trycloudflare.com/",
+        "site": "bath-once-pleased-paris.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T13:15:27.340404",
+    "session_id": "f5220ae3f9475114e447636f7be520f5",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:e0b5:c602:2299:bee5",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://bath-once-pleased-paris.trycloudflare.com/",
+        "site": "bath-once-pleased-paris.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.173",
+        "sistema": "Android",
+        "plataforma": "Linux armv81",
+        "modelo": "moto g34 5G",
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?1",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 412,
+          "altura": 915,
+          "pixel_ratio": 1.75
+        },
+        "touch": true
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:15:29.332Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:15:29.342Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-27T16:15:29.343Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-27T16:15:29.348Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T22:58:56.191731",
+    "session_id": "d6387fda4d8c7508c2acdc52deed186c",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/perfil/yhagocinaudis",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-28T01:58:56.083Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T01:58:56.085Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T01:58:56.091Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-28T01:58:56.091Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-27T23:10:59.164963",
+    "session_id": "706dbad3618392ccd34e02a31a46d011",
+    "acesso": {
+      "conexao": {
+        "ip": "2804:14c:65c1:4c86:d1fe:af5c:674f:d197",
+        "tipo_ip": "IPv6",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+          "asn": "AS28573",
+          "pais": "BR",
+          "cidade": "Brasília",
+          "regiao": "Federal District",
+          "timezone": "America/Sao_Paulo",
+          "localizacao": "-15.7797,-47.9297"
+        }
+      },
+      "origem": {
+        "referer": "https://champagne-scholar-drove-environmental.trycloudflare.com/",
+        "site": "champagne-scholar-drove-environmental.trycloudflare.com",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T02:10:58.963Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T02:10:58.963Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T02:10:58.964Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-28T02:10:58.964Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T08:22:59.691840",
+    "session_id": "7a24687cd71b8505d84af123e41cab30",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T08:36:34.805119",
+    "session_id": "7a24687cd71b8505d84af123e41cab30",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T09:13:20.027031",
+    "session_id": "e400ead30a3641574406a150a72e58b4",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-28T12:13:19.912Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T12:13:19.912Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T12:13:19.913Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-28T12:13:19.913Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T10:18:25.892824",
+    "session_id": "e400ead30a3641574406a150a72e58b4",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T10:29:34.944039",
+    "session_id": "bcb64aa951c3a0988e0f6ce1f43a1168",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-28T13:29:34.854Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T13:29:34.855Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T13:29:34.856Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-28T13:29:34.858Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T10:49:01.916848",
+    "session_id": "bcb64aa951c3a0988e0f6ce1f43a1168",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T13:42:48.688862",
+    "session_id": "c2d855f2d9fb257f0e0730006973bb31",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T14:13:40.550694",
+    "session_id": "c2d855f2d9fb257f0e0730006973bb31",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T14:14:31.614887",
+    "session_id": "649d02c92424fb1546741dcabbabab69",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T19:12:07.805287",
+    "session_id": "c187022bd9186f5f784742b90c71dce2",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-28T22:12:07.704Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T22:12:07.705Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-28T22:12:07.705Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-28T22:12:07.705Z"
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T19:18:17.627781",
+    "session_id": "d104a89523191bc9692c938f8f876976",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T19:19:18.940520",
+    "session_id": "d104a89523191bc9692c938f8f876976",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T19:45:35.932350",
+    "session_id": "c187022bd9186f5f784742b90c71dce2",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T19:53:06.131191",
+    "session_id": "2a0853b99f71de32fc6d10c8a59c3a3c",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T21:20:53.182636",
+    "session_id": "10ee29962e4fe285a8c41094d38199ef",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T21:21:54.520246",
+    "session_id": "2a0853b99f71de32fc6d10c8a59c3a3c",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T21:27:36.083213",
+    "session_id": "9517d413daa996f863ed05491c16a22c",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T21:30:33.773991",
+    "session_id": "fd9594a2d7a65f2f30bd55720fe25f8f",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T21:59:29.894748",
+    "session_id": "a0ba606a50111a69fcb4a75a0d70ab09",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T22:03:42.113590",
+    "session_id": "724a135ba4c3df67a81ce8690a6c707f",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T22:15:34.691932",
+    "session_id": "da2b37f76d4dc4f7af3caa7e3bff419c",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T22:44:13.618345",
+    "session_id": "da2b37f76d4dc4f7af3caa7e3bff419c",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T23:01:10.836819",
+    "session_id": "03665bae8421c177c8bed751ac7d9c9d",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-08-29T02:01:10.724Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-29T02:01:10.725Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-08-29T02:01:10.725Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-08-29T02:01:10.725Z"
+      }
+    }
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-28T23:05:16.529718",
+    "session_id": "03665bae8421c177c8bed751ac7d9c9d",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": "Google Chrome",
+        "versao_navegador": "151.0.7922.174",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-28T23:17:30.643215",
+    "session_id": "4234795c6dbbc06868fa9c5d3f9e747a",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-29T01:07:38.343957",
+    "session_id": "adaf94681d2d9f664ee73ccf86d4f97b",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-29T01:07:39.731137",
+    "session_id": "126a0338d8c8c6b10ae86dd4791d13d8",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-29T12:13:26.892847",
+    "session_id": "2390702dbe483e429b8053a6b1acc16e",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-29T12:18:06.610565",
+    "session_id": "2390702dbe483e429b8053a6b1acc16e",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-08-29T12:27:06.490828",
+    "session_id": "b16df8d95c76e2f2132cbacebce54a3f",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    },
+    "permissoes": {}
+  },
+  {
+    "tipo": "logout",
+    "timestamp": "2026-08-29T12:27:35.081625",
+    "session_id": "b16df8d95c76e2f2132cbacebce54a3f",
+    "acesso": {
+      "conexao": {},
+      "origem": {
+        "aplicacao": "batalha_farejador"
+      },
+      "dispositivo": {}
+    }
+  },
+  {
+    "tipo": "login",
+    "timestamp": "2026-09-01T23:53:20.362639",
+    "session_id": "2f9c634912ccf97049beca0b68ccd16a",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "navegador": "Chromium",
+        "versao_navegador": "152.0.7977.65",
+        "sistema": "Windows",
+        "plataforma": "Win32",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec_ch_mobile": "?0",
+        "timezone": "America/Sao_Paulo",
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "pixel_ratio": 1
+        },
+        "touch": false
+      }
+    },
+    "permissoes": {
+      "localizacao": {
+        "status": "granted",
+        "atualizado_em": "2026-09-02T02:53:13.106Z"
+      },
+      "camera": {
+        "status": "prompt",
+        "atualizado_em": "2026-09-02T02:53:13.106Z"
+      },
+      "microfone": {
+        "status": "prompt",
+        "atualizado_em": "2026-09-02T02:53:13.107Z"
+      },
+      "notificacoes": {
+        "status": "default",
+        "atualizado_em": "2026-09-02T02:53:13.107Z"
+      }
+    }
+  }
+]

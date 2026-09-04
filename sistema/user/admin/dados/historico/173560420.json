@@ -1,0 +1,2017 @@
+[
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679741756,
+            "seguindo": 634,
+            "total_posts": 4123,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwGGLHZB&_nc_oc=Adrx3JZo49egIBJvzi5YI_HaEuZvxmh10FSBtSzRUn0XNrH0BFaowOJVHE3ziQ5wRmQx8AuZ9Lt3K8Q5s0Zsw5nW&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQEnB8Iu32k63s10hqTY2PVLQlhXHaj-lteD-QN423B1RA&oe=6A964E5E"
+        },
+        "hash": "4764b6d562c3ff46b77dc9dc11f70729423cd83622db273248d110b0e26e172e",
+        "timestamp_capture": "2026-08-27T13:18:27.892635",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jRARF6R0gTIQ7kNvwGcLxI7&_nc_oc=AdqiRorQzGsX2IogHvFhPYEA-vyGaNzNhhRy9x9rUN4s0PTawyPucs9NMGperc5hFIBSyc24g4T0UDMKQ0OFyD1L&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQFgGaYx_9PntR95h-mHG24sCJz-1ST4YJOUntCqvM3l6w&oe=6A962187",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=klFzHzVefxEQ7kNvwFyeYak&_nc_oc=Adq3p0PChCDJjmqwUugg-1uPWz1uKmjlrj6_jFhtstAreoZTVOOZDjs4C853vbQavnXcTOs59jT6OQmTvfrTzJGp&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQGJ6IZAQAUVeTTHx3gReCdOS0WqmhZ_CcDhbyQ4efGtxg&oe=6A96384A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0PxaiJ5opVAQ7kNvwFkldg_&_nc_oc=AdrlUclv5Tiobm58k-RQOR5kODeOr1KKEurII-cMVeZQ01rxTB9eIO1SFZQy8h9Wqu6WCkRvjgYuxQyBhaCnwZl4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQHCB0J6UMyKNaHNH_J1XuW1ZsiZbTG2b7uZOFS4ios94A&oe=6A964C54",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WQJ90z6nmbQQ7kNvwF05yJy&_nc_oc=Adq9mJiJTLUfnrZ-33xl7vXUTr2RrFh3A6pzYbeKjQ8rYGewsjvE3CJ90i1O4hAwVRYGYKoxFLpA8pJ8pkpPFUrz&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQE64-GrkE2-wx5K5I_KDEKoAF_8-JjZhVTcqdX2DHfoug&oe=6A9630F5",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z3Kf8IClKjcQ7kNvwGJuhE4&_nc_oc=AdoOzB9fm3I_vr9HKYEUfs5rEOnTRq5fn4Zc_JhtmJFTaRxrnxghaukUz-igEkKlyNp6IOsO_DCT4ITL7XllyJFb&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQFDA4b5zE4nY-UQObQyJ11giogcusvjrFp1XtiejndAdA&oe=6A963975",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HQGvJihQN_EQ7kNvwGdpwa7&_nc_oc=Adq9SMZDz22LLw8oCxNSuCeQ4-d_8o8sKIqefNmhQahYpVjGkUZkj7SdqzyA-YMDppATxB6TSU8FYE2vX7ZUipB2&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQE_BlJXseeKGOXK_sVx0ZqmoOIi7JYH_O2kp9ooZz-MPA&oe=6A963DEA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tFlmAI_WBKIQ7kNvwFyRZUP&_nc_oc=AdoNDvpYzx2RCx7G9JiESjVli8M9es8XYxwHj9YryWRTg24D7ZyYlrSWEBS0Bs-59YE48ekhQbIGzOPxT6b80ikD&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQHNTMnbNfuJDgs58mH9drtJTANY5s0UfxaYHSuWzwKWlQ&oe=6A9648C8",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHA96_X8oyEQ7kNvwE-UKfH&_nc_oc=AdoCY61yBJyzZ94sbVfw-aIjScHYVUUoYEIjuc2MDf9sqJHcjYhRg3SrhqIaLTJi7lZEe5izGn5OSlxZHT0iJIPV&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQG9qhEsVheLDxHDRdmW-7fOqJ-D4uXWAbX8tu3VS-gqXw&oe=6A963C5C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5Yqhsu1zGOsQ7kNvwHeqek5&_nc_oc=Ado9dBigwu9427mXfBa_Qmm82rVpDBUm8JJUiOgRNWtekrw_DieZzp-snqOsuokLjRfSoNyP-iIO5dkclnFYxkmE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQF9DN3vmKeWQsk4rXWSCACX88dnHi1pxR70jpE6ymB34A&oe=6A9621C0",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=d56fLjEOeWYQ7kNvwF4Lh1N&_nc_oc=AdpjmrreiXG7atjmlL5aL1acmmQDeOzuoTITUBhdD04-UFlHPlJ8cr3_taVPWotcG-yEiUJ_RBJJwouxgpje-2DO&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQG0BUEAGOVcXi9VDvyFxYWwks3wdL2Ra3uvee2AswO5iQ&oe=6A96208F",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pp3z5m8nYJgQ7kNvwF5DjGT&_nc_oc=Adpq3eK92GvubS9rNEyRkUpQCshEWxLcrULzqlwtbkuPBE3_-KVlgFo3ur4f0ZjOBLsgYrjP_v3bQu14mm_k_3Ww&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQE06f9LN3Pygoec8RKqBl8ZCDPRZ74ty0N1L-wfvzjufA&oe=6A963219",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3951209999740586421",
+                    "code": "DbVhI9zgkm1",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 28, 2026. Pode ser uma imagem de helicóptero, hélice, avião e texto.",
+                    "caption": {
+                        "text": "Pai feliz ❤️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/756143692_18755936389056421_7272939181602088568_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=w4U8CBGgSGoQ7kNvwEOObKF&_nc_oc=AdpABrbzRkkFgAryZIr6GNVR0F3cnNP24CFRKldQBdgwtbBZtWfDZaHl09scdAoqz1wVntqnXzT4xltyWAjQNI9D&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-bUpldg3j6xc7dnpKjGmag&_nc_ss=70689&oh=00_AQG0b9x8_aA6Gji7Wpbj2a2QBmUyAQbfH9m7MOExFD-P0w&oe=6A964F68",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3951209999740586421"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679728593,
+            "seguindo": 634,
+            "total_posts": 4123,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwEtRXUR&_nc_oc=AdqpGFw5TIpRs8kv-9VkTBLlUuMfaaJR_zsrVt-APB4wN0Ht5woTtOZv8htwWBvqLCcnFkycnFH1Q0V4wIYJjjQE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQFNg3VbPBgq3ZMSTGmVXx0zFtp0mX-4swIbvU98tBbyWQ&oe=6A979FDE"
+        },
+        "hash": "03ab03d0052985c7880494ca573df12545f6280c60f904f514b722ba10992fc0",
+        "timestamp_capture": "2026-08-28T14:36:49.750408",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jRARF6R0gTIQ7kNvwE9-QPq&_nc_oc=AdqS3holCGz4x0ZCuUstBtEhf1cnw4O8Jcg4sFtjGsiI74WKpjhCX_taPr99M0qmjuS5Qcome_7rl_P8iWMYJV6c&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQGecYfJjs16mPQJEQxKO_asmXMbirivsNETZRHCF-rLEA&oe=6A97AB47",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=klFzHzVefxEQ7kNvwHvDDvY&_nc_oc=AdrRmJdFzrNZQSL0RZinlUlFx7q2wUzSa8Q81P1keeGjZjJ08ppuXk7Dij5rNJ27vHrPq2i1bGLTnOQw3V8XG_tW&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQEYIB5zIAoZb16qmp8dgzLSm6O-2-kEAeCeDEfbjKa_gw&oe=6A9789CA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0PxaiJ5opVAQ7kNvwGzvBDJ&_nc_oc=Adq7KiwuhRd365BS17UuMgI4mV4jMAmuMK0nDTVFUaBpV7xH6jZHukPXl3HKP_8DjSheCuW99WLSkSxFW4vDdBxt&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQFzVoQkrmVtB1fUmNgMndYYTsZPNBeIipIjdoCh8MQi2g&oe=6A979DD4",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WQJ90z6nmbQQ7kNvwErglns&_nc_oc=AdqOTl-o8153Xh63CIzlFkFDhDTBlJ6mqOGQ3fZ2uYtXF26hpqafjZvmaoxmTzsXt5198wvJsxaqOcLh3BoBvfwv&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQGUKQDYhIKXEOvL3UG0CLFF1H2mTbO8CMaBgo0lPX_3yQ&oe=6A978275",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z3Kf8IClKjcQ7kNvwG8bgG5&_nc_oc=AdoLGn4PvpoFhZcN2j2gYq15EFvcLc4ZhGkofKlgSdqjtj_ZYlsvTgC5HCZ_gnafntpo7YzaHxz5BvNywirwCig0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQHgGC5IC1KKvwkJ23iujq5_Ta5DpicXYYFi_oSLYm-vvA&oe=6A978AF5",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I_Tore2DPuUQ7kNvwHn7CKg&_nc_oc=Adr4F-x-lM2ryNF0pUc3VvSUQkfP0IKB8K45BI-g9TXQPfEXVE9bwKGmyU_4axIpOnXDkt5tV-OTvycymeVjEt9A&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQGCP3S2WA2Ltu20XYH7-PVTkYmC4lhwsIieVGNZshB3xg&oe=6A978F6A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uSuEXL3SV2wQ7kNvwGnfE_5&_nc_oc=AdqXwpptlFpBNPpH2jJNkS2NHam0T1_dxeYiPjQ5T1AE7Ywk2EnGMFu1geKQVqFEpvCtQtewkoctbVic6pY0BKSP&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQHGGUuVf9L2FTGeJ1m5jHPT879W93cya1uwfc0n5OMjOw&oe=6A979A48",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHA96_X8oyEQ7kNvwHoma0G&_nc_oc=AdpaEAOnwOrVTTwLX0cTnQbbIrdfRY9Kex6BRY5h_lyNqFVHLZTadhpp56Yt49b76d9ths7q8vd25YDmBKRst5nA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQGfWQTpHxp2mIt-nFBT6UGLTAvx9LGw5tM7QIGI_Q1AUw&oe=6A978DDC",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5Yqhsu1zGOsQ7kNvwFoaDnh&_nc_oc=AdrXYXvTkofyNeV6XgTRhg6RsHya-VLDH97KCd15-8xq07i5oSx_EmrpzE3ErdUAYourXJKBy5T8QLi7qmWFpU7_&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQHVRlpHz73df8RMV9KGDoFE_SX0ITki-oLCds95TFaxBg&oe=6A97AB80",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gQF5U1i-KcQQ7kNvwHOU0jX&_nc_oc=Adq1drYESeKaI2ExWRw4m7_Pg1YSDBD2J70ZxNuy4pJpIXQsNqfhS3XpGZ-Zpaj2p-jn7r9XF8ZeoHFEIoBjUcpR&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQGNYdnXYEeYaLBMwgWm_W1vAD3vX0Gii8xUijWiR8ZGbg&oe=6A97AA4F",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pp3z5m8nYJgQ7kNvwGzPwu3&_nc_oc=Adp-Ad8wlCWEi7g45TA-6l7MBC0yXJpVPelcQ8WLz0xopBTdAdWaFSPN616i9UDYMgpHZeJEe27jOqT_T_5lOWAm&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQHHI3KSrc56YQmjeeQzMn7qNGw_0_291OFC7xYYchc6bA&oe=6A978399",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3951209999740586421",
+                    "code": "DbVhI9zgkm1",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 28, 2026. Pode ser uma imagem de helicóptero, hélice, avião e texto.",
+                    "caption": {
+                        "text": "Pai feliz ❤️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/756143692_18755936389056421_7272939181602088568_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=w4U8CBGgSGoQ7kNvwFjm-rb&_nc_oc=AdpaOKeM4TGd7JPQcZjL00JvEk6O7mDBOe7DylP4AZjkyaYHz9agALFao1c0iZ8J9A2KGuhpccCaNvF3_rIwJRbA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=5qyufyo2vHfBVM8XSW1lOQ&_nc_ss=70689&oh=00_AQErrQ5MmeaWLNyS2pUhI2vrwSsw7nWMfK0Q7sFf3txHCg&oe=6A97A0E8",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3951209999740586421"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679728593,
+            "seguindo": 634,
+            "total_posts": 4124,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwEtRXUR&_nc_oc=AdqpGFw5TIpRs8kv-9VkTBLlUuMfaaJR_zsrVt-APB4wN0Ht5woTtOZv8htwWBvqLCcnFkycnFH1Q0V4wIYJjjQE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQJm0q-jaiMxNYHA9q3HhXECGCPK1aabXlXJVMRGii3tYQ&oe=6A97D81E"
+        },
+        "hash": "d1c188a1b7ce15c8aae40d3549495fdece1ca7330421a141f0839a69aa5674cb",
+        "timestamp_capture": "2026-08-28T19:11:55.051226",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3973925072829159254",
+                    "code": "DcmN8yKABdW",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 28, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Three points. We keep going! 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/789213304_18767299510056421_6167449711132819784_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NEOZs273wvYQ7kNvwG1mvbP&_nc_oc=AdoIYI3gCNZAuKNFctEjM_pvlO0Oa3pGXWNgwd25g27zWVC5GXfZvFRyQ7iqBzzd6171laGse65I5l2fmo6dyD4L&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQITVux67arTqBZaG6NC-zGGkhJFXmPWRn-bVfEuH3_Hdg&oe=6A97BE53",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3973925072829159254"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=46xe-Cb7z50Q7kNvwE9tIcD&_nc_oc=Adr0hICerCNP6zQrRvJoyImNGss7jynE7tBSMZ48mcUXsRUPcBL4UBNzMTgU9_y76opF03xtDr7nVQFusEnUuZCY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQIAU_aqA2M8F7gwZhgx8LF1u2_OJXTM8EYdvcr8c3o-Dw&oe=6A97E387",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=klFzHzVefxEQ7kNvwHvDDvY&_nc_oc=AdrRmJdFzrNZQSL0RZinlUlFx7q2wUzSa8Q81P1keeGjZjJ08ppuXk7Dij5rNJ27vHrPq2i1bGLTnOQw3V8XG_tW&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQJZQ1dIh0oo4N7inD4va6tzjg6V1jcwOze04kAT4BGo9g&oe=6A97C20A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0PxaiJ5opVAQ7kNvwGzvBDJ&_nc_oc=Adq7KiwuhRd365BS17UuMgI4mV4jMAmuMK0nDTVFUaBpV7xH6jZHukPXl3HKP_8DjSheCuW99WLSkSxFW4vDdBxt&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQLvzH8PoINSy8FfYu_WU-_j95cJPYAyJzBnJyHsePevwA&oe=6A97D614",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WQJ90z6nmbQQ7kNvwErglns&_nc_oc=AdqOTl-o8153Xh63CIzlFkFDhDTBlJ6mqOGQ3fZ2uYtXF26hpqafjZvmaoxmTzsXt5198wvJsxaqOcLh3BoBvfwv&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQIdR989EQ5ohjnHWmb7u9xrFB9sS3GAJmG7aRhFvqWN6w&oe=6A97F2F5",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z3Kf8IClKjcQ7kNvwG8bgG5&_nc_oc=AdoLGn4PvpoFhZcN2j2gYq15EFvcLc4ZhGkofKlgSdqjtj_ZYlsvTgC5HCZ_gnafntpo7YzaHxz5BvNywirwCig0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQLnUjcCJ4yrNT6w4E4x8FI5SehgFa2Vy7Qg4DbwMA1Dsw&oe=6A97C335",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I_Tore2DPuUQ7kNvwHn7CKg&_nc_oc=Adr4F-x-lM2ryNF0pUc3VvSUQkfP0IKB8K45BI-g9TXQPfEXVE9bwKGmyU_4axIpOnXDkt5tV-OTvycymeVjEt9A&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQK38RRacFkKYAXWkMDC2ZpatKBIyxpZlIj6XdhZTJ34nA&oe=6A97C7AA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uSuEXL3SV2wQ7kNvwGnfE_5&_nc_oc=AdqXwpptlFpBNPpH2jJNkS2NHam0T1_dxeYiPjQ5T1AE7Ywk2EnGMFu1geKQVqFEpvCtQtewkoctbVic6pY0BKSP&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQIOl_8pW6-A8hhxVE_yizcdz_lWSQ4Or3k04egTSSTzZw&oe=6A97D288",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHA96_X8oyEQ7kNvwHoma0G&_nc_oc=AdpaEAOnwOrVTTwLX0cTnQbbIrdfRY9Kex6BRY5h_lyNqFVHLZTadhpp56Yt49b76d9ths7q8vd25YDmBKRst5nA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQI4WHe-gXqgGb_03n-yIgxlTpHWwZICZ40HC9fNRceucw&oe=6A97C61C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4y5zAvB_zlIQ7kNvwEZ6fOD&_nc_oc=AdrIZ4DXsUBOymnb51zDFC5mkkWB_5HwB3Q4ifcTQueYbSKW5mbAFbCCZuc2arzJxyT1ev4huRy61dxmX3FEEwbE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQIsyoZnFax6xCFiT6JsrRklEIg7oUqn47hWZncmwXaLBQ&oe=6A97E3C0",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gQF5U1i-KcQQ7kNvwHOU0jX&_nc_oc=Adq1drYESeKaI2ExWRw4m7_Pg1YSDBD2J70ZxNuy4pJpIXQsNqfhS3XpGZ-Zpaj2p-jn7r9XF8ZeoHFEIoBjUcpR&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQLe9FaMPeO_FiYPQ0lY0fCDKVQnusIt01jXP7EpC1bJcQ&oe=6A97E28F",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pp3z5m8nYJgQ7kNvwGzPwu3&_nc_oc=Adp-Ad8wlCWEi7g45TA-6l7MBC0yXJpVPelcQ8WLz0xopBTdAdWaFSPN616i9UDYMgpHZeJEe27jOqT_T_5lOWAm&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVyWbtlqQ54qbjDkqLyRlQ&_nc_ss=70689&oh=00_AQKa8wEJDq5Gsb-YzEBk8QcCVLBkjzPapXQrKnl7aNYTSg&oe=6A97F419",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679728593,
+            "seguindo": 633,
+            "total_posts": 4124,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwF-qCyY&_nc_oc=Adq89y2EPzK108RREVKlk8nn7d-IBGljt8fKnKsF7f6AGOU29CM1jDgf5EsZFUKc1uGoTSGD5senpiRlgUsTjz4D&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQIrbz5Zj_hmr8Ep30Xfk82sbpqFqdzGNYfagSVqPP9Lkg&oe=6A98105E"
+        },
+        "hash": "a9e7073c83117345ddab16c8446f535ed82badd16a7470f526f88ecf38ceb99f",
+        "timestamp_capture": "2026-08-28T22:59:33.524971",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3973925072829159254",
+                    "code": "DcmN8yKABdW",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 28, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Three points. We keep going! 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/789213304_18767299510056421_6167449711132819784_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NEOZs273wvYQ7kNvwGdT5fy&_nc_oc=AdrRhNWpSgf-e0eUsbwqiHjLW1WKucXSoVg1FM40G4zVuN2kM6ene36tb3I5XfBzaJPUs8MUnlR3tT4-VWWyAURs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQJU72_MSyKbYn2t2zf2QW5QGjJjaD2JMXSK6FGSFUGmnw&oe=6A97F693",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3973925072829159254"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=46xe-Cb7z50Q7kNvwGCumrH&_nc_oc=AdrFd_8o9mKCXJNharr5rBmxjiAXi4jZSyYi61U4C94g3Sf_iV6ssyBPwP5fflTkq_9CCnPYVujF3iHZn9eEB2wI&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQKy-IIl0JVAn77R8LnUxl43sNzPnPytCnabF2v9Yh2Tuw&oe=6A981BC7",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=E9S4IaOh-fwQ7kNvwH5rSLt&_nc_oc=Adoqpiu3ekCAY8Bbtwm1FkM-W5Xx6sjaZ_yPBC92H4RSBjbRIV-Xwq60XyzzSZJVmn-rm472GGTv1M4awFLlLUY9&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQIiH01m4Rg8_iAABUTqujDHnC4kycOvTtWZqqnBgzMiHA&oe=6A97FA4A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0PxaiJ5opVAQ7kNvwE9QneS&_nc_oc=AdpLy1-gKFmYTiTySn6fIPhD2EGNQ5meV804WpQC_hfjjR2vcisyPq4mk-u41lcFQtH6bJk-h6UVzasdEO_QTH9r&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQKXZ6-N_ChBa-eDZw0iJhgjsDCT9ddtoelLFwd5iPNNGw&oe=6A980E54",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WQJ90z6nmbQQ7kNvwF7yiBt&_nc_oc=AdoUFdltFeSiOUzKhKA_XJ0bWNEN944-DslxbRQBJCyWjrIeJSIvMjhMMJHtvlMCGCDmA3X-_5lqI95LdL2buTlx&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQLYLEVky_keFxq1zxw-hSB4qLreYNWt7PaiqUw45eIzFA&oe=6A982B35",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z3Kf8IClKjcQ7kNvwH_afEU&_nc_oc=AdpzIQqaFzFsIGUbPcVWgb0aTikFOBNl3EMV5ckOWOOnwV0kSlcI61iUU3k_fBjDwH38kpZaGcrYFzGgHpsFXVlF&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQJwbYi5ksu16Q2ULJ37F83wXwMAUr2DaD4tjSWUPAJAeA&oe=6A97FB75",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I_Tore2DPuUQ7kNvwGqEqj5&_nc_oc=AdrW7Y62W__E-4iGnTD9nTsTDPPn5K9ExguSGVEPVToISb_3TqA_-3iTXwmYbHqNZ9uzCuGetavein2pxV0X9G7i&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQKumMJ02H7JrCodmbMUHp51qjwz7xaCiPKH3ueCGaDRzg&oe=6A97FFEA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uSuEXL3SV2wQ7kNvwFn5ruD&_nc_oc=AdqGLi7mlYY0_2WlkLZi1KnmYzeaV1sXeTLZpwGWMFNMxwpGiX44ykbwFVzZMD8Qw8yBLMFrbDkUhlxQacPlYHHm&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQJShSNdSPuY-DbqWjjeyksdtqj1_27takduEZ1Ngie7OQ&oe=6A980AC8",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHA96_X8oyEQ7kNvwFFZk8W&_nc_oc=AdpxiP0d9B6iiHtbHdJEz40or5hHh5Xag0rY5rwRnqEBPRx1hbzdNRb9C8gBv6N68PqVBoo6S4WtXjo_7hNZB98i&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQJDf_X-mXQUaiMQ6NwPu1kKUTVb-Ed9LgYFgtbJkFsqnA&oe=6A97FE5C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4y5zAvB_zlIQ7kNvwHNbwt5&_nc_oc=AdpPnOCJNUoXVUiK7oah42v05eMCfgifLjlnOpBQrVyBnbyTn0P-IM9ZquhYKqdIvCNDQV6bA10M1CVDCjcVh25l&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQL6r2318zPr6rAvtkdIouULAvlRUM7wPIx_qGnMegEhuw&oe=6A981C00",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gQF5U1i-KcQQ7kNvwHKRv-N&_nc_oc=Adqu1Ks6wW5eYfz-RP1R7n4QG4x1qm1RlT1-R1IrY6gaOBFPuMdM8CAGzA9u3ju1p17uaKvmumOPaNfyIhUq-ryX&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQJ5ffncPtg315vRjXGcawXmIXVEIwohM-f93q3rgGQyZg&oe=6A981ACF",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pp3z5m8nYJgQ7kNvwGgKKWA&_nc_oc=AdoOtdJGozY9ug4hTDg_lhQjItdJ-BmA6iyq0Iywonmxu1pCn3qfS1mWOU-Lso_X7ijpbGmP9nYk8Pxmid7YHHG7&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bCvd7_fETtRrku3AlhPJlQ&_nc_ss=70689&oh=00_AQI7aS-n6qn8hwHI6qL246z_7LD8c5DJEgNgiEYxZNBsFw&oe=6A97F419",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679718951,
+            "seguindo": 634,
+            "total_posts": 4124,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwEF54c3&_nc_oc=AdodmR3aRwoLKerQB6fTTYlWPjsVzRFG5clbFqDLJhR7DPJ2LFo2LMgrlSo2m2Usj-k-3tTvkIGfoOSYuj25_9rr&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQJ9CPfK2Mf5Ak01Vx0C8goRdidZA_e2anID9PNfsBNCfw&oe=6A98F15E"
+        },
+        "hash": "cd03589e111fcac42a58e1ac40b4ea92a2c1b59f97d132a931da1d4ff85b0dee",
+        "timestamp_capture": "2026-08-29T13:55:58.482386",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3973925072829159254",
+                    "code": "DcmN8yKABdW",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 28, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Three points. We keep going! 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/789213304_18767299510056421_6167449711132819784_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NEOZs273wvYQ7kNvwGYZvhe&_nc_oc=AdpX00h8z6VI_oMfmHA06Uavz6PCjYlMacTVWSYnU5EMnGgABtWDxdsfYH3v2Z6N7tdRlPc8z_qC6-5uISizvJ9i&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQIXe39H61Q90R7F973Gnbyix1ssIn-PLI3O7XQNepVtnQ&oe=6A98D793",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3973925072829159254"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=46xe-Cb7z50Q7kNvwFASbWp&_nc_oc=AdoWz_NLxFRUgI9GxiYy48dVLwWdJnLMULD3203QkGP9phnZVqHiLTbLQosI_MQhy52ODYXP52RAw9Yu0Ni6-OqH&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQJTukMDollPhJxhP4ncfU_B2YMkyYM49E25O20YDmkJOQ&oe=6A98FCC7",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=E9S4IaOh-fwQ7kNvwGeTS-x&_nc_oc=AdpGs3w2VF9gcc1fkwckH6qguNURmkqFPWfOIigFEy57S9s8SXHS1ddumIbW-CcjGqEGC1ZUjEO6aa81P7vVzBOj&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQJXqEaJ1SNNXRSBJOZqfH7hqUiczBEJ3qA55mSO8haTBA&oe=6A98DB4A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0PxaiJ5opVAQ7kNvwFieanr&_nc_oc=Ado0BxQRGIY8B5ak5kXm1gjmKBjBhnikArcl1UmlXO2FDoukEYceCFIw-hEQDs0TdduGum5ctZmaiJK5r7XXBpCK&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQIVqOdIgRF8MVXPDNiENcyTrcYwVf1cGVpYeUeLDpJxcA&oe=6A98EF54",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Qv4RBvwqW4Q7kNvwFkfjkh&_nc_oc=AdoDvcml4o3gFWDA8rTQeJEGYlk0SKiYFSY0O0KNsvmRPbnjISeUb2O22La7YlBy9xXKfq2lWVsq79ghYndmYFC_&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQIQH99sSOC_MPwaKJjBS_8Z2c2D2FoWd2Xty5ApKHGE_Q&oe=6A98D3F5",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z3Kf8IClKjcQ7kNvwEaTY-3&_nc_oc=Adr10ZiSvWxShalAdVA-3CyE2gHjN3tHqshNKPsXrbR9piTvnAXnbalKaOrsVNr_GhgT5TG2-8sjsceAFjFynYTd&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQLCjlDkDzIJ4EzJ888iNO5fqAZNEHbECo3lowDnktrZRg&oe=6A98DC75",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I_Tore2DPuUQ7kNvwE1mj9G&_nc_oc=AdpLROvImLIvNxKZn19WLoypRF20iC45OMuQAxy1eovb3qk5CZuOUinh3BTIbhtpteVqJRxm1A0ay6AYJXxwGp3f&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQKSI0-JD6pA3EKbLi4U_KuicnO-XHerB6egZz1tfSep8w&oe=6A98E0EA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uSuEXL3SV2wQ7kNvwHiLF8T&_nc_oc=AdoyZWpSzsxmzMjKRECQxcLYECNNB_CL2vTiS1Ki4wtbrO_HqUdMM_kjSeRfQkE3KHC84rSD-t6asUyYqa0gNatN&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQIUnFYM9VVIMbYyfyN9rXWqLszwpi7h5hmyzAqxx0_Mgw&oe=6A98EBC8",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHA96_X8oyEQ7kNvwE6y4OT&_nc_oc=Adog7i6RVYphhUC-LXZOogtrmls1wwWeVzUmiaCsgnmMXo3CZc272Nmckx3K8b4T9ZebokUtcvXGN-YdN-5DyXKw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQIBJM4OMDk7yLlVaJu7keOO2FPeXBv9RLmsDNF8AHp2mA&oe=6A98DF5C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4y5zAvB_zlIQ7kNvwHlNvYo&_nc_oc=AdqTFRWVxrYhWAG6au7T7czAkYNbJ8OUuzsvpkx8SF64l3xtDEGzEbe_0_mOgaWrQsL_v52wDXk4ScEjsbldrPIq&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQJtne9oTpTyANAD7PpP86WLRjqsLrgYzIPNl-_AP5VmWA&oe=6A98FD00",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gQF5U1i-KcQQ7kNvwG83UEh&_nc_oc=Adr8-kEGwcJ65rf8iF0Lz-jGHgtPRcJn39mD9LzhEoCr3LRQvzno3TVrVfG30JfnvvdVKH000XFF9JdFxTxJJKao&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQJhVox1sIM3ocM37zXB-8KYKp1jq5HYEDkxhv7w6y_c_Q&oe=6A98FBCF",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pp3z5m8nYJgQ7kNvwH_nHe1&_nc_oc=Adp71U0HxypQ8FmlqS47PWLgYWCYOlRuvW1vu3bqNisPqMfZgCnoBMSavwXbzF39pVzRNkm0x4ESmdmywZvtwC7I&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=SpVmyKBWPDLvwGUabYqDfg&_nc_ss=70689&oh=00_AQI5NPc2zwRGvrUz0Q0gjUlLjSAST9mHNKCZZW0cxBkixg&oe=6A98D519",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679709246,
+            "seguindo": 634,
+            "total_posts": 4124,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ihZIdZtGVQ0Q7kNvwGHfv6t&_nc_oc=Ado-zy_o1sRPTJKh1o-DZE5euvNbnG9rd1cTK3FnjIMXaHeyVFMM9qv3xqMoo3i-wCGYzyeMMhL73ZqBbLHXwDCg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70289&oh=00_AQJeJuBB7jyaq5ZMK4DOiF8HGo-NUKsPlgUDy7w2TtFGDQ&oe=6A9B5C1E"
+        },
+        "hash": "c268a43391aacc5c38f9bc2fad298f06918aa30cb83de9ebb3af5e7799646b66",
+        "timestamp_capture": "2026-08-31T11:56:55.022161",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3973925072829159254",
+                    "code": "DcmN8yKABdW",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 28, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Three points. We keep going! 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/789213304_18767299510056421_6167449711132819784_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OpGiSJjavF0Q7kNvwFtBHcZ&_nc_oc=AdqQYWFYFEgiCDuC-qRHJr1eQ5Wij7KLWe2R9cPnbegJSNqql0foZFM7-Ly0NJC8ee10gqJxaklPy2v0KdRvGUKI&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQL5sJRycQpuzgVAnN0N-FmspkfOMw9iyMemGqmPJVphTQ&oe=6A9B7A93",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3973925072829159254"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=46xe-Cb7z50Q7kNvwHAjj4N&_nc_oc=Adqu3qQxbQkp-uE0a6zLH_OCmXyqURkWMgoHmtkkXV3yO2eQXu64kIcg5kgJU1Z4Fi35U-5zHbVbxFCaVD-A6I42&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQLmBVxMsSl8dIshlpBjdpAvOk4mZOFSBOk7bRq-stzjAg&oe=6A9B6787",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=E9S4IaOh-fwQ7kNvwEspXvz&_nc_oc=AdqwwzSQYXWwo1dqQRErlwu6LSwhvC0fP_-p4muCrKM7KlBRlfigRpKuTpJq9Yi_2FhTYov89OuUKoTvlrRDe-6d&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQLrYmz2Pf-4MietO9f_udQsey5Z0sKfzi792lUfPA3ZuA&oe=6A9B7E4A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gCGnmnCOJyoQ7kNvwEGytum&_nc_oc=AdqwxHMHzoDtyVcF816kbTbb3-JAerm7hzV6r7OpTIe6mtOf67lPE89MMueTTK_w2d6gioaL-7GH-CwjirbiVbMt&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQKgZVpW-FQIYo39s4SK52_91NLuGLKO3MHFM3QZYtqnrg&oe=6A9B5A14",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Qv4RBvwqW4Q7kNvwGOsjVG&_nc_oc=Ado-JhU0n-83bHDK13ywn28Ew-bdJIWqSCOHB6YUqHIpqGFMNmn-6LMvKK1hWezDzaCkQ5GBHOYIaoOzQXLyzngi&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQK6mu_16oMCbOeAys-wbWZyqbyHDkbv88UmkA92njm1bw&oe=6A9B76F5",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LzJTHMGd_FoQ7kNvwEdxoCX&_nc_oc=AdoBWeeCAgid6fc4bCKnqnK0wBdXxd-ufRWOgedLAwMTZKKjYbI2DVmugbLSqzOdKQHZ58c2EPlUbagNvX3Qf2Mh&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQJDe7LIvSHxR3d4qdG_kIuIIneq2JngSH-NakMwBVeXMg&oe=6A9B7F75",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ssK75IJN4AIQ7kNvwF8Tz_r&_nc_oc=AdpX__SYnpM-iUFQay-UaY-jWti7SiRmwmuI94BMr-JUnRkttTzAGd4P6RLT2iRqMdKyfPpGThXxMt314c15XtvS&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQJas340KUqYSVeElS3yT5AUtQzuc9EKne4jJ4E-HcyMyg&oe=6A9B83EA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dnPUOls7UaMQ7kNvwHBbTXY&_nc_oc=Adoju2Os4fAvRwtOzLzWMQmN12gBbbCnGZ_kdOU1qByQOwAsP8TIs1h3IUERL3Ic_0dJlae9f4frWyBxtHGpns_v&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQKDBXdmsekQ8t3Zx1negy7JGCYjYriHw5zCBaxcqTzpeQ&oe=6A9B5688",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7kBNgFT8Uq0Q7kNvwE2lK1m&_nc_oc=Adp0mgWMQIcqLOSLWUlHnNGOxGJ3XUIuMTp_MA9bfjcQzJr8pCc_Skfa3EfOxy2xlar1AAJ_hBgquJXg9034l7dV&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQKEu29ysCwKtDUscUXDTrOg1gPZlqVWx5NMIwg9hCebNA&oe=6A9B825C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4y5zAvB_zlIQ7kNvwElj1qn&_nc_oc=AdpnlXjxJ44NQ1Je7pMQXBqMy7bAcDX-VMN9KSiJ9P5HVbf72qySUnXiml_CJFMwqJrnR-KtyW8rf2aGvYh0GyCg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQLaEsq9mR2--OY_TEkgNVdD1T179-mkQUQl4q0KJAPAqw&oe=6A9B67C0",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gQF5U1i-KcQQ7kNvwHtGjhp&_nc_oc=AdoineJINWfLHgqHv4651hT6EjUXBZO1AhLA4_4YpSFnIf9XgFa8X5C3m73ZxxdKPqy-uaLmT4Cpx4MYXY4c18D0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQJsXbIYLlBBZtOMLeEHttpkRRCyqyXMoPR1o3B0kTSSIQ&oe=6A9B668F",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3951593428073548188",
+                    "code": "DbW4UlRF4mc",
+                    "accessibility_caption": "Video by Herbalife on July 29, 2026. Pode ser uma imagem de cartucho, suco, garrafa, coqueteleira, garrafa de água, jarro e texto.",
+                    "caption": {
+                        "text": "Try my Game Day Blast recipe. Stay sharp. Stay ready. #FuelLikeRonaldo"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755948731_18598230331018626_5802978834069229030_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=J6Lg-yjs8Q4Q7kNvwGwywES&_nc_oc=AdrdHdnzksE3sIHw0leXlyC8Qv0uCt2-M3bqLZncHcmCfFIvUI7sHb9ogWv2bu2BOAUGdH_AcvHpSJ1kel9Ia8kQ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bxekrAizkKYhNLRvAXx7Gw&_nc_ss=70289&oh=00_AQJ3Gi2evxuuS2mqmGkFcL3ckc4IBcT_O8PSeLMOY6z4VA&oe=6A9B7819",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "15890625",
+                        "username": "herbalife",
+                        "id": "17841400558750248"
+                    },
+                    "id": "POLARIS_3951593428073548188"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    },
+    {
+        "perfil": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo",
+            "biografia": "",
+            "privado": false,
+            "verificado": true,
+            "memorializado": false,
+            "seguidores": 679694196,
+            "seguindo": 635,
+            "total_posts": 4125,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://hrbl.me/CR7Pro2col"
+                },
+                {
+                    "url": "http://perplexity.ai/ronaldo"
+                },
+                {
+                    "url": "http://join.whoop.com/cr7"
+                },
+                {
+                    "url": "https://youtube.com/@cristiano"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ihZIdZtGVQ0Q7kNvwE9qTkB&_nc_oc=Adr4sgsQMSpT0l7jQBhbGoxXaxBOMeo3Ad4-Hkd8MiiXFcLSjDcvocQWkB8bEA8RKjgpijkTEWmTIdm2K8K7IvL4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQI2XdrpHYXysd2qysvGWQEQWNRNUa16KUcfremujAk-DA&oe=6A9D565E"
+        },
+        "hash": "ade2ba98191b896338fbddffed21ddf444e5430068aa9b2c27b3190b11bb7724",
+        "timestamp_capture": "2026-09-01T23:40:22.179527",
+        "conteudo": {
+            "posts": [
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3976085903641710343",
+                    "code": "Dct5RArAI8H",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 31, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Keep pushing"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/791653660_18768332035056421_481362451976242232_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jyr754VfBqEQ7kNvwH9rADO&_nc_oc=AdpdebUS8AScFqWZ2u9ZG73ymnf0PXXoYyruMpk1l-31FDItSzezERp58z63LufsvfqY4sUOjZz5nOae-NDujX89&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQJPs9yK5pQiEeMPMwAWMik_ljK8sEJVDQfgZIzxK-0HZg&oe=6A9D736A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3976085903641710343"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3973925072829159254",
+                    "code": "DcmN8yKABdW",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 28, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Three points. We keep going! 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/789213304_18767299510056421_6167449711132819784_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OpGiSJjavF0Q7kNvwGauwlU&_nc_oc=AdrFWzZQwh8XLgOl0Z0L627ZnqUVI6_CGUinit95541rx_EeQmE_xiSeO1lgnYVleCZwAuSbLSR8CJRXZEvDXFDv&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQIaj9zg4SiWS44dBuVbAkciXpIpg-KhOtei4m-1R3x2vg&oe=6A9D74D3",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3973925072829159254"
+                },
+                {
+                    "__typename": "XIGPolarisVideoMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                    "pk": "3972372237689994734",
+                    "code": "Dcgs4DvIr3u",
+                    "accessibility_caption": "Video by CR7 on August 26, 2026. Pode ser uma imagem de uma ou mais pessoas, pôster e texto.",
+                    "caption": {
+                        "text": "More than a fragrance, a way of life.Inspired by confidence. Driven by determination. Defined by style.\n \n#CR7 #CR7FRAGRANCES"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787244122_18621924481042680_7528436670522310324_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=JcPGN0IH2tMQ7kNvwEl1JOa&_nc_oc=AdqHNqtskRs5PWJIUPXvOcrHtxLlo82Z5YFBR_I4Cx565LwbrWwBirYmcbKJqyDnpJfIDinHQp1kB36-gOp-fSzO&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQI8U1u3lpkNYcT5uzVTAN-FLkO6HRSyZ_7TPp5JcOmIDw&oe=6A9D61C7",
+                    "media_type": 2,
+                    "product_type": "clips",
+                    "user": {
+                        "pk": "1421738679",
+                        "username": "cr7cristianoronaldo",
+                        "id": "17841401280392214"
+                    },
+                    "id": "POLARIS_3972372237689994734"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3970350074340311992",
+                    "code": "DcZhFtXAAO4",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 23, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Proud to be part of another incredible Esports World Cup. 🎮🏆\n\nCongratulations to all the champions, players and teams who made this event so special, and to everyone behind the scenes who brought it to life.\n\nParis was an amazing stage for the world of esports. The future is just getting started. 🌍🔥\n\n#EsportsWorldCup #EWC2026"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782329318_18765656188056421_8238475277523554301_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=41V4t3rtIzAQ7kNvwGxvmBw&_nc_oc=Adr4nQxXsBtGARImpJDIfyGjbZCasOxtTkaMEuRp8ZrGgrPZ63un5_hPNzn8vpWM_nid9tEHayu0pKMTEBmcXo0W&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQLs7S8HUKwupjqNqEPlbvbXlVZYDNBu0I3QCQuhjaV2Jg&oe=6A9D788A",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 2,
+                    "id": "POLARIS_3970350074340311992"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968787288363683029",
+                    "code": "DcT9wLgAMzV",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 21, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Good to be back 🙏🏽💪🏽"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780949567_18764888596056421_1131790673187098912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=g5hxMa13COkQ7kNvwFvZwoy&_nc_oc=AdrggUg91Xdny8JhCwkiDZ8ikLnduDbfQUUWX1p8dUQL7GT-E2EMT5XcVz8I2hwDvsrTchxsvMHvT_rUHBWUUhrz&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQJtPRyuHtqH582n8jrduMZQd6B11kDSl9POA37g4O_8pg&oe=6A9D5454",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3968787288363683029"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3968088633885386594",
+                    "code": "DcRe5a0AOdi",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 20, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Focused ⚽️"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781425569_18764551771056421_3132592205351905435_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Onmv9HbKIHIQ7kNvwG9jFIu&_nc_oc=AdpWf5g-buHW6W0AbrR7JaRW1bFzbMUOa_cTSdsKLzjTiAe4yBNRXzrhyJJ_2VGgi4IhakvevcdwxYPEdffUA5eP&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQLWdyGb7Bd1VmOHyDBUPLUtltbMDZsbvrbdarpCjJpY2w&oe=6A9D7135",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 5,
+                    "id": "POLARIS_3968088633885386594"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3964974055389844668",
+                    "code": "DcGauVjJtS8",
+                    "accessibility_caption": "Photo by Vogue on August 16, 2026. Pode ser uma imagem de uma ou mais pessoas, terno, smoking, pôster, revista e texto que diz \"VOGLE CRIS Y CRISYGIO GIO \"T WAS A DREAM\"\".",
+                    "caption": {
+                        "text": "@Cristiano Ronaldo and Georgina Rodríguez (@georginagio)  are married! For weeks, the internet was awash with speculation—about the date, the location, the guest list. (The rumored celebrity attendees included everyone from Rio Ferdinand to Rihanna.) In the end, the couple’s wedding took place on a symbolic date: August 11, the 10th anniversary of the day they first met at a Gucci store in Madrid. Instead of a blowout celebration, the couple, who have over 750 million Instagram followers between them, got married in their living room, wearing @gucci by Demna. “It was exactly as I’d imagined it,” says Georgina.\n \nFor Vogue’s Summer digital cover, Gaby Wood spoke to Cris y Gio, as they are known to friends and family, about their intimate wedding day in Portugal. Tap the link in our bio for an exclusive look inside the ceremony.\n\nPhotographed by @juergentellerstudio, makeup by @fermartinezlab, hair by @torrentfernando, with special thanks to @angelsproject, Vogue, Summer Digital Cover 2026."
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777382066_18622557469010075_409160825833895834_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=F99eKobC9YAQ7kNvwHxk9z4&_nc_oc=AdqW9MKXBFPn90xGGb-CqPiBfB5LyKJbLv3rHuavtlzSX4d8WNO1h3CQzUKIQ_6V0WkzP8mvW38kqufOx9JUFF2F&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQLN_ZS31SOS_n8GbhGpFFUhezY2sOO_nzfIN8LBRv8FPA&oe=6A9D79B5",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "198154074",
+                        "username": "voguemagazine",
+                        "id": "17841400302223096"
+                    },
+                    "id": "POLARIS_3964974055389844668"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3963033053837239116",
+                    "code": "Db_hZC_GaNM",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 13, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Back 🟡🔵"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774508959_18761600854056421_1936343080838981549_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ssK75IJN4AIQ7kNvwEERcnV&_nc_oc=AdqG-LIOPjvbrgTTnaGVI1M-Nv7zyrKQ4V2U0-zzKvmU4kZg9zA8snCSZNQOpfuEnk-W5MA8EHIZkDy6Vke7b9MT&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQJf8nVR5fTN8i4HAfRnJH09hXsXYHXN3OV7YPfznn8nfQ&oe=6A9D45EA",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3963033053837239116"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3961567952880363552",
+                    "code": "Db6URBZAWgg",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 11, 2026. Pode ser uma imagem de uma ou mais pessoas, unhas das mãos, anel e texto.",
+                    "caption": {
+                        "text": "C❤️G"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868655_18760833085056421_701013831858641592_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dnPUOls7UaMQ7kNvwGLeF09&_nc_oc=AdoKe4SpEoOEo-dgQ7GzV1RmV9OXpoxJ4007mWgkp-j01ELu0-Oa6uWd7789fapMmKWUY5bQv3mt8-hxz76Bg827&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQKV9Xp8_pXpUSOUMylVIOiP9hJI5VYFpaJQlsLVBzFFNg&oe=6A9D50C8",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3961567952880363552"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3956550032798302915",
+                    "code": "DbofUrJAMLD",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on August 04, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "My toys 🚀"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765817580_18758441866056421_4140427519336796006_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7kBNgFT8Uq0Q7kNvwE59X3H&_nc_oc=AdrEji04hm4NHChrwJiA6RXDdDnS8P54MqVyH8-BV7KH9E6jfbCd9pCWIVmk1KRWF_bydlbd7p4GMAxTvzhk8eMw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQLzBbg_5XxnxWwzKmGvkT2rl_Cyac0auFsVRGAEWC4FGg&oe=6A9D445C",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 3,
+                    "id": "POLARIS_3956550032798302915"
+                },
+                {
+                    "__typename": "XIGPolarisCarouselMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                    "pk": "3952902718661631579",
+                    "code": "DbbiBRJgJ5b",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 30, 2026. Pode ser uma imagem de texto.",
+                    "caption": {
+                        "text": "Not yet 🤷🏽‍♂️😅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759611775_18756669619056421_3262463017598493495_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HyWHviPEZgAQ7kNvwG1laey&_nc_oc=Adrdu0mL31pwPWioaVj8aw8TNRhF8Lhcq_btgEETLfGLRZjox-zacDHVDmDdmRrxjoAZAsA8b3B1RGzUhfT4jiqa&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQIt5yQdBRBBKlTUI6wbsl-SWLyA-zCYEfQIUO2tb4bi2w&oe=6A9D6200",
+                    "media_type": 8,
+                    "product_type": "carousel_container",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "carousel_media_count": 4,
+                    "id": "POLARIS_3952902718661631579"
+                },
+                {
+                    "__typename": "XIGPolarisImageMedia",
+                    "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                    "pk": "3952122654932253942",
+                    "code": "DbYwp2MArz2",
+                    "accessibility_caption": "Photo by Cristiano Ronaldo on July 29, 2026. Pode ser uma imagem de uma ou mais pessoas, bíceps e texto.",
+                    "caption": {
+                        "text": "Cuando te vuelves hacia la luz del sol, las sombras caen detrás de ti. 🌅"
+                    },
+                    "seo_canonical_url": null,
+                    "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759574905_18756330295056421_5414592996656099322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-B5nNBZSG18Q7kNvwFcVOJN&_nc_oc=AdoClhj1wYHwwuzZqFIhBZZiqlg-MuMiB22IVDDYiPCJqag54akYvcuPxT0hrnd4mV3JQn8KMAyZpgblY3LxLDgg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZXb1rECCVymjQ0wRTwP9FQ&_nc_ss=70689&oh=00_AQKuHHQ4Vsv-HdQBv0wR1UJZYRpsgKgfm-s7Iw0dMK3FKg&oe=6A9D60CF",
+                    "media_type": 1,
+                    "product_type": "feed",
+                    "user": {
+                        "pk": "173560420",
+                        "username": "cristiano",
+                        "id": "17841401692602711"
+                    },
+                    "id": "POLARIS_3952122654932253942"
+                }
+            ],
+            "reels": [],
+            "destaques": []
+        }
+    }
+]

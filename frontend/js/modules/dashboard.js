@@ -1,0 +1,124 @@
+function layout(title,sub,body,back=''){return `${back?`<div class="view-toolbar"><button class="ghost-btn" data-back="${back}">← Voltar</button></div>`:''}<div class="hero"><h1>${title}</h1><p>${sub}</p></div>${body}`}
+function stat(label,value,extra=''){const exib=typeof value==='number'?fmtNumber(value):String(value??'—');return `<div class="stat"><div class="label">${label}</div><div class="value">${esc(exib)}</div>${extra?`<div class="muted">${extra}</div>`:''}</div>`}
+function publicSearchBox(value=''){return `<div class="card public-search"><div class="searchbar"><input id="public-search-input" class="input" value="${esc(value)}" placeholder="🔎 Pesquisar @usuário ou nome..." autocomplete="off"><button id="public-search-btn" class="primary-btn">PESQUISAR</button></div><div id="public-search-results" class="search-results"></div></div>`}
+function activityFeedMarkup(feed, compact=false){
+  const f=Array.isArray(feed)?feed:[];
+  const movimentos=f.filter(x=>x.movimento===true).length;
+  const normal=f.length-movimentos;
+  const ultimo=f[0]?.timestamp_capture;
+  return `<div class="activity-monitor ${compact?'activity-monitor-compact':''}">
+    <div class="activity-monitor-head">
+      <div class="activity-heading-copy"><div class="eyebrow">🟢 MONITORAMENTO AO VIVO</div><h3>Atividade recente</h3><p class="muted">Eventos registrados pelo Farejador em ordem cronológica.</p></div>
+      <div class="activity-live"><i></i><span>ATUALIZAÇÃO CONTÍNUA</span><small>${ultimo?`Último registro ${fmtTime(ultimo)}`:'Aguardando registros'}</small></div>
+    </div>
+    <div class="activity-summary"><span>⚡ ${fmtNumber(movimentos)} movimentos</span><span>• ${fmtNumber(normal)} registros normais</span><span>📡 ${f.length?'monitoramento ativo':'sem registros'}</span></div>
+    <div class="card feed activity-feed-list">${f.map(feedRow).join('')||'<div class="empty">Nenhuma atividade registrada ainda.</div>'}</div>
+  </div>`;
+}
+async function dashboard(){
+  const d=await api('/api/dashboard');const f=await api('/api/feed');
+  if(!state.session.autenticado){
+    const perfis=Array.isArray(d.perfis_destaque)?d.perfis_destaque:[];
+    return layout('🔎 FAREJADOR','Histórico e análise de perfis públicos',`${publicSearchBox()}<div class="section-title">Descubra o Farejador</div><div class="feature-grid"><div class="card feature"><b>📈 Crescimento</b><span>Acompanhe variações de seguidores, seguindo e conteúdo.</span></div><div class="card feature"><b>🕐 Histórico</b><span>Veja como um perfil mudou ao longo das capturas.</span></div><div class="card feature"><b>🚨 Alterações</b><span>Identifique mudanças de bio, privacidade e atividade.</span></div></div><div class="section-title">Perfis monitorados</div><div class="stats">${stat('👤 Perfis',d.usuarios)}${stat('🟢 Monitorados',d.monitorados)}${stat('📈 Eventos',d.eventos)}</div><div class="section-title">Explorar perfis</div><div class="public-grid">${perfis.map(publicCard).join('')||'<div class="card empty">Ainda não existem perfis públicos disponíveis.</div>'}</div><div class="section-title">Monitoramento</div>${activityFeedMarkup(f,true)}<div class="notice public-disclaimer">O Farejador apresenta dados e análises derivados de informações públicas coletadas. A disponibilidade e a atualização dos dados podem variar.</div>`)
+  }
+  return layout('🕵️‍♂️ MONITORAMENTO','Seu painel privado de monitoramento',`<div class="section-title">Visão geral</div><div class="stats">${stat('👤 Usuários',d.usuarios)}${stat('🟢 Monitorados',d.monitorados)}${stat('⚪ Pausados',d.pausados)}</div><div class="stats" style="margin-top:14px">${stat('🔴 Movimentos',d.movimentos)}${stat('🕐 Última atividade',fmtTime(d.ultima_atividade))}${stat('📈 Eventos',d.eventos)}</div><div class="section-title">Acesso rápido</div><div class="quick"><div class="card quick-card quick-saved" data-route="saved"><h3>📌 Usuários salvos</h3><p class="muted">Gerencie os perfis adicionados à sua conta.</p><button class="primary-btn">Abrir</button></div><div class="card quick-card quick-analyze" data-route="analyze"><h3>🔎 Análise de perfil</h3><p class="muted">Consulte um usuário e salve o resultado.</p><button class="primary-btn">Abrir</button></div><div class="card quick-card quick-feed" data-route="feed"><h3>📡 Feed</h3><p class="muted">Acompanhe os movimentos dos seus perfis.</p><button class="primary-btn">Abrir</button></div></div><div class="section-title">Monitoramento</div>${activityFeedMarkup(f,true)}`)
+}
+function feedRow(x){
+  const movimento=x.movimento===true;
+  const icone=x.icone||(movimento?'⚡':'📡');
+  const mensagem=x.texto||x.mensagem||(movimento?'Movimento detectado no perfil':'Nova captura registrada');
+  return `<div class="feed-row ${movimento?'feed-row-movement':'feed-row-normal'}" data-movimento="${movimento?'true':'false'}"><span class="feed-icon ${movimento?'movement':''}">${esc(icone)}</span><span class="feed-main"><b>@${esc(x.username||'perfil')}</b><span class="feed-message">${esc(mensagem)}</span></span><span class="feed-status">${movimento?'<b class="feed-badge movement">⚡ MOVIMENTO</b>':'<b class="feed-badge normal">📸 CAPTURA</b>'}<span class="feed-time">${fmtDate(x.timestamp_capture)}</span></span></div>`
+}
+function publicCard(x){
+  const p=x.perfil||{};
+  return `<button class="card public-profile-card" data-public-profile="${esc(p.username||'')}"><div class="avatar-wrap small"><img class="avatar profile-image" src="${imageUrl(p.foto_perfil)}" alt="Foto de ${esc(p.nome||p.username||'perfil')}" referrerpolicy="no-referrer"><div class="avatar-fallback" aria-hidden="true">◉</div></div><div class="public-profile-info"><div class="profile-name">${esc(p.nome||p.username||'Perfil')}</div><div class="profile-meta">@${esc(p.username||'')}</div><div class="profile-stats"><span>👥 ${fmtNumber(p.seguidores)}</span><span>🎬 ${fmtNumber(p.total_reels)}</span></div></div><span class="public-arrow">→</span></button>`
+}
+function clientProfiles(){
+  return Array.isArray(state.profiles)?state.profiles:[];
+}
+
+function rankingMetric(x, tipo){
+  if(tipo==='growth') return Number(x.crescimento_percentual||0);
+  if(tipo==='absolute') return Number(x.crescimento||0);
+  if(tipo==='followers') return Number(x.seguidores||0);
+  if(tipo==='activity') return Number(x.atividade_score||x.atividade||0);
+  if(tipo==='pace') return Number(x.ritmo_diario||0);
+  if(tipo==='discoveries') return Number(x.descobertas||0);
+  return Number(x.conteudo||0);
+}
+function rankingBadge(x,tipo){
+  const v=rankingMetric(x,tipo);
+  if(tipo==='growth') return `${v>0?'+':''}${v.toLocaleString('pt-BR',{maximumFractionDigits:1})}%`;
+  if(tipo==='absolute') return `${v>0?'+':''}${fmtNumber(v)}`;
+  if(tipo==='followers') return `${fmtNumber(v)} seguidores`;
+  if(tipo==='activity') return `${fmtNumber(v)} pontos`;
+  if(tipo==='pace') return `${v>0?'+':''}${v.toLocaleString('pt-BR',{maximumFractionDigits:1})}/dia`;
+  if(tipo==='discoveries') return `${fmtNumber(v)} descobertas`;
+  return `${fmtNumber(v)} itens`;
+}
+function rankingDescription(x,tipo){
+  if(tipo==='growth') return `Variação proporcional · ${x.crescimento>0?'+':''}${fmtNumber(x.crescimento)} seguidores`;
+  if(tipo==='absolute') return `Crescimento absoluto · ${x.crescimento>0?'+':''}${fmtNumber(x.crescimento)} seguidores`;
+  if(tipo==='followers') return `Crescimento no período: ${x.crescimento>0?'+':''}${fmtNumber(x.crescimento)} (${Number(x.crescimento_percentual||0).toLocaleString('pt-BR',{maximumFractionDigits:1})}%`;
+  if(tipo==='activity') return `${fmtNumber(x.eventos)} eventos · ${fmtNumber(x.capturas)} capturas`;
+  if(tipo==='pace') return `Ritmo recente · ${x.ritmo_diario>0?'+':''}${Number(x.ritmo_diario||0).toLocaleString('pt-BR',{maximumFractionDigits:1})} seguidores/dia`;
+  if(tipo==='discoveries') return `${fmtNumber(x.descobertas)} padrões/insights encontrados`;
+  return `${fmtNumber(x.perfil?.total_posts||0)} posts · ${fmtNumber(x.perfil?.total_reels||0)} reels`;
+}
+
+function exploreCard(x, rank, tipo='growth'){
+  const p=x.perfil||{};
+  const badge=rankingBadge(x,tipo);
+  return `<button class="card explore-profile-card" data-public-profile="${esc(p.username||'')}">
+    <span class="explore-rank">${rank||'•'}</span>
+    <div class="avatar-wrap small"><img class="avatar profile-image" src="${imageUrl(p.foto_perfil)}" alt="Foto de ${esc(p.nome||p.username||'perfil')}" referrerpolicy="no-referrer"><div class="avatar-fallback" aria-hidden="true">◉</div></div>
+    <div class="public-profile-info"><div class="profile-name">${esc(p.nome||p.username||'Perfil')}</div><div class="profile-meta">@${esc(p.username||'')}</div><div class="profile-stats"><span>👥 ${fmtNumber(p.seguidores)}</span><span>📈 ${x.crescimento>0?'+':''}${fmtNumber(x.crescimento)}</span></div><small class="explore-description">${esc(rankingDescription(x,tipo))}</small></div>
+    <div class="explore-score">${esc(badge)}</div>
+  </button>`
+}
+function exploreSection(title, subtitle, items, tipo='growth'){
+  return `<div class="section-title explore-title"><div><b>${title}</b><small>${subtitle}</small></div><span class="ranking-label">TOP ${(items||[]).length}</span></div><div class="explore-list">${(items||[]).map((x,i)=>exploreCard(x,i+1,tipo)).join('')||'<div class="card empty">Ainda não há dados suficientes.</div>'}</div>`
+}
+async function exploreView(){
+  const endpoint=state.session.autenticado?'/api/explore':'/api/public/explore';
+  const d=await api(endpoint);
+  state.explore=d;
+  const ranks=[
+    ['activity','🔥 Mais ativos','Perfis com maior quantidade de eventos e capturas','mais_ativos'],
+    ['growth','📈 Maior crescimento percentual','Quem mais cresceu proporcionalmente','maior_crescimento'],
+    ['absolute','🚀 Maior crescimento absoluto','Quem ganhou mais seguidores em quantidade','maior_crescimento_absoluto'],
+    ['followers','👥 Mais seguidores','Maior número atual de seguidores','mais_seguidores'],
+    ['content','🎬 Mais conteúdo','Maior volume de posts, reels e destaques','mais_conteudo'],
+    ['pace','⚡ Maior ritmo','Maior ritmo recente de crescimento','maior_ritmo'],
+    ['discoveries','🔎 Mais descobertas','Mais padrões e acontecimentos encontrados','mais_descobertas']
+  ];
+  if(!ranks.some(r=>r[0]===state.exploreRank))state.exploreRank='activity';
+  const selected=ranks.find(r=>r[0]===state.exploreRank)||ranks[0];
+  const items=d[selected[3]]||[];
+  return layout('◈ EXPLORAR',state.session.autenticado?'Explore somente os perfis salvos na sua conta':'Descubra perfis, crescimento, atividade e rankings públicos',`
+    ${publicSearchBox()}
+    <div class="stats explore-stats">${stat('👤 Perfis',d.total_perfis)}${stat('📸 Capturas',d.total_capturas)}${stat('📈 Eventos',d.total_eventos)}</div>
+    <div class="explore-intro card"><div><div class="eyebrow">RANKING DO MOMENTO</div><b>Veja quem mais se destaca</b><p class="muted">${state.session.autenticado?'Os cálculos usam exclusivamente os dados dos usuários salvos por você.':'Os rankings usam somente o histórico público já registrado.'}</p></div><button class="primary-btn" data-route="compare">⚖ Comparar perfis</button></div>
+    <div class="section-title ranking-selector-title"><div><b>🏆 Escolha o ranking</b><small>Um ranking por vez para manter a exploração rápida.</small></div></div>
+    <div class="ranking-selector card"><label for="ranking-select">Ranking exibido</label><select id="ranking-select" class="input">${ranks.map(r=>`<option value="${r[0]}" ${r[0]===state.exploreRank?'selected':''}>${r[1]}</option>`).join('')}</select><div class="ranking-selected-info"><b>${selected[1]}</b><span>${selected[2]}</span></div></div>
+    ${exploreSection(selected[1],selected[2],items,state.exploreRank)}
+    <div class="notice public-disclaimer">${state.session.autenticado?'Nada desta tela usa dados públicos de outros clientes.':'Os rankings podem mudar quando novas capturas forem realizadas.'}</div>`)
+}
+
+function analysisView(){
+  if(!state.session.autenticado)return layout('🔎 ANÁLISE DE PERFIL','Área protegida',`<div class="card locked"><h2>🔒 Login necessário</h2><p class="muted">Consultar um perfil exige autenticação. Visitantes podem explorar os dados públicos já disponíveis.</p><button id="login-required" class="primary-btn">Entrar</button></div>`);
+  const p=state.analysis?.perfil||{};
+  const saved=!!p.username&&state.profiles.some(x=>String(x.perfil?.username||'').toLowerCase()===String(p.username).toLowerCase());
+  const searchValue=p.username?`@${esc(p.username)}`:'';
+  let result;
+  if(state.analysisError){
+    result=`<div class="card friendly-empty"><div class="friendly-icon">🔎</div><h2>Não encontramos esse usuário</h2><p class="muted">${esc(state.analysisError)}</p><div class="friendly-actions"><button class="primary-btn" id="analysis-try-again">↻ Fazer outra pesquisa</button><button class="ghost-btn" data-route="saved">★ Ver meus usuários salvos</button></div></div>`;
+  }else if(!state.analysis){
+    result='<div class="card friendly-empty"><div class="friendly-icon">🕵️</div><h2>Pronto para investigar</h2><p class="muted">Digite um @usuário para consultar. Se o perfil não retornar dados, você verá aqui uma orientação clara para tentar novamente.</p></div>';
+  }else{
+    result=`<div class="analysis"><div class="card profile-head"><div class="avatar-wrap"><img class="avatar profile-image" src="${imageUrl(p.foto_perfil)}" alt="Foto de ${esc(p.nome||p.username||'perfil')}" referrerpolicy="no-referrer"><div class="avatar-fallback" aria-hidden="true">◉</div></div><div><div class="profile-name">${esc(p.nome||'Sem nome')}</div><div class="profile-meta">@${esc(p.username||'')}</div><div class="profile-meta">${p.privado?'🔒 Conta privada':'🌐 Conta pública'} · ${p.verificado?'✓ Verificado':'✕ Não verificado'}</div></div><div class="actions">${saved?'<span class="badge good">✓ Salvo</span>':'<button id="save-profile" class="primary-btn">☆ Salvar usuário</button>'}<button id="clear-analysis" class="ghost-btn">↻ Nova pesquisa</button></div></div><div class="metric-grid">${stat('Seguidores',fmtNumber(p.seguidores))}${stat('Seguindo',fmtNumber(p.seguindo))}${stat('Conteúdo',fmtNumber((p.total_posts||0)+(p.total_reels||0)+(p.total_destaques||0)))}</div><div class="two-col"><div class="card"><h3>Status do perfil</h3><p>🔒 Privado: <b>${p.privado?'SIM':'NÃO'}</b></p><p>✓ Verificado: <b>${p.verificado?'SIM':'NÃO'}</b></p><p>🕊 Memorializado: <b>${p.memorializado?'SIM':'NÃO'}</b></p></div><div class="card"><h3>Conteúdo</h3><div class="metric-grid">${stat('Posts',fmtNumber(p.total_posts))}${stat('Reels',fmtNumber(p.total_reels))}${stat('Destaques',fmtNumber(p.total_destaques))}</div></div></div></div>`;
+  }
+  return layout('🔎 ANÁLISE DE PERFIL','Consulte perfis e mantenha seus resultados dentro da sua conta',`<div class="card"><div class="searchbar"><input id="analysis-input" class="input" value="${searchValue}" placeholder="@usuário" autocomplete="off"><button id="analysis-btn" class="primary-btn">ANALISAR</button></div></div>${result}`)
+}
+
+async function savedView(){const publicMode=!state.session.autenticado;state.profiles=publicMode?await api('/api/public/profiles'):await api('/api/profiles');return layout(publicMode?'◈ EXPLORAR PERFIS':'★ USUÁRIOS SALVOS',publicMode?'Consulte perfis e veja o histórico público disponível':'Dashboard de monitoramento',`${publicMode?publicSearchBox():'<div class="card searchbar"><input id="profile-search" class="input" placeholder="🔎 Pesquisar usuário..."></div>'}${publicMode?'<div class="notice" style="margin-top:14px">Modo visitante: os dados abaixo são somente leitura.</div>':''}<div class="section-title">${publicMode?'Perfis disponíveis':'Usuários monitorados'}</div><div class="stats">${stat('👤 Usuários',state.profiles.length)}${stat('🟢 Monitorados',state.profiles.filter(x=>x.monitoramento?.monitorando).length)}${stat('⚪ Pausados',state.profiles.filter(x=>!x.monitoramento?.monitorando).length)}</div><div class="section-title">Lista</div><div id="profiles-list" class="profiles">${state.profiles.map(x=>publicMode?publicCard(x):profileCard(x,false)).join('')||'<div class="card empty">Nenhum usuário salvo.</div>'}</div>`)}

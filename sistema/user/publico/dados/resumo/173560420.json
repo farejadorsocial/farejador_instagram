@@ -1,0 +1,250 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-28T14:36:49.750408",
+            "timestamp_anterior": "2026-08-27T13:18:27.892635",
+            "timestamp_atual": "2026-08-28T14:36:49.750408",
+            "usuario": {
+                "pk": 173560420,
+                "id": "17841401692602711",
+                "username": "cristiano",
+                "nome": "Cristiano Ronaldo",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwEtRXUR&_nc_oc=AdqpGFw5TIpRs8kv-9VkTBLlUuMfaaJR_zsrVt-APB4wN0Ht5woTtOZv8htwWBvqLCcnFkycnFH1Q0V4wIYJjjQE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQFNg3VbPBgq3ZMSTGmVXx0zFtp0mX-4swIbvU98tBbyWQ&oe=6A979FDE"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 679741756,
+            "valor_atual": 679728593,
+            "hash_anterior": "4764b6d562c3ff46b77dc9dc11f70729423cd83622db273248d110b0e26e172e",
+            "hash_atual": "03ab03d0052985c7880494ca573df12545f6280c60f904f514b722ba10992fc0",
+            "tempo_desde_anterior": {
+                "segundos": 91101.857773,
+                "texto": "1 dia e 1 hora e 18 minutos e 21 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": -13163,
+            "titulo": "Perdeu 13.163 seguidores",
+            "descricao": "Os seguidores caíram de 679.741.756 para 679.728.593",
+            "variacao_texto": "-13.163 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:11:55.051226",
+            "timestamp_anterior": "2026-08-28T14:36:49.750408",
+            "timestamp_atual": "2026-08-28T19:11:55.051226",
+            "usuario": {
+                "pk": 173560420,
+                "id": "17841401692602711",
+                "username": "cristiano",
+                "nome": "Cristiano Ronaldo",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwEtRXUR&_nc_oc=AdqpGFw5TIpRs8kv-9VkTBLlUuMfaaJR_zsrVt-APB4wN0Ht5woTtOZv8htwWBvqLCcnFkycnFH1Q0V4wIYJjjQE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQJm0q-jaiMxNYHA9q3HhXECGCPK1aabXlXJVMRGii3tYQ&oe=6A97D81E"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 4123,
+            "valor_atual": 4124,
+            "hash_anterior": "03ab03d0052985c7880494ca573df12545f6280c60f904f514b722ba10992fc0",
+            "hash_atual": "d1c188a1b7ce15c8aae40d3549495fdece1ca7330421a141f0839a69aa5674cb",
+            "tempo_desde_anterior": {
+                "segundos": 16505.300818,
+                "texto": "4 horas e 35 minutos e 5 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 16505.300818,
+                "texto": "4 horas e 35 minutos e 5 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 1,
+            "titulo": "Publicou 1 post",
+            "descricao": "O total de posts passou de 4.123 para 4.124",
+            "variacao_texto": "+1 post"
+        },
+        {
+            "timestamp": "2026-08-28T22:59:33.524971",
+            "timestamp_anterior": "2026-08-28T19:11:55.051226",
+            "timestamp_atual": "2026-08-28T22:59:33.524971",
+            "usuario": {
+                "pk": 173560420,
+                "id": "17841401692602711",
+                "username": "cristiano",
+                "nome": "Cristiano Ronaldo",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/472007201_1142000150877579_994350541752907763_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=o-OKVn3hAX8Q7kNvwF-qCyY&_nc_oc=Adq89y2EPzK108RREVKlk8nn7d-IBGljt8fKnKsF7f6AGOU29CM1jDgf5EsZFUKc1uGoTSGD5senpiRlgUsTjz4D&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQIrbz5Zj_hmr8Ep30Xfk82sbpqFqdzGNYfagSVqPP9Lkg&oe=6A98105E"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 634,
+            "valor_atual": 633,
+            "hash_anterior": "d1c188a1b7ce15c8aae40d3549495fdece1ca7330421a141f0839a69aa5674cb",
+            "hash_atual": "a9e7073c83117345ddab16c8446f535ed82badd16a7470f526f88ecf38ceb99f",
+            "tempo_desde_anterior": {
+                "segundos": 13658.473745,
+                "texto": "3 horas e 47 minutos e 38 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13658.473745,
+                "texto": "3 horas e 47 minutos e 38 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1,
+            "titulo": "Deixou de seguir 1 pessoa",
+            "descricao": "Estava seguindo 634 e passou a seguir 633",
+            "variacao_texto": "-1 seguindo"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 173560420,
+            "id": "17841401692602711",
+            "username": "cristiano",
+            "nome": "Cristiano Ronaldo"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 679741756,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 679741756,
+                "valor_atual": 679728593,
+                "variacao": -13163,
+                "direcao": "reducao",
+                "descricao": "-13163 seguidores",
+                "timestamp": "2026-08-28T14:36:49.750408",
+                "timestamp_anterior": "2026-08-27T13:18:27.892635",
+                "tempo_desde_anterior_segundos": 91101
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 634,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 634,
+                "valor_atual": 633,
+                "variacao": -1,
+                "direcao": "reducao",
+                "descricao": "Deixou de seguir 1",
+                "timestamp": "2026-08-28T22:59:33.524971",
+                "timestamp_anterior": "2026-08-27T13:18:27.892635",
+                "tempo_desde_anterior_segundos": 121265
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 4123,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 4123,
+                "valor_atual": 4124,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 posts",
+                "timestamp": "2026-08-28T19:11:55.051226",
+                "timestamp_anterior": "2026-08-27T13:18:27.892635",
+                "tempo_desde_anterior_segundos": 107607
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 0,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "",
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": true,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://hrbl.me/CR7Pro2col"
+                    },
+                    {
+                        "url": "http://perplexity.ai/ronaldo"
+                    },
+                    {
+                        "url": "http://join.whoop.com/cr7"
+                    },
+                    {
+                        "url": "https://youtube.com/@cristiano"
+                    }
+                ],
+                "timestamp": "2026-08-27T13:18:27.892635",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

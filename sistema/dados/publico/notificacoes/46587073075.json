@@ -1,0 +1,11 @@
+{
+    "cliente_usuario": "admin",
+    "pk": 46587073075,
+    "username": "bonus_de_apostas",
+    "total": 1,
+    "movimento": false,
+    "timestamp_capture": "2026-08-27T10:11:01.443713",
+    "icone": "💤",
+    "texto": "Sem movimento no perfil do usuário",
+    "mensagem": "💤 Sem movimento no perfil do usuário: bonus_de_apostas"
+}

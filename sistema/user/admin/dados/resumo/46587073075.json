@@ -1,0 +1,114 @@
+{
+    "timiline": [],
+    "historico": {
+        "usuario": {
+            "pk": 46587073075,
+            "id": "17841446592253384",
+            "username": "bonus_de_apostas",
+            "nome": "Bonus e Promoções"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 107,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 293,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 3,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": ".",
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": false,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://tinyurl.com/2dp9u52x"
+                    }
+                ],
+                "timestamp": "2026-08-27T00:23:59.342168",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

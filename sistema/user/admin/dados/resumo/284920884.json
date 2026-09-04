@@ -1,0 +1,1051 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-27T06:32:10.715185",
+            "timestamp_anterior": "2026-08-27T00:23:01.623410",
+            "timestamp_atual": "2026-08-27T06:32:10.715185",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2rGCzXdogFNi76aTHMBs7g&_nc_ss=70689&oh=00_AQEVA_YjaQ2xyMvrDWUvBnCwa0otOlGM05SIbNEpSfWujQ&oe=6A95C2AA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54448770,
+            "valor_atual": 54447721,
+            "hash_anterior": "fbd4c5741becbdb54bbb19d4d4c639c7e3338791cd00afa872694d6911dfa1a3",
+            "hash_atual": "07d52c731c25381f1b7b03fe73cd41124d2778140b8305210e301d5a420e9d8c",
+            "tempo_desde_anterior": {
+                "segundos": 22149.091775,
+                "texto": "6 horas e 9 minutos e 9 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": -1049,
+            "titulo": "Perdeu 1.049 seguidores",
+            "descricao": "Os seguidores caíram de 54.448.770 para 54.447.721",
+            "variacao_texto": "-1.049 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:05:15.284887",
+            "timestamp_anterior": "2026-08-27T06:32:10.715185",
+            "timestamp_atual": "2026-08-27T07:05:15.284887",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kfnN8Cat56IQQrxG462Ejw&_nc_ss=70689&oh=00_AQGVrgytcCVZ5Onf3pj-C53l3W2hYAN41VXOth8L2MExRg&oe=6A95C2AA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447721,
+            "valor_atual": 54447559,
+            "hash_anterior": "07d52c731c25381f1b7b03fe73cd41124d2778140b8305210e301d5a420e9d8c",
+            "hash_atual": "f0193a8f031605760c14d0e2534da90c388f93bc2b58cbf6e50d217ec8d25045",
+            "tempo_desde_anterior": {
+                "segundos": 1984.569702,
+                "texto": "33 minutos e 4 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1984.569702,
+                "texto": "33 minutos e 4 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -162,
+            "titulo": "Perdeu 162 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.721 para 54.447.559",
+            "variacao_texto": "-162 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:35:03.575467",
+            "timestamp_anterior": "2026-08-27T07:05:15.284887",
+            "timestamp_atual": "2026-08-27T07:35:03.575467",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=31ygDuOHonfQqSkzccopSg&_nc_ss=70689&oh=00_AQGikykJDLeYtJ4zy2tdZ38YLCFwzXVtb2HagylDV3jYGg&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447559,
+            "valor_atual": 54447507,
+            "hash_anterior": "f0193a8f031605760c14d0e2534da90c388f93bc2b58cbf6e50d217ec8d25045",
+            "hash_atual": "caac6d1744491ee003831326b2be753b91ede2e20b66b5f661bfaf388e2ca572",
+            "tempo_desde_anterior": {
+                "segundos": 1788.29058,
+                "texto": "29 minutos e 48 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1788.29058,
+                "texto": "29 minutos e 48 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -52,
+            "titulo": "Perdeu 52 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.559 para 54.447.507",
+            "variacao_texto": "-52 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:07:43.594004",
+            "timestamp_anterior": "2026-08-27T07:35:03.575467",
+            "timestamp_atual": "2026-08-27T08:07:43.594004",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=1BtPieN4FaSTwcg_fBESnw&_nc_ss=70689&oh=00_AQFutcyk6OL-2EHAr-SqlpVkr8abHdH0XzNaqUbpjVoOlA&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447507,
+            "valor_atual": 54447465,
+            "hash_anterior": "caac6d1744491ee003831326b2be753b91ede2e20b66b5f661bfaf388e2ca572",
+            "hash_atual": "d101942e24a867eb68eb8fb2b35f25af70f5750e49898780e8974b2dd0dcb96d",
+            "tempo_desde_anterior": {
+                "segundos": 1960.018537,
+                "texto": "32 minutos e 40 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1960.018537,
+                "texto": "32 minutos e 40 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -42,
+            "titulo": "Perdeu 42 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.507 para 54.447.465",
+            "variacao_texto": "-42 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:18:17.766486",
+            "timestamp_anterior": "2026-08-27T08:07:43.594004",
+            "timestamp_atual": "2026-08-27T08:18:17.766486",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=IHIlk9RsAHTZV0v8p_g0ZA&_nc_ss=70689&oh=00_AQHIb9Kl9i528czoPnjrmnXR2fOfJXZwZ8GEdA6jF2VyTA&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447465,
+            "valor_atual": 54447448,
+            "hash_anterior": "d101942e24a867eb68eb8fb2b35f25af70f5750e49898780e8974b2dd0dcb96d",
+            "hash_atual": "ce5e5a4c082db203a7041219e880c3fc8f15a0cf2b77ce6d42fb18453c7963bf",
+            "tempo_desde_anterior": {
+                "segundos": 634.172482,
+                "texto": "10 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 634.172482,
+                "texto": "10 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -17,
+            "titulo": "Perdeu 17 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.465 para 54.447.448",
+            "variacao_texto": "-17 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:20:02.661899",
+            "timestamp_anterior": "2026-08-27T08:18:17.766486",
+            "timestamp_atual": "2026-08-27T08:20:02.661899",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=5Xzhv7DCa_LrjJIOh819og&_nc_ss=70689&oh=00_AQH9UDFznAow712KkPGCsl2W7lOO4W2VO_xfVtGdcyldTA&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447448,
+            "valor_atual": 54447443,
+            "hash_anterior": "ce5e5a4c082db203a7041219e880c3fc8f15a0cf2b77ce6d42fb18453c7963bf",
+            "hash_atual": "cca880c6fcaa6506b2472cdbdb56f0fd9fa4eaf6e0a41f38ddc8a5aae4af8919",
+            "tempo_desde_anterior": {
+                "segundos": 104.895413,
+                "texto": "1 minuto e 44 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 104.895413,
+                "texto": "1 minuto e 44 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -5,
+            "titulo": "Perdeu 5 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.448 para 54.447.443",
+            "variacao_texto": "-5 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:26:46.123969",
+            "timestamp_anterior": "2026-08-27T08:20:02.661899",
+            "timestamp_atual": "2026-08-27T08:26:46.123969",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=_zZpWmEFvHOjp-mM1M_SeA&_nc_ss=70689&oh=00_AQHFsLFvOdCRhb1c3Rn0zyh2pIYNyCl7pZvyPwmlsGcE3g&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447443,
+            "valor_atual": 54447447,
+            "hash_anterior": "cca880c6fcaa6506b2472cdbdb56f0fd9fa4eaf6e0a41f38ddc8a5aae4af8919",
+            "hash_atual": "37cbb640cfc78c1dbd5315b5763642103ae823c6d0250859978366652e5593bf",
+            "tempo_desde_anterior": {
+                "segundos": 403.46207,
+                "texto": "6 minutos e 43 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 403.46207,
+                "texto": "6 minutos e 43 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 4,
+            "titulo": "Ganhou 4 seguidores",
+            "descricao": "Os seguidores passaram de 54.447.443 para 54.447.447",
+            "variacao_texto": "+4 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:37:21.187138",
+            "timestamp_anterior": "2026-08-27T08:26:46.123969",
+            "timestamp_atual": "2026-08-27T08:37:21.187138",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2HUfCJN3USRFedXZlKArQg&_nc_ss=70689&oh=00_AQE4aWfwwBlyE38NNhu0XhK4y3eoJ4k1d17qmX5rzM1bTQ&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447447,
+            "valor_atual": 54447421,
+            "hash_anterior": "37cbb640cfc78c1dbd5315b5763642103ae823c6d0250859978366652e5593bf",
+            "hash_atual": "b4b7ec7d0614a7707b82618c67d43d089b9198738f552889b63125ce58713b02",
+            "tempo_desde_anterior": {
+                "segundos": 635.063169,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 635.063169,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -26,
+            "titulo": "Perdeu 26 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.447 para 54.447.421",
+            "variacao_texto": "-26 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:10:10.815770",
+            "timestamp_anterior": "2026-08-27T08:37:21.187138",
+            "timestamp_atual": "2026-08-27T10:10:10.815770",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Zqxzw2JGyNmRJLAdvMXd_Q&_nc_ss=70689&oh=00_AQHOn2V7HdtrE6OSLTXCurMFzuUFTwvVwyiLZRSQgLnqlg&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447421,
+            "valor_atual": 54447206,
+            "hash_anterior": "b4b7ec7d0614a7707b82618c67d43d089b9198738f552889b63125ce58713b02",
+            "hash_atual": "e7fe4a13bb3862bd5beb9e50a3b1fd10853924f394f39c3dff4685c5c731b678",
+            "tempo_desde_anterior": {
+                "segundos": 5569.628632,
+                "texto": "1 hora e 32 minutos e 49 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 5569.628632,
+                "texto": "1 hora e 32 minutos e 49 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -215,
+            "titulo": "Perdeu 215 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.421 para 54.447.206",
+            "variacao_texto": "-215 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:52:57.535888",
+            "timestamp_anterior": "2026-08-27T10:10:10.815770",
+            "timestamp_atual": "2026-08-27T10:52:57.535888",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFbsaUw&_nc_oc=AdpvFzSkAl8Yf_cam6IR8uvx9MsUXSs-JxTnHA9iP3FMF-Za2ZigLCn8YrUMi1Ei5TJCTzpFR1Eq9F83b0eLkgNn&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kVjDj5-sjwSbgiq77PR_sw&_nc_ss=70689&oh=00_AQGkFQ_v-Xts4UiGt3yZMI0SbdBL-WsA75TCAFuyBq-7Wg&oe=6A95FAEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447206,
+            "valor_atual": 54447105,
+            "hash_anterior": "e7fe4a13bb3862bd5beb9e50a3b1fd10853924f394f39c3dff4685c5c731b678",
+            "hash_atual": "3828cc62ca125f051da4a7a815c7cec530c8788b95b5c6138def65d69355865d",
+            "tempo_desde_anterior": {
+                "segundos": 2566.720118,
+                "texto": "42 minutos e 46 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 2566.720118,
+                "texto": "42 minutos e 46 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -101,
+            "titulo": "Perdeu 101 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.206 para 54.447.105",
+            "variacao_texto": "-101 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:19:12.372087",
+            "timestamp_anterior": "2026-08-27T10:52:57.535888",
+            "timestamp_atual": "2026-08-27T11:19:12.372087",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=BuBVrrRvVDdNBgYXluTDiw&_nc_ss=70689&oh=00_AQEChG3OPJO1C8x6oJtNIekx9-4XH6y21kWEm2jastladA&oe=6A96332A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447105,
+            "valor_atual": 54447035,
+            "hash_anterior": "3828cc62ca125f051da4a7a815c7cec530c8788b95b5c6138def65d69355865d",
+            "hash_atual": "331bc6d07b05d10ae279965c7eda109a25f1b8ec730c61bb95ca6b5d9a2c4b38",
+            "tempo_desde_anterior": {
+                "segundos": 1574.836199,
+                "texto": "26 minutos e 14 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1574.836199,
+                "texto": "26 minutos e 14 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -70,
+            "titulo": "Perdeu 70 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.105 para 54.447.035",
+            "variacao_texto": "-70 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:26:47.774151",
+            "timestamp_anterior": "2026-08-27T11:19:12.372087",
+            "timestamp_atual": "2026-08-27T18:26:47.774151",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=lu3R5Wb7H8tATJ5r9nRvAQ&_nc_ss=70689&oh=00_AQHIPQRK9X-v0NY7_NK6AOlVbOf6_kZYwVZTrRLHY4u78w&oe=6A966B6A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447035,
+            "valor_atual": 54447191,
+            "hash_anterior": "331bc6d07b05d10ae279965c7eda109a25f1b8ec730c61bb95ca6b5d9a2c4b38",
+            "hash_atual": "4beed2c1a13c6224d658217abde4f9b1f28123c8c6f93d337ce3a11ae9373971",
+            "tempo_desde_anterior": {
+                "segundos": 25655.402064,
+                "texto": "7 horas e 7 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 25655.402064,
+                "texto": "7 horas e 7 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 156,
+            "titulo": "Ganhou 156 seguidores",
+            "descricao": "Os seguidores passaram de 54.447.035 para 54.447.191",
+            "variacao_texto": "+156 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:56:53.014445",
+            "timestamp_anterior": "2026-08-27T18:26:47.774151",
+            "timestamp_atual": "2026-08-27T18:56:53.014445",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=XqKoy-wriW4BcQxWtqywnA&_nc_ss=70689&oh=00_AQEOGRbWDAPwFp2xzDFlNgpJCH1WEIQnxhvyaKzfLNO7hg&oe=6A966B6A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447191,
+            "valor_atual": 54447119,
+            "hash_anterior": "4beed2c1a13c6224d658217abde4f9b1f28123c8c6f93d337ce3a11ae9373971",
+            "hash_atual": "3b859710e5e53fcef8d79a4ae70401f68520b683066f41c237d53ce730c1b09a",
+            "tempo_desde_anterior": {
+                "segundos": 1805.240294,
+                "texto": "30 minutos e 5 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1805.240294,
+                "texto": "30 minutos e 5 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -72,
+            "titulo": "Perdeu 72 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.191 para 54.447.119",
+            "variacao_texto": "-72 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:37:25.691120",
+            "timestamp_anterior": "2026-08-27T18:56:53.014445",
+            "timestamp_atual": "2026-08-27T22:37:25.691120",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=AMfvawhAhruHFOP8_tbq0Q&_nc_ss=70689&oh=00_AQFKtvYDgTPMfuSuY3UL5qXq5gFFK7RwKksMiSWhqgan0w&oe=6A96A3AA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54447119,
+            "valor_atual": 54446410,
+            "hash_anterior": "3b859710e5e53fcef8d79a4ae70401f68520b683066f41c237d53ce730c1b09a",
+            "hash_atual": "76195fbdedf7c8c3b4fd32b5a991ceedd9a459dcd782c85f2c8d484dd5a63897",
+            "tempo_desde_anterior": {
+                "segundos": 13232.676675,
+                "texto": "3 horas e 40 minutos e 32 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13232.676675,
+                "texto": "3 horas e 40 minutos e 32 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -709,
+            "titulo": "Perdeu 709 seguidores",
+            "descricao": "Os seguidores caíram de 54.447.119 para 54.446.410",
+            "variacao_texto": "-709 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:59:00.211996",
+            "timestamp_anterior": "2026-08-27T22:37:25.691120",
+            "timestamp_atual": "2026-08-27T22:59:00.211996",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Pu16W43rkVBS00u64TrFfA&_nc_ss=70689&oh=00_AQEkGLBPaRQrFLl8hUiBoVHKSp7HsYnw1KzZCSsd6lgPXg&oe=6A96A3AA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54446410,
+            "valor_atual": 54446350,
+            "hash_anterior": "76195fbdedf7c8c3b4fd32b5a991ceedd9a459dcd782c85f2c8d484dd5a63897",
+            "hash_atual": "b90ecb0e15de597a3d3146f3437c8d40f6096599958293e66cf27b71ad59ace9",
+            "tempo_desde_anterior": {
+                "segundos": 1294.520876,
+                "texto": "21 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1294.520876,
+                "texto": "21 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -60,
+            "titulo": "Perdeu 60 seguidores",
+            "descricao": "Os seguidores caíram de 54.446.410 para 54.446.350",
+            "variacao_texto": "-60 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T09:14:53.644031",
+            "timestamp_anterior": "2026-08-27T22:59:00.211996",
+            "timestamp_atual": "2026-08-28T09:14:53.644031",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Fs8JG2zclu-t4CGfikCBDg&_nc_ss=70689&oh=00_AQFAO2KrRygT0iVbVaI7eoYhQmfV4_Ut6MOBtSmWnNLL9A&oe=6A974C6A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54446350,
+            "valor_atual": 54444465,
+            "hash_anterior": "b90ecb0e15de597a3d3146f3437c8d40f6096599958293e66cf27b71ad59ace9",
+            "hash_atual": "49360790cd6743c3f46e55a1d2a5a586e15f78f2f03e8ae14936c28a42eaa9eb",
+            "tempo_desde_anterior": {
+                "segundos": 36953.432035,
+                "texto": "10 horas e 15 minutos e 53 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 36953.432035,
+                "texto": "10 horas e 15 minutos e 53 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1885,
+            "titulo": "Perdeu 1.885 seguidores",
+            "descricao": "Os seguidores caíram de 54.446.350 para 54.444.465",
+            "variacao_texto": "-1.885 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:15:14.864990",
+            "timestamp_anterior": "2026-08-28T09:14:53.644031",
+            "timestamp_atual": "2026-08-28T10:15:14.864990",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=RtVBs_qpZ7KNXHiEBJKfYQ&_nc_ss=70689&oh=00_AQEVRR5EmXfr5uQvPtUb_9T0EwpZVQVTXp5AeCyZ6haVpQ&oe=6A974C6A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54444465,
+            "valor_atual": 54444267,
+            "hash_anterior": "49360790cd6743c3f46e55a1d2a5a586e15f78f2f03e8ae14936c28a42eaa9eb",
+            "hash_atual": "34945fdc15a13e7a25a69ff757ab7860c7dcc7a83eb5713fd5eb52cfab8c7fad",
+            "tempo_desde_anterior": {
+                "segundos": 3621.220959,
+                "texto": "1 hora e 21 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3621.220959,
+                "texto": "1 hora e 21 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -198,
+            "titulo": "Perdeu 198 seguidores",
+            "descricao": "Os seguidores caíram de 54.444.465 para 54.444.267",
+            "variacao_texto": "-198 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:30:48.791602",
+            "timestamp_anterior": "2026-08-28T10:15:14.864990",
+            "timestamp_atual": "2026-08-28T10:30:48.791602",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGIY3zA&_nc_oc=AdqXayYpAZ81ZKUOdaBkBTeIFePzBWUGMdQYHVKa_IRu7U_DhW-iZqp5chp0N9tSXu6p849lA7t8tmGJczWaSFhp&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2KG0Az3Fv2GO3JNY8LOR-g&_nc_ss=70689&oh=00_AQFcj8RbtKy29ldZrHyYaYwQTCDF9Hk2rkIiW3M4yXBVcw&oe=6A974C6A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54444267,
+            "valor_atual": 54444210,
+            "hash_anterior": "34945fdc15a13e7a25a69ff757ab7860c7dcc7a83eb5713fd5eb52cfab8c7fad",
+            "hash_atual": "5e1bcc98fd3de106cabc6d58b06633082bee81d3b39bddbb1148b45ad9c3c38f",
+            "tempo_desde_anterior": {
+                "segundos": 933.926612,
+                "texto": "15 minutos e 33 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 933.926612,
+                "texto": "15 minutos e 33 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -57,
+            "titulo": "Perdeu 57 seguidores",
+            "descricao": "Os seguidores caíram de 54.444.267 para 54.444.210",
+            "variacao_texto": "-57 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T14:38:35.240613",
+            "timestamp_anterior": "2026-08-28T10:30:48.791602",
+            "timestamp_atual": "2026-08-28T14:38:35.240613",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFvnbmv&_nc_oc=AdrRltsYNlbh0TfSOlNLPIdsCD1vi4Kuj5omTdfEO_QhgC4mT0mKwZFhJ452n2FuzkvlXQFNZ3Jp8qSlGx0DWmFi&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=hvQfWvUFXjxvpVknstT8JQ&_nc_ss=70689&oh=00_AQHaO1lPMk6kGnzEdpjRg7_Fw5niGgZBvT1T9IV3uQLvIg&oe=6A9784AA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54444210,
+            "valor_atual": 54442857,
+            "hash_anterior": "5e1bcc98fd3de106cabc6d58b06633082bee81d3b39bddbb1148b45ad9c3c38f",
+            "hash_atual": "54a4ef646852d6fa43bd6aef5f831cc5f6832bbdd06199919e3913e696c45e23",
+            "tempo_desde_anterior": {
+                "segundos": 14866.449011,
+                "texto": "4 horas e 7 minutos e 46 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 14866.449011,
+                "texto": "4 horas e 7 minutos e 46 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1353,
+            "titulo": "Perdeu 1.353 seguidores",
+            "descricao": "Os seguidores caíram de 54.444.210 para 54.442.857",
+            "variacao_texto": "-1.353 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T15:40:56.787796",
+            "timestamp_anterior": "2026-08-28T14:38:35.240613",
+            "timestamp_atual": "2026-08-28T15:40:56.787796",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFvnbmv&_nc_oc=AdrRltsYNlbh0TfSOlNLPIdsCD1vi4Kuj5omTdfEO_QhgC4mT0mKwZFhJ452n2FuzkvlXQFNZ3Jp8qSlGx0DWmFi&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=k5FR2tmTZGpb5Pd_Kn7rQg&_nc_ss=70689&oh=00_AQHAgGdPQgqVoX56f-zi38znmOstG884kFvYlAWDMhgWGw&oe=6A97BCEA"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54442857,
+            "valor_atual": 54442602,
+            "hash_anterior": "54a4ef646852d6fa43bd6aef5f831cc5f6832bbdd06199919e3913e696c45e23",
+            "hash_atual": "aa839a8fd09dd6cd2796943fea38702774d010e7e20e253004e40fb78919cf1e",
+            "tempo_desde_anterior": {
+                "segundos": 3741.547183,
+                "texto": "1 hora e 2 minutos e 21 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3741.547183,
+                "texto": "1 hora e 2 minutos e 21 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -255,
+            "titulo": "Perdeu 255 seguidores",
+            "descricao": "Os seguidores caíram de 54.442.857 para 54.442.602",
+            "variacao_texto": "-255 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:13:23.131770",
+            "timestamp_anterior": "2026-08-28T15:40:56.787796",
+            "timestamp_atual": "2026-08-28T19:13:23.131770",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwFvnbmv&_nc_oc=AdrRltsYNlbh0TfSOlNLPIdsCD1vi4Kuj5omTdfEO_QhgC4mT0mKwZFhJ452n2FuzkvlXQFNZ3Jp8qSlGx0DWmFi&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=s_VUpc2DoltAbQOZfyp_Aw&_nc_ss=70689&oh=00_AQLvG3Jiixmq6XuO0t5jxrG5VfmFRQXOCRNXE0pyn4fJHw&oe=6A97F52A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54442602,
+            "valor_atual": 54441647,
+            "hash_anterior": "aa839a8fd09dd6cd2796943fea38702774d010e7e20e253004e40fb78919cf1e",
+            "hash_atual": "a9403e35d8fac788c4ff4f5448a6becbc3c94a98cf5aa8b9f9b1ba27a54d6193",
+            "tempo_desde_anterior": {
+                "segundos": 12746.343974,
+                "texto": "3 horas e 32 minutos e 26 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 12746.343974,
+                "texto": "3 horas e 32 minutos e 26 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -955,
+            "titulo": "Perdeu 955 seguidores",
+            "descricao": "Os seguidores caíram de 54.442.602 para 54.441.647",
+            "variacao_texto": "-955 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T23:01:29.253399",
+            "timestamp_anterior": "2026-08-28T19:13:23.131770",
+            "timestamp_atual": "2026-08-28T23:01:29.253399",
+            "usuario": {
+                "pk": 284920884,
+                "id": "17841401706524451",
+                "username": "whinderssonnunes",
+                "nome": "Whindersson Nunes",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwH_Zl8Q&_nc_oc=Adqa3vdZ9KbwQXsZGc8HRNbdA1NRHkY8sGHJo5bTEYaGg0v8TpEhLVeC5v7dA1wcRlW7pnecxi2Vkzh90jbTjgWo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=lJM__3Y34dczAN_8-4OndQ&_nc_ss=70689&oh=00_AQJI0421L8F2Jh3PntP2LURmXbnbGRl9oyD8oOqAuMx_Qw&oe=6A97F52A"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 54441647,
+            "valor_atual": 54440867,
+            "hash_anterior": "a9403e35d8fac788c4ff4f5448a6becbc3c94a98cf5aa8b9f9b1ba27a54d6193",
+            "hash_atual": "25201bf085a8e2ca717ecfd557da26d34a28ce96cc1710578830f7cb8d19dd12",
+            "tempo_desde_anterior": {
+                "segundos": 13686.121629,
+                "texto": "3 horas e 48 minutos e 6 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13686.121629,
+                "texto": "3 horas e 48 minutos e 6 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -780,
+            "titulo": "Perdeu 780 seguidores",
+            "descricao": "Os seguidores caíram de 54.441.647 para 54.440.867",
+            "variacao_texto": "-780 seguidores"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 284920884,
+            "id": "17841401706524451",
+            "username": "whinderssonnunes",
+            "nome": "Whindersson Nunes"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 54448770,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54448770,
+                "valor_atual": 54447721,
+                "variacao": -1049,
+                "direcao": "reducao",
+                "descricao": "-1049 seguidores",
+                "timestamp": "2026-08-27T06:32:10.715185",
+                "timestamp_anterior": "2026-08-27T00:23:01.623410",
+                "tempo_desde_anterior_segundos": 22149
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447721,
+                "valor_atual": 54447559,
+                "variacao": -162,
+                "direcao": "reducao",
+                "descricao": "-162 seguidores",
+                "timestamp": "2026-08-27T07:05:15.284887",
+                "timestamp_anterior": "2026-08-27T06:32:10.715185",
+                "tempo_desde_anterior_segundos": 1984
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447559,
+                "valor_atual": 54447507,
+                "variacao": -52,
+                "direcao": "reducao",
+                "descricao": "-52 seguidores",
+                "timestamp": "2026-08-27T07:35:03.575467",
+                "timestamp_anterior": "2026-08-27T07:05:15.284887",
+                "tempo_desde_anterior_segundos": 1788
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447507,
+                "valor_atual": 54447465,
+                "variacao": -42,
+                "direcao": "reducao",
+                "descricao": "-42 seguidores",
+                "timestamp": "2026-08-27T08:07:43.594004",
+                "timestamp_anterior": "2026-08-27T07:35:03.575467",
+                "tempo_desde_anterior_segundos": 1960
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447465,
+                "valor_atual": 54447448,
+                "variacao": -17,
+                "direcao": "reducao",
+                "descricao": "-17 seguidores",
+                "timestamp": "2026-08-27T08:18:17.766486",
+                "timestamp_anterior": "2026-08-27T08:07:43.594004",
+                "tempo_desde_anterior_segundos": 634
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447448,
+                "valor_atual": 54447443,
+                "variacao": -5,
+                "direcao": "reducao",
+                "descricao": "-5 seguidores",
+                "timestamp": "2026-08-27T08:20:02.661899",
+                "timestamp_anterior": "2026-08-27T08:18:17.766486",
+                "tempo_desde_anterior_segundos": 104
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447443,
+                "valor_atual": 54447447,
+                "variacao": 4,
+                "direcao": "aumento",
+                "descricao": "+4 seguidores",
+                "timestamp": "2026-08-27T08:26:46.123969",
+                "timestamp_anterior": "2026-08-27T08:20:02.661899",
+                "tempo_desde_anterior_segundos": 403
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447447,
+                "valor_atual": 54447421,
+                "variacao": -26,
+                "direcao": "reducao",
+                "descricao": "-26 seguidores",
+                "timestamp": "2026-08-27T08:37:21.187138",
+                "timestamp_anterior": "2026-08-27T08:26:46.123969",
+                "tempo_desde_anterior_segundos": 635
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447421,
+                "valor_atual": 54447206,
+                "variacao": -215,
+                "direcao": "reducao",
+                "descricao": "-215 seguidores",
+                "timestamp": "2026-08-27T10:10:10.815770",
+                "timestamp_anterior": "2026-08-27T08:37:21.187138",
+                "tempo_desde_anterior_segundos": 5569
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447206,
+                "valor_atual": 54447105,
+                "variacao": -101,
+                "direcao": "reducao",
+                "descricao": "-101 seguidores",
+                "timestamp": "2026-08-27T10:52:57.535888",
+                "timestamp_anterior": "2026-08-27T10:10:10.815770",
+                "tempo_desde_anterior_segundos": 2566
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447105,
+                "valor_atual": 54447035,
+                "variacao": -70,
+                "direcao": "reducao",
+                "descricao": "-70 seguidores",
+                "timestamp": "2026-08-27T11:19:12.372087",
+                "timestamp_anterior": "2026-08-27T10:52:57.535888",
+                "tempo_desde_anterior_segundos": 1574
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447035,
+                "valor_atual": 54447191,
+                "variacao": 156,
+                "direcao": "aumento",
+                "descricao": "+156 seguidores",
+                "timestamp": "2026-08-27T18:26:47.774151",
+                "timestamp_anterior": "2026-08-27T11:19:12.372087",
+                "tempo_desde_anterior_segundos": 25655
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447191,
+                "valor_atual": 54447119,
+                "variacao": -72,
+                "direcao": "reducao",
+                "descricao": "-72 seguidores",
+                "timestamp": "2026-08-27T18:56:53.014445",
+                "timestamp_anterior": "2026-08-27T18:26:47.774151",
+                "tempo_desde_anterior_segundos": 1805
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54447119,
+                "valor_atual": 54446410,
+                "variacao": -709,
+                "direcao": "reducao",
+                "descricao": "-709 seguidores",
+                "timestamp": "2026-08-27T22:37:25.691120",
+                "timestamp_anterior": "2026-08-27T18:56:53.014445",
+                "tempo_desde_anterior_segundos": 13232
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54446410,
+                "valor_atual": 54446350,
+                "variacao": -60,
+                "direcao": "reducao",
+                "descricao": "-60 seguidores",
+                "timestamp": "2026-08-27T22:59:00.211996",
+                "timestamp_anterior": "2026-08-27T22:37:25.691120",
+                "tempo_desde_anterior_segundos": 1294
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54446350,
+                "valor_atual": 54444465,
+                "variacao": -1885,
+                "direcao": "reducao",
+                "descricao": "-1885 seguidores",
+                "timestamp": "2026-08-28T09:14:53.644031",
+                "timestamp_anterior": "2026-08-27T22:59:00.211996",
+                "tempo_desde_anterior_segundos": 36953
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54444465,
+                "valor_atual": 54444267,
+                "variacao": -198,
+                "direcao": "reducao",
+                "descricao": "-198 seguidores",
+                "timestamp": "2026-08-28T10:15:14.864990",
+                "timestamp_anterior": "2026-08-28T09:14:53.644031",
+                "tempo_desde_anterior_segundos": 3621
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54444267,
+                "valor_atual": 54444210,
+                "variacao": -57,
+                "direcao": "reducao",
+                "descricao": "-57 seguidores",
+                "timestamp": "2026-08-28T10:30:48.791602",
+                "timestamp_anterior": "2026-08-28T10:15:14.864990",
+                "tempo_desde_anterior_segundos": 933
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54444210,
+                "valor_atual": 54442857,
+                "variacao": -1353,
+                "direcao": "reducao",
+                "descricao": "-1353 seguidores",
+                "timestamp": "2026-08-28T14:38:35.240613",
+                "timestamp_anterior": "2026-08-28T10:30:48.791602",
+                "tempo_desde_anterior_segundos": 14866
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54442857,
+                "valor_atual": 54442602,
+                "variacao": -255,
+                "direcao": "reducao",
+                "descricao": "-255 seguidores",
+                "timestamp": "2026-08-28T15:40:56.787796",
+                "timestamp_anterior": "2026-08-28T14:38:35.240613",
+                "tempo_desde_anterior_segundos": 3741
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54442602,
+                "valor_atual": 54441647,
+                "variacao": -955,
+                "direcao": "reducao",
+                "descricao": "-955 seguidores",
+                "timestamp": "2026-08-28T19:13:23.131770",
+                "timestamp_anterior": "2026-08-28T15:40:56.787796",
+                "tempo_desde_anterior_segundos": 12746
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 54441647,
+                "valor_atual": 54440867,
+                "variacao": -780,
+                "direcao": "reducao",
+                "descricao": "-780 seguidores",
+                "timestamp": "2026-08-28T23:01:29.253399",
+                "timestamp_anterior": "2026-08-28T19:13:23.131770",
+                "tempo_desde_anterior_segundos": 13686
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 2864,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 856,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 2,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "GRAVAÇÃO ESPECIAL 🎤",
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": true,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://link.whindersson.nonstop.com.br/Especial-Cadastro"
+                    },
+                    {
+                        "url": "https://link.whindersson.nonstop.com.br/agenda"
+                    },
+                    {
+                        "url": "http://www.whincbd.com.br"
+                    },
+                    {
+                        "url": "http://diaumtododia.com.br"
+                    },
+                    {
+                        "url": "https://onlyfans.com/1933159995/whinderssonnunes"
+                    }
+                ],
+                "timestamp": "2026-08-27T00:23:01.623410",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1543 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-27T06:31:20.973782",
+            "timestamp_anterior": "2026-08-27T00:22:09.839307",
+            "timestamp_atual": "2026-08-27T06:31:20.973782",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4_o7NCJx1NjiAo79HjWMVw&_nc_ss=70689&oh=00_AQGxLADq6R1RB48IN7Sjk6wYI9YRzXAARUkjPGLBdJ1osg&oe=6A95C6A1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61090264,
+            "valor_atual": 61089148,
+            "hash_anterior": "93b6f5a2e0227ebd8ad53b27655a38e36e1ac4e0c2ec321a974a5a7fac0242bb",
+            "hash_atual": "7ec7c4db5c2bd844f911af68cd1743544e5657d2c483916a3fee02b7623d245b",
+            "tempo_desde_anterior": {
+                "segundos": 22151.134475,
+                "texto": "6 horas e 9 minutos e 11 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": -1116,
+            "titulo": "Perdeu 1.116 seguidores",
+            "descricao": "Os seguidores caíram de 61.090.264 para 61.089.148",
+            "variacao_texto": "-1.116 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:04:17.539313",
+            "timestamp_anterior": "2026-08-27T06:31:20.973782",
+            "timestamp_atual": "2026-08-27T07:04:17.539313",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=JgLL-BspnnG08W9nznd0WA&_nc_ss=70689&oh=00_AQGAeHzcKNNbiT4K1D1EzROk1_y369uEWprMPCGrKjGd9Q&oe=6A95C6A1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61089148,
+            "valor_atual": 61088904,
+            "hash_anterior": "7ec7c4db5c2bd844f911af68cd1743544e5657d2c483916a3fee02b7623d245b",
+            "hash_atual": "103bc833a33a0b2a6f98cbabf1f43ad0e03fc3e733de7dc38fd8f8e324dd026d",
+            "tempo_desde_anterior": {
+                "segundos": 1976.565531,
+                "texto": "32 minutos e 56 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1976.565531,
+                "texto": "32 minutos e 56 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -244,
+            "titulo": "Perdeu 244 seguidores",
+            "descricao": "Os seguidores caíram de 61.089.148 para 61.088.904",
+            "variacao_texto": "-244 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:34:05.703796",
+            "timestamp_anterior": "2026-08-27T07:04:17.539313",
+            "timestamp_atual": "2026-08-27T07:34:05.703796",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=96kqJyR_0fF5Fz2gL3WUxg&_nc_ss=70689&oh=00_AQFA3UVTvdQ1yWYAsL5iFFnQ8t9Kvdye19h87Z0ugewhHQ&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088904,
+            "valor_atual": 61088862,
+            "hash_anterior": "103bc833a33a0b2a6f98cbabf1f43ad0e03fc3e733de7dc38fd8f8e324dd026d",
+            "hash_atual": "6ca726273ff104a3fea9e9207b9a3005281d61aa2075614f7165b360889833f7",
+            "tempo_desde_anterior": {
+                "segundos": 1788.164483,
+                "texto": "29 minutos e 48 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1788.164483,
+                "texto": "29 minutos e 48 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -42,
+            "titulo": "Perdeu 42 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.904 para 61.088.862",
+            "variacao_texto": "-42 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:06:58.024661",
+            "timestamp_anterior": "2026-08-27T07:34:05.703796",
+            "timestamp_atual": "2026-08-27T08:06:58.024661",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=gAdZIeOeoUNDMuV_udhp5w&_nc_ss=70689&oh=00_AQHGOJTmxyoOGxKNTo8Ld4cdAzMQ8FswaNrOG1mGwaNdwA&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088862,
+            "valor_atual": 61088863,
+            "hash_anterior": "6ca726273ff104a3fea9e9207b9a3005281d61aa2075614f7165b360889833f7",
+            "hash_atual": "170bb5ad0da57d86732fcd09f6a16bab0ff230269f6fb1eccd73d6a615c5b419",
+            "tempo_desde_anterior": {
+                "segundos": 1972.320865,
+                "texto": "32 minutos e 52 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1972.320865,
+                "texto": "32 minutos e 52 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Ganhou 1 seguidor",
+            "descricao": "Os seguidores passaram de 61.088.862 para 61.088.863",
+            "variacao_texto": "+1 seguidor"
+        },
+        {
+            "timestamp": "2026-08-27T08:17:32.992883",
+            "timestamp_anterior": "2026-08-27T08:06:58.024661",
+            "timestamp_atual": "2026-08-27T08:17:32.992883",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yBK0sbgRjSYvny-CoAGnzA&_nc_ss=70689&oh=00_AQFW2V9wY-9I8dQkwzrNY5d-mJrfq5huDWrpVR5Dr8_sbg&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088863,
+            "valor_atual": 61088855,
+            "hash_anterior": "170bb5ad0da57d86732fcd09f6a16bab0ff230269f6fb1eccd73d6a615c5b419",
+            "hash_atual": "4ceaa78d6732a62856d8afa86a42cc2b7a9cb388b3c22910aa07333804590e07",
+            "tempo_desde_anterior": {
+                "segundos": 634.968222,
+                "texto": "10 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 634.968222,
+                "texto": "10 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -8,
+            "titulo": "Perdeu 8 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.863 para 61.088.855",
+            "variacao_texto": "-8 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:19:17.053578",
+            "timestamp_anterior": "2026-08-27T08:17:32.992883",
+            "timestamp_atual": "2026-08-27T08:19:17.053578",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LI3tcEvZUYN6ccQ6k-MJkQ&_nc_ss=70689&oh=00_AQEtKsYnNh6aaLHoybBhxVUr-1V_NeP_a3hK22iQaTcZqg&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088855,
+            "valor_atual": 61088857,
+            "hash_anterior": "4ceaa78d6732a62856d8afa86a42cc2b7a9cb388b3c22910aa07333804590e07",
+            "hash_atual": "b7e8eda1ff8dab299cf3a52bfdc697e82806d5292c367c29741895133482cf00",
+            "tempo_desde_anterior": {
+                "segundos": 104.060695,
+                "texto": "1 minuto e 44 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 104.060695,
+                "texto": "1 minuto e 44 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 2,
+            "titulo": "Ganhou 2 seguidores",
+            "descricao": "Os seguidores passaram de 61.088.855 para 61.088.857",
+            "variacao_texto": "+2 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:26:01.483984",
+            "timestamp_anterior": "2026-08-27T08:19:17.053578",
+            "timestamp_atual": "2026-08-27T08:26:01.483984",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=WhL3t5WUciNi6TzEBFRg7w&_nc_ss=70689&oh=00_AQHrad6TDKaQ6pXcHsC3v8_nAXCeIW9CZlRcQ1YSomNa0A&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088857,
+            "valor_atual": 61088856,
+            "hash_anterior": "b7e8eda1ff8dab299cf3a52bfdc697e82806d5292c367c29741895133482cf00",
+            "hash_atual": "2eaa0a930bde30a1132fdeda92bda3bf09eec2b2d2c214ce3b39dd8ab8e59da3",
+            "tempo_desde_anterior": {
+                "segundos": 404.430406,
+                "texto": "6 minutos e 44 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 404.430406,
+                "texto": "6 minutos e 44 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1,
+            "titulo": "Perdeu 1 seguidor",
+            "descricao": "Os seguidores caíram de 61.088.857 para 61.088.856",
+            "variacao_texto": "-1 seguidor"
+        },
+        {
+            "timestamp": "2026-08-27T08:36:28.430379",
+            "timestamp_anterior": "2026-08-27T08:26:01.483984",
+            "timestamp_atual": "2026-08-27T08:36:28.430379",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=-JZKSekI43XWUdDlzzelug&_nc_ss=70689&oh=00_AQHXHrlzKA8PHCWwCL6CeL7whUUUILp5RKDh7pE3xC2_8g&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088856,
+            "valor_atual": 61088837,
+            "hash_anterior": "2eaa0a930bde30a1132fdeda92bda3bf09eec2b2d2c214ce3b39dd8ab8e59da3",
+            "hash_atual": "a2e61f13041416f9d8d980c50d288a93921655ba98184da96be825941a74ca6c",
+            "tempo_desde_anterior": {
+                "segundos": 626.946395,
+                "texto": "10 minutos e 26 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 626.946395,
+                "texto": "10 minutos e 26 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -19,
+            "titulo": "Perdeu 19 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.856 para 61.088.837",
+            "variacao_texto": "-19 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:09:16.960586",
+            "timestamp_anterior": "2026-08-27T08:36:28.430379",
+            "timestamp_atual": "2026-08-27T10:09:16.960586",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yOkrL-l-vggOz3VpT_WfHA&_nc_ss=70689&oh=00_AQGjUtL5Z27fLrQ-2LZXHOC7ZfwVmysQyKltn5nnnHePRg&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088837,
+            "valor_atual": 61088670,
+            "hash_anterior": "a2e61f13041416f9d8d980c50d288a93921655ba98184da96be825941a74ca6c",
+            "hash_atual": "b104d6e047c677b02d6624f99f0cbc462da630a3c6415c3650f9f12139ac3e64",
+            "tempo_desde_anterior": {
+                "segundos": 5568.530207,
+                "texto": "1 hora e 32 minutos e 48 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 5568.530207,
+                "texto": "1 hora e 32 minutos e 48 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -167,
+            "titulo": "Perdeu 167 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.837 para 61.088.670",
+            "variacao_texto": "-167 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:52:06.545934",
+            "timestamp_anterior": "2026-08-27T10:09:16.960586",
+            "timestamp_atual": "2026-08-27T10:52:06.545934",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF5bSre&_nc_oc=AdoSi_BpRWnk1bhVESJKvD-sRuTdHpoaJeH0tfuU64O7M7Afpcfcp28KJqDjR2GjIwRTotn6C92cAqstxkVaeihG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=zBIY_wTWhE3UxjbQ1da13A&_nc_ss=70689&oh=00_AQEtTQwdWUlLAdb8PA_ZlnZTTG91eJjV_8IJ4AMj9y2ekg&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088670,
+            "valor_atual": 61088625,
+            "hash_anterior": "b104d6e047c677b02d6624f99f0cbc462da630a3c6415c3650f9f12139ac3e64",
+            "hash_atual": "11d88477f3f25ba32a40ed0e30e6e5bc932722ad0eb2b83a703470d84bf07940",
+            "tempo_desde_anterior": {
+                "segundos": 2569.585348,
+                "texto": "42 minutos e 49 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 2569.585348,
+                "texto": "42 minutos e 49 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -45,
+            "titulo": "Perdeu 45 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.670 para 61.088.625",
+            "variacao_texto": "-45 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:18:20.656778",
+            "timestamp_anterior": "2026-08-27T10:52:06.545934",
+            "timestamp_atual": "2026-08-27T11:18:20.656778",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=1ipy2kJmI3chPv-r-yXJIg&_nc_ss=70689&oh=00_AQFjUwrA3eo26D_Lpgiz2ilh0apUwImGQ3a1XWJ_6W38OA&oe=6A95FEE1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088625,
+            "valor_atual": 61088565,
+            "hash_anterior": "11d88477f3f25ba32a40ed0e30e6e5bc932722ad0eb2b83a703470d84bf07940",
+            "hash_atual": "f0847520e187eff8ce5aeb30c0cfb3d25acbdf56279c77e5a96e5e092b404456",
+            "tempo_desde_anterior": {
+                "segundos": 1574.110844,
+                "texto": "26 minutos e 14 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1574.110844,
+                "texto": "26 minutos e 14 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -60,
+            "titulo": "Perdeu 60 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.625 para 61.088.565",
+            "variacao_texto": "-60 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:25:57.970960",
+            "timestamp_anterior": "2026-08-27T11:18:20.656778",
+            "timestamp_atual": "2026-08-27T18:25:57.970960",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=0LAEWybTKHQQn7K4kQqj6w&_nc_ss=70689&oh=00_AQFiwf2yvc5t8SFrAzz-o33A1N2Ir2IV9YIrUSLhqbKoAQ&oe=6A966F61"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088565,
+            "valor_atual": 61089895,
+            "hash_anterior": "f0847520e187eff8ce5aeb30c0cfb3d25acbdf56279c77e5a96e5e092b404456",
+            "hash_atual": "f943d77ab37d6155e459afdece641b96fb57ac6d6ee2e5b7bc0bf8100a00f851",
+            "tempo_desde_anterior": {
+                "segundos": 25657.314182,
+                "texto": "7 horas e 7 minutos e 37 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 25657.314182,
+                "texto": "7 horas e 7 minutos e 37 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1330,
+            "titulo": "Ganhou 1.330 seguidores",
+            "descricao": "Os seguidores passaram de 61.088.565 para 61.089.895",
+            "variacao_texto": "+1.330 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:25:57.970960",
+            "timestamp_anterior": "2026-08-27T11:18:20.656778",
+            "timestamp_atual": "2026-08-27T18:25:57.970960",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=0LAEWybTKHQQn7K4kQqj6w&_nc_ss=70689&oh=00_AQFiwf2yvc5t8SFrAzz-o33A1N2Ir2IV9YIrUSLhqbKoAQ&oe=6A966F61"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 651,
+            "valor_atual": 653,
+            "hash_anterior": "f0847520e187eff8ce5aeb30c0cfb3d25acbdf56279c77e5a96e5e092b404456",
+            "hash_atual": "f943d77ab37d6155e459afdece641b96fb57ac6d6ee2e5b7bc0bf8100a00f851",
+            "tempo_desde_anterior": {
+                "segundos": 25657.314182,
+                "texto": "7 horas e 7 minutos e 37 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 2,
+            "titulo": "Publicou 2 posts",
+            "descricao": "O total de posts passou de 651 para 653",
+            "variacao_texto": "+2 posts"
+        },
+        {
+            "timestamp": "2026-08-27T18:56:00.149140",
+            "timestamp_anterior": "2026-08-27T18:25:57.970960",
+            "timestamp_atual": "2026-08-27T18:56:00.149140",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4fQ4pTGru0hPmM_mEpYWww&_nc_ss=70689&oh=00_AQEHsZ2Viqecq5gHvbaJtMrOE4L4a4Wo3cEvcqbOIVKC1w&oe=6A966F61"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61089895,
+            "valor_atual": 61089896,
+            "hash_anterior": "f943d77ab37d6155e459afdece641b96fb57ac6d6ee2e5b7bc0bf8100a00f851",
+            "hash_atual": "bc2839581d43fcc044e860434ec85add198d96033648d365920fce6e322e9633",
+            "tempo_desde_anterior": {
+                "segundos": 1802.17818,
+                "texto": "30 minutos e 2 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1802.17818,
+                "texto": "30 minutos e 2 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Ganhou 1 seguidor",
+            "descricao": "Os seguidores passaram de 61.089.895 para 61.089.896",
+            "variacao_texto": "+1 seguidor"
+        },
+        {
+            "timestamp": "2026-08-27T22:36:38.014594",
+            "timestamp_anterior": "2026-08-27T18:56:00.149140",
+            "timestamp_atual": "2026-08-27T22:36:38.014594",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=DG_d4ktuG1AFsApuIDbxhA&_nc_ss=70689&oh=00_AQFgkAq5FEyNKGXR8nHrh03RFfeLl7aFmADDX9V90MhG4A&oe=6A96A7A1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61089896,
+            "valor_atual": 61089905,
+            "hash_anterior": "bc2839581d43fcc044e860434ec85add198d96033648d365920fce6e322e9633",
+            "hash_atual": "0003006dd12f6994cf04ca722b51c797b2b57dfcac68ec6ae78ba747d3cad003",
+            "tempo_desde_anterior": {
+                "segundos": 13237.865454,
+                "texto": "3 horas e 40 minutos e 37 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13237.865454,
+                "texto": "3 horas e 40 minutos e 37 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 9,
+            "titulo": "Ganhou 9 seguidores",
+            "descricao": "Os seguidores passaram de 61.089.896 para 61.089.905",
+            "variacao_texto": "+9 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:58:07.192636",
+            "timestamp_anterior": "2026-08-27T22:36:38.014594",
+            "timestamp_atual": "2026-08-27T22:58:07.192636",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LDKza8LrVrakrR5NTdWleA&_nc_ss=70689&oh=00_AQHUWp0DfPgfqh1rjKjFhOcnLZyXkPvYlS2WDq7Nwwzpsw&oe=6A96A7A1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61089905,
+            "valor_atual": 61089889,
+            "hash_anterior": "0003006dd12f6994cf04ca722b51c797b2b57dfcac68ec6ae78ba747d3cad003",
+            "hash_atual": "60d2cf0911720cfe0a64469dee58501a92ea3edae62afd3b488436576447b439",
+            "tempo_desde_anterior": {
+                "segundos": 1289.178042,
+                "texto": "21 minutos e 29 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1289.178042,
+                "texto": "21 minutos e 29 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -16,
+            "titulo": "Perdeu 16 seguidores",
+            "descricao": "Os seguidores caíram de 61.089.905 para 61.089.889",
+            "variacao_texto": "-16 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T09:14:02.072400",
+            "timestamp_anterior": "2026-08-27T22:58:07.192636",
+            "timestamp_atual": "2026-08-28T09:14:02.072400",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kGU3IhlvdWf2ItqM0rr5yw&_nc_ss=70689&oh=00_AQGkraY8SUFRC7t8aCIIz-fyGpxmKoydtFANFWKGu4DI7A&oe=6A975061"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61089889,
+            "valor_atual": 61087991,
+            "hash_anterior": "60d2cf0911720cfe0a64469dee58501a92ea3edae62afd3b488436576447b439",
+            "hash_atual": "f93160bb31240d64e005881300043d2f38ad1f7be8ecf5c88090e88e421542bc",
+            "tempo_desde_anterior": {
+                "segundos": 36954.879764,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 36954.879764,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1898,
+            "titulo": "Perdeu 1.898 seguidores",
+            "descricao": "Os seguidores caíram de 61.089.889 para 61.087.991",
+            "variacao_texto": "-1.898 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:14:29.273714",
+            "timestamp_anterior": "2026-08-28T09:14:02.072400",
+            "timestamp_atual": "2026-08-28T10:14:29.273714",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=aMElfpkQd6mV0_A96BjJDQ&_nc_ss=70689&oh=00_AQGbVJvp-MNj64YzIikDDC5bDphSzOpoxKyrb-nvrs0NyA&oe=6A975061"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61087991,
+            "valor_atual": 61088025,
+            "hash_anterior": "f93160bb31240d64e005881300043d2f38ad1f7be8ecf5c88090e88e421542bc",
+            "hash_atual": "4dae32040f14007979e0967f65b574cc9be63b396efbecf589711814be89caaa",
+            "tempo_desde_anterior": {
+                "segundos": 3627.201314,
+                "texto": "1 hora e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3627.201314,
+                "texto": "1 hora e 27 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 34,
+            "titulo": "Ganhou 34 seguidores",
+            "descricao": "Os seguidores passaram de 61.087.991 para 61.088.025",
+            "variacao_texto": "+34 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:30:06.995079",
+            "timestamp_anterior": "2026-08-28T10:14:29.273714",
+            "timestamp_atual": "2026-08-28T10:30:06.995079",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwF45Ca1&_nc_oc=AdrvBVOEV5VWYVJ1UGi5JGF6NtSDqLRVjWxXEXL6iv9hqKTEGS_k1GkfgQsP5hVghSXSAKp0PkuVQBr3v2g1g4xV&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=PDKnTdiY_Mf09yRwYPPcrg&_nc_ss=70689&oh=00_AQFv29KOUGxXIPG9ArpDzyPZgT3qZxgNv93F_5geCG7bcg&oe=6A975061"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088025,
+            "valor_atual": 61087992,
+            "hash_anterior": "4dae32040f14007979e0967f65b574cc9be63b396efbecf589711814be89caaa",
+            "hash_atual": "d7a09461445abcbb9ad1e2e59a897d53c6d84ddb0bb6e74c06b45d16a4538c3a",
+            "tempo_desde_anterior": {
+                "segundos": 937.721365,
+                "texto": "15 minutos e 37 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 937.721365,
+                "texto": "15 minutos e 37 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -33,
+            "titulo": "Perdeu 33 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.025 para 61.087.992",
+            "variacao_texto": "-33 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T14:37:39.879501",
+            "timestamp_anterior": "2026-08-28T10:30:06.995079",
+            "timestamp_atual": "2026-08-28T14:37:39.879501",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwHUIEkY&_nc_oc=Adqsm7XrGWtqcj6Z6pPhz9GAEtHgWxqX-_UXHXKKkfd-kZIEJsPC-6jI_cCSBtD6htdLVnqpCpo970omF6XFKR3C&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=h7_GjasO-SMwH8ZUCk9Ywg&_nc_ss=70689&oh=00_AQHCF1e2f4jaxUEU2Rn1ftToUO2Ae3_sN5VtKTm-hROekw&oe=6A9788A1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61087992,
+            "valor_atual": 61088181,
+            "hash_anterior": "d7a09461445abcbb9ad1e2e59a897d53c6d84ddb0bb6e74c06b45d16a4538c3a",
+            "hash_atual": "2562c4d3390d6670ac4ed67e303f88231e5f7e55b642d1e0a1052a78c6c68aaf",
+            "tempo_desde_anterior": {
+                "segundos": 14852.884422,
+                "texto": "4 horas e 7 minutos e 32 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 14852.884422,
+                "texto": "4 horas e 7 minutos e 32 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 189,
+            "titulo": "Ganhou 189 seguidores",
+            "descricao": "Os seguidores passaram de 61.087.992 para 61.088.181",
+            "variacao_texto": "+189 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T15:40:07.087511",
+            "timestamp_anterior": "2026-08-28T14:37:39.879501",
+            "timestamp_atual": "2026-08-28T15:40:07.087511",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwHUIEkY&_nc_oc=Adqsm7XrGWtqcj6Z6pPhz9GAEtHgWxqX-_UXHXKKkfd-kZIEJsPC-6jI_cCSBtD6htdLVnqpCpo970omF6XFKR3C&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yVsyQT0plW1BvJtPTovmqw&_nc_ss=70689&oh=00_AQFv2TChMFAo-Q4YYcsPTw5eWJ1yh074I420DRpcYmWuOA&oe=6A97C0E1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088181,
+            "valor_atual": 61088224,
+            "hash_anterior": "2562c4d3390d6670ac4ed67e303f88231e5f7e55b642d1e0a1052a78c6c68aaf",
+            "hash_atual": "a76cf9017ebf756fd1aeed1e3c116ab52705c6111ea6d1b70e80170aa304f9f3",
+            "tempo_desde_anterior": {
+                "segundos": 3747.20801,
+                "texto": "1 hora e 2 minutos e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3747.20801,
+                "texto": "1 hora e 2 minutos e 27 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 43,
+            "titulo": "Ganhou 43 seguidores",
+            "descricao": "Os seguidores passaram de 61.088.181 para 61.088.224",
+            "variacao_texto": "+43 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:12:37.307657",
+            "timestamp_anterior": "2026-08-28T15:40:07.087511",
+            "timestamp_atual": "2026-08-28T19:12:37.307657",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwEK43AL&_nc_oc=AdojePFMHwKgeAnWdLwhhA93WrVbYqwLrTT25e15NgQhlWb1w1X9obQ8o9jJM28la1bCKMTCz64sraf4onzVqUlF&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=mAAEPgpPJWXGoZbH_Edy4Q&_nc_ss=70689&oh=00_AQL49gngZk7j4W88TFbd5mRn8pNClKXVaRaI-x_S1-PEvQ&oe=6A97C0E1"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088224,
+            "valor_atual": 61087963,
+            "hash_anterior": "a76cf9017ebf756fd1aeed1e3c116ab52705c6111ea6d1b70e80170aa304f9f3",
+            "hash_atual": "12600d01578d2b77762b90b80bd5c24c5cac82adb3c044023facd240555b42ef",
+            "tempo_desde_anterior": {
+                "segundos": 12750.220146,
+                "texto": "3 horas e 32 minutos e 30 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 12750.220146,
+                "texto": "3 horas e 32 minutos e 30 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -261,
+            "titulo": "Perdeu 261 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.224 para 61.087.963",
+            "variacao_texto": "-261 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T23:00:34.330320",
+            "timestamp_anterior": "2026-08-28T19:12:37.307657",
+            "timestamp_atual": "2026-08-28T23:00:34.330320",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwG0froF&_nc_oc=Adp6C98Hq1VYxoKijVn-fo_QknzQDv39-uJXmIwnaTRi1dkF8f2ZPDGDJ12HaXhIaEMtk9M4qUe3yLqOBfFm7XcL&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=8fWqpjmnom8A9HZc0gR-AA&_nc_ss=70689&oh=00_AQJLe6Lz6V41NqF3GXELDrc-v1gW8cqFWu9abhMlMFnvIQ&oe=6A97F921"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61087963,
+            "valor_atual": 61088023,
+            "hash_anterior": "12600d01578d2b77762b90b80bd5c24c5cac82adb3c044023facd240555b42ef",
+            "hash_atual": "fb37823a1cd1be8fe66b9cb74ad207dd13751fe10c377db5e6953e0e28a55bc9",
+            "tempo_desde_anterior": {
+                "segundos": 13677.022663,
+                "texto": "3 horas e 47 minutos e 57 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13677.022663,
+                "texto": "3 horas e 47 minutos e 57 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 60,
+            "titulo": "Ganhou 60 seguidores",
+            "descricao": "Os seguidores passaram de 61.087.963 para 61.088.023",
+            "variacao_texto": "+60 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T11:51:52.319664",
+            "timestamp_anterior": "2026-08-28T23:00:34.330320",
+            "timestamp_atual": "2026-08-29T11:51:52.319664",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwGrdscx&_nc_oc=AdoV18P4eclKYNm0g7SKt0UpBg8ns_9sV48txtRxCH2Qc-vFZdHNIXA54QxKn98SvsRyiJa2ddLPmyQATYzhiP4Z&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=9GpibUfQTelWpU-VekMLfg&_nc_ss=70689&oh=00_AQKnV88rLhbKcZOOP6ax0mL4-WYifEX6oX8Q5p_jzG2v7A&oe=6A98DA21"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61088023,
+            "valor_atual": 61085779,
+            "hash_anterior": "fb37823a1cd1be8fe66b9cb74ad207dd13751fe10c377db5e6953e0e28a55bc9",
+            "hash_atual": "2077f305baa9241a9347832e4116885295f5cda18c245216141e52f8320abfd8",
+            "tempo_desde_anterior": {
+                "segundos": 46277.989344,
+                "texto": "12 horas e 51 minutos e 17 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 46277.989344,
+                "texto": "12 horas e 51 minutos e 17 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -2244,
+            "titulo": "Perdeu 2.244 seguidores",
+            "descricao": "Os seguidores caíram de 61.088.023 para 61.085.779",
+            "variacao_texto": "-2.244 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T12:54:27.154179",
+            "timestamp_anterior": "2026-08-29T11:51:52.319664",
+            "timestamp_atual": "2026-08-29T12:54:27.154179",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwGrdscx&_nc_oc=AdoV18P4eclKYNm0g7SKt0UpBg8ns_9sV48txtRxCH2Qc-vFZdHNIXA54QxKn98SvsRyiJa2ddLPmyQATYzhiP4Z&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=fxHdY4W-Ng-Aag5unwAAkw&_nc_ss=70689&oh=00_AQJTxkq_Nz0zqvJ5VYqpMh2BpExRB11D7ZeAhvVtSxE7jQ&oe=6A98DA21"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61085779,
+            "valor_atual": 61085811,
+            "hash_anterior": "2077f305baa9241a9347832e4116885295f5cda18c245216141e52f8320abfd8",
+            "hash_atual": "818d93123ebcae84aa87477a1f74dc8aace6f8689732b80246f0fbb275cc0710",
+            "tempo_desde_anterior": {
+                "segundos": 3754.834515,
+                "texto": "1 hora e 2 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3754.834515,
+                "texto": "1 hora e 2 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 32,
+            "titulo": "Ganhou 32 seguidores",
+            "descricao": "Os seguidores passaram de 61.085.779 para 61.085.811",
+            "variacao_texto": "+32 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T13:56:43.645027",
+            "timestamp_anterior": "2026-08-29T12:54:27.154179",
+            "timestamp_atual": "2026-08-29T13:56:43.645027",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwGrdscx&_nc_oc=AdoV18P4eclKYNm0g7SKt0UpBg8ns_9sV48txtRxCH2Qc-vFZdHNIXA54QxKn98SvsRyiJa2ddLPmyQATYzhiP4Z&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kwQYfHx562ZOO03wiFRMCw&_nc_ss=70689&oh=00_AQK2MaInl3ItopjlrxATSjizkeSolC2PzqDuVDT1WIg19w&oe=6A98DA21"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61085811,
+            "valor_atual": 61086638,
+            "hash_anterior": "818d93123ebcae84aa87477a1f74dc8aace6f8689732b80246f0fbb275cc0710",
+            "hash_atual": "33e6cdc501487785e68864dc814bfea1c29007bf56e5ec79dd211c827773c283",
+            "tempo_desde_anterior": {
+                "segundos": 3736.490848,
+                "texto": "1 hora e 2 minutos e 16 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3736.490848,
+                "texto": "1 hora e 2 minutos e 16 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 827,
+            "titulo": "Ganhou 827 seguidores",
+            "descricao": "Os seguidores passaram de 61.085.811 para 61.086.638",
+            "variacao_texto": "+827 seguidores"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:45.370713",
+            "timestamp_anterior": "2026-08-29T13:56:43.645027",
+            "timestamp_atual": "2026-08-31T11:57:45.370713",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwG-Dpio&_nc_oc=AdoDx9UkQCt4tYzW1kfLvUCZQmHFBXJSwnYXbs1rux75cP_CFQasbfPuLqqpIInkopEVwnE3968rVYE_TLbfMtpF&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LZaEucZJVHQRSqKdkcN_OQ&_nc_ss=70689&oh=00_AQKarfbIDL5MovcmQi-bWmkEVchfovjtWL6qq1sbJKNiiA&oe=6A9B7D21"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61086638,
+            "valor_atual": 61083317,
+            "hash_anterior": "33e6cdc501487785e68864dc814bfea1c29007bf56e5ec79dd211c827773c283",
+            "hash_atual": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "tempo_desde_anterior": {
+                "segundos": 165661.725686,
+                "texto": "1 dia e 22 horas e 1 minuto e 1 segundo"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 165661.725686,
+                "texto": "1 dia e 22 horas e 1 minuto e 1 segundo"
+            },
+            "categoria": "rede",
+            "variacao": -3321,
+            "titulo": "Perdeu 3.321 seguidores",
+            "descricao": "Os seguidores caíram de 61.086.638 para 61.083.317",
+            "variacao_texto": "-3.321 seguidores"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:45.370713",
+            "timestamp_anterior": "2026-08-29T13:56:43.645027",
+            "timestamp_atual": "2026-08-31T11:57:45.370713",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwG-Dpio&_nc_oc=AdoDx9UkQCt4tYzW1kfLvUCZQmHFBXJSwnYXbs1rux75cP_CFQasbfPuLqqpIInkopEVwnE3968rVYE_TLbfMtpF&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LZaEucZJVHQRSqKdkcN_OQ&_nc_ss=70689&oh=00_AQKarfbIDL5MovcmQi-bWmkEVchfovjtWL6qq1sbJKNiiA&oe=6A9B7D21"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 2618,
+            "valor_atual": 2619,
+            "hash_anterior": "33e6cdc501487785e68864dc814bfea1c29007bf56e5ec79dd211c827773c283",
+            "hash_atual": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "tempo_desde_anterior": {
+                "segundos": 165661.725686,
+                "texto": "1 dia e 22 horas e 1 minuto e 1 segundo"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Começou a seguir 1 pessoa",
+            "descricao": "Estava seguindo 2.618 e passou a seguir 2.619",
+            "variacao_texto": "+1 seguindo"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:45.370713",
+            "timestamp_anterior": "2026-08-29T13:56:43.645027",
+            "timestamp_atual": "2026-08-31T11:57:45.370713",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xo48Qn6XJcEQ7kNvwG-Dpio&_nc_oc=AdoDx9UkQCt4tYzW1kfLvUCZQmHFBXJSwnYXbs1rux75cP_CFQasbfPuLqqpIInkopEVwnE3968rVYE_TLbfMtpF&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LZaEucZJVHQRSqKdkcN_OQ&_nc_ss=70689&oh=00_AQKarfbIDL5MovcmQi-bWmkEVchfovjtWL6qq1sbJKNiiA&oe=6A9B7D21"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 653,
+            "valor_atual": 656,
+            "hash_anterior": "33e6cdc501487785e68864dc814bfea1c29007bf56e5ec79dd211c827773c283",
+            "hash_atual": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "tempo_desde_anterior": {
+                "segundos": 165661.725686,
+                "texto": "1 dia e 22 horas e 1 minuto e 1 segundo"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 3,
+            "titulo": "Publicou 3 posts",
+            "descricao": "O total de posts passou de 653 para 656",
+            "variacao_texto": "+3 posts"
+        },
+        {
+            "timestamp": "2026-09-01T23:41:13.951953",
+            "timestamp_anterior": "2026-08-31T11:57:45.370713",
+            "timestamp_atual": "2026-09-01T23:41:13.951953",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kKDTM6I_StwQ7kNvwEytusW&_nc_oc=AdrhjuSSOO9EpJtbFzdnkjU-x_ScbwHiyxtoY5h5Qibxz-c6H4l-g7zXJUgtPpbfFkcl2gk2avrNhjWn23GXibiH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZJ1lEKVt4owNsUd34kZyjw&_nc_ss=70689&oh=00_AQKEuuor2rZucU35u41UUuyDMXsvMhYphBn4iXBeSERrjg&oe=6A9D7761"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61083317,
+            "valor_atual": 61077530,
+            "hash_anterior": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "hash_atual": "d4c706fbbbb059cf8439a16e99c4f81397427841ae2017cf59170b6d702c5ea2",
+            "tempo_desde_anterior": {
+                "segundos": 128608.58124,
+                "texto": "1 dia e 11 horas e 43 minutos e 28 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 128608.58124,
+                "texto": "1 dia e 11 horas e 43 minutos e 28 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -5787,
+            "titulo": "Perdeu 5.787 seguidores",
+            "descricao": "Os seguidores caíram de 61.083.317 para 61.077.530",
+            "variacao_texto": "-5.787 seguidores"
+        },
+        {
+            "timestamp": "2026-09-01T23:41:13.951953",
+            "timestamp_anterior": "2026-08-31T11:57:45.370713",
+            "timestamp_atual": "2026-09-01T23:41:13.951953",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kKDTM6I_StwQ7kNvwEytusW&_nc_oc=AdrhjuSSOO9EpJtbFzdnkjU-x_ScbwHiyxtoY5h5Qibxz-c6H4l-g7zXJUgtPpbfFkcl2gk2avrNhjWn23GXibiH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZJ1lEKVt4owNsUd34kZyjw&_nc_ss=70689&oh=00_AQKEuuor2rZucU35u41UUuyDMXsvMhYphBn4iXBeSERrjg&oe=6A9D7761"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 2619,
+            "valor_atual": 2622,
+            "hash_anterior": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "hash_atual": "d4c706fbbbb059cf8439a16e99c4f81397427841ae2017cf59170b6d702c5ea2",
+            "tempo_desde_anterior": {
+                "segundos": 128608.58124,
+                "texto": "1 dia e 11 horas e 43 minutos e 28 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 3,
+            "titulo": "Começou a seguir 3 pessoas",
+            "descricao": "Estava seguindo 2.619 e passou a seguir 2.622",
+            "variacao_texto": "+3 seguindo"
+        },
+        {
+            "timestamp": "2026-09-01T23:41:13.951953",
+            "timestamp_anterior": "2026-08-31T11:57:45.370713",
+            "timestamp_atual": "2026-09-01T23:41:13.951953",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kKDTM6I_StwQ7kNvwEytusW&_nc_oc=AdrhjuSSOO9EpJtbFzdnkjU-x_ScbwHiyxtoY5h5Qibxz-c6H4l-g7zXJUgtPpbfFkcl2gk2avrNhjWn23GXibiH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ZJ1lEKVt4owNsUd34kZyjw&_nc_ss=70689&oh=00_AQKEuuor2rZucU35u41UUuyDMXsvMhYphBn4iXBeSERrjg&oe=6A9D7761"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 656,
+            "valor_atual": 657,
+            "hash_anterior": "12ddcaa7383ce12c91eba8958722f220da2aaaeaa76f8cca86e4bfede9d81c0e",
+            "hash_atual": "d4c706fbbbb059cf8439a16e99c4f81397427841ae2017cf59170b6d702c5ea2",
+            "tempo_desde_anterior": {
+                "segundos": 128608.58124,
+                "texto": "1 dia e 11 horas e 43 minutos e 28 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 1,
+            "titulo": "Publicou 1 post",
+            "descricao": "O total de posts passou de 656 para 657",
+            "variacao_texto": "+1 post"
+        },
+        {
+            "timestamp": "2026-09-01T23:53:54.229581",
+            "timestamp_anterior": "2026-09-01T23:41:13.951953",
+            "timestamp_atual": "2026-09-01T23:53:54.229581",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kKDTM6I_StwQ7kNvwEytusW&_nc_oc=AdrhjuSSOO9EpJtbFzdnkjU-x_ScbwHiyxtoY5h5Qibxz-c6H4l-g7zXJUgtPpbfFkcl2gk2avrNhjWn23GXibiH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=NeQfGY81xFA4SPn4LvjerQ&_nc_ss=70689&oh=00_AQI798DhXxv_VC3n2UikLwyPECBnNcM24Fd0ax6Cd47K8g&oe=6A9D7761"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61077530,
+            "valor_atual": 61077515,
+            "hash_anterior": "d4c706fbbbb059cf8439a16e99c4f81397427841ae2017cf59170b6d702c5ea2",
+            "hash_atual": "23a3ef4281bf559da67f728515f5dc86f01c4e63204214b7c48e84143938159b",
+            "tempo_desde_anterior": {
+                "segundos": 760.277628,
+                "texto": "12 minutos e 40 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 760.277628,
+                "texto": "12 minutos e 40 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -15,
+            "titulo": "Perdeu 15 seguidores",
+            "descricao": "Os seguidores caíram de 61.077.530 para 61.077.515",
+            "variacao_texto": "-15 seguidores"
+        },
+        {
+            "timestamp": "2026-09-01T23:55:12.229142",
+            "timestamp_anterior": "2026-09-01T23:53:54.229581",
+            "timestamp_atual": "2026-09-01T23:55:12.229142",
+            "usuario": {
+                "pk": 26633036,
+                "id": "17841400271080416",
+                "username": "anitta",
+                "nome": "Anitta 🎤",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kKDTM6I_StwQ7kNvwEytusW&_nc_oc=AdrhjuSSOO9EpJtbFzdnkjU-x_ScbwHiyxtoY5h5Qibxz-c6H4l-g7zXJUgtPpbfFkcl2gk2avrNhjWn23GXibiH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2amG2XZX76V2qvJKKFji2A&_nc_ss=70689&oh=00_AQLGdIunO8Z0OhActnrG9Y3Hus1vnABkA1fIFqNIQXGKAA&oe=6A9D7761"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 61077515,
+            "valor_atual": 61077510,
+            "hash_anterior": "23a3ef4281bf559da67f728515f5dc86f01c4e63204214b7c48e84143938159b",
+            "hash_atual": "3751352c8b107e210e7e2778371ddc3f59b18f471869f5445b06db8c7452c249",
+            "tempo_desde_anterior": {
+                "segundos": 77.999561,
+                "texto": "1 minuto e 17 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 77.999561,
+                "texto": "1 minuto e 17 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -5,
+            "titulo": "Perdeu 5 seguidores",
+            "descricao": "Os seguidores caíram de 61.077.515 para 61.077.510",
+            "variacao_texto": "-5 seguidores"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 26633036,
+            "id": "17841400271080416",
+            "username": "anitta",
+            "nome": "Anitta 🎤"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 61090264,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61090264,
+                "valor_atual": 61089148,
+                "variacao": -1116,
+                "direcao": "reducao",
+                "descricao": "-1116 seguidores",
+                "timestamp": "2026-08-27T06:31:20.973782",
+                "timestamp_anterior": "2026-08-27T00:22:09.839307",
+                "tempo_desde_anterior_segundos": 22151
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61089148,
+                "valor_atual": 61088904,
+                "variacao": -244,
+                "direcao": "reducao",
+                "descricao": "-244 seguidores",
+                "timestamp": "2026-08-27T07:04:17.539313",
+                "timestamp_anterior": "2026-08-27T06:31:20.973782",
+                "tempo_desde_anterior_segundos": 1976
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088904,
+                "valor_atual": 61088862,
+                "variacao": -42,
+                "direcao": "reducao",
+                "descricao": "-42 seguidores",
+                "timestamp": "2026-08-27T07:34:05.703796",
+                "timestamp_anterior": "2026-08-27T07:04:17.539313",
+                "tempo_desde_anterior_segundos": 1788
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088862,
+                "valor_atual": 61088863,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 seguidores",
+                "timestamp": "2026-08-27T08:06:58.024661",
+                "timestamp_anterior": "2026-08-27T07:34:05.703796",
+                "tempo_desde_anterior_segundos": 1972
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088863,
+                "valor_atual": 61088855,
+                "variacao": -8,
+                "direcao": "reducao",
+                "descricao": "-8 seguidores",
+                "timestamp": "2026-08-27T08:17:32.992883",
+                "timestamp_anterior": "2026-08-27T08:06:58.024661",
+                "tempo_desde_anterior_segundos": 634
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088855,
+                "valor_atual": 61088857,
+                "variacao": 2,
+                "direcao": "aumento",
+                "descricao": "+2 seguidores",
+                "timestamp": "2026-08-27T08:19:17.053578",
+                "timestamp_anterior": "2026-08-27T08:17:32.992883",
+                "tempo_desde_anterior_segundos": 104
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088857,
+                "valor_atual": 61088856,
+                "variacao": -1,
+                "direcao": "reducao",
+                "descricao": "-1 seguidores",
+                "timestamp": "2026-08-27T08:26:01.483984",
+                "timestamp_anterior": "2026-08-27T08:19:17.053578",
+                "tempo_desde_anterior_segundos": 404
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088856,
+                "valor_atual": 61088837,
+                "variacao": -19,
+                "direcao": "reducao",
+                "descricao": "-19 seguidores",
+                "timestamp": "2026-08-27T08:36:28.430379",
+                "timestamp_anterior": "2026-08-27T08:26:01.483984",
+                "tempo_desde_anterior_segundos": 626
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088837,
+                "valor_atual": 61088670,
+                "variacao": -167,
+                "direcao": "reducao",
+                "descricao": "-167 seguidores",
+                "timestamp": "2026-08-27T10:09:16.960586",
+                "timestamp_anterior": "2026-08-27T08:36:28.430379",
+                "tempo_desde_anterior_segundos": 5568
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088670,
+                "valor_atual": 61088625,
+                "variacao": -45,
+                "direcao": "reducao",
+                "descricao": "-45 seguidores",
+                "timestamp": "2026-08-27T10:52:06.545934",
+                "timestamp_anterior": "2026-08-27T10:09:16.960586",
+                "tempo_desde_anterior_segundos": 2569
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088625,
+                "valor_atual": 61088565,
+                "variacao": -60,
+                "direcao": "reducao",
+                "descricao": "-60 seguidores",
+                "timestamp": "2026-08-27T11:18:20.656778",
+                "timestamp_anterior": "2026-08-27T10:52:06.545934",
+                "tempo_desde_anterior_segundos": 1574
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088565,
+                "valor_atual": 61089895,
+                "variacao": 1330,
+                "direcao": "aumento",
+                "descricao": "+1330 seguidores",
+                "timestamp": "2026-08-27T18:25:57.970960",
+                "timestamp_anterior": "2026-08-27T11:18:20.656778",
+                "tempo_desde_anterior_segundos": 25657
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61089895,
+                "valor_atual": 61089896,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 seguidores",
+                "timestamp": "2026-08-27T18:56:00.149140",
+                "timestamp_anterior": "2026-08-27T18:25:57.970960",
+                "tempo_desde_anterior_segundos": 1802
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61089896,
+                "valor_atual": 61089905,
+                "variacao": 9,
+                "direcao": "aumento",
+                "descricao": "+9 seguidores",
+                "timestamp": "2026-08-27T22:36:38.014594",
+                "timestamp_anterior": "2026-08-27T18:56:00.149140",
+                "tempo_desde_anterior_segundos": 13237
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61089905,
+                "valor_atual": 61089889,
+                "variacao": -16,
+                "direcao": "reducao",
+                "descricao": "-16 seguidores",
+                "timestamp": "2026-08-27T22:58:07.192636",
+                "timestamp_anterior": "2026-08-27T22:36:38.014594",
+                "tempo_desde_anterior_segundos": 1289
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61089889,
+                "valor_atual": 61087991,
+                "variacao": -1898,
+                "direcao": "reducao",
+                "descricao": "-1898 seguidores",
+                "timestamp": "2026-08-28T09:14:02.072400",
+                "timestamp_anterior": "2026-08-27T22:58:07.192636",
+                "tempo_desde_anterior_segundos": 36954
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61087991,
+                "valor_atual": 61088025,
+                "variacao": 34,
+                "direcao": "aumento",
+                "descricao": "+34 seguidores",
+                "timestamp": "2026-08-28T10:14:29.273714",
+                "timestamp_anterior": "2026-08-28T09:14:02.072400",
+                "tempo_desde_anterior_segundos": 3627
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088025,
+                "valor_atual": 61087992,
+                "variacao": -33,
+                "direcao": "reducao",
+                "descricao": "-33 seguidores",
+                "timestamp": "2026-08-28T10:30:06.995079",
+                "timestamp_anterior": "2026-08-28T10:14:29.273714",
+                "tempo_desde_anterior_segundos": 937
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61087992,
+                "valor_atual": 61088181,
+                "variacao": 189,
+                "direcao": "aumento",
+                "descricao": "+189 seguidores",
+                "timestamp": "2026-08-28T14:37:39.879501",
+                "timestamp_anterior": "2026-08-28T10:30:06.995079",
+                "tempo_desde_anterior_segundos": 14852
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088181,
+                "valor_atual": 61088224,
+                "variacao": 43,
+                "direcao": "aumento",
+                "descricao": "+43 seguidores",
+                "timestamp": "2026-08-28T15:40:07.087511",
+                "timestamp_anterior": "2026-08-28T14:37:39.879501",
+                "tempo_desde_anterior_segundos": 3747
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088224,
+                "valor_atual": 61087963,
+                "variacao": -261,
+                "direcao": "reducao",
+                "descricao": "-261 seguidores",
+                "timestamp": "2026-08-28T19:12:37.307657",
+                "timestamp_anterior": "2026-08-28T15:40:07.087511",
+                "tempo_desde_anterior_segundos": 12750
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61087963,
+                "valor_atual": 61088023,
+                "variacao": 60,
+                "direcao": "aumento",
+                "descricao": "+60 seguidores",
+                "timestamp": "2026-08-28T23:00:34.330320",
+                "timestamp_anterior": "2026-08-28T19:12:37.307657",
+                "tempo_desde_anterior_segundos": 13677
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61088023,
+                "valor_atual": 61085779,
+                "variacao": -2244,
+                "direcao": "reducao",
+                "descricao": "-2244 seguidores",
+                "timestamp": "2026-08-29T11:51:52.319664",
+                "timestamp_anterior": "2026-08-28T23:00:34.330320",
+                "tempo_desde_anterior_segundos": 46277
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61085779,
+                "valor_atual": 61085811,
+                "variacao": 32,
+                "direcao": "aumento",
+                "descricao": "+32 seguidores",
+                "timestamp": "2026-08-29T12:54:27.154179",
+                "timestamp_anterior": "2026-08-29T11:51:52.319664",
+                "tempo_desde_anterior_segundos": 3754
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61085811,
+                "valor_atual": 61086638,
+                "variacao": 827,
+                "direcao": "aumento",
+                "descricao": "+827 seguidores",
+                "timestamp": "2026-08-29T13:56:43.645027",
+                "timestamp_anterior": "2026-08-29T12:54:27.154179",
+                "tempo_desde_anterior_segundos": 3736
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61086638,
+                "valor_atual": 61083317,
+                "variacao": -3321,
+                "direcao": "reducao",
+                "descricao": "-3321 seguidores",
+                "timestamp": "2026-08-31T11:57:45.370713",
+                "timestamp_anterior": "2026-08-29T13:56:43.645027",
+                "tempo_desde_anterior_segundos": 165661
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61083317,
+                "valor_atual": 61077530,
+                "variacao": -5787,
+                "direcao": "reducao",
+                "descricao": "-5787 seguidores",
+                "timestamp": "2026-09-01T23:41:13.951953",
+                "timestamp_anterior": "2026-08-31T11:57:45.370713",
+                "tempo_desde_anterior_segundos": 128608
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61077530,
+                "valor_atual": 61077515,
+                "variacao": -15,
+                "direcao": "reducao",
+                "descricao": "-15 seguidores",
+                "timestamp": "2026-09-01T23:53:54.229581",
+                "timestamp_anterior": "2026-09-01T23:41:13.951953",
+                "tempo_desde_anterior_segundos": 760
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 61077515,
+                "valor_atual": 61077510,
+                "variacao": -5,
+                "direcao": "reducao",
+                "descricao": "-5 seguidores",
+                "timestamp": "2026-09-01T23:55:12.229142",
+                "timestamp_anterior": "2026-09-01T23:53:54.229581",
+                "tempo_desde_anterior_segundos": 77
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 2618,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 2618,
+                "valor_atual": 2619,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "Seguiu +1",
+                "timestamp": "2026-08-31T11:57:45.370713",
+                "timestamp_anterior": "2026-08-27T00:22:09.839307",
+                "tempo_desde_anterior_segundos": 387335
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 2619,
+                "valor_atual": 2622,
+                "variacao": 3,
+                "direcao": "aumento",
+                "descricao": "Seguiu +3",
+                "timestamp": "2026-09-01T23:41:13.951953",
+                "timestamp_anterior": "2026-08-31T11:57:45.370713",
+                "tempo_desde_anterior_segundos": 128608
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 651,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 651,
+                "valor_atual": 653,
+                "variacao": 2,
+                "direcao": "aumento",
+                "descricao": "+2 posts",
+                "timestamp": "2026-08-27T18:25:57.970960",
+                "timestamp_anterior": "2026-08-27T00:22:09.839307",
+                "tempo_desde_anterior_segundos": 65028
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 653,
+                "valor_atual": 656,
+                "variacao": 3,
+                "direcao": "aumento",
+                "descricao": "+3 posts",
+                "timestamp": "2026-08-31T11:57:45.370713",
+                "timestamp_anterior": "2026-08-27T18:25:57.970960",
+                "tempo_desde_anterior_segundos": 322307
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 656,
+                "valor_atual": 657,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 posts",
+                "timestamp": "2026-09-01T23:41:13.951953",
+                "timestamp_anterior": "2026-08-31T11:57:45.370713",
+                "tempo_desde_anterior_segundos": 128608
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 4,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "Brazilian singer",
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": true,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://anitta.lnk.to/EQUILIBRIVM_II"
+                    }
+                ],
+                "timestamp": "2026-08-27T00:22:09.839307",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

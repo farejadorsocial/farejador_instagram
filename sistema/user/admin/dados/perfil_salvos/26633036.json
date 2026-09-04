@@ -1,0 +1,274 @@
+{
+    "perfil": {
+        "pk": 26633036,
+        "id": "17841400271080416",
+        "username": "anitta",
+        "nome": "Anitta 🎤",
+        "biografia": "Brazilian singer",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 61092673,
+        "seguindo": 2617,
+        "total_posts": 650,
+        "total_reels": 0,
+        "total_destaques": 4,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://anitta.lnk.to/EQUILIBRIVM_II"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748306269_18756597871009037_8701056512622708519_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oA8qmBXOf70Q7kNvwG9aOUH&_nc_oc=AdoA5gfNRzgQwUI-1pr69g4Z5uq-IYwl_Fo7T8i_0xAEqTFJEGQTOi45Pth1ii3ffONnwUYJq0M17-xIJk0pcYJZ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=yvQTPquB-IirMBCiXlp50g&_nc_ss=70689&oh=00_AQG48lGtfL-O91QBr2r4ZGWbrlHFMtWRM_neswAaW2-1Ug&oe=6A943CE1"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971589137786582026",
+                "code": "Dcd60dHkbQK",
+                "accessibility_caption": "Photo by Anitta 🎤 on August 25, 2026.",
+                "caption": {
+                    "text": "Equilibrivm tour ✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780672360_18770058520009037_3437459784409622285_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=85_2zTsDeckQ7kNvwHX_sTj&_nc_oc=AdrVQf266kGxWZU3RvFNDZm75H1Ovq5Tg_ZjiOQyO3rM_RYqpcWUTwVPA25Wtv_O-EIDG7JrZV4itVuUtJCZaYnN&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQGw5zRw20hnVdY5Qu5vvXGaLfeMloe1NFnbiXc4Ow_t0g&oe=6A945C66",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "carousel_media_count": 20,
+                "id": "POLARIS_3971589137786582026"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3970860952760616545",
+                "code": "DcbVP99xAZh",
+                "accessibility_caption": "Video by Anitta 🎤 on August 24, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Pra você gostar de mim ❤️ @equilibrivm"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786344066_18769724401009037_3193680978305717418_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M6ZVTRaRs8kQ7kNvwGvfEvi&_nc_oc=Adp7iVzHNsNX77IbsP1-ksB3lfq48prChFXJYMdgs7p6Dd-0UiXfdjSeReHd94K8Puygyn2a3pBwoE1u1aB6CCxJ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQF0jxNTEdNBKg6z9ufHqyjeKewDSgUT-3u_SnfxmztbwQ&oe=6A945400",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3970860952760616545"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3970162507796414256",
+                "code": "DcY2cQZx38w",
+                "accessibility_caption": "Video by Anitta 🎤 on August 23, 2026. Pode ser uma imagem de dançando, turbante, figurino, pandeiros e texto.",
+                "caption": {
+                    "text": "A EQUILIBRIVM Tour tem sido uma realização enorme pra mim. Niterói foi uma noite muito especial e eu só tenho a agradecer à minha família, aos meus amigos, a todos que fizeram esse show acontecer e, principalmente, a vocês, meus fãs. ❤️\n\nO show completo já está disponível no Globoplay. ✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/783899980_18769401745009037_2764530473822787694_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lmDZkF-jiTEQ7kNvwEK7pZE&_nc_oc=AdqmBre4QSXOr5jFAiOOkd9ofsrHWsbyp3Ced7kJ8NelyQ9fL085qHonYEKGafe93amI6KeoF48HAQwWt7ml311k&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQH3D9C4RNpDMnM4hlnReysxLeLCpi7KNOg61bauM_UAMw&oe=6A945861",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3970162507796414256"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3969707682537162499",
+                "code": "DcXPBrXxEcD",
+                "accessibility_caption": "Video by Anitta 🎤 on August 22, 2026. Pode ser uma imagem de dançando, figurino, pandeiros, show e texto.",
+                "caption": {
+                    "text": "Eu não tenho palavras pra descrever essa noite! Obrigada, obrigada, obrigada ❤️❤️❤️ @equilibrivm 🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/784428383_18769184668009037_6870861279550595904_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ivjaq0NdxTgQ7kNvwGuR0wt&_nc_oc=AdoiUlDqiL0C07Q6v_cVhMFANxZe4ToxXPKkKncN1feemteosQ0zkToRAdpRG93PiS1_d7w7CtpH7KFyI1bAm1gc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQGp90qe4lGVu26mFM9nybTS23aCIyTrNiYGktGjISptcA&oe=6A943D44",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3969707682537162499"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3969630814811443509",
+                "code": "DcW9jGuR9E1",
+                "accessibility_caption": "Video by Anitta 🎤 on August 22, 2026. Pode ser uma imagem de vestido de festa, figurino e texto.",
+                "caption": {
+                    "text": "A #EQUILIBRIVMTour chegou em Niterói! 🔥🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/781162814_18769150870009037_7513342221347433921_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZndvCjbIRpAQ7kNvwEgjN0M&_nc_oc=AdrK6o8xf1Rf8JldzPG0vPmZyP4XfpPwaerg6hyEjzY_nTukU7KN3qBe41sZOglPjnxQlq66Eunwt-Tfj57NFkrz&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQFFwNL-mfX02O4TvbaN0eGIv4fgJSQNNwx0aP-VfHWblQ&oe=6A942B30",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3969630814811443509"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3967992388236203989",
+                "code": "DcRJA3ERdfV",
+                "accessibility_caption": "Video by Anitta 🎤 on August 20, 2026. Pode ser uma imagem de uma ou mais pessoas, turbante, figurino e texto.",
+                "caption": {
+                    "text": "Divino Sexual ❤️‍🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780457076_18768416953009037_8223135722731714071_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bVuB69WHvmoQ7kNvwE5gDLS&_nc_oc=AdplFv090VUF4Ee3ZbFiTjDcjatvuyKiLbNRwiEfkBw9SXw89VJDXBYDelryBtUOzN0mHW9JlyhgaIBmOXwkdbZu&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQGjKSMbn3N6J9UTyNITkqzdLdEX8R0JnpmXDNpsr9bI1Q&oe=6A942B55",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3967992388236203989"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3966576607464073909",
+                "code": "DcMHGieRSq1",
+                "accessibility_caption": "Video by Anitta 🎤 on August 18, 2026. Pode ser uma imagem de uma ou mais pessoas, tranças, maquiagem, macramê, gravata de caubói, turbante e texto.",
+                "caption": {
+                    "text": "Choka Choka @shakira ❤️‍🔥❤️‍🔥 Best Latin nominee #VMAs"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/775183490_18767659063009037_8917371114801174860_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8Nd-PlpuiKIQ7kNvwEYKm3s&_nc_oc=AdpdmAy1IUaXypbiOADRolERm2C9EncpjflZLMOg1XbtZ5Za6c3_XXTHpAP-vc70olHfRO2eMbc3einmPu5_d_RU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQEa7dJG9aUUkteBecoWMJHL8p6I7tEsOOk5XmMOVPS9Dw&oe=6A9437AC",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3966576607464073909"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3965230921864892762",
+                "code": "DcHVIPGJtFa",
+                "accessibility_caption": "Video by Anitta 🎤 on August 16, 2026. Pode ser uma imagem de figurino, show e texto.",
+                "caption": {
+                    "text": "Que noite inesquecível em Fortaleza! ❤️✨\n\nMuito feliz em ver todos vocês vivendo a @equilibrivm tour. Eu não poderia estar mais realizada e grata. Aqui tem um pouquinho do que tem sido essa experiência. Obrigada, obrigada, obrigada! \n\nEncontro vocês dia 22 em Niterói! ✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/778426497_18766947169009037_8179738667133369915_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Qpja6ZwRtxAQ7kNvwE52lpY&_nc_oc=Adrg22JrhX2-yAGorK_sICB_iSNDZYjxmVP-tosHPMtydvSZIvYvjMlynLEY8u-9HrjwhJU0AS43M0WqJN08o2lY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQFXRh7UGo42_sEb6HB7AFEaFOWFD1s9nLry69BJkkzRkw&oe=6A94280D",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3965230921864892762"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3964589033937754999",
+                "code": "DcFDLiYRNt3",
+                "accessibility_caption": "Video by Anitta 🎤 on August 15, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Cheguei com a @equilibrivm tour em Fortaleza! ❤️‍🔥\n\nQue noite incrível! Vocês são demais! ✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774761539_18766552462009037_6680401347894037122_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-vJMAD4annoQ7kNvwFih0rY&_nc_oc=AdpPMtcvKgJRn291Co6NrHY9xhIyv7LbSWS4CTWvWkG0ekku4zKgfpzH4hY-THxif-6qBrtSMs6x1GqJXAgmpLdo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQH96uQEOkBsrnhElUKUwn-dNMAd1eM0-da_qoHWLQHEVw&oe=6A9438C7",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3964589033937754999"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3963055315558357011",
+                "code": "Db_mc_1FFgT",
+                "accessibility_caption": "Photo by Anitta 🎤 on August 13, 2026.",
+                "caption": {
+                    "text": "EQUILIBRIVM tour"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774833179_18765700915009037_9009185421205306730_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DkTywdaMi3sQ7kNvwHgcqNQ&_nc_oc=AdpiRU2457D_n-BaBxvbR_i-VSPriTC3StdUJZTx_nDC-nrt-2Xiu9DDJD6-ATHvlxMDzhZqpzoV6NKtgmSm0Rb5&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQHMmJ0HHA2uLqA0hoH1g_DY1wjbyv_TEPyZaAewuR9H4w&oe=6A942816",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "carousel_media_count": 16,
+                "id": "POLARIS_3963055315558357011"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3960752435424938964",
+                "code": "Db3a1rkxEvU",
+                "accessibility_caption": "Video by Anitta 🎤 on August 10, 2026. Pode ser uma imagem de vestido de festa, vestido e texto.",
+                "caption": {
+                    "text": "Que fim de semana incrível na @equilibrivm tour! ✨ Dois shows esgotados e o coração transbordando de gratidão.\n\nEstou muito realizada com tudo que estamos vivendo nessa tour. Ver todo mundo cantando cada música comigo é uma sensação que não consigo explicar. Minha eterna gratidão a todos os envolvidos! ❤️\n\nObrigada, São Paulo, por esses dois dias inesquecíveis! Estou muito, muito, muito feliz. \n\nNos vemos dia 15 de agosto em Fortaleza! ✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772547408_18764651422009037_9165991228493849750_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=5308s23XSJ8Q7kNvwHBcbNL&_nc_oc=AdoGG2CQQbsMQ6BW_YqW-S6X10fRF_Ei1puGcX8sOLECHgPzOAhxtF0D0mCdI9nHtAmBLpz2yJDSBzu0ll2GPPUi&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQFEPyB-pYKgAUorFaqTVLCvV8ENYFCmfxAlTlVVRH5DpA&oe=6A944065",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3960752435424938964"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3960307832834227955",
+                "code": "Db11v3JR_7z",
+                "accessibility_caption": "Video by Anitta 🎤 on August 09, 2026. Pode ser uma imagem de dançando, pandeiros, show e texto.",
+                "caption": {
+                    "text": "Muito feliz em receber @katumirim e @bromcsoficial nessa data tão importante, o Dia Internacional dos Povos Indígenas, para cantarem OKE comigo na EQUILIBRIVM Tour. \n\nOKE OKE OKE! ❤️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/769536048_18764466310009037_5457647251592346119_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_3YkhQCjFCEQ7kNvwFlnQwn&_nc_oc=AdoBFRTgwR-azolhiahjnPGO68RRovmDNxD5kEMW5AT_dWg0RPK5DxwuBVsEpGSgUwFB4vNvSf6clYl00bFEzvss&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Tyc1HHH_VZLSASafdA4frA&_nc_ss=70689&oh=00_AQHz1Zvj80zIXxx6RXw_qWcd3yCP5wSC3CXUV0Id8pVPTg&oe=6A942C76",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26633036",
+                    "username": "anitta",
+                    "id": "17841400271080416"
+                },
+                "id": "POLARIS_3960307832834227955"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\26633036.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\26633036.json"
+}

@@ -1,0 +1,281 @@
+{
+    "perfil": {
+        "pk": 26669533,
+        "id": "17841401365990416",
+        "username": "neymarjr",
+        "nome": "Neymar Jr",
+        "biografia": "@santosfc & Brazil 🇧🇷 10",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 242449440,
+        "seguindo": 2007,
+        "total_posts": 6147,
+        "total_reels": 0,
+        "total_destaques": 4,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://linktr.ee/neymarjr"
+            },
+            {
+                "url": "http://www.youtube.com/neymarjr"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=LbiL2uDGnJ0Q7kNvwHa_Pdy&_nc_oc=AdqHXWDyT2UCRmSDJ9Sd1tiqxFWjJZXxqUdlAyul8Rj0qMYFP2vvJuyTxMmaavKXilebRm20wEQR3CaD1g3wUjQ2&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=fdUxlUtclgPKTwRW6LXZcw&_nc_ss=70689&oh=00_AQFtQ2nqndsAENvR111YJXL7mNkIrS2hrkh3G8wunBWZiQ&oe=6A9443C8"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971623168884264215",
+                "code": "DceCjrDDs0X",
+                "accessibility_caption": "Photo by Neymar Jr on August 25, 2026.",
+                "caption": {
+                    "text": "Dia de celebrar os 15 anos do davizinho ♥️ te amamos demais 01"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/783556069_18920290075045534_2048282463923528593_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=--PK6xHGAuIQ7kNvwHNRFlQ&_nc_oc=Adr_1ldjk33gZnA_XNvVd2jIxzOmRO9B_M_ojiUZCWlQwmCrNkXr3WVIMslosCYA0tgD3V8-Sp8SNji4OzPzd7lu&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQFFXyUWeQ9tSjQCW3bLiuHzSwamPARKrwHjZproeECw0A&oe=6A9427EA",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3971623168884264215"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3967450182102363860",
+                "code": "DcPNuuQRS7U",
+                "accessibility_caption": "Video by Neymar Jr on August 19, 2026. Pode ser um doodle de ‎pôster e ‎texto que diz \"‎Flexform Feita para quem joga pra ganhar Flexfar X N EYMARJR Fiextorrin ញ្ញេ うが 心 生一！ م والية‎\"‎‎.",
+                "caption": {
+                    "text": "Todo mundo sabe que sou apaixonado por games e a cadeira é o ítem mais importante do meu setup🎮🔥\nDesenhada por mim para todos vocês, esta é a minha linha de cadeiras gamer, em collab com a @flexformbr .\nAgora sim, vocês poderão jogar no meu estilo 💥🎮\n\n#Flexform #NeymarJr"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/768874038_18918409501045534_3482683513349346907_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ILGt5d8rt-kQ7kNvwHu-WQF&_nc_oc=Adq83SSENb6YlH7AxoF2882_q5V-fWQbBsbB-CY1BL1Ev1UUC2voO_ExCOMsHLsOXdnSzmdx3s-o0GFnSVq84ARx&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQEe4s0kL2Z7ptzTvhP9XP7f19NWZjcN9KaCZx47Qj0Rug&oe=6A944455",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "id": "POLARIS_3967450182102363860"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3965336946876430351",
+                "code": "DcHtPGlTTgP",
+                "accessibility_caption": "Photo by Neymar Jr on August 16, 2026. Pode ser uma imagem de futebol, estádio e texto que diz \"DIGENES SANTOS SPNTOS iquartzolit 81 D umbro\".",
+                "caption": {
+                    "text": "3 pontos importantes hoje, parabéns equipe! \nSeguimos juntos 🤍🖤"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/775028078_18917158813045534_437846657816743658_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KFyhO5iLhAEQ7kNvwFqkX7b&_nc_oc=AdrYTmeCKJSZf3BrHP9fDg5RJ19W7AWRayllE80SXmEjsw2ljZScy0hmcbSXcVTMdP6QX1DWIx_tNtFEz4JnQiHp&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQFYlyopGUfNbIGQSTIKzOYqN9wH-2tzsjnJivHF12W9jg&oe=6A944C63",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "id": "POLARIS_3965336946876430351"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3964326780529941326",
+                "code": "DcEHjP3DhtO",
+                "accessibility_caption": "Photo by Neymar Jr on August 15, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Por aí 😉"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774178966_18916528675045534_5147130175052290610_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HlvDjjQzzlAQ7kNvwEoKSkj&_nc_oc=AdoixeD2uqPZs4Vn-Ryne0w1KMPdyyvd-o5I40i09fivJ60KkeO_ieGYFACOO_xPDKdbXYFRGq1VAC-h85wkU7zp&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQG9HCUxEircP8pOTeH1_04tvJu8dSD2c7ahvyJ4eI3eoQ&oe=6A945A12",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "carousel_media_count": 12,
+                "id": "POLARIS_3964326780529941326"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3962073319513536994",
+                "code": "Db8HLEvqDni",
+                "accessibility_caption": "Photo by PUMA Football on August 12, 2026. Pode ser uma imagem de chuteiras, bola, roupa esportiva, equipamento esportivo e texto.",
+                "caption": {
+                    "text": "FUTURE proof 🔮😏\n\n#NeymarJr #footballboots #jogabonito #futebol"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772868523_18618737383057950_2563011636675306045_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Qbwk1uy3PEMQ7kNvwEhYeSZ&_nc_oc=AdqaKziR0oLpPQE_e7-_FCBQB2Z5AZeBEm4sX5PQMbu9GleocHODXSU7TzOpYzFACbm6lQGUyh9G97Yb5fB5QAeJ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQGePgtn7pDoZz-K5oDfIwPT8jEm_g6TWkGZrbo6yGqCPg&oe=6A942A35",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "336825949",
+                    "username": "pumafootball",
+                    "id": "17841401738475262"
+                },
+                "id": "POLARIS_3962073319513536994"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3957189781121733840",
+                "code": "DbqwyPMkRTQ",
+                "accessibility_caption": "Photo by Neymar Jr on August 05, 2026.",
+                "caption": {
+                    "text": "Leilão ✅\nClassificação ✅\nDay off ✅"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765854996_18913097128045534_265882249379683954_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BV3I8_uYBd0Q7kNvwH_S-o7&_nc_oc=AdrBH7qU3BvLqiFlMyUw7LK5JomedkMRgokxbBajun_Zv9--RypJeWBoxXUvGAPRIKRipXrPR2QYpsATWjiQchxg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQGW2xCsw2GKE_l8F64-0coLUZLz83TOdn0OMUVQdi_xwQ&oe=6A9448F8",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3957189781121733840"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3956364449329651785",
+                "code": "Dbn1IFERyBJ",
+                "accessibility_caption": "Video by Instituto Projeto Neymar Jr on August 04, 2026. Pode ser uma imagem de uma ou mais pessoas, microfone, multidão, estádio, show e texto.",
+                "caption": {
+                    "text": "Entre tantos gols inesquecíveis, existe um que transforma vidas todos os dias.\n\nO gol mais bonito de @neymarjr se chama @institutoneymarjr. 💚\n\nUma história construída com amor, propósito e oportunidades para milhares de crianças, adolescentes e suas famílias.\n\n—\n\nAmong so many unforgettable goals, there is one that changes lives every single day.\n\n@neymarjr’s most beautiful goal is called @institutoneymarjr. 💚\n\nA story built on love, purpose, and opportunities for thousands of children, teenagers, and their families.\n\n#InstitutoNeymarJr #NeymarJr #INJR #ProjetoSocial #LeilãoINJR\n\nProdução e realização do evento: @wnbproducoes\nDireção geral do evento: @vildomaroficial\nProdução de vídeo: @romaofilmes"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/764661127_18633708847023323_6780548764816067765_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=eqiwdSvBihwQ7kNvwHb3Q7Y&_nc_oc=Ado7B_Q4O3A8bmGR-23LgHGroveVsY2z1yjZeYjY4fp0-99kT9QjlvFAT1qI0wKv-v6ijPa7SotG0F-zbUBUjuIO&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQEQo1wOCfx65Do5auWBJv-iBBBWNxWuQSAL-_Wppc7nBQ&oe=6A943219",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "421783322",
+                    "username": "institutoneymarjr",
+                    "id": "17841400699666590"
+                },
+                "id": "POLARIS_3956364449329651785"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3955988328227122328",
+                "code": "Dbmfmy_kayY",
+                "accessibility_caption": "Photo by Instituto Projeto Neymar Jr on August 03, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Começou! \n\nO 6º @leilaoinstitutoneymarjr já está acontecendo em prol das crianças e adolescentes do @institutoneymarjr.\n\nNesta edição, celebramos também os 11 anos de uma iniciativa que nasceu do sonho da família de @neymarjr e que, ao longo dessa trajetória, vem transformando milhares de vidas por meio da educação, do esporte, da cultura e de oportunidades.\n\nUma noite de solidariedade, propósito e união. 💚💛\n\n—\n\nIt has begun!\n\nThe 6th @leilaoinstitutoneymarjr is now underway in support of the children and teenagers of @institutoneymarjr.\n\nThis edition also celebrates the 11th anniversary of an initiative born from the dream of @neymarjr’s family, which has been transforming thousands of lives through education, sports, culture, and opportunities.\n\nA night of solidarity, purpose, and unity. 💚💛\n\n#InstitutoNeymarJr #NeymarJr #ProjetoSocial #INJR"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/763671460_18633542107023323_3949185571674431218_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=F50u-3PKIGoQ7kNvwHhln8o&_nc_oc=AdpPoQ_8kqYev1m1ud1ZC9ou7RRR74DfVwgOU-TNDIeJuuVwFgz1GPePURn5RwxXHFCi9Kn9XXfSC8L0So7fad8J&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQFE5ZHu6vqK4vBTfHt00UDJSGsOxAbY3rZ9_bIzg3PTdg&oe=6A943134",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "421783322",
+                    "username": "institutoneymarjr",
+                    "id": "17841400699666590"
+                },
+                "carousel_media_count": 16,
+                "id": "POLARIS_3955988328227122328"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3952844286773495449",
+                "code": "DbbUu-NkQaZ",
+                "accessibility_caption": "Photo by Neymar Jr on July 30, 2026.",
+                "caption": {
+                    "text": "Hoje fui pego de surpresa… ser homenageado no seu time do coração é incrível. \nFazer parte da historia do @santosfc é uma honra! \nAgradeço a Deus em primeiro lugar, a minha família e a toda nação santista que me acompanhou desde meus primeiros passos na base do SANTOS FC! \nTivemos muitos momentos emocionantes e eternos… mas também tivemos momentos ruins e todos vocês estiveram ao meu lado. \nSou um torcedor que está dentro do campo, lutando, brigando e dando tudo que eu posso a todo momento, já errei inúmeras vezes e ainda vou errar (espero que não) mas sempre querendo o melhor pro peixão! \nObrigado NAÇÃO SANTISTA, por tudo 🤍🖤"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759400091_18911068138045534_6605509704487722322_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HQu7CUgQKWkQ7kNvwHUrpoH&_nc_oc=AdqXX1a7x7QXYsmDXMNjKMqf19Dgv6hoVF05UNiKyOAaOb3rTvp4XFCZwKPX65HVwjf-RM7wF-YidpCoXEbotwjm&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQFdHNDcipOioKppKu6TclbT-KwRVd745-JeiB-PWpngKw&oe=6A944763",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "carousel_media_count": 5,
+                "id": "POLARIS_3952844286773495449"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3952304509748427090",
+                "code": "DbZaALrurlS",
+                "accessibility_caption": "Video by BRUNA BIANCARDI on July 29, 2026. Pode ser um doodle de carta, pôster, jogo americano de mesa e texto que diz \"Workshop 1ይ Party\".",
+                "caption": {
+                    "text": "A tarde de hoje foi muito gostosa 🐝🐞\nReunimos as crianças para um dia de oficinas, brincadeiras, muita música e diversão!\n\nDecor: @flaviaribeiro_festas"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759034377_18621274459020564_6400756472646787986_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yFXGOEStIaYQ7kNvwFzWL8D&_nc_oc=AdrnxtcaQHOIyEC7Wbu1IfNJMOXSdS3GxW6yhRW0hsGqi_pfCtL6snl6hYZcbSKdEyEEll2Q0w1yJdovYie4u0KU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQFSSJLpeNo8nTNnET8ayyPwk-lM_eZ0NVsrqpt46S3Tzg&oe=6A945B8F",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "331220563",
+                    "username": "brunabiancardi",
+                    "id": "17841400616895175"
+                },
+                "id": "POLARIS_3952304509748427090"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3948332804565761050",
+                "code": "DbLS8Q_Kfwa",
+                "accessibility_caption": "Video by PUMA Football on July 24, 2026. Pode ser uma imagem de futebol americano, futebol, chuteiras, equipamento esportivo, bola, estádio e texto.",
+                "caption": {
+                    "text": "POV: You get to challenge your idol 🤩\n@neymarjr @edu_conceicao09 \n\n#neymarjr #footballboots #futebol #jogabonito #nextgen"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/753306336_18612566275057950_3159613795666598081_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=W58NQAYX64MQ7kNvwFfOopT&_nc_oc=AdoffSQdGuLgd3_Eg9TXC-T6YGmjfoZ9XyXPgIn0v2fh15toivfr9xHks6vEHZIbyKZhZv0C5SqBR73l8WzsPBwH&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQGD3ri9lCguBFqlwQ0T14n3XFmMQzHGKD9OhTbLlJZJvA&oe=6A942749",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "336825949",
+                    "username": "pumafootball",
+                    "id": "17841401738475262"
+                },
+                "id": "POLARIS_3948332804565761050"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3946958580696034119",
+                "code": "DbGaerRkStH",
+                "accessibility_caption": "Photo by Neymar Jr on July 22, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Life is a joke 🃏 @pokerstarsbrasil"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/753231610_18908527636045534_2953615488943888391_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8O8ezJk52m8Q7kNvwF1g3bx&_nc_oc=Ado01igzbqb9LcnB6pD1GE98h1SG2htbGUNXMgi0IGEbZr69CY3qol5TM2yKNgOJCWM85aZFRcqwatjfQXfj1_yX&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W8bP87LzAhvx0sIW604biQ&_nc_ss=70689&oh=00_AQF7pWME9n8yAl843hj48VJ69QWDT3UB9mRdgfa_S16_yw&oe=6A9442E3",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "26669533",
+                    "username": "neymarjr",
+                    "id": "17841401365990416"
+                },
+                "carousel_media_count": 4,
+                "id": "POLARIS_3946958580696034119"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\26669533.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\26669533.json"
+}

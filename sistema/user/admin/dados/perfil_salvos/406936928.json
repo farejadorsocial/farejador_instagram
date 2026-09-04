@@ -1,0 +1,277 @@
+{
+    "perfil": {
+        "pk": 406936928,
+        "id": "17841400747846358",
+        "username": "carlinhos",
+        "nome": "Carlinhos Maia",
+        "biografia": "🪄✨",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 36851425,
+        "seguindo": 998,
+        "total_posts": 1996,
+        "total_reels": 0,
+        "total_destaques": 1,
+        "pronomes": [],
+        "links": [],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/748776979_18634422538024929_1980874459676308432_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BGm_GZnb2J8Q7kNvwHxM4Hu&_nc_oc=AdrwivoThyI4inIhTjcznbAcr0Zgjwq6Ji-voIu86RpHohPwwzYtL7eXoHVxvp6WFQc9NlhBbGCvHL-MryaFtX50&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=us1ibycO1xc2xmC2xbhOxg&_nc_ss=70689&oh=00_AQET8ot8DdLbvDzWpBoTra967lKddJfq1oU127VKtiefkg&oe=6A94B37F"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971954052066034771",
+                "code": "DcfNyqBkcRT",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 25, 2026.",
+                "caption": {
+                    "text": "Aos fãs da casa da Barra, o pedido de vocês foi aceito com sucesso!! 🥂💖💞🩵😆"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787410431_18649142254024929_7746677142633131350_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JVjV41nRFaYQ7kNvwHi93U8&_nc_oc=Adomb63IwLLwIW8Pnr67F63uFId6LyUs5cNo0uzrvDRembMbtdUN9AT-sRAi98TuZPDpk7orStzFb-f23Z25mvNj&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQH-aNZnWD1FLh6vnQEQLLhVaneNY7QkkPE-2eeZcZmngA&oe=6A94C061",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 6,
+                "id": "POLARIS_3971954052066034771"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3969785562764739240",
+                "code": "DcXgu-_EQKo",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 22, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Like pra maior temporada que já existiu 🔥🫡🌟🫵"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782511562_18647894560024929_6824995453326425247_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sw7wtNq6TX4Q7kNvwHFUrXP&_nc_oc=Adq_M4gtZ_FRC7Os6_NPY81i1dcl0AlOWrUSHzpDHl75PsaGwsNLKuyEnHPyO3V7Dsp74mZfLS0FFSOBGwCmJVQ4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQEooeYiGkNcs6YHRlWehrlJuiPEUDtgJCFcBI1gE9L59w&oe=6A94CD5F",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 17,
+                "id": "POLARIS_3969785562764739240"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3968937913622837961",
+                "code": "DcUgAENEbrJ",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 21, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Era uma vez um casamento…. 🥲"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/783255972_18647417167024929_2797631134706149839_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rMGaFo4JjVgQ7kNvwGvSNFv&_nc_oc=AdoPhKQggqjk_6qD9vVq0vimHoOI1YnHh2DHkYrCGxWBIEK1D4hvrWmjMlJ9p3GgWojbVWWN3kmSdytYH0QYasJi&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQFDTX5B-0kRwS607Inm33U_j6GwJju75IjAdcI4iKADWQ&oe=6A94B7A6",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 20,
+                "id": "POLARIS_3968937913622837961"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3966125389672176821",
+                "code": "DcKggdKEVy1",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 17, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "ai ai ai…. Que temporada absurda 🤠🇬🇷"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/776658247_18645642787024929_8128709127698953622_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3N4zylrNxTkQ7kNvwFrSn3c&_nc_oc=AdqUD7LC0CXySNh87lBKwl6N9-K32KOqfWm8d-wENs0U-ZDMXFHB4h7M6iixZsCfxhsQLjNPbVlfgH3ynV0vG_B-&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQGsVA8H9akcmCeOG2bZLGszuLnmfvSG7u0vM8odPtq1bg&oe=6A94D36F",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 20,
+                "id": "POLARIS_3966125389672176821"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3966106765741019662",
+                "code": "DcKcRcRRFIO",
+                "accessibility_caption": "Video by RANCHO DO MAIA • Perfil oficial on August 17, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "🚨CARLINHOS E ANDERSON NEIFF NA CASA DA ÁRVORE! 🏡\n\n#ranchodomaia"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774883921_18103615778351067_2699116072184309887_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=r_dK2KiKlMQQ7kNvwH1BQfz&_nc_oc=AdpKfd5TnV9sl9jg6t2ZA_mqiJ-2TDbisVDDLV5d-IdP8Gyb4REm2I2Bg--rDsD9GKyf6slmWYXqPKAMOFZdiKvu&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQGm1N1Hwv8PQQcdivcfRkr1OMU5QlmUSusVh977QSUXUQ&oe=6A94C13B",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "40375215066",
+                    "username": "ranchodomaia__",
+                    "id": "17841440531986901"
+                },
+                "id": "POLARIS_3966106765741019662"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3964490762199693547",
+                "code": "DcEs1fsOvjr",
+                "accessibility_caption": "Video by Carlinhos Maia on August 15, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "O RANCHO VAI COMEÇAR 💥💥💥💥💥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/773624276_18644788606024929_1007656732956837763_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yjQ8b-U9m7YQ7kNvwEAG7lD&_nc_oc=AdrTtFnYvaLAtyTpM3boe5E2_lyxBvch6v1q0-rYlSZNjCEEyKK2Dwmvwb6gV9q9n5JFl1GZQVS_562OHOZ1dznW&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQG6NmzmbhLWWCrSgGkGCk2bsCRgmevtR48H03ISmaBoPA&oe=6A94E257",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "id": "POLARIS_3964490762199693547"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3963843333763480460",
+                "code": "DcCZoK-RbuM",
+                "accessibility_caption": "Video by Carlinhos Maia on August 14, 2026. Pode ser uma imagem de fogos de artifício, fogos de artifício, templo e texto.",
+                "caption": {
+                    "text": "O CASTELO DO RANCHO FOI DIRETO PRO TEXAS 💥🤠🤩"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774595411_18644001961024929_5494023815680903759_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Neb07AO3mM8Q7kNvwEpYbZn&_nc_oc=AdpSUqp0FBzKjTvHut1x5pEdG98AQVw-iAj_TQ3erBGPCAHsWtlHkO2ASXC4LnS2o5RP_GY6XcFM3EmQnRbTBSLc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQFhiJPzdi-lUsgdEKN77RCOj4f_jgsCm7s_UvDZFl5ZDw&oe=6A94D362",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "id": "POLARIS_3963843333763480460"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3963115532526414743",
+                "code": "Db_0JRQEeuX",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 13, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Eunivan insistiu pra tirar e eu aceitei por que sou facinho 🤣🤠"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/773637717_18643608367024929_3611690423328471914_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VQK5hAeBJA4Q7kNvwG1iHjo&_nc_oc=Adqvl4asoaTjuK9JMaQAQPi3QOz0K-q9wDgtRfjDmn9nFFfAnmkzmFUDeyjy-4_4YQmLTLlozgG6hecsaS14iNi8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQGChTMJZB0IDc7pPqxle2eJ2gMqv0CHFq6vN219aTszpg&oe=6A94DCB0",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 6,
+                "id": "POLARIS_3963115532526414743"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3956379412144970859",
+                "code": "Dbn4h0Rkdxr",
+                "accessibility_caption": "Photo by Carlinhos Maia on August 04, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Sempre uma honra fazer parte de uma causa tão nobre @institutoneymarjr ♥️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765715794_18640364899024929_3333547498223064579_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WcXhTpc9dxwQ7kNvwH2PQkl&_nc_oc=AdqEIcAnrbb8uIW40joe1hJIqlnCawBFTMPGgZ6JNKPUHj9yCLxp-1HoUqQGeA5txBl47DGHaSLJOp5NJgFkunbr&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQE0AMdQXuoPQXI3JzCbyCoUw0HR78OT_kLc3YyxVVlSaw&oe=6A94C80E",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 16,
+                "id": "POLARIS_3956379412144970859"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3950749559156710394",
+                "code": "DbT4crGERv6",
+                "accessibility_caption": "Photo by Carlinhos Maia on July 27, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "De alguma forma elas me fazem voltar ao passado. Adorei conhecer de perto a história de vocês! Até breve, na casa nova 🌻💫✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/756661759_18637757110024929_1284644786551129999_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BwwmBmVluREQ7kNvwGREjAY&_nc_oc=Adq_xRxxIaeh-JHVUm8t2iMUnS89z5AWishz3JP081OhQHLE3WewIe1DE5D2UM3tciZR_A1sgWQWTGYhdAzbVjdY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQFuNz_hbaRq73vHqMlPSbP1-QzPgXfEhb4Za5uIQqOVmA&oe=6A94CDDB",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3950749559156710394"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3947773811198390363",
+                "code": "DbJT112EfBb",
+                "accessibility_caption": "Photo by Carlinhos Maia on July 23, 2026.",
+                "caption": {
+                    "text": "Pronto!!! O padrinho mágico realizou os três desejos 🤣💖🪄"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755033937_18636376216024929_99305387268704300_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KwbbrEN_zuMQ7kNvwHiwTZ0&_nc_oc=AdpKkbQECjJLZaQa0fD-pY8v9_BOfIygwtjakX76xRVpWnZWxqVhYqBQkMonKY8CexOOjVNGZCw3XqLqtH3Rp12V&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQEcZebj0v-pIKCHvQlnH-lK16-w4zeHrm8j0sLodzf1RQ&oe=6A94CD2E",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 3,
+                "id": "POLARIS_3947773811198390363"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3947190654606606546",
+                "code": "DbHPPy8kYDS",
+                "accessibility_caption": "Photo by Carlinhos Maia on July 22, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Antonella e seu pai são a certeza que amar a Deus é nunca estar desamparados. 🙏🏻🌻♥️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/752189189_18636109360024929_8829415995385683653_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=00sfTurJvZ4Q7kNvwGCOuti&_nc_oc=AdqbJhCx1jxLW7t8UV9Xk2QZBDfVoE6uf2n2-VPwDnpk2_4ROT1jm1uwZOIqlu_2nBYNytZuwEovcQk3tDYovmAl&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zzlGyWJ3SIcSrWqkd8hQWQ&_nc_ss=70689&oh=00_AQGbuZ1t9PHzAqVF0ey7TQeUmmFKoI9HR4K8OHpgNa-yRQ&oe=6A94D0A4",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "406936928",
+                    "username": "carlinhos",
+                    "id": "17841400747846358"
+                },
+                "carousel_media_count": 5,
+                "id": "POLARIS_3947190654606606546"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\projeto\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\406936928.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\projeto\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\406936928.json"
+}

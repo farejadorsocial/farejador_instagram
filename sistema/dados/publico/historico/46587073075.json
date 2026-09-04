@@ -1,0 +1,33 @@
+[
+    {
+        "perfil": {
+            "pk": 46587073075,
+            "id": "17841446592253384",
+            "username": "bonus_de_apostas",
+            "nome": "Bonus e Promoções",
+            "biografia": ".",
+            "privado": false,
+            "verificado": false,
+            "memorializado": false,
+            "seguidores": 107,
+            "seguindo": 293,
+            "total_posts": 3,
+            "total_reels": 0,
+            "total_destaques": 0,
+            "pronomes": [],
+            "links": [
+                {
+                    "url": "https://tinyurl.com/2dp9u52x"
+                }
+            ],
+            "foto_perfil": "https://scontent.cdninstagram.com/v/t51.2885-19/462722487_1076114197580074_7826598418527449363_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=7duIkWmjmyUQ7kNvwHjaoij&_nc_oc=AdrJxGnQBVDgNZaVHBaSJc9E7QwRbbFylSCiQ0Q71AjtBZ956ttBM0xTgaRg1D4ewM1IUKVWjR9bhpRMVgdBTsiv&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=70689&oh=00_AQF6pQbPCW7qEmpc1lVlLUEOzZKewpqO8gEoaVR01XcmXw&oe=6A9586BF"
+        },
+        "hash": "0d146b04dc903e6d1be091bb04348f090d327d1940d734e123ab8ca85061758a",
+        "timestamp_capture": "2026-08-27T00:23:59.342168",
+        "conteudo": {
+            "posts": [],
+            "reels": [],
+            "destaques": []
+        }
+    }
+]

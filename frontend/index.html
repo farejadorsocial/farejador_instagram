@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Farejador · Explore perfis, histórico e crescimento</title>
+  <meta name="description" content="Farejador: consulte perfis públicos, acompanhe histórico, crescimento e alterações registradas.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Farejador · Histórico e análise de perfis">
+  <meta property="og:description" content="Explore histórico, crescimento e alterações de perfis públicos.">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div id="app-shell">
+  <header class="topbar">
+    <button class="brand" data-route="dashboard"><span class="brand-mark">🔎</span><span>FAREJADOR</span></button><button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="main-nav" class="nav"></nav>
+    <div class="top-actions"><button id="theme-toggle" class="icon-btn" title="Tema">☾</button><button id="auth-btn" class="outline-btn">Entrar</button></div>
+  </header>
+  <main id="content" class="content"></main>
+</div>
+<div id="toast"></div>
+<div id="modal-root"></div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

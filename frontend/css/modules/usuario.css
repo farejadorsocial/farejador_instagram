@@ -1,0 +1,20 @@
+/* Evolução 1.7 — histórico do usuário salvo */
+.history-summary-grid{grid-template-columns:repeat(3,1fr)}
+.history-summary-text-card strong{font-size:18px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.history-meta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+.history-meta-grid .stat{min-height:92px}
+.history-event-row{grid-template-columns:155px 1fr 180px!important}
+.history-event-row>span:nth-child(2){display:flex;flex-direction:column;gap:4px}
+.history-event-row small{display:block;margin-top:2px}
+.change-interval{display:inline-block;margin-top:7px;color:var(--muted);font-size:11px}
+.history-text{padding:22px;color:var(--muted);line-height:1.6;background:var(--panel2);border-radius:12px}
+@media(max-width:1100px){
+  .history-summary-grid{grid-template-columns:repeat(2,1fr)}
+  .history-meta-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:700px){
+  .history-summary-grid,.history-meta-grid{grid-template-columns:1fr}
+  .history-event-row{grid-template-columns:1fr!important;gap:6px!important}
+}
+
+

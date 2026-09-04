@@ -1,0 +1,195 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-27T20:52:07.629369",
+            "timestamp_anterior": "2026-08-27T18:24:25.277054",
+            "timestamp_atual": "2026-08-27T20:52:07.629369",
+            "usuario": {
+                "pk": 1030845726,
+                "id": "17841401851796106",
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/623267357_18556848082061727_8021925719719673459_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MTYuQzMifQ%3D%3D&_nc_ohc=-uXK7NOp07EQ7kNvwFs3rm4&_nc_oc=AdrsrWKDD_VvBM2JoXh3UwTPjP2DPgEPwnPz3gaEesxgjKgR79EPfJYSb7G3fUCyZDL-_khUQI8yV98RqdWEB0JW&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=GOAKNG9vEOPwzD4kVMXxzg&_nc_ss=70689&oh=00_AQFWic7HbRTJD5TCKPbtpJaCn-AfDFI-6ZyotHV5A7Tmbw&oe=6A968CBF"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 400,
+            "valor_atual": 401,
+            "hash_anterior": "249717e14d0ccf0065de47934f5acccf104c6de967571928d27c886edc1a97cd",
+            "hash_atual": "466853c87325e928c971b8989fb7489c07153a8a78a5ee72fb52293965a2bd11",
+            "tempo_desde_anterior": {
+                "segundos": 8862.352315,
+                "texto": "2 horas e 27 minutos e 42 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Ganhou 1 seguidor",
+            "descricao": "Os seguidores passaram de 400 para 401",
+            "variacao_texto": "+1 seguidor"
+        },
+        {
+            "timestamp": "2026-08-27T21:22:21.547003",
+            "timestamp_anterior": "2026-08-27T20:52:07.629369",
+            "timestamp_atual": "2026-08-27T21:22:21.547003",
+            "usuario": {
+                "pk": 1030845726,
+                "id": "17841401851796106",
+                "username": "yhagocinaudis",
+                "nome": "Yhago Cinaudis",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/623267357_18556848082061727_8021925719719673459_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MTYuQzMifQ%3D%3D&_nc_ohc=-uXK7NOp07EQ7kNvwFs3rm4&_nc_oc=AdrsrWKDD_VvBM2JoXh3UwTPjP2DPgEPwnPz3gaEesxgjKgR79EPfJYSb7G3fUCyZDL-_khUQI8yV98RqdWEB0JW&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=6QQkLRRzA_lZxRPRc_9m_A&_nc_ss=70689&oh=00_AQFLgQmvdm9kofOBzMoLoHJIG1hLSFLHI8oSiWOqpNuT5A&oe=6A968CBF"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 400,
+            "valor_atual": 401,
+            "hash_anterior": "466853c87325e928c971b8989fb7489c07153a8a78a5ee72fb52293965a2bd11",
+            "hash_atual": "4b97165a50da9494b314c28733fc34239084bf3d5acc8f332aa6053b48ef054a",
+            "tempo_desde_anterior": {
+                "segundos": 1813.917634,
+                "texto": "30 minutos e 13 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1813.917634,
+                "texto": "30 minutos e 13 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Começou a seguir 1 pessoa",
+            "descricao": "Estava seguindo 400 e passou a seguir 401",
+            "variacao_texto": "+1 seguindo"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 1030845726,
+            "id": "17841401851796106",
+            "username": "yhagocinaudis",
+            "nome": "Yhago Cinaudis"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 400,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 400,
+                "valor_atual": 401,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 seguidores",
+                "timestamp": "2026-08-27T20:52:07.629369",
+                "timestamp_anterior": "2026-08-27T18:24:25.277054",
+                "tempo_desde_anterior_segundos": 8862
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 400,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 400,
+                "valor_atual": 401,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "Seguiu +1",
+                "timestamp": "2026-08-27T21:22:21.547003",
+                "timestamp_anterior": "2026-08-27T18:24:25.277054",
+                "tempo_desde_anterior_segundos": 10676
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 10,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 0,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": true,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "☁️ A visão vem antes do resultado",
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": false,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [],
+                "timestamp": "2026-08-27T18:24:25.277054",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

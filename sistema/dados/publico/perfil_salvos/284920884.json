@@ -1,0 +1,287 @@
+{
+    "perfil": {
+        "pk": 284920884,
+        "id": "17841401706524451",
+        "username": "whinderssonnunes",
+        "nome": "Whindersson Nunes",
+        "biografia": "GRAVAÇÃO ESPECIAL 🎤",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 54449533,
+        "seguindo": 2864,
+        "total_posts": 856,
+        "total_reels": 0,
+        "total_destaques": 2,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://link.whindersson.nonstop.com.br/Especial-Cadastro"
+            },
+            {
+                "url": "https://link.whindersson.nonstop.com.br/agenda"
+            },
+            {
+                "url": "http://www.whincbd.com.br"
+            },
+            {
+                "url": "http://diaumtododia.com.br"
+            },
+            {
+                "url": "https://onlyfans.com/1933159995/whinderssonnunes"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/712429958_18618405268056885_6694847358619464451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=BLFgRWLPBpIQ7kNvwGjr_h5&_nc_oc=AdpvU3RhzVqL849Q6cVMNdrfoIWz_vKJVFEfVxC4jgG-sfeA996TDIUSVwdQoulGq3sR7MQDwBDKnZYFCIiqEi7D&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ufpxfa5SNqGUWg8qEiFVoQ&_nc_ss=70689&oh=00_AQFhCmDFbo880BhN_Z_FylI_Ia4ZfPw7dRBDaE87MXtToA&oe=6A95522A"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3828088947017322622",
+                "code": "DUgGp1_kRB-",
+                "accessibility_caption": "Photo by Whindersson Nunes on February 08, 2026.",
+                "caption": {
+                    "text": "Qual cidade falta nessa lista?? 👇🏽"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/627044566_18584689696056885_6968928721549990857_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WoVOVV0AAVkQ7kNvwHaxe83&_nc_oc=AdrnFhG_oCbvklCMUU_vjpJ0hnT9ubUfTKrEdY48QyIB9Tg3v_ZJ1WgjNvDmxwAZFSN4bPbouT1KsO8g6V5LyDm6&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQHpogIHhlZ0hv6SnOTjpEqJHAhV2DzadntrxjEP9W1r_Q&oe=6A955B2E",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "carousel_media_count": 4,
+                "id": "POLARIS_3828088947017322622"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3502287034608138486",
+                "code": "DCan4CHRjj2",
+                "accessibility_caption": "Photo by Whindersson Nunes on November 15, 2024.",
+                "caption": {
+                    "text": "Aproveitando o cacete que eu tomei pra dizer:\nMeu novo show vai estar no meu canal, dia 25 de dezembro!\nEfeito Borboleta, de grátis!!"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.75761-15/467117845_18494431435056885_8624427632158079615_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qNhioKpmm6IQ7kNvwH0uHT4&_nc_oc=AdogsYyzru3dexFCe6Tu4_3kyCYVrHhr5fioK6kgYbNtbcFl_S2M6EHS-nM81XtkJ_fMf36PyuoDTOQUaVIR7rT5&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQG6gD2OkWsJD-3IOOhvUFlJeMXAU5Z0Tf26pUN2iztypg&oe=6A956456",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3502287034608138486"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3968099775417820137",
+                "code": "DcRhbjLFiPp",
+                "accessibility_caption": "Photo by Whindersson Nunes on August 20, 2026.",
+                "caption": {
+                    "text": "Turistandooooo 🥰🥰🥰🕺🏼🕺🏼🕺🏼🕺🏼"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777622060_18644822743056885_2624609478787267046_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=w3L9HVqNb0QQ7kNvwF9LDU_&_nc_oc=Ado6twKsvojR52EtnMLTfBNRqo4cc3rODZUxn5rSnZhvGFCVK-NTIQ4pmryBKga80x57elotW4fe6PvootU7VU9u&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQHNxcYh2EzEryncUa_Q5LF4z279mWoOteaZvXSJ9-22NA&oe=6A95664E",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "carousel_media_count": 12,
+                "id": "POLARIS_3968099775417820137"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3968069984584059920",
+                "code": "DcRaqCTBcwQ",
+                "accessibility_caption": "Video by Whindersson Nunes on August 20, 2026. Pode ser uma imagem de em pé, pipa, oceano, praia e texto.",
+                "caption": {
+                    "text": "O Macapá gostosinhooooo 🥰🥰🥰"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782253625_18644806777056885_2314111815285860563_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ICWsYaUYayQQ7kNvwHgryuO&_nc_oc=AdrX0iUen5Dk1JHn4XablZU-8BdjBIrSBT_Jyw197qLcJMkOEKTTmgN5dK2wfnWXmLKQxe-P9KLZUNAGRte22ys1&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQEwHDJwimphpDFUsazkD8vqSuON6nnohC99LGUaZHdgwg&oe=6A956824",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3968069984584059920"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3966528103974800517",
+                "code": "DcL8EuFBYyF",
+                "accessibility_caption": "Video by Whindersson Nunes on August 18, 2026. Pode ser uma imagem de óculos, espátula, abridor de lata e texto que diz \"CREATINA LDIE 100%PURA NECM 100% 100%PURA PURA B\".",
+                "caption": {
+                    "text": "31 de agosto é o Dia da Creatina. E essa história começou muito antes da Soldiers existir. 👀\n\nEm 1832, Michel Eugène Chevreul descobriu a creatina. Quase 200 anos depois, ela se tornou um dos suplementos mais estudados do mundo e ainda gera muita dúvida na hora da compra.\n\nFoi por isso que a Soldiers criou o Dia da Creatina: uma data pra falar sobre ciência, informação e escolhas melhores na suplementação.\n\nAssista para entender por que o dia 31 de agosto é tão importante pra gente.\n\n👉 Conheça a Creatina Soldiers no link da bio."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/779996528_18643971853056885_6981186150202945308_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=elRiP0Cs2PkQ7kNvwGaJAhg&_nc_oc=Adp3oyiXWMpF-2ktqMdp7ktkSUB7hKJ-1cEQjF9DvN5B2jn4W3ecCLT_0Kg77eZvsGuVPQQs-5a6IvIps3-w8rAf&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQFL3sXv7nqy7Z4mSsuIF3vz_m7KXcpp3uelpQtmdHB-YQ&oe=6A958081",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3966528103974800517"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3953693642828729600",
+                "code": "DbeV2urhs0A",
+                "accessibility_caption": "Video by Whindersson Nunes on July 31, 2026. Pode ser uma imagem de cobra e texto que diz \"A sabedoria oriental fala muito da impermanência\".",
+                "caption": {
+                    "text": "O ser humano sempre quis entender a morte antes de entender a vida, sempre procurou no cosmos “condições de vida” favoráveis, e é irônico que as condições nunca são favoráveis quando a solução é simples e tá na sua frente. \nSe serve de consolo, eu tbm já sujei este rio 😪\nMas eu acredito que as coisas podem mudar, mudar dentro é mudar fora, assim na terra como no céu! 🌌"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759374044_18637696429056885_7614623432943565821_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=W8ET3ixbMGMQ7kNvwE_WKaa&_nc_oc=Adomh_ubyBQTxldm6Bh_TJIkU-pGsVSj-rpVaTzYukVD3DH3WstVIsz5IEW2RvBsZvmGu6_whEnYT5EPuScL3kp5&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQG84opL5bbw3wICf9z1uDam705Zr-ccOZNPviy93YX6_g&oe=6A956D46",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3953693642828729600"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3953064942985829834",
+                "code": "DbcG58UuF3K",
+                "accessibility_caption": "Video by BABAÇU LOVE O FILME 🌴💛🌴 on July 30, 2026. Pode ser uma imagem de dançando, acordeão, pandeiros e texto.",
+                "caption": {
+                    "text": "🚨 EXCLUSIVO!!!! \n\nVem ver esse feat de cair o queixo entre @marapavanelly e @whinderssonnunes cantando “Paixão Perigosa e Bandida”, música que já faz parte da trilha sonora oficial de BABAÇU LOVE, e está disponível nas principais plataformas musicais! Na telona, eles dão vida aos cantores Shirley Sonaya e Ranskelson Ruschell, numa apresentação de fazer o coração bater, dançar e se apaixonar. \n#BBL estreia no dia 3 de dezembro, nos cinemas da rede Cinépolis das regiões Norte e Nordeste, e você é nosso convidado especial para cantar e se emocionar com a gente. Da o Play!!!!\n\n#babaçulove #cinemaindependente #dramalhão #cinemanopiaui @cinepolisbrasil\n\nApresenta\n@g3telecompi\n@governodopiaui @cultura.pi\n\nPatrocínio\n@bancodonordeste\nancinegovbr\n\nApoio\n@credishopcartoes"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/760000029_17881483512616052_4238358577069325361_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=HyOvfHMUgdgQ7kNvwGwd9cY&_nc_oc=Adox3zDYR3Z8IfL6n9cNUeR_zUcUBRmKZ3F2_tRVVVY4DxYGxVcTSFmKf8p1XK39Xg6MHbporYYD0SKCXNW7AFcW&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQFaDkTuwHazX7rEr7-pgFlWV9C4N2fZaZibtyxeURi1XQ&oe=6A956FBF",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "78689072051",
+                    "username": "babaculoveofilme",
+                    "id": "17841478481556134"
+                },
+                "id": "POLARIS_3953064942985829834"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3950858775176708266",
+                "code": "DbURR-cJICq",
+                "accessibility_caption": "Video by Luana Lima | Parnaíba on July 27, 2026. Pode ser um meme de saco plástico, ao ar livre e texto que diz \"LUANA LUANA LUANA LUANA LUANA LUA LUA DUD DUD DUD DUD DUD NOTÍCIA WHINDERSSON NUNES MOBILIZA VOLUNTÁRIOS E INICIA LIMPEZA EZA DO RIACHO GROTÃO, EM BOM JESUS PHB PHB PB PB A PHB\".",
+                "caption": {
+                    "text": "O humorista piauiense Whindersson Nunes deu início, nesta segunda-feira (27), a uma mobilização para a limpeza do Riacho Grotão, em Bom Jesus, no Sul do Piauí.\n\nA iniciativa reúne voluntários e conta com o acompanhamento de profissionais de diferentes áreas, para que o trabalho seja realizado de forma adequada, segura, comunitária e não invasiva.\n\nWhindersson destacou a importância pessoal do projeto e contou que chegou a ouvir de algumas pessoas que recuperar o riacho não seria possível. Mesmo diante do desafio, decidiu seguir com a iniciativa e revelou um objetivo simbólico: ver o Grotão recuperado a ponto de, um dia, voltar a beber de sua água.\n\nA limpeza representa o primeiro passo de uma mobilização educativa que busca contribuir para a recuperação do riacho, sensibilizar a população para a preservação ambiental e incentivar novas ações em defesa dos recursos naturais da região.\n\nA iniciativa também reforça que intervenções em áreas naturais devem ser conduzidas com orientação técnica, respeito à legislação ambiental e observância das recomendações dos órgãos competentes.\n.\n@unicetoficial \n@expandeedu \n@tronroboticaeducativa \n@zeus.fisiomov\n@drkelsongomes\n@lidiane_mmartins\nguizinho_mgvn \n@aannakarolynnasant\nj.oliveirast \n@kekel.kidss\nnaravcarvalho"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/758377189_18123587546506700_8003293459975000748_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VTw2lFCex2sQ7kNvwG86lEy&_nc_oc=AdqPC_jU8ZxX2g4jTZ04fb6JIUQOkk0kFaytcw2FQbeeC5xoGBb1plHV87my9Q05ZuCOkJaMTR_XtTWHoSS8RvtJ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQGkmJ1QLxUuqFChah1gX3ULR_Xh0mM1Y1Bxt5HOE6A2FQ&oe=6A956711",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "45329818699",
+                    "username": "luanaphb_",
+                    "id": "17841445200996227"
+                },
+                "id": "POLARIS_3950858775176708266"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3949994704328154394",
+                "code": "DbRM0FwJ10a",
+                "accessibility_caption": "Video by Arthur Paek on July 26, 2026. Pode ser uma imagem de uma ou mais pessoas, arroz frito, barong, hashi, panela, mangueira, avental e texto.",
+                "caption": {
+                    "text": "cuscuz 🌽🎶\n\nIngredientes\n\n• 500g de cuscuz • 250g de bacon em cubos • 2 linguiças calabresas cortadas em cubinhos • 300g de queijo coalho em cubinhos • 2 bananas da terra picadas • 1 cebola roxa cortada em tirinhas • 1 colher de sopa de manteiga de garrafa • Cheiro verde a gosto • Sal e água para hidratar o cuscuz"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/755381072_18546477430072746_4700872625079383244_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ua0ovylN5boQ7kNvwH0oiY2&_nc_oc=AdqwPrsdwtsuXEe_r4GFhmAVJyH4BXV7aI9F7lu_Mco8GJO5CbutsyT2OleVGl7IVOs7FN4k_tA0c5LuxiJqSSuM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQH0DF_fN0XlKpg1BqjDBmhtugSYNCBDX-bN-WFdiaH5BA&oe=6A955F44",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "2331704745",
+                    "username": "arthurpaek",
+                    "id": "17841402182371463"
+                },
+                "id": "POLARIS_3949994704328154394"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3939888641161347147",
+                "code": "DatS9g_BMBL",
+                "accessibility_caption": "Video by Whindersson Nunes on July 12, 2026. Pode ser uma selfie de uma ou mais pessoas e texto.",
+                "caption": {
+                    "text": "🙏🏼🫂"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/743547442_18631616887056885_1074150057515202733_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MgxPtqK7r8AQ7kNvwFGDwv4&_nc_oc=Ado_RzZC8ufP5xPYcF-NGbj-M8ll-pUYbVWSY11FK595ve_9Wtvoniwyf5sKFEDrW_GRwW0jYeqjV1T7ZSrUNMvC&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQGE5wI5NfC3vHrVTVxF9-Fc8NYufKaDHvWnvXBT1-VLIg&oe=6A954E89",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3939888641161347147"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3936121602177351146",
+                "code": "Daf6b4ihb3q",
+                "accessibility_caption": "Video by Whindersson Nunes on July 07, 2026. Pode ser uma imagem de show e texto.",
+                "caption": {
+                    "text": "A espera acabou.\nTOUR USA 2026 🇺🇸 \nQuem aí já garantiu o ingresso? Link na Bio \nConta pra gente em qual cidade você vai assistir ao show. 👇🎤"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/736498046_18629978746056885_2085525325934638304_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MpvpwQRWA7gQ7kNvwH5-BHN&_nc_oc=AdpKd96k_oFMc9v5d6HNdl153W4zs0lCiSqv-SDQ4-KRTvSSwkmA5HPhX52ahkTLBk21TDLA95wQHdEikZetvtCE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQH95-TctZBWzpf6XabtXaeR1iiZHnAJ-88RJwcRDoYFPg&oe=6A956E0F",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3936121602177351146"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3935565524062653663",
+                "code": "Dad7_4cB0zf",
+                "accessibility_caption": "Video by Whindersson Nunes on July 06, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Criatividade por aqui funciona assim: uma ideia puxa outra… e nenhuma reunião termina do jeito que começou. 😂\n\nNo fim, uma coisa ficou decidida: cuidar da pele é pra todo mundo.\n\nA nova linha Cloy Prebiótico une hidratação por até 24 horas, rápida absorção, sem resíduo e 90% de ingredientes naturais. Além disso, os prebióticos ajudam a manter o equilíbrio da microbiota da pele e fortalecer a barreira natural.\n\nQual versão do Whindersson você levaria pra uma reunião? 👀"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/740815981_18629764744056885_8503669021644077505_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=3NBiiO9h8pMQ7kNvwFgcw_c&_nc_oc=Adq0kz7Am3m5nkeHwTHe1FuqPvNwFYFf0Bhc6rCVA1MNQ48xnE59Z2WUmoMdP6RdOt7vuTd4kZ5oR82kAFSJiLe7&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=B0W9amXPtRB-YM1ORuma_g&_nc_ss=70689&oh=00_AQHz_Cox2LMT5pOXmiOVXv8R5Y2wVXeddpYCd47pv9mJuw&oe=6A95663A",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "284920884",
+                    "username": "whinderssonnunes",
+                    "id": "17841401706524451"
+                },
+                "id": "POLARIS_3935565524062653663"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\284920884.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\instagram\\sistema\\user\\admin\\dados\\historico\\284920884.json"
+}

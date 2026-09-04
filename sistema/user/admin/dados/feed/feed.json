@@ -1,0 +1,134 @@
+[
+    {
+        "cliente_usuario": "admin",
+        "pk": 427553890,
+        "username": "leomessi",
+        "total": 26,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:57:02.069032",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: leomessi"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 406936928,
+        "username": "carlinhos",
+        "total": 27,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:56:42.380325",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: carlinhos"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 284920884,
+        "username": "whinderssonnunes",
+        "total": 29,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:56:20.026779",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: whinderssonnunes"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 26669533,
+        "username": "neymarjr",
+        "total": 29,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:55:52.885017",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: neymarjr"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 266439562,
+        "username": "virginia",
+        "total": 29,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:55:33.611876",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: virginia"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 26633036,
+        "username": "anitta",
+        "total": 30,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:55:12.331603",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: anitta"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 228269326,
+        "username": "flamengo",
+        "total": 26,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:55:00.211413",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: flamengo"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 22079794,
+        "username": "gusttavolima",
+        "total": 35,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:54:42.238961",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: gusttavolima"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 173560420,
+        "username": "cristiano",
+        "total": 7,
+        "movimento": false,
+        "timestamp_capture": "2026-09-01T23:54:29.134792",
+        "icone": "💤",
+        "texto": "Sem movimento no perfil do usuário",
+        "mensagem": "💤 Sem movimento no perfil do usuário: cristiano"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 1030845726,
+        "username": "yhagocinaudis",
+        "total": 4,
+        "movimento": true,
+        "timestamp_capture": "2026-09-01T23:54:12.188112",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: yhagocinaudis"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 9281904,
+        "username": "paollaoliveirareal",
+        "total": 9,
+        "movimento": true,
+        "timestamp_capture": "2026-08-27T11:20:24.948837",
+        "icone": "🚨",
+        "texto": "Movimento detectado no perfil do usuário",
+        "mensagem": "🚨 Movimento detectado no perfil do usuário: paollaoliveirareal"
+    },
+    {
+        "cliente_usuario": "admin",
+        "pk": 46587073075,
+        "username": "bonus_de_apostas",
+        "total": 1,
+        "movimento": false,
+        "timestamp_capture": "2026-08-27T11:20:09.027750",
+        "icone": "💤",
+        "texto": "Sem movimento no perfil do usuário",
+        "mensagem": "💤 Sem movimento no perfil do usuário: bonus_de_apostas"
+    }
+]

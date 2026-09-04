@@ -1,0 +1,1801 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-27T06:30:53.121772",
+            "timestamp_anterior": "2026-08-27T00:21:34.440918",
+            "timestamp_atual": "2026-08-27T06:30:53.121772",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hjb4uzkJmLE5eKD6mUPF6g&_nc_ss=70689&oh=00_AQEXkjsC8zBJc8VQ64k_f_I__jl_lVlNyWHYV-ZHQybTUA&oe=6A95BE32"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45206848,
+            "valor_atual": 45206899,
+            "hash_anterior": "4719cf89871423c6c2bc646170c3063870ad3e49c7db5e6ba31e7da83649b494",
+            "hash_atual": "e4f274453ae79191c85d2d7bf3290adf548cd3c7aad7183695ce0db2e4a14cd7",
+            "tempo_desde_anterior": {
+                "segundos": 22158.680854,
+                "texto": "6 horas e 9 minutos e 18 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": 51,
+            "titulo": "Ganhou 51 seguidores",
+            "descricao": "Os seguidores passaram de 45.206.848 para 45.206.899",
+            "variacao_texto": "+51 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:03:49.810505",
+            "timestamp_anterior": "2026-08-27T06:30:53.121772",
+            "timestamp_atual": "2026-08-27T07:03:49.810505",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=eOH3jCuqLrQZoEvxpontfA&_nc_ss=70689&oh=00_AQFFJO-knaTNGyf_RRaPC7NDsQXXZ2Tg7_FmwoZkugccAg&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45206899,
+            "valor_atual": 45206865,
+            "hash_anterior": "e4f274453ae79191c85d2d7bf3290adf548cd3c7aad7183695ce0db2e4a14cd7",
+            "hash_atual": "18bf3f1f97404a732db13b0cc2ec3b0b4925cf3a07177dd28a7e59808981129b",
+            "tempo_desde_anterior": {
+                "segundos": 1976.688733,
+                "texto": "32 minutos e 56 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1976.688733,
+                "texto": "32 minutos e 56 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -34,
+            "titulo": "Perdeu 34 seguidores",
+            "descricao": "Os seguidores caíram de 45.206.899 para 45.206.865",
+            "variacao_texto": "-34 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:33:49.767113",
+            "timestamp_anterior": "2026-08-27T07:03:49.810505",
+            "timestamp_atual": "2026-08-27T07:33:49.767113",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=EHRtqGK2WLYf9q0Ikstp5A&_nc_ss=70689&oh=00_AQEl_-qqMc5QOAZn5rM2IiY9hDIvFFpPXk5IzTkjl2cIHA&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45206865,
+            "valor_atual": 45207068,
+            "hash_anterior": "18bf3f1f97404a732db13b0cc2ec3b0b4925cf3a07177dd28a7e59808981129b",
+            "hash_atual": "78a5cb5c6d64ddfe8463e5203945ae24eaa370fccb80d7f2e0f192d3095341be",
+            "tempo_desde_anterior": {
+                "segundos": 1799.956608,
+                "texto": "29 minutos e 59 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1799.956608,
+                "texto": "29 minutos e 59 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 203,
+            "titulo": "Ganhou 203 seguidores",
+            "descricao": "Os seguidores passaram de 45.206.865 para 45.207.068",
+            "variacao_texto": "+203 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:06:38.947861",
+            "timestamp_anterior": "2026-08-27T07:33:49.767113",
+            "timestamp_atual": "2026-08-27T08:06:38.947861",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=T8F2mASm1Waxccusmflhng&_nc_ss=70289&oh=00_AQEN49utxgl1Y-3phhX3ukhIZjB477UP9AgVAczomDW4ng&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207068,
+            "valor_atual": 45207344,
+            "hash_anterior": "78a5cb5c6d64ddfe8463e5203945ae24eaa370fccb80d7f2e0f192d3095341be",
+            "hash_atual": "d3ec0ff55d9654b0a349fd6740f490690f0688343699090cc47edbe8b35aa5ca",
+            "tempo_desde_anterior": {
+                "segundos": 1969.180748,
+                "texto": "32 minutos e 49 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1969.180748,
+                "texto": "32 minutos e 49 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 276,
+            "titulo": "Ganhou 276 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.068 para 45.207.344",
+            "variacao_texto": "+276 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:17:14.043194",
+            "timestamp_anterior": "2026-08-27T08:06:38.947861",
+            "timestamp_atual": "2026-08-27T08:17:14.043194",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=M0OZ6NjZstoEiAtkWEIe2w&_nc_ss=70689&oh=00_AQF7vKYA_yMk6hGGVcudq1600I065gOnhaTBuVtspooMLQ&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207344,
+            "valor_atual": 45207417,
+            "hash_anterior": "d3ec0ff55d9654b0a349fd6740f490690f0688343699090cc47edbe8b35aa5ca",
+            "hash_atual": "91eb1e7d20f4950bd01f07f067078b2548567ecd7e685f2beda22cc31cac7378",
+            "tempo_desde_anterior": {
+                "segundos": 635.095333,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 635.095333,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 73,
+            "titulo": "Ganhou 73 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.344 para 45.207.417",
+            "variacao_texto": "+73 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:18:59.198720",
+            "timestamp_anterior": "2026-08-27T08:17:14.043194",
+            "timestamp_atual": "2026-08-27T08:18:59.198720",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=MBRhWQ0_D33SkBAtLJq6Xw&_nc_ss=70689&oh=00_AQHqSouqvo4JUkfdwuoTf3oAU5ww1VQP2UbzCYvJ3K1J2Q&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207417,
+            "valor_atual": 45207430,
+            "hash_anterior": "91eb1e7d20f4950bd01f07f067078b2548567ecd7e685f2beda22cc31cac7378",
+            "hash_atual": "7e69da56d035f00086ba1e50e5bb8e7821df5c6cabc114c9be527f18478f4614",
+            "tempo_desde_anterior": {
+                "segundos": 105.155526,
+                "texto": "1 minuto e 45 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 105.155526,
+                "texto": "1 minuto e 45 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 13,
+            "titulo": "Ganhou 13 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.417 para 45.207.430",
+            "variacao_texto": "+13 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:25:49.491433",
+            "timestamp_anterior": "2026-08-27T08:18:59.198720",
+            "timestamp_atual": "2026-08-27T08:25:49.491433",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=d09btPNZ_JoclSW-41x8jg&_nc_ss=70689&oh=00_AQEodn1fR_5dG7b4yUhii5oP0fO0cDvZUSJ0z5bQVLS_tA&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207430,
+            "valor_atual": 45207465,
+            "hash_anterior": "7e69da56d035f00086ba1e50e5bb8e7821df5c6cabc114c9be527f18478f4614",
+            "hash_atual": "9e8196fc8befacb4f7cd54df9a96c8923a49ef268aacc6cac411ec2695b36ed1",
+            "tempo_desde_anterior": {
+                "segundos": 410.292713,
+                "texto": "6 minutos e 50 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 410.292713,
+                "texto": "6 minutos e 50 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 35,
+            "titulo": "Ganhou 35 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.430 para 45.207.465",
+            "variacao_texto": "+35 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:35:51.811578",
+            "timestamp_anterior": "2026-08-27T08:25:49.491433",
+            "timestamp_atual": "2026-08-27T08:35:51.811578",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2GAVCHT6qUgQ14gvJiwnUA&_nc_ss=70689&oh=00_AQGGIEsBHEvH_e5QZVg4-oJrTIaCBJCzBW3n0lKHpITzJQ&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207465,
+            "valor_atual": 45207523,
+            "hash_anterior": "9e8196fc8befacb4f7cd54df9a96c8923a49ef268aacc6cac411ec2695b36ed1",
+            "hash_atual": "28902993c42c3d361831516fbeebf3215b812cd37be98d4de32b78d291ff331a",
+            "tempo_desde_anterior": {
+                "segundos": 602.320145,
+                "texto": "10 minutos e 2 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 602.320145,
+                "texto": "10 minutos e 2 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 58,
+            "titulo": "Ganhou 58 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.465 para 45.207.523",
+            "variacao_texto": "+58 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:08:47.826948",
+            "timestamp_anterior": "2026-08-27T08:35:51.811578",
+            "timestamp_atual": "2026-08-27T10:08:47.826948",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=nAF-wbni1B7PCpqEwCWmzA&_nc_ss=70689&oh=00_AQFSpgUbs6PEMw3IKE87KCQdC4xg9-r1UOgwClvGbOYVCA&oe=6A95F672"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45207523,
+            "valor_atual": 45208199,
+            "hash_anterior": "28902993c42c3d361831516fbeebf3215b812cd37be98d4de32b78d291ff331a",
+            "hash_atual": "5b7fa63863440b856b901173261ec59d4d990698d21e1d21925f5ea9d9a801dd",
+            "tempo_desde_anterior": {
+                "segundos": 5576.01537,
+                "texto": "1 hora e 32 minutos e 56 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 5576.01537,
+                "texto": "1 hora e 32 minutos e 56 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 676,
+            "titulo": "Ganhou 676 seguidores",
+            "descricao": "Os seguidores passaram de 45.207.523 para 45.208.199",
+            "variacao_texto": "+676 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:51:26.731105",
+            "timestamp_anterior": "2026-08-27T10:08:47.826948",
+            "timestamp_atual": "2026-08-27T10:51:26.731105",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGRO-Gn&_nc_oc=Adqsd1gcMedN_6wPWa-ITchr4w0AAfkeQou7T_Cmt2Ynomcdx653GqhauSVQslRbVnr4iNtl_dwKrpRqPupGiJrR&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=3-g6x331K42EGUM2ExKCwA&_nc_ss=70689&oh=00_AQGYKyZH0nCp4XtEJJ2uD4_MuNEQkF1u99qpdZxAd05AdA&oe=6A962EB2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45208199,
+            "valor_atual": 45208533,
+            "hash_anterior": "5b7fa63863440b856b901173261ec59d4d990698d21e1d21925f5ea9d9a801dd",
+            "hash_atual": "84a676b0ffbccf4c5b31d4e154cf024f699d9de06bd583fa415f8fa45b9a0f4c",
+            "tempo_desde_anterior": {
+                "segundos": 2558.904157,
+                "texto": "42 minutos e 38 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 2558.904157,
+                "texto": "42 minutos e 38 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 334,
+            "titulo": "Ganhou 334 seguidores",
+            "descricao": "Os seguidores passaram de 45.208.199 para 45.208.533",
+            "variacao_texto": "+334 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:17:44.128460",
+            "timestamp_anterior": "2026-08-27T10:51:26.731105",
+            "timestamp_atual": "2026-08-27T11:17:44.128460",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=BVrAEi9KGiO0tyuVRPe-lQ&_nc_ss=70689&oh=00_AQEc_jukqUP23IqKIv2wLiJPbENEafzktjfl1q5LfWtR-g&oe=6A962EB2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45208533,
+            "valor_atual": 45208709,
+            "hash_anterior": "84a676b0ffbccf4c5b31d4e154cf024f699d9de06bd583fa415f8fa45b9a0f4c",
+            "hash_atual": "d41d85e2c038d44bce11918def1ac63d56be3b7a3ec61e7043ccd6751c060839",
+            "tempo_desde_anterior": {
+                "segundos": 1577.397355,
+                "texto": "26 minutos e 17 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1577.397355,
+                "texto": "26 minutos e 17 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 176,
+            "titulo": "Ganhou 176 seguidores",
+            "descricao": "Os seguidores passaram de 45.208.533 para 45.208.709",
+            "variacao_texto": "+176 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:43:18.298083",
+            "timestamp_anterior": "2026-08-27T11:17:44.128460",
+            "timestamp_atual": "2026-08-27T11:43:18.298083",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=h7XtG1kwovCb7NYcfdNpNQ&_nc_ss=70689&oh=00_AQG7vMmiDykfQY_2_SjcYaduEtG1QrWzIDKz2TxQSQXSfQ&oe=6A962EB2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45208709,
+            "valor_atual": 45208875,
+            "hash_anterior": "d41d85e2c038d44bce11918def1ac63d56be3b7a3ec61e7043ccd6751c060839",
+            "hash_atual": "96860b5ce063a0665c5085fa01f530a1c45ce6970da0f6f5c8655ea2ee857a75",
+            "tempo_desde_anterior": {
+                "segundos": 1534.169623,
+                "texto": "25 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1534.169623,
+                "texto": "25 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 166,
+            "titulo": "Ganhou 166 seguidores",
+            "descricao": "Os seguidores passaram de 45.208.709 para 45.208.875",
+            "variacao_texto": "+166 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:43:29.223582",
+            "timestamp_anterior": "2026-08-27T11:43:18.298083",
+            "timestamp_atual": "2026-08-27T11:43:29.223582",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=YcJOCx4cIKcVrXR7hDyIkQ&_nc_ss=70689&oh=00_AQG7wIomy0W7x1OBiwoi8dL4blAVY5c6sVKh1VIs_NfwpA&oe=6A962EB2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45208875,
+            "valor_atual": 45208877,
+            "hash_anterior": "96860b5ce063a0665c5085fa01f530a1c45ce6970da0f6f5c8655ea2ee857a75",
+            "hash_atual": "62ab691cedfaeca0173e8ec3fc5fa7938ebe04f7974ea8401aa6d6c56f015198",
+            "tempo_desde_anterior": {
+                "segundos": 10.925499,
+                "texto": "10 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 10.925499,
+                "texto": "10 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 2,
+            "titulo": "Ganhou 2 seguidores",
+            "descricao": "Os seguidores passaram de 45.208.875 para 45.208.877",
+            "variacao_texto": "+2 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:25:23.007473",
+            "timestamp_anterior": "2026-08-27T11:43:29.223582",
+            "timestamp_atual": "2026-08-27T18:25:23.007473",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=TUhTFyhXxu8Xy9dDBk9vYQ&_nc_ss=70689&oh=00_AQH2w1pSjGB_h1EHAxXjcetYgOLfciZldKlkehELetdXDQ&oe=6A9666F2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45208877,
+            "valor_atual": 45212972,
+            "hash_anterior": "62ab691cedfaeca0173e8ec3fc5fa7938ebe04f7974ea8401aa6d6c56f015198",
+            "hash_atual": "8c6df3f54a2fa1ed844f2327f1f46b550de6a0432fc87e8b70c2a433f1923f12",
+            "tempo_desde_anterior": {
+                "segundos": 24113.783891,
+                "texto": "6 horas e 41 minutos e 53 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 24113.783891,
+                "texto": "6 horas e 41 minutos e 53 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 4095,
+            "titulo": "Ganhou 4.095 seguidores",
+            "descricao": "Os seguidores passaram de 45.208.877 para 45.212.972",
+            "variacao_texto": "+4.095 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:25:23.007473",
+            "timestamp_anterior": "2026-08-27T11:43:29.223582",
+            "timestamp_atual": "2026-08-27T18:25:23.007473",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=TUhTFyhXxu8Xy9dDBk9vYQ&_nc_ss=70689&oh=00_AQH2w1pSjGB_h1EHAxXjcetYgOLfciZldKlkehELetdXDQ&oe=6A9666F2"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 725,
+            "valor_atual": 726,
+            "hash_anterior": "62ab691cedfaeca0173e8ec3fc5fa7938ebe04f7974ea8401aa6d6c56f015198",
+            "hash_atual": "8c6df3f54a2fa1ed844f2327f1f46b550de6a0432fc87e8b70c2a433f1923f12",
+            "tempo_desde_anterior": {
+                "segundos": 24113.783891,
+                "texto": "6 horas e 41 minutos e 53 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Começou a seguir 1 pessoa",
+            "descricao": "Estava seguindo 725 e passou a seguir 726",
+            "variacao_texto": "+1 seguindo"
+        },
+        {
+            "timestamp": "2026-08-27T18:25:23.007473",
+            "timestamp_anterior": "2026-08-27T11:43:29.223582",
+            "timestamp_atual": "2026-08-27T18:25:23.007473",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=TUhTFyhXxu8Xy9dDBk9vYQ&_nc_ss=70689&oh=00_AQH2w1pSjGB_h1EHAxXjcetYgOLfciZldKlkehELetdXDQ&oe=6A9666F2"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 1037,
+            "valor_atual": 1038,
+            "hash_anterior": "62ab691cedfaeca0173e8ec3fc5fa7938ebe04f7974ea8401aa6d6c56f015198",
+            "hash_atual": "8c6df3f54a2fa1ed844f2327f1f46b550de6a0432fc87e8b70c2a433f1923f12",
+            "tempo_desde_anterior": {
+                "segundos": 24113.783891,
+                "texto": "6 horas e 41 minutos e 53 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 1,
+            "titulo": "Publicou 1 post",
+            "descricao": "O total de posts passou de 1.037 para 1.038",
+            "variacao_texto": "+1 post"
+        },
+        {
+            "timestamp": "2026-08-27T18:55:27.287390",
+            "timestamp_anterior": "2026-08-27T18:25:23.007473",
+            "timestamp_atual": "2026-08-27T18:55:27.287390",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=_VLvdTbEJ9Dhq4pRHvBt5g&_nc_ss=70689&oh=00_AQF68O3J5ztOFpfSDKIR8uy-TN3eWHAomr_tjfZEPaheng&oe=6A969F32"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45212972,
+            "valor_atual": 45213202,
+            "hash_anterior": "8c6df3f54a2fa1ed844f2327f1f46b550de6a0432fc87e8b70c2a433f1923f12",
+            "hash_atual": "55c7b717232c2132f1d2de5e51487ee1e49655282a4e224964f2c1d77771df50",
+            "tempo_desde_anterior": {
+                "segundos": 1804.279917,
+                "texto": "30 minutos e 4 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1804.279917,
+                "texto": "30 minutos e 4 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 230,
+            "titulo": "Ganhou 230 seguidores",
+            "descricao": "Os seguidores passaram de 45.212.972 para 45.213.202",
+            "variacao_texto": "+230 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T19:09:02.753260",
+            "timestamp_anterior": "2026-08-27T18:55:27.287390",
+            "timestamp_atual": "2026-08-27T19:09:02.753260",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=mWtIHsUDRl006Jsh0IvoAw&_nc_ss=70689&oh=00_AQHbUvV_pCYVj3D630o80pydf4tmYtsLIE4yTjMbZu2-oA&oe=6A969F32"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45213202,
+            "valor_atual": 45213323,
+            "hash_anterior": "55c7b717232c2132f1d2de5e51487ee1e49655282a4e224964f2c1d77771df50",
+            "hash_atual": "4da908be1f4c2e7524954bab44440ebadd95e52d2624c5a0e7d012e4851eb682",
+            "tempo_desde_anterior": {
+                "segundos": 815.46587,
+                "texto": "13 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 815.46587,
+                "texto": "13 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 121,
+            "titulo": "Ganhou 121 seguidores",
+            "descricao": "Os seguidores passaram de 45.213.202 para 45.213.323",
+            "variacao_texto": "+121 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T19:09:13.742792",
+            "timestamp_anterior": "2026-08-27T19:09:02.753260",
+            "timestamp_atual": "2026-08-27T19:09:13.742792",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=rPTa9ahomLIzxQLgbkvUPA&_nc_ss=70689&oh=00_AQGbnTeXRUClvWtkxAHu8cRiyANrf7YLrsJ6SJK0mowNTw&oe=6A969F32"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45213323,
+            "valor_atual": 45213325,
+            "hash_anterior": "4da908be1f4c2e7524954bab44440ebadd95e52d2624c5a0e7d012e4851eb682",
+            "hash_atual": "f6dc87bc34a8fa354b054646d01f86ed2bb1fefe816cd52a9fcbac55fcff5e48",
+            "tempo_desde_anterior": {
+                "segundos": 10.989532,
+                "texto": "10 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 10.989532,
+                "texto": "10 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 2,
+            "titulo": "Ganhou 2 seguidores",
+            "descricao": "Os seguidores passaram de 45.213.323 para 45.213.325",
+            "variacao_texto": "+2 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:36:02.118417",
+            "timestamp_anterior": "2026-08-27T19:09:13.742792",
+            "timestamp_atual": "2026-08-27T22:36:02.118417",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=9q0AElYfaOnsD6fM2OqYjQ&_nc_ss=70689&oh=00_AQEQQzK0OOLh37b3NRUJf2tQ08IIIwlc78LOWvOnlnvb3w&oe=6A969F32"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45213325,
+            "valor_atual": 45215059,
+            "hash_anterior": "f6dc87bc34a8fa354b054646d01f86ed2bb1fefe816cd52a9fcbac55fcff5e48",
+            "hash_atual": "436eef7b5e8fee6b9dfde0aae30b0f2a9473b70d1e5cf8d3ae3aef33eb72e3be",
+            "tempo_desde_anterior": {
+                "segundos": 12408.375625,
+                "texto": "3 horas e 26 minutos e 48 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 12408.375625,
+                "texto": "3 horas e 26 minutos e 48 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1734,
+            "titulo": "Ganhou 1.734 seguidores",
+            "descricao": "Os seguidores passaram de 45.213.325 para 45.215.059",
+            "variacao_texto": "+1.734 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:57:31.143672",
+            "timestamp_anterior": "2026-08-27T22:36:02.118417",
+            "timestamp_atual": "2026-08-27T22:57:31.143672",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=9bTJrgkKZMvZhwxY-d357A&_nc_ss=70689&oh=00_AQF9SRNMqifFIwRk-bDtrM9HsaCaLpir_Rz90_6_QfpiEg&oe=6A96D772"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45215059,
+            "valor_atual": 45215201,
+            "hash_anterior": "436eef7b5e8fee6b9dfde0aae30b0f2a9473b70d1e5cf8d3ae3aef33eb72e3be",
+            "hash_atual": "27b9986599e5b0f2ebd0b1693a2fe079e64c975c6968b480151cde0653d0c7a5",
+            "tempo_desde_anterior": {
+                "segundos": 1289.025255,
+                "texto": "21 minutos e 29 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1289.025255,
+                "texto": "21 minutos e 29 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 142,
+            "titulo": "Ganhou 142 seguidores",
+            "descricao": "Os seguidores passaram de 45.215.059 para 45.215.201",
+            "variacao_texto": "+142 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T09:13:26.093553",
+            "timestamp_anterior": "2026-08-27T22:57:31.143672",
+            "timestamp_atual": "2026-08-28T09:13:26.093553",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ISZGPbDdiTpdcYCjrD9yAw&_nc_ss=70689&oh=00_AQFOATlYRBaC-ewfY0RSSug1NM8nqyTDUU4x2bwoT9G68g&oe=6A9747F2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45215201,
+            "valor_atual": 45215559,
+            "hash_anterior": "27b9986599e5b0f2ebd0b1693a2fe079e64c975c6968b480151cde0653d0c7a5",
+            "hash_atual": "14b1edfd047951a2664bef8bbd72b4c0ddcd52f5a2f6a7d0f28fcdf3c49985d2",
+            "tempo_desde_anterior": {
+                "segundos": 36954.949881,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 36954.949881,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 358,
+            "titulo": "Ganhou 358 seguidores",
+            "descricao": "Os seguidores passaram de 45.215.201 para 45.215.559",
+            "variacao_texto": "+358 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:13:55.570720",
+            "timestamp_anterior": "2026-08-28T09:13:26.093553",
+            "timestamp_atual": "2026-08-28T10:13:55.570720",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=RJXi9lpNwkd6_wm661fMSQ&_nc_ss=70689&oh=00_AQGPRVe60B4f1tj0fiqA9PJ3RlMBdYGmYlEaOEABtT5ajQ&oe=6A9747F2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45215559,
+            "valor_atual": 45215752,
+            "hash_anterior": "14b1edfd047951a2664bef8bbd72b4c0ddcd52f5a2f6a7d0f28fcdf3c49985d2",
+            "hash_atual": "6dfdf8d8377a4a9a0421e3108ba92b726ce33ab19f860ffd325faa312c9e60e4",
+            "tempo_desde_anterior": {
+                "segundos": 3629.477167,
+                "texto": "1 hora e 29 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3629.477167,
+                "texto": "1 hora e 29 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 193,
+            "titulo": "Ganhou 193 seguidores",
+            "descricao": "Os seguidores passaram de 45.215.559 para 45.215.752",
+            "variacao_texto": "+193 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:29:30.080456",
+            "timestamp_anterior": "2026-08-28T10:13:55.570720",
+            "timestamp_atual": "2026-08-28T10:29:30.080456",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwE3ZDc4&_nc_oc=AdpCIz2gpwCWwi1ZXPc4Zo7ISdFZgWQ0XvIyI3txEVMw_oPmfUidjmPgj5foY3gBJm8p76LUJ8bGILw0kG0WOm4F&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=1F7JEvTTaL4u0ihnyZnpMg&_nc_ss=70689&oh=00_AQE5kxNN0ZaeS54NjtdMcz-qlDC2yRCw2BylqEmWHV1Ppg&oe=6A9747F2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45215752,
+            "valor_atual": 45215805,
+            "hash_anterior": "6dfdf8d8377a4a9a0421e3108ba92b726ce33ab19f860ffd325faa312c9e60e4",
+            "hash_atual": "ee10a1f714f939a3ed44e068a4684dcd475a1b37f138360cc20f4be7149158e9",
+            "tempo_desde_anterior": {
+                "segundos": 934.509736,
+                "texto": "15 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 934.509736,
+                "texto": "15 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 53,
+            "titulo": "Ganhou 53 seguidores",
+            "descricao": "Os seguidores passaram de 45.215.752 para 45.215.805",
+            "variacao_texto": "+53 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T14:37:02.019563",
+            "timestamp_anterior": "2026-08-28T10:29:30.080456",
+            "timestamp_atual": "2026-08-28T14:37:02.019563",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGWQsTC&_nc_oc=Ado6rhFWt03WbNXsMtj6io4WheL6Yzba2JF-jsnVVtRX2n0Aef0jrW7IPvz9vvC_OBCyztAtfZBSWDscchV3L1_d&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=gIpCIE7Ni5y9etRolATMNA&_nc_ss=70689&oh=00_AQFQBtWczRlJB-BkpiCxRtKfbvneS1jAneEzoftM9x6JGQ&oe=6A978032"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45215805,
+            "valor_atual": 45216539,
+            "hash_anterior": "ee10a1f714f939a3ed44e068a4684dcd475a1b37f138360cc20f4be7149158e9",
+            "hash_atual": "d768d62a55b5eaa8d2819912a3be3cb6b454c91e41ef57123f8a943f6827493a",
+            "tempo_desde_anterior": {
+                "segundos": 14851.939107,
+                "texto": "4 horas e 7 minutos e 31 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 14851.939107,
+                "texto": "4 horas e 7 minutos e 31 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 734,
+            "titulo": "Ganhou 734 seguidores",
+            "descricao": "Os seguidores passaram de 45.215.805 para 45.216.539",
+            "variacao_texto": "+734 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T15:39:34.049903",
+            "timestamp_anterior": "2026-08-28T14:37:02.019563",
+            "timestamp_atual": "2026-08-28T15:39:34.049903",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGWQsTC&_nc_oc=Ado6rhFWt03WbNXsMtj6io4WheL6Yzba2JF-jsnVVtRX2n0Aef0jrW7IPvz9vvC_OBCyztAtfZBSWDscchV3L1_d&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=nyltMdHj8KOBbTouR325oQ&_nc_ss=70689&oh=00_AQHnzJvE9FZTnZim1wb-hi-b0vyam15a190JoOOeXmSpqg&oe=6A97B872"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45216539,
+            "valor_atual": 45216846,
+            "hash_anterior": "d768d62a55b5eaa8d2819912a3be3cb6b454c91e41ef57123f8a943f6827493a",
+            "hash_atual": "391171aa451af433015b3e162ce105ac353be7b81875d2125361d42f090b9c76",
+            "tempo_desde_anterior": {
+                "segundos": 3752.03034,
+                "texto": "1 hora e 2 minutos e 32 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3752.03034,
+                "texto": "1 hora e 2 minutos e 32 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 307,
+            "titulo": "Ganhou 307 seguidores",
+            "descricao": "Os seguidores passaram de 45.216.539 para 45.216.846",
+            "variacao_texto": "+307 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:12:07.220660",
+            "timestamp_anterior": "2026-08-28T15:39:34.049903",
+            "timestamp_atual": "2026-08-28T19:12:07.220660",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwGWQsTC&_nc_oc=Ado6rhFWt03WbNXsMtj6io4WheL6Yzba2JF-jsnVVtRX2n0Aef0jrW7IPvz9vvC_OBCyztAtfZBSWDscchV3L1_d&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CY3bTVBdfGyPoYzVZcHlKg&_nc_ss=70689&oh=00_AQIuXO2c9hiIs-JR0zDHrHrFR5vGQVqTveuczLMrJ-Kjkw&oe=6A97F0B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45216846,
+            "valor_atual": 45217432,
+            "hash_anterior": "391171aa451af433015b3e162ce105ac353be7b81875d2125361d42f090b9c76",
+            "hash_atual": "cd76f166a7e272981d9d5e398e288725a960f95a0a6ebb9288137574fc92fc01",
+            "tempo_desde_anterior": {
+                "segundos": 12753.170757,
+                "texto": "3 horas e 32 minutos e 33 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 12753.170757,
+                "texto": "3 horas e 32 minutos e 33 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 586,
+            "titulo": "Ganhou 586 seguidores",
+            "descricao": "Os seguidores passaram de 45.216.846 para 45.217.432",
+            "variacao_texto": "+586 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T23:00:03.396583",
+            "timestamp_anterior": "2026-08-28T19:12:07.220660",
+            "timestamp_atual": "2026-08-28T23:00:03.396583",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwEkXiFq&_nc_oc=AdqebEoh__vB73h_Gj7j9LncngT7Y4p6GUvtDLAjOfct3r7D6aJ1LwuLBgmMbCtlIaeN-s-SSOv-6pcUMX3TxOZc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=bDDVRBgK1LF_VCHZVCvuuA&_nc_ss=70689&oh=00_AQLfra-9nl8-7D1S8K1DyclmpSciLYUcpRWrzF1FpOgUfQ&oe=6A9828F2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45217432,
+            "valor_atual": 45218883,
+            "hash_anterior": "cd76f166a7e272981d9d5e398e288725a960f95a0a6ebb9288137574fc92fc01",
+            "hash_atual": "c8bb69b21ae3ff846fff9ebbd1a400f2ce44d27c8f629e601f0e6a0de1ce6683",
+            "tempo_desde_anterior": {
+                "segundos": 13676.175923,
+                "texto": "3 horas e 47 minutos e 56 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13676.175923,
+                "texto": "3 horas e 47 minutos e 56 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1451,
+            "titulo": "Ganhou 1.451 seguidores",
+            "descricao": "Os seguidores passaram de 45.217.432 para 45.218.883",
+            "variacao_texto": "+1.451 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T23:00:03.396583",
+            "timestamp_anterior": "2026-08-28T19:12:07.220660",
+            "timestamp_atual": "2026-08-28T23:00:03.396583",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwEkXiFq&_nc_oc=AdqebEoh__vB73h_Gj7j9LncngT7Y4p6GUvtDLAjOfct3r7D6aJ1LwuLBgmMbCtlIaeN-s-SSOv-6pcUMX3TxOZc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=bDDVRBgK1LF_VCHZVCvuuA&_nc_ss=70689&oh=00_AQLfra-9nl8-7D1S8K1DyclmpSciLYUcpRWrzF1FpOgUfQ&oe=6A9828F2"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 1038,
+            "valor_atual": 1039,
+            "hash_anterior": "cd76f166a7e272981d9d5e398e288725a960f95a0a6ebb9288137574fc92fc01",
+            "hash_atual": "c8bb69b21ae3ff846fff9ebbd1a400f2ce44d27c8f629e601f0e6a0de1ce6683",
+            "tempo_desde_anterior": {
+                "segundos": 13676.175923,
+                "texto": "3 horas e 47 minutos e 56 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 1,
+            "titulo": "Publicou 1 post",
+            "descricao": "O total de posts passou de 1.038 para 1.039",
+            "variacao_texto": "+1 post"
+        },
+        {
+            "timestamp": "2026-08-29T11:44:35.899696",
+            "timestamp_anterior": "2026-08-28T23:00:03.396583",
+            "timestamp_atual": "2026-08-29T11:44:35.899696",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwFLdHhi&_nc_oc=Adq9iIpjdlh55k03Pch4ypqkovbAORgL-hYXLg1koYrYN6vEE5-pyQ1SV2PsueIZE967rMuZ88L6-sehDabEpER4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=oE7CpePIZrdXmIXKuElKLA&_nc_ss=70689&oh=00_AQJFL6ibqlevu7-ExflbYs0cYsjqqJ9JZIvLGxPGFTAERA&oe=6A98D1B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45218883,
+            "valor_atual": 45219707,
+            "hash_anterior": "c8bb69b21ae3ff846fff9ebbd1a400f2ce44d27c8f629e601f0e6a0de1ce6683",
+            "hash_atual": "3bc4558ff78b2b88386ed6bb60a1471535ac111e2bf23453b029f518c4b82656",
+            "tempo_desde_anterior": {
+                "segundos": 45872.503113,
+                "texto": "12 horas e 44 minutos e 32 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 45872.503113,
+                "texto": "12 horas e 44 minutos e 32 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 824,
+            "titulo": "Ganhou 824 seguidores",
+            "descricao": "Os seguidores passaram de 45.218.883 para 45.219.707",
+            "variacao_texto": "+824 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T11:51:13.489591",
+            "timestamp_anterior": "2026-08-29T11:44:35.899696",
+            "timestamp_atual": "2026-08-29T11:51:13.489591",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwFLdHhi&_nc_oc=Adq9iIpjdlh55k03Pch4ypqkovbAORgL-hYXLg1koYrYN6vEE5-pyQ1SV2PsueIZE967rMuZ88L6-sehDabEpER4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=M508UoBKoKatLzoRUSsOvg&_nc_ss=70689&oh=00_AQJQqHjhrapegYMETSKfwwnSviyWR_Hd5iwVb9vuBycxbQ&oe=6A98D1B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45219707,
+            "valor_atual": 45219751,
+            "hash_anterior": "3bc4558ff78b2b88386ed6bb60a1471535ac111e2bf23453b029f518c4b82656",
+            "hash_atual": "50040931649342dcc0e759993ac8bf6747cc17e280a600fbea23a9dbca9a746c",
+            "tempo_desde_anterior": {
+                "segundos": 397.589895,
+                "texto": "6 minutos e 37 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 397.589895,
+                "texto": "6 minutos e 37 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 44,
+            "titulo": "Ganhou 44 seguidores",
+            "descricao": "Os seguidores passaram de 45.219.707 para 45.219.751",
+            "variacao_texto": "+44 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T12:53:49.283507",
+            "timestamp_anterior": "2026-08-29T11:51:13.489591",
+            "timestamp_atual": "2026-08-29T12:53:49.283507",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwFLdHhi&_nc_oc=Adq9iIpjdlh55k03Pch4ypqkovbAORgL-hYXLg1koYrYN6vEE5-pyQ1SV2PsueIZE967rMuZ88L6-sehDabEpER4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=jJFt-qvIeaV7bTusMjicwQ&_nc_ss=70689&oh=00_AQK4gRsGU_vJILtbUqBCZI2P0WJin_sAWWfa2wFMP7lDjQ&oe=6A98D1B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45219751,
+            "valor_atual": 45220134,
+            "hash_anterior": "50040931649342dcc0e759993ac8bf6747cc17e280a600fbea23a9dbca9a746c",
+            "hash_atual": "967a8be65598d75f2d37b038624e2dcff4916e9181bb0f4cf341a66c026a92cc",
+            "tempo_desde_anterior": {
+                "segundos": 3755.793916,
+                "texto": "1 hora e 2 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3755.793916,
+                "texto": "1 hora e 2 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 383,
+            "titulo": "Ganhou 383 seguidores",
+            "descricao": "Os seguidores passaram de 45.219.751 para 45.220.134",
+            "variacao_texto": "+383 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T13:56:12.585359",
+            "timestamp_anterior": "2026-08-29T12:53:49.283507",
+            "timestamp_atual": "2026-08-29T13:56:12.585359",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwFLdHhi&_nc_oc=Adq9iIpjdlh55k03Pch4ypqkovbAORgL-hYXLg1koYrYN6vEE5-pyQ1SV2PsueIZE967rMuZ88L6-sehDabEpER4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=6Af0wQbB2vXsLOjjWfQwag&_nc_ss=70689&oh=00_AQLZdtAXeT9Q3b9fh6yo011N6wVToZQFXwZN4ujId6OTLg&oe=6A98D1B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45220134,
+            "valor_atual": 45220777,
+            "hash_anterior": "967a8be65598d75f2d37b038624e2dcff4916e9181bb0f4cf341a66c026a92cc",
+            "hash_atual": "c4e82cad15089a7667b8d965d2ae5b46417ad857a7e3fc2673822daaa02c07ba",
+            "tempo_desde_anterior": {
+                "segundos": 3743.301852,
+                "texto": "1 hora e 2 minutos e 23 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3743.301852,
+                "texto": "1 hora e 2 minutos e 23 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 643,
+            "titulo": "Ganhou 643 seguidores",
+            "descricao": "Os seguidores passaram de 45.220.134 para 45.220.777",
+            "variacao_texto": "+643 seguidores"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:10.569037",
+            "timestamp_anterior": "2026-08-29T13:56:12.585359",
+            "timestamp_atual": "2026-08-31T11:57:10.569037",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwEqSVPH&_nc_oc=Adqh-YhP4Ghf-IghblAH5adgF43JGHFGm2hn7nMEpYm-ZW_Gzy-hBd_cXy8M4qMFOCjr8gULarWl8wucUh6f51VY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=dG6yb-nBX5cDVKLrUyzypA&_nc_ss=70689&oh=00_AQI_TyTQRamxEgAbO-28iITISEHHw1VLi_4BJzR3sn_wuQ&oe=6A9B74B2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45220777,
+            "valor_atual": 45229222,
+            "hash_anterior": "c4e82cad15089a7667b8d965d2ae5b46417ad857a7e3fc2673822daaa02c07ba",
+            "hash_atual": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "tempo_desde_anterior": {
+                "segundos": 165657.983678,
+                "texto": "1 dia e 22 horas e 57 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 165657.983678,
+                "texto": "1 dia e 22 horas e 57 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 8445,
+            "titulo": "Ganhou 8.445 seguidores",
+            "descricao": "Os seguidores passaram de 45.220.777 para 45.229.222",
+            "variacao_texto": "+8.445 seguidores"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:10.569037",
+            "timestamp_anterior": "2026-08-29T13:56:12.585359",
+            "timestamp_atual": "2026-08-31T11:57:10.569037",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwEqSVPH&_nc_oc=Adqh-YhP4Ghf-IghblAH5adgF43JGHFGm2hn7nMEpYm-ZW_Gzy-hBd_cXy8M4qMFOCjr8gULarWl8wucUh6f51VY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=dG6yb-nBX5cDVKLrUyzypA&_nc_ss=70689&oh=00_AQI_TyTQRamxEgAbO-28iITISEHHw1VLi_4BJzR3sn_wuQ&oe=6A9B74B2"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 726,
+            "valor_atual": 724,
+            "hash_anterior": "c4e82cad15089a7667b8d965d2ae5b46417ad857a7e3fc2673822daaa02c07ba",
+            "hash_atual": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "tempo_desde_anterior": {
+                "segundos": 165657.983678,
+                "texto": "1 dia e 22 horas e 57 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -2,
+            "titulo": "Deixou de seguir 2 pessoas",
+            "descricao": "Estava seguindo 726 e passou a seguir 724",
+            "variacao_texto": "-2 seguindo"
+        },
+        {
+            "timestamp": "2026-08-31T11:57:10.569037",
+            "timestamp_anterior": "2026-08-29T13:56:12.585359",
+            "timestamp_atual": "2026-08-31T11:57:10.569037",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nIxLqw_mYa4Q7kNvwEqSVPH&_nc_oc=Adqh-YhP4Ghf-IghblAH5adgF43JGHFGm2hn7nMEpYm-ZW_Gzy-hBd_cXy8M4qMFOCjr8gULarWl8wucUh6f51VY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=dG6yb-nBX5cDVKLrUyzypA&_nc_ss=70689&oh=00_AQI_TyTQRamxEgAbO-28iITISEHHw1VLi_4BJzR3sn_wuQ&oe=6A9B74B2"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 1039,
+            "valor_atual": 1046,
+            "hash_anterior": "c4e82cad15089a7667b8d965d2ae5b46417ad857a7e3fc2673822daaa02c07ba",
+            "hash_atual": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "tempo_desde_anterior": {
+                "segundos": 165657.983678,
+                "texto": "1 dia e 22 horas e 57 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 7,
+            "titulo": "Publicou 7 posts",
+            "descricao": "O total de posts passou de 1.039 para 1.046",
+            "variacao_texto": "+7 posts"
+        },
+        {
+            "timestamp": "2026-09-01T23:40:34.603820",
+            "timestamp_anterior": "2026-08-31T11:57:10.569037",
+            "timestamp_atual": "2026-09-01T23:40:34.603820",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=k-jiNRt1mWIQ7kNvwHFbQoJ&_nc_oc=AdpdSq-vf9uv0ltyexkxvfdG5INaL0wqrLyaHJ8wYyUNdEO2tEBD77adkrwUpK1LJ7-Q3KMTn_q0GCe9Ynx_G4ND&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hd8iVhPJv8igiwmDRaXAKw&_nc_ss=70689&oh=00_AQLlRY2R93VEy58OUiuxSJRrkBvyrFsp6ePI1AUxZYzrwA&oe=6A9D6EF2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45229222,
+            "valor_atual": 45230609,
+            "hash_anterior": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "hash_atual": "a4e6d9ddb9884051e79c6bf36c768d9cff0239354d479c106d46d2b7c71dae36",
+            "tempo_desde_anterior": {
+                "segundos": 128604.034783,
+                "texto": "1 dia e 11 horas e 43 minutos e 24 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 128604.034783,
+                "texto": "1 dia e 11 horas e 43 minutos e 24 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1387,
+            "titulo": "Ganhou 1.387 seguidores",
+            "descricao": "Os seguidores passaram de 45.229.222 para 45.230.609",
+            "variacao_texto": "+1.387 seguidores"
+        },
+        {
+            "timestamp": "2026-09-01T23:40:34.603820",
+            "timestamp_anterior": "2026-08-31T11:57:10.569037",
+            "timestamp_atual": "2026-09-01T23:40:34.603820",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=k-jiNRt1mWIQ7kNvwHFbQoJ&_nc_oc=AdpdSq-vf9uv0ltyexkxvfdG5INaL0wqrLyaHJ8wYyUNdEO2tEBD77adkrwUpK1LJ7-Q3KMTn_q0GCe9Ynx_G4ND&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hd8iVhPJv8igiwmDRaXAKw&_nc_ss=70689&oh=00_AQLlRY2R93VEy58OUiuxSJRrkBvyrFsp6ePI1AUxZYzrwA&oe=6A9D6EF2"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 724,
+            "valor_atual": 721,
+            "hash_anterior": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "hash_atual": "a4e6d9ddb9884051e79c6bf36c768d9cff0239354d479c106d46d2b7c71dae36",
+            "tempo_desde_anterior": {
+                "segundos": 128604.034783,
+                "texto": "1 dia e 11 horas e 43 minutos e 24 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -3,
+            "titulo": "Deixou de seguir 3 pessoas",
+            "descricao": "Estava seguindo 724 e passou a seguir 721",
+            "variacao_texto": "-3 seguindo"
+        },
+        {
+            "timestamp": "2026-09-01T23:40:34.603820",
+            "timestamp_anterior": "2026-08-31T11:57:10.569037",
+            "timestamp_atual": "2026-09-01T23:40:34.603820",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=k-jiNRt1mWIQ7kNvwHFbQoJ&_nc_oc=AdpdSq-vf9uv0ltyexkxvfdG5INaL0wqrLyaHJ8wYyUNdEO2tEBD77adkrwUpK1LJ7-Q3KMTn_q0GCe9Ynx_G4ND&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hd8iVhPJv8igiwmDRaXAKw&_nc_ss=70689&oh=00_AQLlRY2R93VEy58OUiuxSJRrkBvyrFsp6ePI1AUxZYzrwA&oe=6A9D6EF2"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 1046,
+            "valor_atual": 1048,
+            "hash_anterior": "f1c15149db6bec2462cca19f04c61e9cfd7dbb20b2d837594818ba0790c8225e",
+            "hash_atual": "a4e6d9ddb9884051e79c6bf36c768d9cff0239354d479c106d46d2b7c71dae36",
+            "tempo_desde_anterior": {
+                "segundos": 128604.034783,
+                "texto": "1 dia e 11 horas e 43 minutos e 24 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 2,
+            "titulo": "Publicou 2 posts",
+            "descricao": "O total de posts passou de 1.046 para 1.048",
+            "variacao_texto": "+2 posts"
+        },
+        {
+            "timestamp": "2026-09-01T23:53:09.218910",
+            "timestamp_anterior": "2026-09-01T23:40:34.603820",
+            "timestamp_atual": "2026-09-01T23:53:09.218910",
+            "usuario": {
+                "pk": 22079794,
+                "id": "17841401913820344",
+                "username": "gusttavolima",
+                "nome": "Gusttavo Lima",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=k-jiNRt1mWIQ7kNvwHFbQoJ&_nc_oc=AdpdSq-vf9uv0ltyexkxvfdG5INaL0wqrLyaHJ8wYyUNdEO2tEBD77adkrwUpK1LJ7-Q3KMTn_q0GCe9Ynx_G4ND&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=1avKqthmlt6HHiOvW9W9uw&_nc_ss=70689&oh=00_AQKXIbZOqpyNTbfoKz3ZFT-FpAhVGW_0hVp_8fh7UIfeYQ&oe=6A9D6EF2"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 45230609,
+            "valor_atual": 45230588,
+            "hash_anterior": "a4e6d9ddb9884051e79c6bf36c768d9cff0239354d479c106d46d2b7c71dae36",
+            "hash_atual": "a1ec09f48e744653f529ab2c5461868df08e8d59f694e1fd26b833c3e5b21030",
+            "tempo_desde_anterior": {
+                "segundos": 754.61509,
+                "texto": "12 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 754.61509,
+                "texto": "12 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -21,
+            "titulo": "Perdeu 21 seguidores",
+            "descricao": "Os seguidores caíram de 45.230.609 para 45.230.588",
+            "variacao_texto": "-21 seguidores"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 22079794,
+            "id": "17841401913820344",
+            "username": "gusttavolima",
+            "nome": "Gusttavo Lima"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 45206848,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45206848,
+                "valor_atual": 45206899,
+                "variacao": 51,
+                "direcao": "aumento",
+                "descricao": "+51 seguidores",
+                "timestamp": "2026-08-27T06:30:53.121772",
+                "timestamp_anterior": "2026-08-27T00:21:34.440918",
+                "tempo_desde_anterior_segundos": 22158
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45206899,
+                "valor_atual": 45206865,
+                "variacao": -34,
+                "direcao": "reducao",
+                "descricao": "-34 seguidores",
+                "timestamp": "2026-08-27T07:03:49.810505",
+                "timestamp_anterior": "2026-08-27T06:30:53.121772",
+                "tempo_desde_anterior_segundos": 1976
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45206865,
+                "valor_atual": 45207068,
+                "variacao": 203,
+                "direcao": "aumento",
+                "descricao": "+203 seguidores",
+                "timestamp": "2026-08-27T07:33:49.767113",
+                "timestamp_anterior": "2026-08-27T07:03:49.810505",
+                "tempo_desde_anterior_segundos": 1799
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207068,
+                "valor_atual": 45207344,
+                "variacao": 276,
+                "direcao": "aumento",
+                "descricao": "+276 seguidores",
+                "timestamp": "2026-08-27T08:06:38.947861",
+                "timestamp_anterior": "2026-08-27T07:33:49.767113",
+                "tempo_desde_anterior_segundos": 1969
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207344,
+                "valor_atual": 45207417,
+                "variacao": 73,
+                "direcao": "aumento",
+                "descricao": "+73 seguidores",
+                "timestamp": "2026-08-27T08:17:14.043194",
+                "timestamp_anterior": "2026-08-27T08:06:38.947861",
+                "tempo_desde_anterior_segundos": 635
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207417,
+                "valor_atual": 45207430,
+                "variacao": 13,
+                "direcao": "aumento",
+                "descricao": "+13 seguidores",
+                "timestamp": "2026-08-27T08:18:59.198720",
+                "timestamp_anterior": "2026-08-27T08:17:14.043194",
+                "tempo_desde_anterior_segundos": 105
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207430,
+                "valor_atual": 45207465,
+                "variacao": 35,
+                "direcao": "aumento",
+                "descricao": "+35 seguidores",
+                "timestamp": "2026-08-27T08:25:49.491433",
+                "timestamp_anterior": "2026-08-27T08:18:59.198720",
+                "tempo_desde_anterior_segundos": 410
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207465,
+                "valor_atual": 45207523,
+                "variacao": 58,
+                "direcao": "aumento",
+                "descricao": "+58 seguidores",
+                "timestamp": "2026-08-27T08:35:51.811578",
+                "timestamp_anterior": "2026-08-27T08:25:49.491433",
+                "tempo_desde_anterior_segundos": 602
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45207523,
+                "valor_atual": 45208199,
+                "variacao": 676,
+                "direcao": "aumento",
+                "descricao": "+676 seguidores",
+                "timestamp": "2026-08-27T10:08:47.826948",
+                "timestamp_anterior": "2026-08-27T08:35:51.811578",
+                "tempo_desde_anterior_segundos": 5576
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45208199,
+                "valor_atual": 45208533,
+                "variacao": 334,
+                "direcao": "aumento",
+                "descricao": "+334 seguidores",
+                "timestamp": "2026-08-27T10:51:26.731105",
+                "timestamp_anterior": "2026-08-27T10:08:47.826948",
+                "tempo_desde_anterior_segundos": 2558
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45208533,
+                "valor_atual": 45208709,
+                "variacao": 176,
+                "direcao": "aumento",
+                "descricao": "+176 seguidores",
+                "timestamp": "2026-08-27T11:17:44.128460",
+                "timestamp_anterior": "2026-08-27T10:51:26.731105",
+                "tempo_desde_anterior_segundos": 1577
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45208709,
+                "valor_atual": 45208875,
+                "variacao": 166,
+                "direcao": "aumento",
+                "descricao": "+166 seguidores",
+                "timestamp": "2026-08-27T11:43:18.298083",
+                "timestamp_anterior": "2026-08-27T11:17:44.128460",
+                "tempo_desde_anterior_segundos": 1534
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45208875,
+                "valor_atual": 45208877,
+                "variacao": 2,
+                "direcao": "aumento",
+                "descricao": "+2 seguidores",
+                "timestamp": "2026-08-27T11:43:29.223582",
+                "timestamp_anterior": "2026-08-27T11:43:18.298083",
+                "tempo_desde_anterior_segundos": 10
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45208877,
+                "valor_atual": 45212972,
+                "variacao": 4095,
+                "direcao": "aumento",
+                "descricao": "+4095 seguidores",
+                "timestamp": "2026-08-27T18:25:23.007473",
+                "timestamp_anterior": "2026-08-27T11:43:29.223582",
+                "tempo_desde_anterior_segundos": 24113
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45212972,
+                "valor_atual": 45213202,
+                "variacao": 230,
+                "direcao": "aumento",
+                "descricao": "+230 seguidores",
+                "timestamp": "2026-08-27T18:55:27.287390",
+                "timestamp_anterior": "2026-08-27T18:25:23.007473",
+                "tempo_desde_anterior_segundos": 1804
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45213202,
+                "valor_atual": 45213323,
+                "variacao": 121,
+                "direcao": "aumento",
+                "descricao": "+121 seguidores",
+                "timestamp": "2026-08-27T19:09:02.753260",
+                "timestamp_anterior": "2026-08-27T18:55:27.287390",
+                "tempo_desde_anterior_segundos": 815
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45213323,
+                "valor_atual": 45213325,
+                "variacao": 2,
+                "direcao": "aumento",
+                "descricao": "+2 seguidores",
+                "timestamp": "2026-08-27T19:09:13.742792",
+                "timestamp_anterior": "2026-08-27T19:09:02.753260",
+                "tempo_desde_anterior_segundos": 10
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45213325,
+                "valor_atual": 45215059,
+                "variacao": 1734,
+                "direcao": "aumento",
+                "descricao": "+1734 seguidores",
+                "timestamp": "2026-08-27T22:36:02.118417",
+                "timestamp_anterior": "2026-08-27T19:09:13.742792",
+                "tempo_desde_anterior_segundos": 12408
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45215059,
+                "valor_atual": 45215201,
+                "variacao": 142,
+                "direcao": "aumento",
+                "descricao": "+142 seguidores",
+                "timestamp": "2026-08-27T22:57:31.143672",
+                "timestamp_anterior": "2026-08-27T22:36:02.118417",
+                "tempo_desde_anterior_segundos": 1289
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45215201,
+                "valor_atual": 45215559,
+                "variacao": 358,
+                "direcao": "aumento",
+                "descricao": "+358 seguidores",
+                "timestamp": "2026-08-28T09:13:26.093553",
+                "timestamp_anterior": "2026-08-27T22:57:31.143672",
+                "tempo_desde_anterior_segundos": 36954
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45215559,
+                "valor_atual": 45215752,
+                "variacao": 193,
+                "direcao": "aumento",
+                "descricao": "+193 seguidores",
+                "timestamp": "2026-08-28T10:13:55.570720",
+                "timestamp_anterior": "2026-08-28T09:13:26.093553",
+                "tempo_desde_anterior_segundos": 3629
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45215752,
+                "valor_atual": 45215805,
+                "variacao": 53,
+                "direcao": "aumento",
+                "descricao": "+53 seguidores",
+                "timestamp": "2026-08-28T10:29:30.080456",
+                "timestamp_anterior": "2026-08-28T10:13:55.570720",
+                "tempo_desde_anterior_segundos": 934
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45215805,
+                "valor_atual": 45216539,
+                "variacao": 734,
+                "direcao": "aumento",
+                "descricao": "+734 seguidores",
+                "timestamp": "2026-08-28T14:37:02.019563",
+                "timestamp_anterior": "2026-08-28T10:29:30.080456",
+                "tempo_desde_anterior_segundos": 14851
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45216539,
+                "valor_atual": 45216846,
+                "variacao": 307,
+                "direcao": "aumento",
+                "descricao": "+307 seguidores",
+                "timestamp": "2026-08-28T15:39:34.049903",
+                "timestamp_anterior": "2026-08-28T14:37:02.019563",
+                "tempo_desde_anterior_segundos": 3752
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45216846,
+                "valor_atual": 45217432,
+                "variacao": 586,
+                "direcao": "aumento",
+                "descricao": "+586 seguidores",
+                "timestamp": "2026-08-28T19:12:07.220660",
+                "timestamp_anterior": "2026-08-28T15:39:34.049903",
+                "tempo_desde_anterior_segundos": 12753
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45217432,
+                "valor_atual": 45218883,
+                "variacao": 1451,
+                "direcao": "aumento",
+                "descricao": "+1451 seguidores",
+                "timestamp": "2026-08-28T23:00:03.396583",
+                "timestamp_anterior": "2026-08-28T19:12:07.220660",
+                "tempo_desde_anterior_segundos": 13676
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45218883,
+                "valor_atual": 45219707,
+                "variacao": 824,
+                "direcao": "aumento",
+                "descricao": "+824 seguidores",
+                "timestamp": "2026-08-29T11:44:35.899696",
+                "timestamp_anterior": "2026-08-28T23:00:03.396583",
+                "tempo_desde_anterior_segundos": 45872
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45219707,
+                "valor_atual": 45219751,
+                "variacao": 44,
+                "direcao": "aumento",
+                "descricao": "+44 seguidores",
+                "timestamp": "2026-08-29T11:51:13.489591",
+                "timestamp_anterior": "2026-08-29T11:44:35.899696",
+                "tempo_desde_anterior_segundos": 397
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45219751,
+                "valor_atual": 45220134,
+                "variacao": 383,
+                "direcao": "aumento",
+                "descricao": "+383 seguidores",
+                "timestamp": "2026-08-29T12:53:49.283507",
+                "timestamp_anterior": "2026-08-29T11:51:13.489591",
+                "tempo_desde_anterior_segundos": 3755
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45220134,
+                "valor_atual": 45220777,
+                "variacao": 643,
+                "direcao": "aumento",
+                "descricao": "+643 seguidores",
+                "timestamp": "2026-08-29T13:56:12.585359",
+                "timestamp_anterior": "2026-08-29T12:53:49.283507",
+                "tempo_desde_anterior_segundos": 3743
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45220777,
+                "valor_atual": 45229222,
+                "variacao": 8445,
+                "direcao": "aumento",
+                "descricao": "+8445 seguidores",
+                "timestamp": "2026-08-31T11:57:10.569037",
+                "timestamp_anterior": "2026-08-29T13:56:12.585359",
+                "tempo_desde_anterior_segundos": 165657
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45229222,
+                "valor_atual": 45230609,
+                "variacao": 1387,
+                "direcao": "aumento",
+                "descricao": "+1387 seguidores",
+                "timestamp": "2026-09-01T23:40:34.603820",
+                "timestamp_anterior": "2026-08-31T11:57:10.569037",
+                "tempo_desde_anterior_segundos": 128604
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 45230609,
+                "valor_atual": 45230588,
+                "variacao": -21,
+                "direcao": "reducao",
+                "descricao": "-21 seguidores",
+                "timestamp": "2026-09-01T23:53:09.218910",
+                "timestamp_anterior": "2026-09-01T23:40:34.603820",
+                "tempo_desde_anterior_segundos": 754
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 725,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 725,
+                "valor_atual": 726,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "Seguiu +1",
+                "timestamp": "2026-08-27T18:25:23.007473",
+                "timestamp_anterior": "2026-08-27T00:21:34.440918",
+                "tempo_desde_anterior_segundos": 65028
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 726,
+                "valor_atual": 724,
+                "variacao": -2,
+                "direcao": "reducao",
+                "descricao": "Deixou de seguir 2",
+                "timestamp": "2026-08-31T11:57:10.569037",
+                "timestamp_anterior": "2026-08-27T18:25:23.007473",
+                "tempo_desde_anterior_segundos": 322307
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 724,
+                "valor_atual": 721,
+                "variacao": -3,
+                "direcao": "reducao",
+                "descricao": "Deixou de seguir 3",
+                "timestamp": "2026-09-01T23:40:34.603820",
+                "timestamp_anterior": "2026-08-31T11:57:10.569037",
+                "tempo_desde_anterior_segundos": 128604
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 1037,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 1037,
+                "valor_atual": 1038,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 posts",
+                "timestamp": "2026-08-27T18:25:23.007473",
+                "timestamp_anterior": "2026-08-27T00:21:34.440918",
+                "tempo_desde_anterior_segundos": 65028
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 1038,
+                "valor_atual": 1039,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 posts",
+                "timestamp": "2026-08-28T23:00:03.396583",
+                "timestamp_anterior": "2026-08-27T18:25:23.007473",
+                "tempo_desde_anterior_segundos": 102880
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 1039,
+                "valor_atual": 1046,
+                "variacao": 7,
+                "direcao": "aumento",
+                "descricao": "+7 posts",
+                "timestamp": "2026-08-31T11:57:10.569037",
+                "timestamp_anterior": "2026-08-28T23:00:03.396583",
+                "tempo_desde_anterior_segundos": 219427
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 1046,
+                "valor_atual": 1048,
+                "variacao": 2,
+                "direcao": "aumento",
+                "descricao": "+2 posts",
+                "timestamp": "2026-09-01T23:40:34.603820",
+                "timestamp_anterior": "2026-08-31T11:57:10.569037",
+                "tempo_desde_anterior_segundos": 128604
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 2,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "“BALA ALOJADA” • Já disponível!\n#OEmbaixador 🏛️🇧🇷",
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": true,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://youtu.be/PLq2A_GJbDw"
+                    },
+                    {
+                        "url": "https://gusttavolima.lnk.to/BalaAlojada"
+                    },
+                    {
+                        "url": "https://open.spotify.com/playlist/0NQNxXRJccgIwGCFpJeSP5?si=5LI1z5VWShaV2OPt0E0ILw&pi=Ix15hfPNQQC2s"
+                    }
+                ],
+                "timestamp": "2026-08-27T00:21:34.440918",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

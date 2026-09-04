@@ -1,0 +1,9 @@
+{
+    "feed": {
+        "ativo": true,
+        "intervalo_segundos": 90
+    },
+    "paginas": {
+        "intervalo_segundos": 10
+    }
+}

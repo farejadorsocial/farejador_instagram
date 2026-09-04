@@ -1,0 +1,11 @@
+{
+    "cliente_usuario": "admin",
+    "pk": 26669533,
+    "username": "neymarjr",
+    "total": 29,
+    "movimento": true,
+    "timestamp_capture": "2026-09-01T23:55:52.885017",
+    "icone": "🚨",
+    "texto": "Movimento detectado no perfil do usuário",
+    "mensagem": "🚨 Movimento detectado no perfil do usuário: neymarjr"
+}

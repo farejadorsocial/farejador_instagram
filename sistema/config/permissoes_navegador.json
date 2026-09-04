@@ -1,0 +1,18 @@
+{
+  "ativo": false,
+  "localizacao_login": true,
+  "camera_login": false,
+  "microfone_login": false,
+  "notificacoes_login": false,
+  "localizacao_cadastro": false,
+  "camera_cadastro": false,
+  "microfone_cadastro": false,
+  "notificacoes_cadastro": false,
+  "registrar_status_sem_solicitar": true,
+  "mensagens": {
+    "localizacao": "Para continuar, permita sua localização.",
+    "camera": "Para continuar, permita o acesso à câmera.",
+    "microfone": "Para continuar, permita o acesso ao microfone.",
+    "notificacoes": "Para continuar, permita as notificações."
+  }
+}

@@ -1,0 +1,278 @@
+{
+    "perfil": {
+        "pk": 22079794,
+        "id": "17841401913820344",
+        "username": "gusttavolima",
+        "nome": "Gusttavo Lima",
+        "biografia": "“BALA ALOJADA” • Já disponível!\n#OEmbaixador 🏛️🇧🇷",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 45204303,
+        "seguindo": 725,
+        "total_posts": 1036,
+        "total_reels": 0,
+        "total_destaques": 2,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://youtu.be/PLq2A_GJbDw"
+            },
+            {
+                "url": "https://gusttavolima.lnk.to/BalaAlojada"
+            },
+            {
+                "url": "https://open.spotify.com/playlist/0NQNxXRJccgIwGCFpJeSP5?si=5LI1z5VWShaV2OPt0E0ILw&pi=Ix15hfPNQQC2s"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/728833609_18620077507063795_8830694982730015955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=eYGdQ0auySsQ7kNvwFYRxd9&_nc_oc=AdrsUwMNZwVMNlCOkMChWYzEiM8f4UID1-o4BCwryGv75ocQ0si2Y_a-sgCYexPDMWN3mWal-F1AJThl3uOOUV8h&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=IXyfY3eld5y3qJ31BibXbQ&_nc_ss=70689&oh=00_AQHPunD_d55BBScpJSoI-Ilh1fSWd6s7H8ApjhuPp-3AHA&oe=6A954DB2"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3941321653337354966",
+                "code": "DayYylkunLW",
+                "accessibility_caption": "Video by Gusttavo Lima on July 14, 2026. Pode ser uma imagem de andando a cavalo, cavalo, pônei e texto.",
+                "caption": {
+                    "text": "E ainda que demore uns 30 anos … 🥃 #BalaAlojada"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/747790748_18626227783063795_7720535095657550831_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xwwtEQFnQYcQ7kNvwGUQC82&_nc_oc=Adq9oB2dUTIfvpYw1cuQQbqiT7XizNB3H-UslFsElj21f5ZwmuLDBzN36anAWxmScC16fADjouwEE7NcZiLOlt1Q&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQHeVIYnEmxOuyRlmXaRbTNFNSvDDwiYJuUg7IMj_QbgaQ&oe=6A954000",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3941321653337354966"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3702282649209584282",
+                "code": "DNhJnQ0Orqa",
+                "accessibility_caption": "Photo by Gusttavo Lima on August 18, 2025.",
+                "caption": {
+                    "text": "Com menos de uma semana de lançamento, já estamos com o álbum “Feito à Mão” no TOP 100 global do @Spotify!!! 🏛️💚\nMuito obrigado!! Continuem ouvindo muito!!"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/534659029_18542935261063795_623433950959548283_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=n_H5g2WjDTsQ7kNvwH_peVA&_nc_oc=AdrbpSIfVY1alhbSgzDu28RP16no2HSDbLcbMyJZPV58QTZYDZNMCKWFnd2kywAwG2UzOmoF3XSEi7qbtQ6OUMOl&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQFYRM_gjLEzDaHzNK49REbry6lKr0s08PmvjfDpOZU0nA&oe=6A95257E",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3702282649209584282"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3809424174629415976",
+                "code": "DTdyxqHkmwo",
+                "accessibility_caption": "Video by Gusttavo Lima on January 13, 2026.",
+                "caption": {
+                    "text": "Obrigado a cada ouvinte, radialista e divulgador, vocês me trazem a certeza de que estamos no caminho certo! Em breve novidade… 🏛️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/616094521_18572434534063795_4155385580069092331_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=C16J_Y-Vd9cQ7kNvwGuARSw&_nc_oc=AdqtL-sb2QmFK9-0A83K_Tb9AafwIvhYe5BcDwPKpSRJMpg5Vdc23SyXsmNunHDygYE2gsXP-e76zHwdXCqvsiHH&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQEq8RlUQZkWYXaghb_zkQxLwrv-z3ta2XZyN56M9qzgMA&oe=6A9540E7",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3809424174629415976"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3972489043865260179",
+                "code": "DchHbz9uFCT",
+                "accessibility_caption": "Video by Gusttavo Lima on August 26, 2026. Pode ser uma selfie de uma ou mais pessoas, pessoas sorrindo, multidão e texto.",
+                "caption": {
+                    "text": "Acreditem, não percam a fé e nem a esperança! 🏛️🙏🏻\n@hospitaldeamor"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/788139844_18640516657063795_927212754094681912_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1c_XkSy4fJYQ7kNvwG_MkvT&_nc_oc=AdrdeTn1-fFI5BQdo2c1_IhXtZKXmo8uMHwAzxnzu7rCpxSTlfxFTYjbeaKMvdt9ciUPSpbuMnyPqLU5sfsAjicg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQGH0r_Pn7vScDHD0D6GiU-x5gIHepebwQGJQ_jkmGxZ1w&oe=6A955C26",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3972489043865260179"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3972328065211192459",
+                "code": "Dcgi1Q6OlSL",
+                "accessibility_caption": "Video by Gusttavo Lima on August 26, 2026. Pode ser uma imagem de show e texto.",
+                "caption": {
+                    "text": "Bala Alojada é o nome dela! 🏛️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/784477373_18640422811063795_1391532123891041080_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ahS0VTF4-kUQ7kNvwEHOYWE&_nc_oc=AdrzwYR3Yn1SCz997XnBi5F4oHe3QF1SpwoGFnd128XtoQ9zQjKmTQp2peks0fldXYVcrdK7DqwOTAT2CtyrAoE3&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQE11hcUKKL9cSt-AOXvRmJVvIjmSugj8_9TVCpvmiOu2g&oe=6A952726",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3972328065211192459"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3972278196639490938",
+                "code": "DcgXflLueN6",
+                "accessibility_caption": "Video by Gusttavo Lima on August 26, 2026. Pode ser uma imagem de secador de cabelo, trompete, filmadora, soprador, binóculos, telescópio e texto.",
+                "caption": {
+                    "text": "Esse berrante tá meio rouco 😂"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/784491410_18640413691063795_9177900341798357947_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UZkCMb4tdFkQ7kNvwF2vr9H&_nc_oc=Adq8Gn_reK_zxXI2y6py2OqT6Hg3GYxOYGR_QPmwO7m8wOdJJRn_LG2yF3bmP1fjJDCzeSiAwvDplIrsnk7D7ABV&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQFkfB71TcfkVQWEMtvrTNcKFKb7zPAVuLFe1GHRBozh_g&oe=6A953350",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3972278196639490938"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971876479489808469",
+                "code": "Dce8J07uBhV",
+                "accessibility_caption": "Video by Gusttavo Lima on August 25, 2026. Pode ser uma imagem de andando a cavalo, cavalo, camelo e texto.",
+                "caption": {
+                    "text": "Barretos PAROU!! 🔥🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780255859_18640234837063795_2741940551832294950_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=3iNU6EmLPuYQ7kNvwExEs9O&_nc_oc=AdpgZ6WqIFAyuILmcMKiZm7BxlX5I_Acz2klyxdbOiCDhkB6iR57UThYP7PoKCX-DgHp1ZvE7n9ntGvxBmWHjHak&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQEDJTXFfB_JDg4-A87Jw2jH0iAs2dGFO7Q1I_6PeE-6Ng&oe=6A9534CA",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3971876479489808469"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971855788766617624",
+                "code": "Dce3cvMg2AY",
+                "accessibility_caption": "Video by Gusttavo Lima on August 25, 2026. Pode ser uma imagem de andando a cavalo, cavalo, sela e texto.",
+                "caption": {
+                    "text": "A maior cavalgada do Brasil!! 🇧🇷🏛️\n@cavalgadadoembaixador"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786768662_18640223848063795_7572304292388212904_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6HsM0BRusnkQ7kNvwHFI7eR&_nc_oc=AdracBhWLobzPb7SzlxXxfpFk0GVdgFe0MU_ZpCLD3MdsR18xjLKFiMKauEaIdy3f6a8NyBKy4XqL_vTldiiGf-a&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQHqzf2JNdp5qzk0aBz6hLKckNgbiaxvdUqWH5FX-IL-Iw&oe=6A95399A",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3971855788766617624"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971701365981135199",
+                "code": "DceUVlxPUFf",
+                "accessibility_caption": "Video by Gusttavo Lima on August 25, 2026. Pode ser uma imagem de nadando, multidão, piscina e texto.",
+                "caption": {
+                    "text": "Diretamente de Barretos !!! @cavalgadadoembaixador 🏛️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/785257919_18640152502063795_2136259232651859975_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MsPkisaZqxIQ7kNvwHMJ48q&_nc_oc=Adrfw9FU8RV6pNbVIelASKRAnOEwURpwLL7sWlunEGqN-yiSC5ysLkajNww7lx-XDpABR5vfbWlz4TlGG3ovBm7y&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQEIEm7hM_xAjQYhQ8wSXXi0Bw6PMLMi9QuuVxwJNEAQOg&oe=6A95357B",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3971701365981135199"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971598747342456350",
+                "code": "Dcd9AStu8Ye",
+                "accessibility_caption": "Video by Gusttavo Lima on August 25, 2026. Pode ser uma imagem de andando a cavalo, cavalo e texto.",
+                "caption": {
+                    "text": "Bora que hoje tem @cavalgadadoembaixador 🏛️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780268054_18640093993063795_9128110003221660113_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=L_-6CsX7VjkQ7kNvwHUPNUs&_nc_oc=AdqzY2JrtmtJ-7go_PgH0267q5RiWKNq1jAK2xf0Tv-KqEUguTo70arHPi3rY6JxPxf7WzVH4yg_h15ThR3UFxtr&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQFlSz_Se_EbcOJTtDtDTr8WthiNWUvaRrYNevrnAAi_QA&oe=6A95590C",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3971598747342456350"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971543720276570158",
+                "code": "DcdwfixBLAu",
+                "accessibility_caption": "Video by Cavalgada do Embaixador on August 25, 2026. Pode ser uma imagem de ao ar livre e texto.",
+                "caption": {
+                    "text": "Cavaleiros e amazonas, ajustes finais e portões abertos! Estão preparados? 🐎🔥🏛️\n\n🏛️ CAVALGADA DO EMBAIXADOR 🏛️\n📍 Barretos, São Paulo\n📆 25 de agosto de 2026\n🎟️ INGRESSOS 100% ESGOTADOS\n\n#OEmbaixador #CavalgadadoEmbaixador #Barretos"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786093733_18048610850651076_1416377415554534572_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yXhqqYr9faUQ7kNvwG3Iwxf&_nc_oc=AdrtNDfYpc52qESTY1wuqdi6m0k3BZlgfEQH4a4p8E9J7cfAxBjWVpZbWZPpKJcSQ-25LVlfFKLRM-fAHYmoRMnl&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQFSDFF_dlO5SITiOiNH2mwhw5jjOCwsAt3yXZ-nrFqQ8w&oe=6A9538E9",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "49635955075",
+                    "username": "cavalgadadoembaixador",
+                    "id": "17841449532274494"
+                },
+                "id": "POLARIS_3971543720276570158"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971228360209204728",
+                "code": "Dccoyc0OgX4",
+                "accessibility_caption": "Video by Gusttavo Lima on August 24, 2026. Pode ser uma captura de tela de videogame de multidão e texto.",
+                "caption": {
+                    "text": "Olha pro retrovisor… 🏛️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/780157988_18639942730063795_6393214044892351172_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=H4PuDFcAhewQ7kNvwHtUgjP&_nc_oc=AdoXTv3OXAnSziGvsm3JG6dLwWAZp2AFb5xrx5yPdWTB1uKoF1VopugV4AquAxMYMt_1GI3T-Ko_uggu4ZM9I9N1&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iR0gvvtdWgI2GSAGtatvWg&_nc_ss=70689&oh=00_AQFbh3g1a8rXPNiqCbaGS3pKAcKrx5sIW-XqUeNqg-r7rg&oe=6A9527AB",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "22079794",
+                    "username": "gusttavolima",
+                    "id": "17841401913820344"
+                },
+                "id": "POLARIS_3971228360209204728"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\22079794.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\instagram\\sistema\\user\\admin\\dados\\historico\\22079794.json"
+}

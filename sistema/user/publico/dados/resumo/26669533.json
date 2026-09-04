@@ -1,0 +1,1252 @@
+{
+    "timiline": [
+        {
+            "timestamp": "2026-08-27T06:31:53.675624",
+            "timestamp_anterior": "2026-08-27T00:22:40.628021",
+            "timestamp_atual": "2026-08-27T06:31:53.675624",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=k8aieJ_XyvsxsMrqm0vweg&_nc_ss=70689&oh=00_AQFFjOMmLPMywKOICWKVuC7l_5Y44wqiSd-RPE9L2TwqBQ&oe=6A95CD88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242428810,
+            "valor_atual": 242425434,
+            "hash_anterior": "a86c1057b3351b5184d6a0b8e10707424cfa75a339ea59e0c8f993423c1d1e15",
+            "hash_atual": "f13f9c8e9c75311ba36600172f9dc53805169d611998e8ef1d029e84f17847ff",
+            "tempo_desde_anterior": {
+                "segundos": 22153.047603,
+                "texto": "6 horas e 9 minutos e 13 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": null,
+                "texto": null
+            },
+            "categoria": "rede",
+            "variacao": -3376,
+            "titulo": "Perdeu 3.376 seguidores",
+            "descricao": "Os seguidores caíram de 242.428.810 para 242.425.434",
+            "variacao_texto": "-3.376 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:04:55.304123",
+            "timestamp_anterior": "2026-08-27T06:31:53.675624",
+            "timestamp_atual": "2026-08-27T07:04:55.304123",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=7LTEgfvgkdpbN2UFy06qJA&_nc_ss=70689&oh=00_AQFMRpmpSFhg4nxz72dC9xOvOB_DfXH_9jBTewAEdiwQQg&oe=6A95CD88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242425434,
+            "valor_atual": 242424366,
+            "hash_anterior": "f13f9c8e9c75311ba36600172f9dc53805169d611998e8ef1d029e84f17847ff",
+            "hash_atual": "d46614b06f41ef5c315d5d311389ae08a6a9f1694eac968fee923b453e4758a0",
+            "tempo_desde_anterior": {
+                "segundos": 1981.628499,
+                "texto": "33 minutos e 1 segundo"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1981.628499,
+                "texto": "33 minutos e 1 segundo"
+            },
+            "categoria": "rede",
+            "variacao": -1068,
+            "titulo": "Perdeu 1.068 seguidores",
+            "descricao": "Os seguidores caíram de 242.425.434 para 242.424.366",
+            "variacao_texto": "-1.068 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T07:34:45.611799",
+            "timestamp_anterior": "2026-08-27T07:04:55.304123",
+            "timestamp_atual": "2026-08-27T07:34:45.611799",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Dz25--ZIr3r2ueHs2v__YA&_nc_ss=70689&oh=00_AQGZy6RaB63BZd6c9JtMdnSa61wLkXiJydUTDgYLntUvog&oe=6A95CD88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424366,
+            "valor_atual": 242424248,
+            "hash_anterior": "d46614b06f41ef5c315d5d311389ae08a6a9f1694eac968fee923b453e4758a0",
+            "hash_atual": "37ddbc1061e5bc44ef229a704b9ed4f1fa74b7477721be4bcb0bfddf8be57128",
+            "tempo_desde_anterior": {
+                "segundos": 1790.307676,
+                "texto": "29 minutos e 50 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1790.307676,
+                "texto": "29 minutos e 50 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -118,
+            "titulo": "Perdeu 118 seguidores",
+            "descricao": "Os seguidores caíram de 242.424.366 para 242.424.248",
+            "variacao_texto": "-118 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:07:29.739893",
+            "timestamp_anterior": "2026-08-27T07:34:45.611799",
+            "timestamp_atual": "2026-08-27T08:07:29.739893",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2s0v-8EVC2JQIk4n9TcFmg&_nc_ss=70689&oh=00_AQFsrYYDOvakKFsFRVDtpD30VCauYcYG4Nh3NFscil0CVQ&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424248,
+            "valor_atual": 242424556,
+            "hash_anterior": "37ddbc1061e5bc44ef229a704b9ed4f1fa74b7477721be4bcb0bfddf8be57128",
+            "hash_atual": "b7f1c950945ae367df2607ba058a426ee9811ab5bc4b51c3edbf5d0ca665fe4f",
+            "tempo_desde_anterior": {
+                "segundos": 1964.128094,
+                "texto": "32 minutos e 44 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1964.128094,
+                "texto": "32 minutos e 44 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 308,
+            "titulo": "Ganhou 308 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.248 para 242.424.556",
+            "variacao_texto": "+308 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:18:04.793366",
+            "timestamp_anterior": "2026-08-27T08:07:29.739893",
+            "timestamp_atual": "2026-08-27T08:18:04.793366",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=DZiB6OLsT4yVqoznFNpV6g&_nc_ss=70689&oh=00_AQEVPSlLevF7n6qkOyzC4bReingpCJ2v-YDO8zcLOSDWrQ&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424556,
+            "valor_atual": 242424660,
+            "hash_anterior": "b7f1c950945ae367df2607ba058a426ee9811ab5bc4b51c3edbf5d0ca665fe4f",
+            "hash_atual": "55f3b04ec56eb64716a2ce1d0d6b94d37bead6f09ac9c5b59a67ac50acef2990",
+            "tempo_desde_anterior": {
+                "segundos": 635.053473,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 635.053473,
+                "texto": "10 minutos e 35 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 104,
+            "titulo": "Ganhou 104 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.556 para 242.424.660",
+            "variacao_texto": "+104 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:19:44.787214",
+            "timestamp_anterior": "2026-08-27T08:18:04.793366",
+            "timestamp_atual": "2026-08-27T08:19:44.787214",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=SzcnZgrRI3lNf4KqjmEOSA&_nc_ss=70689&oh=00_AQHFxgRVsrst5R-xk5q6qjgaabOfp8u6dy0n5UKFApWkZA&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424660,
+            "valor_atual": 242424676,
+            "hash_anterior": "55f3b04ec56eb64716a2ce1d0d6b94d37bead6f09ac9c5b59a67ac50acef2990",
+            "hash_atual": "535293c93ae9a5a739f8cb1dc86912c4f50f2c9f22c4661369375b02ff2ef6f9",
+            "tempo_desde_anterior": {
+                "segundos": 99.993848,
+                "texto": "1 minuto e 39 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 99.993848,
+                "texto": "1 minuto e 39 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 16,
+            "titulo": "Ganhou 16 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.660 para 242.424.676",
+            "variacao_texto": "+16 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:26:30.216618",
+            "timestamp_anterior": "2026-08-27T08:19:44.787214",
+            "timestamp_atual": "2026-08-27T08:26:30.216618",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=qwizGH3ZCgg3S59FaMq3DA&_nc_ss=70689&oh=00_AQEzITShJbBG1QY3i3PD3nscikjgzVXA2tQCNy87lPmwpw&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424676,
+            "valor_atual": 242424706,
+            "hash_anterior": "535293c93ae9a5a739f8cb1dc86912c4f50f2c9f22c4661369375b02ff2ef6f9",
+            "hash_atual": "7b365151135421e2705e6b4b038cd8037a4a45b5b31c6f876cd3103a4df6cd7c",
+            "tempo_desde_anterior": {
+                "segundos": 405.429404,
+                "texto": "6 minutos e 45 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 405.429404,
+                "texto": "6 minutos e 45 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 30,
+            "titulo": "Ganhou 30 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.676 para 242.424.706",
+            "variacao_texto": "+30 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T08:37:00.238014",
+            "timestamp_anterior": "2026-08-27T08:26:30.216618",
+            "timestamp_atual": "2026-08-27T08:37:00.238014",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=uaMwbHCBYk7B2oZLpE626A&_nc_ss=70689&oh=00_AQFj5pxOMyBkh7O7bvPqRMHGTCVaqQwt72QSoSTIL2U3eg&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424706,
+            "valor_atual": 242424717,
+            "hash_anterior": "7b365151135421e2705e6b4b038cd8037a4a45b5b31c6f876cd3103a4df6cd7c",
+            "hash_atual": "6cfc7794583d9886f74e58f84dadda548c68409b4fb271c6c5831cb0fefb7f61",
+            "tempo_desde_anterior": {
+                "segundos": 630.021396,
+                "texto": "10 minutos e 30 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 630.021396,
+                "texto": "10 minutos e 30 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 11,
+            "titulo": "Ganhou 11 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.706 para 242.424.717",
+            "variacao_texto": "+11 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:09:51.837704",
+            "timestamp_anterior": "2026-08-27T08:37:00.238014",
+            "timestamp_atual": "2026-08-27T10:09:51.837704",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=gQPBgVlcl6BTr7Nb-cXbxg&_nc_ss=70689&oh=00_AQGTZK2ErkInR8QTCm3t79mlVZtTE8hvuqZm1XOKCEy7iQ&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242424717,
+            "valor_atual": 242425116,
+            "hash_anterior": "6cfc7794583d9886f74e58f84dadda548c68409b4fb271c6c5831cb0fefb7f61",
+            "hash_atual": "121dbb5d74a6866fb38d152ef75ce2d4fce59b121a01754130f74a7e8fd4aa00",
+            "tempo_desde_anterior": {
+                "segundos": 5571.59969,
+                "texto": "1 hora e 32 minutos e 51 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 5571.59969,
+                "texto": "1 hora e 32 minutos e 51 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 399,
+            "titulo": "Ganhou 399 seguidores",
+            "descricao": "Os seguidores passaram de 242.424.717 para 242.425.116",
+            "variacao_texto": "+399 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T10:52:37.622238",
+            "timestamp_anterior": "2026-08-27T10:09:51.837704",
+            "timestamp_atual": "2026-08-27T10:52:37.622238",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGp4-Oz&_nc_oc=Adq1zQ6uN_Bk2b-Zvsz1fmM_2ONvEp2dstJRN0G24vTA-Buy9eFP3swroiBQ2x_9cW01wjIa2YwBjbIfkTjXgMz_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=dG4jDQePfkKHTF2mu6Zmpg&_nc_ss=70689&oh=00_AQFxAw58dithBnWSD8NItjuIj5huAZfY96Fle-9WM8c-EQ&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242425116,
+            "valor_atual": 242425310,
+            "hash_anterior": "121dbb5d74a6866fb38d152ef75ce2d4fce59b121a01754130f74a7e8fd4aa00",
+            "hash_atual": "e1364a8444e673ee5e008715b7997eb33b061fe3bbee512c4b3d357a338fdd8e",
+            "tempo_desde_anterior": {
+                "segundos": 2565.784534,
+                "texto": "42 minutos e 45 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 2565.784534,
+                "texto": "42 minutos e 45 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 194,
+            "titulo": "Ganhou 194 seguidores",
+            "descricao": "Os seguidores passaram de 242.425.116 para 242.425.310",
+            "variacao_texto": "+194 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T11:18:57.415107",
+            "timestamp_anterior": "2026-08-27T10:52:37.622238",
+            "timestamp_atual": "2026-08-27T11:18:57.415107",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=LL_-hVRwMtysVsNpEFvoSA&_nc_ss=70689&oh=00_AQFhmtnV1aPc7PEULSY_UhW8T_rEKs_DHKYwp4RQtnfMPw&oe=6A9605C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242425310,
+            "valor_atual": 242425508,
+            "hash_anterior": "e1364a8444e673ee5e008715b7997eb33b061fe3bbee512c4b3d357a338fdd8e",
+            "hash_atual": "bed0a7cd8f38413351568c4c8b3edd35a514838f6f8c0c963fb1f8eded7597e0",
+            "tempo_desde_anterior": {
+                "segundos": 1579.792869,
+                "texto": "26 minutos e 19 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1579.792869,
+                "texto": "26 minutos e 19 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 198,
+            "titulo": "Ganhou 198 seguidores",
+            "descricao": "Os seguidores passaram de 242.425.310 para 242.425.508",
+            "variacao_texto": "+198 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:26:31.850517",
+            "timestamp_anterior": "2026-08-27T11:18:57.415107",
+            "timestamp_atual": "2026-08-27T18:26:31.850517",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ScpWA8Nh02qQm0tNxhePxA&_nc_ss=70689&oh=00_AQFd-5Ujk1cCCJX1aUtBTIGkqNqd3L0BxThWqx0WVK5zWQ&oe=6A967648"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242425508,
+            "valor_atual": 242418556,
+            "hash_anterior": "bed0a7cd8f38413351568c4c8b3edd35a514838f6f8c0c963fb1f8eded7597e0",
+            "hash_atual": "bbcd439b7707cd2cbc2c75d07191dc2880bd5f78ec30492a9a15119b09b852ec",
+            "tempo_desde_anterior": {
+                "segundos": 25654.43541,
+                "texto": "7 horas e 7 minutos e 34 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 25654.43541,
+                "texto": "7 horas e 7 minutos e 34 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -6952,
+            "titulo": "Perdeu 6.952 seguidores",
+            "descricao": "Os seguidores caíram de 242.425.508 para 242.418.556",
+            "variacao_texto": "-6.952 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T18:56:38.080072",
+            "timestamp_anterior": "2026-08-27T18:26:31.850517",
+            "timestamp_atual": "2026-08-27T18:56:38.080072",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=PWx3Nn7wOo0vhAbVyvi37Q&_nc_ss=70689&oh=00_AQEW8_zQKMrpSaO2lVq-TY0ZuxStSjOsaFYthf1gYTrG8A&oe=6A967648"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242418556,
+            "valor_atual": 242418612,
+            "hash_anterior": "bbcd439b7707cd2cbc2c75d07191dc2880bd5f78ec30492a9a15119b09b852ec",
+            "hash_atual": "3b59d36abe221e2bdfafc4ee0fdd73519a72d964f678e188975e5f2e4beff0c3",
+            "tempo_desde_anterior": {
+                "segundos": 1806.229555,
+                "texto": "30 minutos e 6 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1806.229555,
+                "texto": "30 minutos e 6 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 56,
+            "titulo": "Ganhou 56 seguidores",
+            "descricao": "Os seguidores passaram de 242.418.556 para 242.418.612",
+            "variacao_texto": "+56 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:37:05.845235",
+            "timestamp_anterior": "2026-08-27T18:56:38.080072",
+            "timestamp_atual": "2026-08-27T22:37:05.845235",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=0D4ahrtkK95sDq6Zo14jjQ&_nc_ss=70689&oh=00_AQF-2frDMy0U3SfPNwM4X-OU5IKT1xWvhmKuSc0PRrKj4g&oe=6A96AE88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242418612,
+            "valor_atual": 242419123,
+            "hash_anterior": "3b59d36abe221e2bdfafc4ee0fdd73519a72d964f678e188975e5f2e4beff0c3",
+            "hash_atual": "89dfddd4b9f57e134af344f32191aa5318276d707b955dec00fc16602d198437",
+            "tempo_desde_anterior": {
+                "segundos": 13227.765163,
+                "texto": "3 horas e 40 minutos e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13227.765163,
+                "texto": "3 horas e 40 minutos e 27 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 511,
+            "titulo": "Ganhou 511 seguidores",
+            "descricao": "Os seguidores passaram de 242.418.612 para 242.419.123",
+            "variacao_texto": "+511 seguidores"
+        },
+        {
+            "timestamp": "2026-08-27T22:58:39.206151",
+            "timestamp_anterior": "2026-08-27T22:37:05.845235",
+            "timestamp_atual": "2026-08-27T22:58:39.206151",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=qDhBE09mOZj5KMv3gLXn4A&_nc_ss=70689&oh=00_AQE6uWZuI6IczfX3wSKjtMFfuuZohTYevXnDHRLLAO5abA&oe=6A96AE88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242419123,
+            "valor_atual": 242419089,
+            "hash_anterior": "89dfddd4b9f57e134af344f32191aa5318276d707b955dec00fc16602d198437",
+            "hash_atual": "c0c561d3f2dc626dbdbf9db5ffda5078683d8d5d8ba75701ade7d042a26dc40b",
+            "tempo_desde_anterior": {
+                "segundos": 1293.360916,
+                "texto": "21 minutos e 33 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 1293.360916,
+                "texto": "21 minutos e 33 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -34,
+            "titulo": "Perdeu 34 seguidores",
+            "descricao": "Os seguidores caíram de 242.419.123 para 242.419.089",
+            "variacao_texto": "-34 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T09:14:33.752395",
+            "timestamp_anterior": "2026-08-27T22:58:39.206151",
+            "timestamp_atual": "2026-08-28T09:14:33.752395",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=AuDpKaOYoIv8lANppgSU5A&_nc_ss=70689&oh=00_AQHiFKZ64dZ1YX5GlDQHbJ2ROpHv-4JVfDV_N5RdB_Xhzw&oe=6A975748"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242419089,
+            "valor_atual": 242412430,
+            "hash_anterior": "c0c561d3f2dc626dbdbf9db5ffda5078683d8d5d8ba75701ade7d042a26dc40b",
+            "hash_atual": "f0b8e0c6519e0eafe9eec944db5817a79267197c76de82993957910d58e3fec7",
+            "tempo_desde_anterior": {
+                "segundos": 36954.546244,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 36954.546244,
+                "texto": "10 horas e 15 minutos e 54 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -6659,
+            "titulo": "Perdeu 6.659 seguidores",
+            "descricao": "Os seguidores caíram de 242.419.089 para 242.412.430",
+            "variacao_texto": "-6.659 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:15:01.011838",
+            "timestamp_anterior": "2026-08-28T09:14:33.752395",
+            "timestamp_atual": "2026-08-28T10:15:01.011838",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=3zQ9sRutOVS5nWAhf5cfWw&_nc_ss=70689&oh=00_AQHQADXyQw9JwJMU3ugfX0pl3pshIc9CqswFCsy9-NyhwA&oe=6A975748"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242412430,
+            "valor_atual": 242412545,
+            "hash_anterior": "f0b8e0c6519e0eafe9eec944db5817a79267197c76de82993957910d58e3fec7",
+            "hash_atual": "e80412e9024371ff058f3e1818cea438fe0ed6921d1ccd78a963331284a5026e",
+            "tempo_desde_anterior": {
+                "segundos": 3627.259443,
+                "texto": "1 hora e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3627.259443,
+                "texto": "1 hora e 27 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 115,
+            "titulo": "Ganhou 115 seguidores",
+            "descricao": "Os seguidores passaram de 242.412.430 para 242.412.545",
+            "variacao_texto": "+115 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T10:30:34.840900",
+            "timestamp_anterior": "2026-08-28T10:15:01.011838",
+            "timestamp_atual": "2026-08-28T10:30:34.840900",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwG8icM6&_nc_oc=AdoOVJExLRrHAeGMY38qrEMyl5XI9cZ5UXZega1-KATVg5ZsM7logJRob8LGwK_GjGz2tbD6lA1MrN3yPLNYP6kX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=zONjHakNhsoQXKx8lxJzcw&_nc_ss=70689&oh=00_AQE4jGuDwRobUt3JAqTxTa6vMQ794GjntTPzaaqrjVnaRA&oe=6A975748"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242412545,
+            "valor_atual": 242412582,
+            "hash_anterior": "e80412e9024371ff058f3e1818cea438fe0ed6921d1ccd78a963331284a5026e",
+            "hash_atual": "637e07995a5d15b9daf17a6ea9a79ff3d72667258de86dff254a55040bd05fc8",
+            "tempo_desde_anterior": {
+                "segundos": 933.829062,
+                "texto": "15 minutos e 33 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 933.829062,
+                "texto": "15 minutos e 33 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 37,
+            "titulo": "Ganhou 37 seguidores",
+            "descricao": "Os seguidores passaram de 242.412.545 para 242.412.582",
+            "variacao_texto": "+37 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T14:38:14.213861",
+            "timestamp_anterior": "2026-08-28T10:30:34.840900",
+            "timestamp_atual": "2026-08-28T14:38:14.213861",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4IvQUV4zstD7ZuEyhcosqw&_nc_ss=70689&oh=00_AQFoZcNdPL6JlpLTDLYxvWpp6UU0IpV41eCgpeFJvVKvQw&oe=6A978F88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242412582,
+            "valor_atual": 242386562,
+            "hash_anterior": "637e07995a5d15b9daf17a6ea9a79ff3d72667258de86dff254a55040bd05fc8",
+            "hash_atual": "a7cea04f2b1e633a8a9f79a035b06e2ae96310cbb41c60bece37477be403fcd5",
+            "tempo_desde_anterior": {
+                "segundos": 14859.372961,
+                "texto": "4 horas e 7 minutos e 39 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 14859.372961,
+                "texto": "4 horas e 7 minutos e 39 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -26020,
+            "titulo": "Perdeu 26.020 seguidores",
+            "descricao": "Os seguidores caíram de 242.412.582 para 242.386.562",
+            "variacao_texto": "-26.020 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T14:38:14.213861",
+            "timestamp_anterior": "2026-08-28T10:30:34.840900",
+            "timestamp_atual": "2026-08-28T14:38:14.213861",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4IvQUV4zstD7ZuEyhcosqw&_nc_ss=70689&oh=00_AQFoZcNdPL6JlpLTDLYxvWpp6UU0IpV41eCgpeFJvVKvQw&oe=6A978F88"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 2007,
+            "valor_atual": 2008,
+            "hash_anterior": "637e07995a5d15b9daf17a6ea9a79ff3d72667258de86dff254a55040bd05fc8",
+            "hash_atual": "a7cea04f2b1e633a8a9f79a035b06e2ae96310cbb41c60bece37477be403fcd5",
+            "tempo_desde_anterior": {
+                "segundos": 14859.372961,
+                "texto": "4 horas e 7 minutos e 39 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 1,
+            "titulo": "Começou a seguir 1 pessoa",
+            "descricao": "Estava seguindo 2.007 e passou a seguir 2.008",
+            "variacao_texto": "+1 seguindo"
+        },
+        {
+            "timestamp": "2026-08-28T14:38:14.213861",
+            "timestamp_anterior": "2026-08-28T10:30:34.840900",
+            "timestamp_atual": "2026-08-28T14:38:14.213861",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4IvQUV4zstD7ZuEyhcosqw&_nc_ss=70689&oh=00_AQFoZcNdPL6JlpLTDLYxvWpp6UU0IpV41eCgpeFJvVKvQw&oe=6A978F88"
+            },
+            "tipo": "total_posts",
+            "valor_anterior": 6147,
+            "valor_atual": 6148,
+            "hash_anterior": "637e07995a5d15b9daf17a6ea9a79ff3d72667258de86dff254a55040bd05fc8",
+            "hash_atual": "a7cea04f2b1e633a8a9f79a035b06e2ae96310cbb41c60bece37477be403fcd5",
+            "tempo_desde_anterior": {
+                "segundos": 14859.372961,
+                "texto": "4 horas e 7 minutos e 39 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": 1,
+            "titulo": "Publicou 1 post",
+            "descricao": "O total de posts passou de 6.147 para 6.148",
+            "variacao_texto": "+1 post"
+        },
+        {
+            "timestamp": "2026-08-28T15:40:40.417465",
+            "timestamp_anterior": "2026-08-28T14:38:14.213861",
+            "timestamp_atual": "2026-08-28T15:40:40.417465",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=tKmKOB3Gv16-gZnh8IDTRA&_nc_ss=70689&oh=00_AQEzLHDdPMut_Zkkr1BcPk2mqqmL2o5EBC49UyOZsyRWzA&oe=6A978F88"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242386562,
+            "valor_atual": 242386771,
+            "hash_anterior": "a7cea04f2b1e633a8a9f79a035b06e2ae96310cbb41c60bece37477be403fcd5",
+            "hash_atual": "d7d8571028cb55635c2e915e8ba70c82696221ed7bd16a58fcf2e112c22834cf",
+            "tempo_desde_anterior": {
+                "segundos": 3746.203604,
+                "texto": "1 hora e 2 minutos e 26 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 3746.203604,
+                "texto": "1 hora e 2 minutos e 26 segundos"
+            },
+            "categoria": "rede",
+            "variacao": 209,
+            "titulo": "Ganhou 209 seguidores",
+            "descricao": "Os seguidores passaram de 242.386.562 para 242.386.771",
+            "variacao_texto": "+209 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:13:08.080182",
+            "timestamp_anterior": "2026-08-28T15:40:40.417465",
+            "timestamp_atual": "2026-08-28T19:13:08.080182",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2msYYeG-70J7fjkLgsB5BA&_nc_ss=70689&oh=00_AQIUdunFDZ8QaForEUVxy-F43n2bZV-8yuJSeNkJjX7Nmw&oe=6A97C7C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242386771,
+            "valor_atual": 242385079,
+            "hash_anterior": "d7d8571028cb55635c2e915e8ba70c82696221ed7bd16a58fcf2e112c22834cf",
+            "hash_atual": "19639103b9714dfe45aec2389a3f8a01097494b6f5590dfa3a5d9d188eb274ab",
+            "tempo_desde_anterior": {
+                "segundos": 12747.662717,
+                "texto": "3 horas e 32 minutos e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 12747.662717,
+                "texto": "3 horas e 32 minutos e 27 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -1692,
+            "titulo": "Perdeu 1.692 seguidores",
+            "descricao": "Os seguidores caíram de 242.386.771 para 242.385.079",
+            "variacao_texto": "-1.692 seguidores"
+        },
+        {
+            "timestamp": "2026-08-28T19:13:08.080182",
+            "timestamp_anterior": "2026-08-28T15:40:40.417465",
+            "timestamp_atual": "2026-08-28T19:13:08.080182",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2msYYeG-70J7fjkLgsB5BA&_nc_ss=70689&oh=00_AQIUdunFDZ8QaForEUVxy-F43n2bZV-8yuJSeNkJjX7Nmw&oe=6A97C7C8"
+            },
+            "tipo": "seguindo",
+            "valor_anterior": 2008,
+            "valor_atual": 1994,
+            "hash_anterior": "d7d8571028cb55635c2e915e8ba70c82696221ed7bd16a58fcf2e112c22834cf",
+            "hash_atual": "19639103b9714dfe45aec2389a3f8a01097494b6f5590dfa3a5d9d188eb274ab",
+            "tempo_desde_anterior": {
+                "segundos": 12747.662717,
+                "texto": "3 horas e 32 minutos e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -14,
+            "titulo": "Deixou de seguir 14 pessoas",
+            "descricao": "Estava seguindo 2.008 e passou a seguir 1.994",
+            "variacao_texto": "-14 seguindo"
+        },
+        {
+            "timestamp": "2026-08-28T19:13:08.080182",
+            "timestamp_anterior": "2026-08-28T15:40:40.417465",
+            "timestamp_atual": "2026-08-28T19:13:08.080182",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwGr78qr&_nc_oc=AdrwgQ0xzCgI8-KJT-Xg9R5G0p3PCfDqr6nmA09W9Kh9B2PRa3mvly5Dv1cGfsPM6zuqSS52KjLob0zo0L3w-0Qj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=2msYYeG-70J7fjkLgsB5BA&_nc_ss=70689&oh=00_AQIUdunFDZ8QaForEUVxy-F43n2bZV-8yuJSeNkJjX7Nmw&oe=6A97C7C8"
+            },
+            "tipo": "total_destaques",
+            "valor_anterior": 4,
+            "valor_atual": 3,
+            "hash_anterior": "d7d8571028cb55635c2e915e8ba70c82696221ed7bd16a58fcf2e112c22834cf",
+            "hash_atual": "19639103b9714dfe45aec2389a3f8a01097494b6f5590dfa3a5d9d188eb274ab",
+            "tempo_desde_anterior": {
+                "segundos": 12747.662717,
+                "texto": "3 horas e 32 minutos e 27 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 0.0,
+                "texto": "0 segundos"
+            },
+            "categoria": "conteudo",
+            "variacao": -1,
+            "titulo": "Removeu 1 destaque",
+            "descricao": "O total de destaques caiu de 4 para 3",
+            "variacao_texto": "-1 destaque"
+        },
+        {
+            "timestamp": "2026-08-28T23:01:16.543702",
+            "timestamp_anterior": "2026-08-28T19:13:08.080182",
+            "timestamp_atual": "2026-08-28T23:01:16.543702",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwETssTw&_nc_oc=AdqPGG8m9mMpqB-4-ZUZ8iXqFHZsMpOJNnz4k-t0MKDlEHpjgvYxOoLeKCBZQpH4tE2Js-LGHy1eGZUSlUXxQhXG&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=BmkNEluSOl5KOv6eToLvMQ&_nc_ss=70689&oh=00_AQJNdAofwSfzK2n_nL75dW3mt2lytrZ6p9Y7jFYHdhB-ZA&oe=6A980008"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242385079,
+            "valor_atual": 242384443,
+            "hash_anterior": "19639103b9714dfe45aec2389a3f8a01097494b6f5590dfa3a5d9d188eb274ab",
+            "hash_atual": "8f1ee473040ce309096f440f48c615ab64ed0f50b2c9ca55b365ea5fa05449db",
+            "tempo_desde_anterior": {
+                "segundos": 13688.46352,
+                "texto": "3 horas e 48 minutos e 8 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 13688.46352,
+                "texto": "3 horas e 48 minutos e 8 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -636,
+            "titulo": "Perdeu 636 seguidores",
+            "descricao": "Os seguidores caíram de 242.385.079 para 242.384.443",
+            "variacao_texto": "-636 seguidores"
+        },
+        {
+            "timestamp": "2026-08-29T11:52:25.249286",
+            "timestamp_anterior": "2026-08-28T23:01:16.543702",
+            "timestamp_atual": "2026-08-29T11:52:25.249286",
+            "usuario": {
+                "pk": 26669533,
+                "id": "17841401365990416",
+                "username": "neymarjr",
+                "nome": "Neymar Jr",
+                "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/754143142_18908375062045534_6186768245291050882_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mfz_GJRSrdIQ7kNvwFcheSb&_nc_oc=AdrLyEhxdFVfVjG4buldkD6aDX-NN_9QDMBqLJn9me_qzXrS2yQ56XJLr7B5shke4UyC6CXiNvNhTtMIXqggdcbM&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CFtiKu3kl5JBFmL2GVO6VA&_nc_ss=70689&oh=00_AQL270k1I00u4KBnz4N_KCzqhkyWl8IljJa8oZeGeXl-8Q&oe=6A98A8C8"
+            },
+            "tipo": "seguidores",
+            "valor_anterior": 242384443,
+            "valor_atual": 242377580,
+            "hash_anterior": "8f1ee473040ce309096f440f48c615ab64ed0f50b2c9ca55b365ea5fa05449db",
+            "hash_atual": "d54259ebea5382857e59b75f47d22f7aa53cec765077319478b021296c8b8f38",
+            "tempo_desde_anterior": {
+                "segundos": 46268.705584,
+                "texto": "12 horas e 51 minutos e 8 segundos"
+            },
+            "tempo_desde_ultimo_evento": {
+                "segundos": 46268.705584,
+                "texto": "12 horas e 51 minutos e 8 segundos"
+            },
+            "categoria": "rede",
+            "variacao": -6863,
+            "titulo": "Perdeu 6.863 seguidores",
+            "descricao": "Os seguidores caíram de 242.384.443 para 242.377.580",
+            "variacao_texto": "-6.863 seguidores"
+        }
+    ],
+    "historico": {
+        "usuario": {
+            "pk": 26669533,
+            "id": "17841401365990416",
+            "username": "neymarjr",
+            "nome": "Neymar Jr"
+        },
+        "seguidores": [
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor": 242428810,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242428810,
+                "valor_atual": 242425434,
+                "variacao": -3376,
+                "direcao": "reducao",
+                "descricao": "-3376 seguidores",
+                "timestamp": "2026-08-27T06:31:53.675624",
+                "timestamp_anterior": "2026-08-27T00:22:40.628021",
+                "tempo_desde_anterior_segundos": 22153
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242425434,
+                "valor_atual": 242424366,
+                "variacao": -1068,
+                "direcao": "reducao",
+                "descricao": "-1068 seguidores",
+                "timestamp": "2026-08-27T07:04:55.304123",
+                "timestamp_anterior": "2026-08-27T06:31:53.675624",
+                "tempo_desde_anterior_segundos": 1981
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424366,
+                "valor_atual": 242424248,
+                "variacao": -118,
+                "direcao": "reducao",
+                "descricao": "-118 seguidores",
+                "timestamp": "2026-08-27T07:34:45.611799",
+                "timestamp_anterior": "2026-08-27T07:04:55.304123",
+                "tempo_desde_anterior_segundos": 1790
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424248,
+                "valor_atual": 242424556,
+                "variacao": 308,
+                "direcao": "aumento",
+                "descricao": "+308 seguidores",
+                "timestamp": "2026-08-27T08:07:29.739893",
+                "timestamp_anterior": "2026-08-27T07:34:45.611799",
+                "tempo_desde_anterior_segundos": 1964
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424556,
+                "valor_atual": 242424660,
+                "variacao": 104,
+                "direcao": "aumento",
+                "descricao": "+104 seguidores",
+                "timestamp": "2026-08-27T08:18:04.793366",
+                "timestamp_anterior": "2026-08-27T08:07:29.739893",
+                "tempo_desde_anterior_segundos": 635
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424660,
+                "valor_atual": 242424676,
+                "variacao": 16,
+                "direcao": "aumento",
+                "descricao": "+16 seguidores",
+                "timestamp": "2026-08-27T08:19:44.787214",
+                "timestamp_anterior": "2026-08-27T08:18:04.793366",
+                "tempo_desde_anterior_segundos": 99
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424676,
+                "valor_atual": 242424706,
+                "variacao": 30,
+                "direcao": "aumento",
+                "descricao": "+30 seguidores",
+                "timestamp": "2026-08-27T08:26:30.216618",
+                "timestamp_anterior": "2026-08-27T08:19:44.787214",
+                "tempo_desde_anterior_segundos": 405
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424706,
+                "valor_atual": 242424717,
+                "variacao": 11,
+                "direcao": "aumento",
+                "descricao": "+11 seguidores",
+                "timestamp": "2026-08-27T08:37:00.238014",
+                "timestamp_anterior": "2026-08-27T08:26:30.216618",
+                "tempo_desde_anterior_segundos": 630
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242424717,
+                "valor_atual": 242425116,
+                "variacao": 399,
+                "direcao": "aumento",
+                "descricao": "+399 seguidores",
+                "timestamp": "2026-08-27T10:09:51.837704",
+                "timestamp_anterior": "2026-08-27T08:37:00.238014",
+                "tempo_desde_anterior_segundos": 5571
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242425116,
+                "valor_atual": 242425310,
+                "variacao": 194,
+                "direcao": "aumento",
+                "descricao": "+194 seguidores",
+                "timestamp": "2026-08-27T10:52:37.622238",
+                "timestamp_anterior": "2026-08-27T10:09:51.837704",
+                "tempo_desde_anterior_segundos": 2565
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242425310,
+                "valor_atual": 242425508,
+                "variacao": 198,
+                "direcao": "aumento",
+                "descricao": "+198 seguidores",
+                "timestamp": "2026-08-27T11:18:57.415107",
+                "timestamp_anterior": "2026-08-27T10:52:37.622238",
+                "tempo_desde_anterior_segundos": 1579
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242425508,
+                "valor_atual": 242418556,
+                "variacao": -6952,
+                "direcao": "reducao",
+                "descricao": "-6952 seguidores",
+                "timestamp": "2026-08-27T18:26:31.850517",
+                "timestamp_anterior": "2026-08-27T11:18:57.415107",
+                "tempo_desde_anterior_segundos": 25654
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242418556,
+                "valor_atual": 242418612,
+                "variacao": 56,
+                "direcao": "aumento",
+                "descricao": "+56 seguidores",
+                "timestamp": "2026-08-27T18:56:38.080072",
+                "timestamp_anterior": "2026-08-27T18:26:31.850517",
+                "tempo_desde_anterior_segundos": 1806
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242418612,
+                "valor_atual": 242419123,
+                "variacao": 511,
+                "direcao": "aumento",
+                "descricao": "+511 seguidores",
+                "timestamp": "2026-08-27T22:37:05.845235",
+                "timestamp_anterior": "2026-08-27T18:56:38.080072",
+                "tempo_desde_anterior_segundos": 13227
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242419123,
+                "valor_atual": 242419089,
+                "variacao": -34,
+                "direcao": "reducao",
+                "descricao": "-34 seguidores",
+                "timestamp": "2026-08-27T22:58:39.206151",
+                "timestamp_anterior": "2026-08-27T22:37:05.845235",
+                "tempo_desde_anterior_segundos": 1293
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242419089,
+                "valor_atual": 242412430,
+                "variacao": -6659,
+                "direcao": "reducao",
+                "descricao": "-6659 seguidores",
+                "timestamp": "2026-08-28T09:14:33.752395",
+                "timestamp_anterior": "2026-08-27T22:58:39.206151",
+                "tempo_desde_anterior_segundos": 36954
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242412430,
+                "valor_atual": 242412545,
+                "variacao": 115,
+                "direcao": "aumento",
+                "descricao": "+115 seguidores",
+                "timestamp": "2026-08-28T10:15:01.011838",
+                "timestamp_anterior": "2026-08-28T09:14:33.752395",
+                "tempo_desde_anterior_segundos": 3627
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242412545,
+                "valor_atual": 242412582,
+                "variacao": 37,
+                "direcao": "aumento",
+                "descricao": "+37 seguidores",
+                "timestamp": "2026-08-28T10:30:34.840900",
+                "timestamp_anterior": "2026-08-28T10:15:01.011838",
+                "tempo_desde_anterior_segundos": 933
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242412582,
+                "valor_atual": 242386562,
+                "variacao": -26020,
+                "direcao": "reducao",
+                "descricao": "-26020 seguidores",
+                "timestamp": "2026-08-28T14:38:14.213861",
+                "timestamp_anterior": "2026-08-28T10:30:34.840900",
+                "tempo_desde_anterior_segundos": 14859
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242386562,
+                "valor_atual": 242386771,
+                "variacao": 209,
+                "direcao": "aumento",
+                "descricao": "+209 seguidores",
+                "timestamp": "2026-08-28T15:40:40.417465",
+                "timestamp_anterior": "2026-08-28T14:38:14.213861",
+                "tempo_desde_anterior_segundos": 3746
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242386771,
+                "valor_atual": 242385079,
+                "variacao": -1692,
+                "direcao": "reducao",
+                "descricao": "-1692 seguidores",
+                "timestamp": "2026-08-28T19:13:08.080182",
+                "timestamp_anterior": "2026-08-28T15:40:40.417465",
+                "tempo_desde_anterior_segundos": 12747
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242385079,
+                "valor_atual": 242384443,
+                "variacao": -636,
+                "direcao": "reducao",
+                "descricao": "-636 seguidores",
+                "timestamp": "2026-08-28T23:01:16.543702",
+                "timestamp_anterior": "2026-08-28T19:13:08.080182",
+                "tempo_desde_anterior_segundos": 13688
+            },
+            {
+                "campo": "seguidores",
+                "nome": "Seguidores",
+                "valor_anterior": 242384443,
+                "valor_atual": 242377580,
+                "variacao": -6863,
+                "direcao": "reducao",
+                "descricao": "-6863 seguidores",
+                "timestamp": "2026-08-29T11:52:25.249286",
+                "timestamp_anterior": "2026-08-28T23:01:16.543702",
+                "tempo_desde_anterior_segundos": 46268
+            }
+        ],
+        "seguindo": [
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor": 2007,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 2007,
+                "valor_atual": 2008,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "Seguiu +1",
+                "timestamp": "2026-08-28T14:38:14.213861",
+                "timestamp_anterior": "2026-08-27T00:22:40.628021",
+                "tempo_desde_anterior_segundos": 137733
+            },
+            {
+                "campo": "seguindo",
+                "nome": "Seguindo",
+                "valor_anterior": 2008,
+                "valor_atual": 1994,
+                "variacao": -14,
+                "direcao": "reducao",
+                "descricao": "Deixou de seguir 14",
+                "timestamp": "2026-08-28T19:13:08.080182",
+                "timestamp_anterior": "2026-08-28T14:38:14.213861",
+                "tempo_desde_anterior_segundos": 16493
+            }
+        ],
+        "total_posts": [
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor": 6147,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "total_posts",
+                "nome": "Total de Posts",
+                "valor_anterior": 6147,
+                "valor_atual": 6148,
+                "variacao": 1,
+                "direcao": "aumento",
+                "descricao": "+1 posts",
+                "timestamp": "2026-08-28T14:38:14.213861",
+                "timestamp_anterior": "2026-08-27T00:22:40.628021",
+                "tempo_desde_anterior_segundos": 137733
+            }
+        ],
+        "total_reels": [
+            {
+                "campo": "total_reels",
+                "nome": "Total de Reels",
+                "valor": 0,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "total_destaques": [
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor": 4,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            },
+            {
+                "campo": "total_destaques",
+                "nome": "Total de Destaques",
+                "valor_anterior": 4,
+                "valor_atual": 3,
+                "variacao": -1,
+                "direcao": "reducao",
+                "descricao": "-1 destaques",
+                "timestamp": "2026-08-28T19:13:08.080182",
+                "timestamp_anterior": "2026-08-27T00:22:40.628021",
+                "tempo_desde_anterior_segundos": 154227
+            }
+        ],
+        "privado": [
+            {
+                "campo": "privado",
+                "nome": "Privacidade",
+                "valor": false,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "biografia": [
+            {
+                "campo": "biografia",
+                "nome": "Biografia",
+                "valor": "@santosfc & Brazil 🇧🇷 10",
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "verificado": [
+            {
+                "campo": "verificado",
+                "nome": "Verificação",
+                "valor": true,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "memorializado": [
+            {
+                "campo": "memorializado",
+                "nome": "Memorializado",
+                "valor": false,
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "pronomes": [
+            {
+                "campo": "pronomes",
+                "nome": "Pronomes",
+                "valor": [],
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ],
+        "links": [
+            {
+                "campo": "links",
+                "nome": "Links",
+                "valor": [
+                    {
+                        "url": "https://linktr.ee/neymarjr"
+                    },
+                    {
+                        "url": "http://www.youtube.com/neymarjr"
+                    }
+                ],
+                "timestamp": "2026-08-27T00:22:40.628021",
+                "tipo": "inicial"
+            }
+        ]
+    }
+}

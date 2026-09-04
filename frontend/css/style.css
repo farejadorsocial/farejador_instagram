@@ -1,0 +1,17 @@
+/* Entrada dos estilos. A ordem reproduz o style.css original. */
+@import url("./modules/base.css");
+@import url("./modules/historico.css");
+@import url("./modules/exploracao.css");
+@import url("./modules/rankings.css");
+@import url("./modules/perfil.css");
+@import url("./modules/inteligencia.css");
+@import url("./modules/usuario.css");
+@import url("./modules/feed-comparador.css");
+@import url("./modules/layout.css");
+@import url("./modules/login.css");
+@import url("./modules/comparador.css");
+@import url("./modules/mobile.css");
+@import url("./modules/refinamentos.css");
+@import url("./modules/publico.css");
+
+@import url("./modules/premium.css");

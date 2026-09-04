@@ -1,0 +1,279 @@
+{
+    "perfil": {
+        "pk": 228269326,
+        "id": "17841401359783566",
+        "username": "flamengo",
+        "nome": "Flamengo",
+        "biografia": "Perfil Oficial do Clube de Regatas do Flamengo\nSiga👇 \n🏴󠁧󠁢󠁥󠁮󠁧󠁿@flamengoen\n⚽️ @FlamengoFutebolFeminino\n🏅@TimeFlamengo\n🏆@museuflamengo",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 25018425,
+        "seguindo": 290,
+        "total_posts": 0,
+        "total_reels": 0,
+        "total_destaques": 9,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://linktr.ee/crflamengo"
+            },
+            {
+                "url": "http://ingressos.flamengo.com.br"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/623426155_18556784896045327_139840554487581150_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=8wFQcSyqzCcQ7kNvwHp7_Cg&_nc_oc=AdpK4vhjFU3P7U6fRcLZShp_eS5w13y0ywSFUZOEAqbUkdzwAqniZHjHCLOlZsxfIgq2mY-oqUcuj6rr4sC_9cXH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=WP361mSEg2azF_XIC6bedw&_nc_ss=70689&oh=00_AQH1HkOpXr7hjW4gNU5kkbTw2_pszwib5hKPp7PgTqwoVg&oe=6A9439E7"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971753462287684167",
+                "code": "DcegLsPFdJH",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "AS VENDAS COMEÇAM AMANHÃ! 🎟️\n\nNesta quarta-feira (26), começam as vendas de ingressos para Flamengo x Mirassol, válido pela 4ª rodada do Brasileirão. Confira as informações de venda e garanta seu lugar no Maraca!\n\nAinda não é Nação Sócio-Torcedor? Acesse nacao.flamengo.com.br e garanta sua prioridade nas próximas vendas!\n\n#Ingresso"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786157606_18623344966045327_1459662221352929982_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=YQP7mtdfM2MQ7kNvwG3nm-V&_nc_oc=AdqP7Y5gYk7n5XCLE-SOEBPK1yrhedhhecUhyhnBxcCx-saWI80R_SWOOZuEGUp_v3zt3sjfsGNjjGfPrDWzcelG&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQHHM7fYghH0oKtr3FJZ2h3VMqH3v8IbcMptdAAEcSP_6w&oe=6A9429F5",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "carousel_media_count": 2,
+                "id": "POLARIS_3971753462287684167"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3953692095772855283",
+                "code": "DbeVgN3z4vz",
+                "accessibility_caption": "Photo by Flamengo on August 01, 2026. Pode ser uma imagem de futebol americano, futebol, pôster, equipamento esportivo, estádio e texto.",
+                "caption": {
+                    "text": "Agosto chegou com jogos decisivos pela Libertadores e partidas importantes no Campeonato Brasileiro! Vamos juntos, Nação! 🗓️\n\n#Calendário"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/759824342_18614534779045327_1704392497512166719_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QGn5FYamH30Q7kNvwFSTlM2&_nc_oc=AdrXS-VaYrMsRrQG9G7ciiLbRPV6RLa7lhULHH4skzDljyvtX-TvgPXmtLk4jAERSbm_ksMixEVR0yJbFzT3uFJe&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQGQaAmo3e5suN-4ulY_7OKawkXaRcSb8gxwWq8x-BLBmA&oe=6A945964",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3953692095772855283"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3971716597504932569",
+                "code": "DceXzPOzfrZ",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "DOMINGO É DIA DE CLÁSSICO!\n\nO Mais Querido vai em busca de mais 3 pontos no Brasileirão. \n\nGaranta já os ingressos e vamos lotar o Maraca no Flamengo x Botafogo.\n\ningressos.flamengo.com.br"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/785943955_18623324347045327_2283411334862906811_n.heic?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=p8XHfTfHSRAQ7kNvwGIy_mt&_nc_oc=Adr-qMEy0u_qPY-YYqUp42OxjZhPJZiKy2PF2hmEjpaVY-6-GpG-_s6hEUpG3YDcpWPH_yqWlt50D7a-Le6x4HDw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQFGv0TH1V00NN4lgSJAftBAWPTG1eLvC3YHfzwZMaJ4uA&oe=6A944DAC",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971716597504932569"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3971933275038067729",
+                "code": "DcfJET6MqwR",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026. Pode ser uma imagem de futebol, futebol americano, pôster, banner, estádio e texto que diz \"LIBERTADORES DORES ・はの会・ กก E7BR XIBA 子o Shopee B65T ChOF 이포크 Shopre C Betano XIBRB XBPD TBEp Shopee Beta CONFRONTO DEFINIDO CLASSIFICADOSQUARTASDEFINAL CLASSIFICADOS QUARTAS DE FINAL\".",
+                "caption": {
+                    "text": "Confronto definido. O Flamengo enfrentará o Independiente Del Valle nas quartas de final da Conmebol Libertadores. \n\nVamos juntos pelo penta! 🔴⚫"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786069669_18623431510045327_5044543934776722688_n.heic?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IUMTqNjvrzEQ7kNvwF9Y6sb&_nc_oc=AdqQG19Hnc8KdPkk48-Q5kHgS19O84hQNVmBB5i4F4lVe3L-JqnFaGgAJH8PbcEkoiQAifNuM233OQucH4OGbpYv&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQFM2dUFIaCyftFWWJTFwe4KA2rhyfT_a43HfG-ENQyRiw&oe=6A9455A4",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971933275038067729"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971903492935996596",
+                "code": "DcfCS7KlVS0",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026.",
+                "caption": {
+                    "text": "Daqui a pouco iremos descobrir nosso próximo adversário na Conmebol Libertadores! Enquanto isso, resolvemos relembrar alguns lugares que já passamos… 🔴⚫️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/785599857_18623365030045327_5783443252137761554_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7LIi2OBms4MQ7kNvwGkuKoV&_nc_oc=AdpaSMDXQfPFN7AMrWZX48RYM5CF5yqO5kl1Tqj0a5kfbHhH1YYdwy5BybMepb2ArscV0dMBQAgJkYsRS8CfPzy-&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQH893bv_8GwQd6h-pms4HU7VfaIQP_8sJkwS8uekQQQnA&oe=6A94327B",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "carousel_media_count": 10,
+                "id": "POLARIS_3971903492935996596"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971873634451734421",
+                "code": "Dce7gbSPD-V",
+                "accessibility_caption": "Video by Flamengo on August 25, 2026. Pode ser uma imagem de tranças, criança, sorrindo e texto.",
+                "caption": {
+                    "text": "Tem criança que aprende a falar “Mengo” antes de aprender a falar qualquer outra coisa.\n\nTeve quem viu de casa e se recusou a dormir. Teve quem estreou no Maracanã segurando a mão do pai. Teve quem atravessou o Brasil de avião só pra ver o Mais Querido de perto. E teve até mini Zico.\n\nSer Flamengo não se ensina. Se herda.\n\nMarca aqui embaixo quem te fez rubro-negro. 🔴⚫"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/787044852_18623364562045327_7056364478308303203_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mKgoqkNGhS0Q7kNvwHe6-HH&_nc_oc=AdqanwmmnGFhKNRt8NawOBMOkn9MABsT0RWDFFlsltNHGSAs83xL3TLWK3kW1ujmraTJOgT6YJv0BAcQ1FJaV4bg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQEHvvplPhaPh_2M2Gga0larxFx_6CzBkIS09INcMOGgLw&oe=6A944ECC",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971873634451734421"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971843168009131845",
+                "code": "Dce0lFMvxdF",
+                "accessibility_caption": "Video by Flamengo on August 25, 2026. Pode ser uma imagem de ‎futebol americano, futebol, estádio e ‎texto que diz \"‎-CONIMEBOL- LIBERTADORES FLAMENGOTV ብ ס م . Shopee‎\"‎‎.",
+                "caption": {
+                    "text": "TÁ NO AR MAIS UMA EDIÇÃO DO #Flapress!\n\nTerça-Feira é dia de nos encontrarmos com a Dani Boaventura na telinha da #FlamengoTV e ver como foi a semana do Mengão!\n\n📺 Corre lá no YouTube e assista a mais um Flapress inédito! Curta, comente, compartilhe e se inscreva na Mais Querida!"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t15.5256-10/785080513_1081853581194665_7763123053689526274_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RXPeCodxlHcQ7kNvwGFnB95&_nc_oc=AdqyZqQfhdAZSRopFWVlXyAXOu8YrZdYlClU32oRlKje9W_HL-D55epcGxD9ngKr-2OULcTi7vOsMRX0Me2m_Cl7&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQGET2-g7bvTWwPMRsKHzNNZ3tJTCa9ubT9fMTWSSvmemA&oe=6A944C9F",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971843168009131845"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971825785543958124",
+                "code": "DcewoIhFZ5s",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026.",
+                "caption": {
+                    "text": "Dia de reapresentação e #treino forte no Ninho! 💪"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786121699_18623383612045327_5487373750491349763_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Wk4Kd7b9gEAQ7kNvwHml6ul&_nc_oc=AdpPNDD2JEicnBtVgUL5K5-IvbABxMI7-YVg7cZzHS16cqaRdj_j4OCvG371O8NDjF6zeDhXvfYbWNZTW-el1aUQ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQGZlTrtlamaTgmzhUsJ-lgpuj24BfC1BGQcsuD_q53pNA&oe=6A942985",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "carousel_media_count": 5,
+                "id": "POLARIS_3971825785543958124"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3971782327751644269",
+                "code": "DcemvvSz5Rt",
+                "accessibility_caption": "Video by Flamengo on August 25, 2026. Pode ser um meme de uma ou mais pessoas, pelo, camisa e texto que diz \"FLAMENGOTV Arrasca escolhendo Manto da Nação.\".",
+                "caption": {
+                    "text": "Arrasca já votou no #MantodaNação!\n\nAcesse mantodanacao.flamengo.com.br e escolha a sua camisa favorita."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.71878-15/783777149_1038563765458449_143519149859750213_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b_80W1Hab6QQ7kNvwEhTfDc&_nc_oc=AdorFLgCz4133Hqigy4tiCZhSDLwb1ktE0CiUzQpmH7-R26zJbyGb21Si1S4cToeMq50cRizZJuv-nFNgHechYTv&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQHc-hxe0pvA7-WEANvWh0bzS_RANefXfNX63TsX9Z61Mw&oe=6A944790",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971782327751644269"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3971678927118461198",
+                "code": "DcePPD8zOkO",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026. Pode ser uma imagem de futebol, futebol americano, placar, multidão, estádio e texto.",
+                "caption": {
+                    "text": "O MUNDO SABE QUE A MAIOR TORCIDA É A NOSSA! 🔴⚫️\n\nMais de 1 MILHÃO DE TORCEDORES já lotaram o Maraca e apoiaram o Flamengo em 2026! \n\nA nossa força vem da arquibancada, do grito ecoado, do amor incondicional que transforma cada jogo em um verdadeiro espetáculo. \n\nObrigado, Nação! \nO verdadeiro patrimônio do Flamengo é você."
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/786955270_18623303269045327_6725631268488547554_n.heic?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6sCzMbEkhl8Q7kNvwG5aj10&_nc_oc=AdovMkX4LVfRBkq9lqTuluBFYWak3sniijXQ7A7s3Fhgp2liS6qZApTGHrwMHg3nx2ZRy-G48a33YSpEZtC7etrE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQHSmdAML8Pyzg9L2x0OQRe90iACeP1S0afp1-ZhT-cbDw&oe=6A944527",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971678927118461198"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3971656185660990467",
+                "code": "DceKEIUTmQD",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026. Pode ser uma imagem de pôster, bandeira e texto que diz \"雪誕 GUINNESS GUINNES OFFICIAL IIII ATTEMT AT CHEGOU A HORA DA MAIOR DO MUNDO ENTRAR NO GUINNESS WORLD RECORDS TM 完酒 Vote agora: mantodanacao.flamengo.com.br\".",
+                "caption": {
+                    "text": "Faça a diferença, rubro-negro!\n\nVamos juntos colocar o #MantodaNação no Guinness World Records™️.\n\nA meta foi definida: 100 mil votos. \n\nAcesse o site e vote já: mantodanacao.flamengo.com.br"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/784732649_18623291014045327_7391322743424494223_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LfAjPLO--mEQ7kNvwEoaYNc&_nc_oc=AdpHLoTlRSv2gNXEIi5xXXPwOkAywoO1jKx-c4AGEqSq1bnk3UcBlCcSDhuYdTsy7xKSZ8ejaYZGd8z8B6_O6-MV&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQFqt8HKEbl86cM2d6Uko38TeQgklyU99CI4GuY-bY81cQ&oe=6A9433C1",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "id": "POLARIS_3971656185660990467"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3971589802567238799",
+                "code": "Dcd6-IPlYSP",
+                "accessibility_caption": "Photo by Flamengo on August 25, 2026.",
+                "caption": {
+                    "text": "Vamos juntos, Nação! 🔴⚫"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/785943949_18623253598045327_6543677682972165330_n.heic?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=a9NJpJ-HmXYQ7kNvwFBT5dW&_nc_oc=AdqvMhggBYYIR_Uhle-S6QizPGKhGlS2MNeH2vRHY45I4QV73GmMgjAEZSahnHzD4HK1QDmpZM9cwOysH31Td_8S&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=6uuuD1YZZb0wS8lA86UJUA&_nc_ss=70689&oh=00_AQHThsTD2Ym-BVf7k3nk3dd2_Xp9mitlVIfK6DDcuzl5jg&oe=6A945CA2",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "228269326",
+                    "username": "flamengo",
+                    "id": "17841401359783566"
+                },
+                "carousel_media_count": 9,
+                "id": "POLARIS_3971589802567238799"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\228269326.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\228269326.json"
+}

@@ -1,0 +1,11 @@
+{
+    "cliente_usuario": "admin",
+    "pk": 406936928,
+    "username": "carlinhos",
+    "total": 27,
+    "movimento": true,
+    "timestamp_capture": "2026-09-01T23:56:42.380325",
+    "icone": "🚨",
+    "texto": "Movimento detectado no perfil do usuário",
+    "mensagem": "🚨 Movimento detectado no perfil do usuário: carlinhos"
+}

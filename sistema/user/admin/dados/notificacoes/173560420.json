@@ -1,0 +1,11 @@
+{
+    "cliente_usuario": "admin",
+    "pk": 173560420,
+    "username": "cristiano",
+    "total": 7,
+    "movimento": false,
+    "timestamp_capture": "2026-09-01T23:54:29.134792",
+    "icone": "💤",
+    "texto": "Sem movimento no perfil do usuário",
+    "mensagem": "💤 Sem movimento no perfil do usuário: cristiano"
+}

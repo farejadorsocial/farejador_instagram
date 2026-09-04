@@ -1,0 +1,279 @@
+{
+    "perfil": {
+        "pk": 266439562,
+        "id": "17841400226864163",
+        "username": "virginia",
+        "nome": "Virginia",
+        "biografia": "2026 é NOSSO 💖💜💙\n@wepink.br @wpink.br @casavfeventos @wegym_br \nToda honra e glória a Deus 🙌🏻\nCONTATO: comercial@agenciavfdigital.com.br 📩\nPROMOÇÃO 👇🏻",
+        "privado": false,
+        "verificado": true,
+        "memorializado": false,
+        "seguidores": 56481541,
+        "seguindo": 734,
+        "total_posts": 3303,
+        "total_reels": 0,
+        "total_destaques": 1,
+        "pronomes": [],
+        "links": [
+            {
+                "url": "https://www.wepink.com.br/?utm_source=virginia&utm_medium=instavi&utm_campaign=260824_home"
+            }
+        ],
+        "foto_perfil": "https://scontent.cdninstagram.com/v/t51.82787-19/662000130_18605720002007563_7377775934157453830_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=1&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=3E53UyVDRpEQ7kNvwFK813D&_nc_oc=Adr6kraW9synAE-qckUsbA_u58saPyjRE6ltGbYme5VvLLPxpZOa7kA1JST197L1m6QWspAG5kkojB6R4-s7iCV8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Vne2xiB2NehTkr52w_lUzg&_nc_ss=70689&oh=00_AQF2tmvCsxITfylLGiN03vZGFrvHhOvRwi9jcjNdVZZOnw&oe=6A943D45"
+    },
+    "conteudo": {
+        "posts": [
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3968665548825080149",
+                "code": "DcTiEouDLFV",
+                "accessibility_caption": "Photo by Virginia on August 21, 2026.",
+                "caption": {
+                    "text": "Eu e ele 💙"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/782447264_18648976147007563_3522756185856474606_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=T03VHIZjdxYQ7kNvwHCRQrZ&_nc_oc=AdpL8ro7GVepKfNgLAySvtKBxwFjSdGggb0BDF98GuM5u3eQoq_AyIz9-KHqg4sknoRQRD7LidIE2LF-TIJWYMvS&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQHDRfLhQ-pV-9NLM6Krnww8UvuoBXCW_jwrLgwROfEB9Q&oe=6A945B7C",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 4,
+                "id": "POLARIS_3968665548825080149"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3967423117992009119",
+                "code": "DcPHk41lh2f",
+                "accessibility_caption": "Photo by Virginia on August 19, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "🖤✨"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/775245005_18648423910007563_3028437083036837068_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=o-6zVXjkr9UQ7kNvwEL2Itq&_nc_oc=AdolmjEgqzKtEW1zunTR4uA-BK9cD2KhY2b1YuWkKcEz_9-Wet3b5GupF-sfzHRmnXnQaAl4H6HIKunld5ISd813&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQF5uerrOIghIhMuZZjnsADVXLOOoEod5bl_Eotod-urrw&oe=6A943BA6",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 5,
+                "id": "POLARIS_3967423117992009119"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3966001281064066521",
+                "code": "DcKEScAkV3Z",
+                "accessibility_caption": "Photo by Virginia on August 17, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Com meu gato 💙 até hj n acredito q saiu de mim kkkk que mlk perfeitooooo 😍"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/777948255_18647586427007563_7991421074459422993_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2uJe_CmtbZoQ7kNvwGyLhKV&_nc_oc=Adq8tAqGWep-NCy8oMWq4Qb0aQER4Gi0ELk8NANXf7X-nkNdaf-0bdkMDwRSZOQMKWhaj3nSMdxoEFHGnXkOX1_3&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQGdFZyDxVwndAMcGGMz00NNwtl4hAOOop1rd8uQYvK0iw&oe=6A944EFC",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 6,
+                "id": "POLARIS_3966001281064066521"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3964516135575414855",
+                "code": "DcEymufRuhH",
+                "accessibility_caption": "Video by Virginia on August 15, 2026. Pode ser uma imagem de avião e texto.",
+                "caption": {
+                    "text": "Live e treino concluídos com sucesso ✅ que Deus nos acompanhe 🙌🏻💖💜💙"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774287610_18646713862007563_6254452885930919525_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vaUvFUtzbjcQ7kNvwFIxYUN&_nc_oc=Adotcq5cOo7Wy8AbcS5wLL7y4jGcQuuAnPicdTa_oFD4cMF5nxaYItpRraatGrc7WDvtr5QdU2HGglWKEgWVp6px&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQGRSV5NQuH0ZkJlKeNGsNVzuetgLLV61Oc-uGLgYdug7g&oe=6A9457F3",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "id": "POLARIS_3964516135575414855"
+            },
+            {
+                "__typename": "XIGPolarisImageMedia",
+                "__isXIGPolarisMedia": "XIGPolarisImageMedia",
+                "pk": "3963597352195125501",
+                "code": "DcBhsqyRPD9",
+                "accessibility_caption": "Photo by Virginia on August 14, 2026. Pode ser uma selfie de uma ou mais pessoas, cabelo loiro, cabelos longos, camisa e texto.",
+                "caption": {
+                    "text": "Ja estou pronta 🖤🤫 bora pra mais um projeto!!"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774407312_18646155196007563_1309641737224723185_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LlSeQedEQPIQ7kNvwEPYhXH&_nc_oc=AdqIEEOUInbmx6cUxAjSpfhPkTa85INfzmagx2TeVsF5hyXAevF4mWcJ7Yg-LC4ewqRPk1bQx46eUK6HzyUVwmcX&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQFtpQnk5OY1bdPQOs43fIfOW8MtTCNoXiZ2coWL31qZaA&oe=6A94515A",
+                "media_type": 1,
+                "product_type": "feed",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "id": "POLARIS_3963597352195125501"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3962418269492328908",
+                "code": "Db9Vmwcm7nM",
+                "accessibility_caption": "Photo by Virginia on August 12, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Estes últimos meses me fizeram repensar e refletir sobre muitas coisas. Uma delas, foi ter me permitido viver de uma maneira mais tranquila, leve, aproveitando cada momento e entendendo que minha vida realmente mudou. Hoje tudo demanda muito mais da minha presença. No meio desse processo, eu e a minha família conversamos e decidimos que chegou o momento de viver um tempo de qualidade. Os donos do meu tempo serão: meus filhos, minhas empresas e todas as pessoas que hoje arrancam o meu melhor sorriso. A vida é isso! Continuarei compartilhando minha rotina, , de uma  maneira equilibrada. Aliás, tenho buscado todos os dias o meu ponto de equilíbrio. Não sei fazer nada pela metade! Tudo que vivi até hoje foi de plena entrega, principalmente os desafios: Virginia Apresentadora e Virginia Rainha de Bateria da Grande Rio. Quanta honra! Posso dizer de cabeça erguida - “Não poupei esforços para entregar o meu melhor. Então, venho com o coração apertado e cheio de verdade, me despedir do posto de rainha de bateria da Grande Rio. E antes de qualquer palavra, quero agradecer ao Carnaval e à Grande Rio por me permitirem sentir essa magia de perto. É uma experiência única viver o maior espetáculo da terra.\nA Grande Rio sempre me tratou como uma verdadeira rainha. Ali, me senti em casa, amada, protegida e, acima de tudo feliz. Entre vaias e aplausos, a gente caminhou junto, de mãos dadas e com muita coragem dos dois lados. Reconheço também o peso disso. Sei o quanto é exaustivo, o quanto exige presença, o quanto pede comprometimento, e como disse anteriormente, não sei fazer nada pela metade. Isso é ter respeito por todos os que me apoiaram nessa jornada. A menina de Governador Valadares, nunca imaginou estar em um lugar tão incrível. Não foi uma decisão fácil, mas uma decisão honesta e sincera! \nPreciso agradecer pessoas que fizeram essa história ser ainda mais especial:\nJayder Soares, você é o melhor. Eu amo você o seu protecionismo , principalmente, o seu cuidado para que tudo seja perfeito. \nContinua nos comentários ⤵️"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/774335060_18645527368007563_3421505007691716173_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XGownsb_wq8Q7kNvwGSbv6n&_nc_oc=AdqWBe7rVbw1UC5y5M4vvrlUCoT-oTVZNAty8ARcFVIZXGkoJinunGQu6PuYqh0BtNKWmgr1cQk3oOi4g-SBjtUJ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQFw3t7yKLHWx8kgIZtQghXpOf7vyBs-5a2zjvYLal_wJw&oe=6A943C6F",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 13,
+                "id": "POLARIS_3962418269492328908"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3961456231600011974",
+                "code": "Db563Q1xrrG",
+                "accessibility_caption": "Video by Virginia on August 11, 2026. Pode ser uma imagem de roupas esportivas, esteira e texto.",
+                "caption": {
+                    "text": "Pensa uma academia que te dá ânimo p treinar?!!!! É a @wegym_br 😮‍💨💜 já quero uma em cada estado do Brasil!!! Sem contar o fato de que a mensalidade pra mulher é de 37 dias, temos uma sala separada só pra mulheres e todo o lucro desse mês será doado para 3 instituições que cuidam de mulheres!!! Bora p cima, toda honra e glória a Deus, 2026 É NOSSO 🙌🏻💖💜💙\n\nEspero todos vocês pra treinar com a gente 💜"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772685850_18645051112007563_6699647905953482225_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TFdDNoiTRGgQ7kNvwGatBGH&_nc_oc=AdoCwPOv8F2PMiXnEreRRnN_ijLHNbG9jnwgUYgFjdhJL1CMxA17hcGVkXJydD-_mSK2W1D1wu29TKCufvT5zKuf&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQHEfBD5y-Ifi73XaHF4DRV_QX62Rx_2r6pQpaIVR1p9wg&oe=6A94556A",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "id": "POLARIS_3961456231600011974"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3960729393001054765",
+                "code": "Db3VmXpRsIt",
+                "accessibility_caption": "Video by Virginia on August 10, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "KAKAKA ISSO FOI UMA TENTATIVA DE TREND, mas simplesmente esquecemos de gravar e foi isso q entregamos✅🤣"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772707680_18644741191007563_7586797230060521131_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M40cpmOw39IQ7kNvwHmJjo9&_nc_oc=AdqK30qRM5xac9J2pbcPNyB0r3mMPCpUF_fCZTGS8ECDqs_1k7RIor9wmJ_FcYC97o3Dy228diQpdH-zUlkQKHuG&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQFAgo65kvvii4HEvX1LfJznboKsOXmX3X1Wfms3fe0B4g&oe=6A943E97",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "id": "POLARIS_3960729393001054765"
+            },
+            {
+                "__typename": "XIGPolarisVideoMedia",
+                "__isXIGPolarisMedia": "XIGPolarisVideoMedia",
+                "pk": "3960202921203041913",
+                "code": "Db1d5MkxYZ5",
+                "accessibility_caption": "Video by Virginia on August 09, 2026. Pode ser uma imagem de microfone, show e texto.",
+                "caption": {
+                    "text": "De ontem!!! E estava acompanhada da @itaipava Premium. 🍺✨ Viva o São Julhão! ❤️\n\n#publi #ItaipavaNoSaoJulhao"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/772155201_18644511004007563_2797051642280855226_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=06mZnER0tyIQ7kNvwFV4Pzm&_nc_oc=Adq2oHecbODQlsJO69cXkz401DQ59OJAIp-dp3iE0fbzSmgVnRMaHTuOwovVLHlPO_fuLci0a0Tk8HrTr_BQehI-&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQFkg78VXmR3CChQiNONyjO57iPITWa0FrZZhKXgYHVrDg&oe=6A9426F4",
+                "media_type": 2,
+                "product_type": "clips",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "id": "POLARIS_3960202921203041913"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3959468558690713154",
+                "code": "Dby260MFn5C",
+                "accessibility_caption": "Photo by Virginia on August 08, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "A mãe ta ON @itaipava ❤️‍🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/768361217_18644118184007563_1371955069250445061_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6GI7FnBO9zcQ7kNvwHh42jk&_nc_oc=Adr5_b88xBg3wcclV-Yo69OCQLg_5I5mErsWWChEpZXEfxNrS-6eR8M8mVeail0vCTujrTj9s9OFzWT2RfvY_qNy&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQH1XDht8Xje44TD6hZY_N-4xccIjzkYMKBWOGp5x_vn9Q&oe=6A942A9F",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 3,
+                "id": "POLARIS_3959468558690713154"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3957805714429595241",
+                "code": "Dbs81Pylk5p",
+                "accessibility_caption": "Photo by Virginia on August 06, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "Um dia abençoado p todos nós🙌🏻💖💜💙 \n📍Nomelhorlugardomundo"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/767945520_18643329454007563_5880011389679632110_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HOg2NY1l_kkQ7kNvwFoT7zg&_nc_oc=AdoxzAOFndGXYBHZRh7kooH-stFzc16VZbifrO6fYJBoErJxKKf_YJh7LSXj6wLjIWP-69coxUP69M4kCrz6ks9Z&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQEDb4Ma7Mq6RnYaw8fpbR0TNgcEPlA9ZtSMz9EGQekjBw&oe=6A9436DF",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 4,
+                "id": "POLARIS_3957805714429595241"
+            },
+            {
+                "__typename": "XIGPolarisCarouselMedia",
+                "__isXIGPolarisMedia": "XIGPolarisCarouselMedia",
+                "pk": "3957073386174585052",
+                "code": "DbqWUd9Fpjc",
+                "accessibility_caption": "Photo by Virginia on August 05, 2026. Pode ser uma imagem de texto.",
+                "caption": {
+                    "text": "De um dia em Milão ❤️‍🔥"
+                },
+                "seo_canonical_url": null,
+                "display_uri": "https://scontent.cdninstagram.com/v/t51.82787-15/765035360_18642948148007563_3001082433654883378_n.jpg?stp=dst-jpg_e35_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5HUBlHWvFTYQ7kNvwEM64KZ&_nc_oc=AdrKM3kaYdrfZq6EM8R1rGFC0y_NHfglfuJ7diSR4ZkJa7CTgMpGRXkQVoiE2Q7uPn2eEvIMBtitJMIiSD9q4Z3c&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=F3-sc_KqlWkvGxyoY-sJLQ&_nc_ss=70689&oh=00_AQGsciRqoj6Pm0b0EOkRpBlFF-wq7OPft03QLOyD-a9N9Q&oe=6A944C6A",
+                "media_type": 8,
+                "product_type": "carousel_container",
+                "user": {
+                    "pk": "266439562",
+                    "username": "virginia",
+                    "id": "17841400226864163"
+                },
+                "carousel_media_count": 3,
+                "id": "POLARIS_3957073386174585052"
+            }
+        ],
+        "reels": [],
+        "destaques": []
+    },
+    "caminho_perfil_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\perfil_salvos\\266439562.json",
+    "caminho_historico_salvo": "C:\\Users\\YHAGO\\OneDrive\\Desktop\\farejador\\rede_social\\semLogin\\instagram\\sistema\\user\\admin\\dados\\historico\\266439562.json"
+}

@@ -1,0 +1,574 @@
+[
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T11:56:53.183268",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T11:57:27.265932",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T11:59:15.011898",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T11:59:50.032890",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T12:00:47.267411",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T12:01:42.663683",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T12:04:14.064509",
+    "visitante_id": "beHPjnCk-F476CoKbDbce2n9",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-29T12:10:41.838434",
+    "visitante_id": "LDFX2e-09LTI2WqV66kD3Ltw",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": null,
+        "plataforma": null,
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": null,
+        "sec_ch_mobile": null,
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-08-31T11:57:22.107351",
+    "visitante_id": "QW7_SbokTSJg6Zjgy1gZw3jf",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-09-01T23:46:38.501864",
+    "visitante_id": "SkAtI7zyWVlTn8GpmYQzRvyS",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  },
+  {
+    "tipo": "visita",
+    "timestamp": "2026-09-01T23:52:28.070200",
+    "visitante_id": "SkAtI7zyWVlTn8GpmYQzRvyS",
+    "acesso": {
+      "conexao": {
+        "ip": "127.0.0.1",
+        "tipo_ip": "IPv4",
+        "origem_ip": "direto",
+        "rede": {
+          "provedor": null,
+          "organizacao": null,
+          "asn": null,
+          "pais": null,
+          "cidade": null,
+          "regiao": null,
+          "timezone": null,
+          "localizacao": null
+        }
+      },
+      "origem": {
+        "referer": "http://127.0.0.1:8000/",
+        "site": "127.0.0.1:8000",
+        "campanha": {
+          "source": null,
+          "medium": null,
+          "campaign": null,
+          "term": null,
+          "content": null
+        }
+      },
+      "dispositivo": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "navegador": null,
+        "versao_navegador": null,
+        "sistema": "Windows",
+        "plataforma": "\"Windows\"",
+        "modelo": null,
+        "idioma": "pt-BR",
+        "sec_ch_ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec_ch_mobile": "?0",
+        "timezone": null,
+        "tela": {
+          "largura": null,
+          "altura": null,
+          "pixel_ratio": null
+        },
+        "touch": null
+      },
+      "permissoes": {}
+    }
+  }
+]
