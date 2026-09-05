@@ -21,7 +21,7 @@ def salvar_dados_json(dados, caminho):
         json.dump(dados, arquivo, ensure_ascii=False, indent=4)
 
 
-def caminho_base(*caminho_final, nome_projeto="instagram"):
+def caminho_base(*caminho_final, nome_projeto="farejador_instagram"):
     try:
         caminho_atual = Path(__file__).resolve()
     except NameError:
@@ -41,8 +41,6 @@ def salvar_recorrente(metadata_perfil, CAMINHO, cliente_usuario=None):
         from backend.database.sync import sincronizar_historico
         sincronizar_historico(cliente_usuario, metadata_perfil)
 
-    # O retorno continua compatível com o fluxo legado, mas a leitura oficial
-    # do histórico não depende mais deste arquivo.
     caminho = CAMINHO if isinstance(CAMINHO, Path) else caminho_base(*CAMINHO)
     caminho.parent.mkdir(parents=True, exist_ok=True)
     if not caminho.exists():
