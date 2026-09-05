@@ -17,7 +17,6 @@ from backend.api.exploracao import router as exploracao_router
 from backend.api.monitoramento import router as monitoramento_router
 from backend.database.init_db import criar_tabelas
 from toolFarejador.monitoramento.toolMonitoramentoSistema import monitoramento_perfis_tempo_real, solicitar_parada_monitoramento
-from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
 
 app = FastAPI(title="Farejador Instagram", version="1.8.0")
 app.add_middleware(
@@ -71,11 +70,6 @@ def startup_event():
     except Exception as erro:
         print(f"[postgres] Falha ao preparar o banco: {erro}")
         raise
-
-    try:
-        sincronizar_dados_publicos()
-    except Exception as erro:
-        print(f"[publico] Falha na publicação PostgreSQL: {erro}")
 
     if os.getenv("FAREJADOR_DISABLE_MONITOR", "0") != "1":
         iniciar_monitoramento_sistema()
