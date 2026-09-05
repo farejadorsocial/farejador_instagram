@@ -42,6 +42,11 @@ def normalizar_datetime(valor: Any) -> Optional[datetime]:
         return None
 
 
+def chave_datetime(valor: Any) -> str:
+    resultado = normalizar_datetime(valor)
+    return resultado.isoformat() if resultado else ""
+
+
 def iterar_json(diretorio: Path, nome: str) -> Iterable[Path]:
     if not diretorio.exists():
         return []
@@ -186,7 +191,7 @@ def migrar_monitoramentos(session: Session, dry_run: bool) -> int:
 
 def chave_historico(cliente: str, item: dict) -> tuple[str, str, str, str]:
     perfil = item.get("perfil") if isinstance(item.get("perfil"), dict) else {}
-    return (cliente, str(perfil.get("pk") or ""), str(item.get("timestamp_capture") or ""), str(item.get("hash") or ""))
+    return (cliente, str(perfil.get("pk") or ""), chave_datetime(item.get("timestamp_capture")), str(item.get("hash") or ""))
 
 
 def migrar_historicos(session: Session, dry_run: bool) -> int:
@@ -197,7 +202,7 @@ def migrar_historicos(session: Session, dry_run: bool) -> int:
     if not dry_run:
         for registro in session.scalars(select(HistoricoPerfil)).all():
             dados = registro.dados if isinstance(registro.dados, dict) else {}
-            existentes.add((registro.cliente_usuario, registro.instagram_pk, registro.timestamp_capture.isoformat() if registro.timestamp_capture else "", str(dados.get("hash") or "")))
+            existentes.add((registro.cliente_usuario, registro.instagram_pk, chave_datetime(registro.timestamp_capture), str(dados.get("hash") or "")))
     for caminho in sorted(caminhos):
         cliente = extrair_cliente(caminho)
         if not cliente:
@@ -218,7 +223,7 @@ def migrar_historicos(session: Session, dry_run: bool) -> int:
 
 
 def chave_feed(item: dict) -> tuple[str, str, str, str, str]:
-    return (str(item.get("cliente_usuario") or ""), str(item.get("pk") or ""), str(item.get("timestamp_capture") or ""), str(item.get("username") or ""), str(item.get("hash_atividade") or item.get("mensagem") or ""))
+    return (str(item.get("cliente_usuario") or ""), str(item.get("pk") or ""), chave_datetime(item.get("timestamp_capture")), str(item.get("username") or ""), str(item.get("hash_atividade") or item.get("mensagem") or ""))
 
 
 def migrar_feed(session: Session, dry_run: bool) -> int:
