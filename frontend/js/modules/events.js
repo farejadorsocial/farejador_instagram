@@ -113,4 +113,11 @@ document.addEventListener('visibilitychange',()=>{if(state.route==='feed'){if(do
 window.addEventListener('popstate',()=>{cancelarAtualizacoes();detectRoute();render()});
 const themeToggle=$('#theme-toggle');if(themeToggle)themeToggle.onclick=()=>{state.theme=state.theme==='dark'?'light':'dark';applyTheme()};
 const authBtn=$('#auth-btn');if(authBtn)authBtn.onclick=async()=>{if(state.session?.autenticado){try{await api('/api/auth/logout',{method:'POST'});state.session=await api('/api/session');resetViewState();history.pushState({},'', '/');state.route='dashboard';toast('Sessão encerrada.');render()}catch(e){toast(e.message)}}else openAuth()};
+const renderOriginal=render;
+render=async function(){
+  uiPageLoading();
+  await renderOriginal();
+  const content=$('#content');
+  if(content)content.querySelectorAll('[data-retry-page]').forEach(b=>b.onclick=()=>render());
+};
 boot();
