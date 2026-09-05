@@ -5,12 +5,10 @@ import hashlib
 from pathlib import Path
 
 
-
 def carregar_dados(caminho_arquivo):
     with open(caminho_arquivo, 'r', encoding='utf-8') as f:
         dados = json.load(f)
     return dados
-
 
 
 def salvar_dados_json(dados,caminho):
@@ -18,18 +16,8 @@ def salvar_dados_json(dados,caminho):
         json.dump(dados,arquivo,ensure_ascii=False,indent=4)
 
 
-
 def caminho_base(*caminho_final, nome_projeto="instagram"):
-    """
-    Retorna caminhos relativos à raiz do projeto.
-
-    Funciona no:
-    - VSCode
-    - Jupyter Notebook
-    - Scripts Python
-    - Anaconda
-    """
-
+    """Retorna caminhos relativos à raiz do projeto."""
     try:
         caminho_atual = Path(__file__).resolve()
     except NameError:
@@ -42,26 +30,14 @@ def caminho_base(*caminho_final, nome_projeto="instagram"):
     raise FileNotFoundError(f"Não foi encontrada a pasta '{nome_projeto}'.")
 
 
-
 def _sincronizar_postgresql(cliente_usuario, dados):
-    """Replica a escrita no PostgreSQL sem remover o JSON legado."""
-    try:
-        from backend.database.sync import sincronizar_perfil
-        sincronizar_perfil(cliente_usuario, dados)
-    except Exception as erro:
-        # O JSON continua sendo a cópia de segurança durante a migração.
-        print(f"[postgres] Falha ao sincronizar perfil: {erro}")
-
+    """Persiste o perfil no PostgreSQL; JSON fica somente como espelho legado."""
+    from backend.database.sync import sincronizar_perfil
+    sincronizar_perfil(cliente_usuario, dados)
 
 
 def salvar_perfil_dados(cliente_usuario, dados_perfil):
-    """Salva diretamente o resultado da análise no cliente atual.
-
-    Mantém o mesmo modelo de dados usado por salvar_perfil(), mas não depende
-    do arquivo temporário dados/<cliente_usuario>/log/perfil.json. Isso permite
-    que a interface salve o resultado que acabou de consultar, inclusive para
-    clientes recém-cadastrados.
-    """
+    """Salva o resultado da análise no PostgreSQL e mantém o JSON legado."""
     if not isinstance(dados_perfil, dict):
         raise ValueError("Dados do perfil inválidos.")
 
@@ -78,18 +54,20 @@ def salvar_perfil_dados(cliente_usuario, dados_perfil):
     caminho_perfil_salvar = caminho_dados_usuario(cliente_usuario, 'perfil_salvos', f'{pk}.json')
     caminho_historico_salvar = caminho_dados_usuario(cliente_usuario, 'historico', f'{pk}.json')
 
-    caminho_perfil_salvar.parent.mkdir(parents=True, exist_ok=True)
-    caminho_historico_salvar.parent.mkdir(parents=True, exist_ok=True)
-
-    if not caminho_historico_salvar.exists():
-        caminho_historico_salvar.write_text("[]", encoding="utf-8")
-
     dados = json.loads(json.dumps(dados_perfil, ensure_ascii=False))
     dados["caminho_perfil_salvo"] = str(caminho_perfil_salvar)
-    dados["caminho_historico_salvo"] = str(caminho_historico_salvar)
+    dados["caminho_historico_salvo"] = str(caminho_historico_salvo)
 
-    salvar_dados_json(dados, caminho_perfil_salvar)
+    # PostgreSQL é a confirmação de persistência.
     _sincronizar_postgresql(cliente_usuario, dados)
+
+    # Espelho legado para compatibilidade durante a transição.
+    caminho_perfil_salvar.parent.mkdir(parents=True, exist_ok=True)
+    caminho_historico_salvo = caminho_historico_salvar
+    caminho_historico_salvo.parent.mkdir(parents=True, exist_ok=True)
+    if not caminho_historico_salvo.exists():
+        caminho_historico_salvo.write_text("[]", encoding="utf-8")
+    salvar_dados_json(dados, caminho_perfil_salvar)
     return dados
 
 
@@ -103,18 +81,19 @@ def salvar_perfil(cliente_usuario):
     caminho_perfil_salvar    = caminho_dados_usuario(cliente_usuario, 'perfil_salvos', f'{id_pk}.json')
     caminho_historico_salvar = caminho_dados_usuario(cliente_usuario, 'historico', f'{id_pk}.json')
 
-    caminho_perfil_salvar.parent.mkdir(parents=True, exist_ok=True)
+    perfil_log['caminho_perfil_salvo']    = str(caminho_perfil_salvar)
+    perfil_log['caminho_historico_salvo'] = str(caminho_historico_salvo)
 
+    # PostgreSQL primeiro.
+    _sincronizar_postgresql(cliente_usuario, perfil_log)
+
+    # Espelho legado.
+    caminho_perfil_salvar.parent.mkdir(parents=True, exist_ok=True)
+    caminho_historico_salvar.parent.mkdir(parents=True, exist_ok=True)
     if not caminho_historico_salvar.exists():
         caminho_historico_salvar.write_text("[]", encoding="utf-8")
-
-    perfil_log['caminho_perfil_salvo']    = str(caminho_perfil_salvar)
-    perfil_log['caminho_historico_salvo'] = str(caminho_historico_salvar)
-
     salvar_dados_json(perfil_log,caminho_perfil_salvar)
-    _sincronizar_postgresql(cliente_usuario, perfil_log)
     return perfil_log
-
 
 
 if __name__ == "__main__":
