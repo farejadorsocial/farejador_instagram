@@ -13,3 +13,11 @@ venv/
 
 # Dados privados de usuários
 sistema/user/*/usuario.json
+
+# Dados persistentes migrados para PostgreSQL
+sistema/dados/
+sistema/user/*/dados/
+
+# Dados legados de visitantes
+sistema/user/*/atividades.json
+sistema/user/*/visitantes.json
