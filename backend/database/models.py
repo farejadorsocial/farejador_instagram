@@ -10,7 +10,6 @@ from backend.database.base import Base
 
 class Usuario(Base):
     __tablename__ = "usuarios"
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     username: Mapped[str] = mapped_column(String(64), unique=True, index=True, nullable=False)
     password_hash: Mapped[str] = mapped_column(Text, nullable=False)
@@ -19,16 +18,11 @@ class Usuario(Base):
     ultimo_login: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
     ativo: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     configuracoes: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
-
-    sessoes: Mapped[list["Sessao"]] = relationship(
-        back_populates="usuario",
-        cascade="all, delete-orphan",
-    )
+    sessoes: Mapped[list["Sessao"]] = relationship(back_populates="usuario", cascade="all, delete-orphan")
 
 
 class Sessao(Base):
     __tablename__ = "sessoes"
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     session_id: Mapped[str] = mapped_column(String(64), unique=True, index=True, nullable=False)
     token_hash: Mapped[str] = mapped_column(String(128), unique=True, index=True, nullable=False)
@@ -39,14 +33,12 @@ class Sessao(Base):
     ativa: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     acesso: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
     permissoes: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
-
     usuario: Mapped["Usuario"] = relationship(back_populates="sessoes")
 
 
 class PerfilSalvo(Base):
     __tablename__ = "perfis_salvos"
     __table_args__ = (UniqueConstraint("cliente_usuario", "instagram_pk", name="uq_perfil_cliente_instagram_pk"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
     instagram_pk: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
@@ -60,7 +52,6 @@ class PerfilSalvo(Base):
 class Monitoramento(Base):
     __tablename__ = "monitoramentos"
     __table_args__ = (UniqueConstraint("cliente_usuario", "instagram_pk", name="uq_monitoramento_cliente_instagram_pk"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
     instagram_pk: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
@@ -74,7 +65,6 @@ class Monitoramento(Base):
 class HistoricoPerfil(Base):
     __tablename__ = "historico_perfis"
     __table_args__ = (Index("ix_historico_cliente_perfil_data", "cliente_usuario", "instagram_pk", "timestamp_capture"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
     instagram_pk: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
@@ -86,7 +76,6 @@ class HistoricoPerfil(Base):
 class FeedItem(Base):
     __tablename__ = "feed_itens"
     __table_args__ = (Index("ix_feed_cliente_data", "cliente_usuario", "timestamp_capture"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
     timestamp_capture: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), index=True, nullable=True)
@@ -97,7 +86,6 @@ class FeedItem(Base):
 class Notificacao(Base):
     __tablename__ = "notificacoes"
     __table_args__ = (UniqueConstraint("cliente_usuario", "instagram_pk", name="uq_notificacao_cliente_instagram_pk"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
     instagram_pk: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
@@ -109,3 +97,23 @@ class Notificacao(Base):
     texto: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
     mensagem: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
     dados: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
+
+
+class Visitante(Base):
+    __tablename__ = "visitantes"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    visitante_id: Mapped[str] = mapped_column(String(64), unique=True, index=True, nullable=False)
+    criado_em: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
+    ultimo_acesso: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
+    total_acessos: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    acesso: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
+
+
+class AtividadeVisitante(Base):
+    __tablename__ = "atividades_visitante"
+    __table_args__ = (Index("ix_atividade_visitante_data", "visitante_id", "timestamp"),)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    visitante_id: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
+    tipo: Mapped[str] = mapped_column(String(32), nullable=False)
+    timestamp: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), index=True, nullable=True)
+    acesso: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
