@@ -4,8 +4,7 @@ from backend.services.common import PUBLIC_CLIENTE, limitar, path, load_json
 
 
 def feed_publico():
-    from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
-    sincronizar_dados_publicos()
+    """Lê o feed público já publicado no PostgreSQL, sem publicar dados."""
     saida = []
     for item in limitar(PUBLIC_CLIENTE, "feed", feed(PUBLIC_CLIENTE), 10):
         saida.append({
