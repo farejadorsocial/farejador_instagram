@@ -16,26 +16,18 @@ def caminho_base(*caminho_final, nome_projeto="instagram"):
     - Anaconda
     """
 
-    # VSCode / Scripts
     try:
         caminho_atual = Path(__file__).resolve()
     except NameError:
-        # Jupyter Notebook
         caminho_atual = Path.cwd().resolve()
 
-    # Procura a raiz do projeto
     for pasta in [caminho_atual] + list(caminho_atual.parents):
-
         if pasta.name == nome_projeto:
-
-            # junta os caminhos corretamente
             return pasta.joinpath(*caminho_final)
 
     raise FileNotFoundError(
         f"Não foi encontrada a pasta '{nome_projeto}'."
     )
-
-
 
 
 
@@ -68,7 +60,7 @@ def criando_registro_monitorar_perfil(selecionado,monitorando):
             }
     
     return registro
-
+    
 
 
 def _sincronizar_postgresql(cliente_usuario, dados):
@@ -83,13 +75,37 @@ def _sincronizar_postgresql(cliente_usuario, dados):
 
 def lista_perfil_monitorados(cliente_usuario):
 
+    try:
+        from sqlalchemy import select
+        from sqlalchemy.orm import Session
+        from backend.database.connection import get_engine
+        from backend.database.models import Monitoramento
+
+        with Session(get_engine()) as session:
+            registros = session.scalars(
+                select(Monitoramento)
+                .where(Monitoramento.cliente_usuario == cliente_usuario)
+                .order_by(Monitoramento.id)
+            ).all()
+            if registros:
+                return [
+                    r.dados or {
+                        'pk': r.instagram_pk,
+                        'username': r.username,
+                        'monitorando': r.monitorando,
+                        'sleep': r.sleep,
+                    }
+                    for r in registros
+                ]
+    except Exception as erro:
+        print(f"[postgres] Falha ao consultar monitoramentos: {erro}")
+
     lista = []
 
     from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
     caminho_monitorar = caminho_dados_usuario(cliente_usuario, 'monitoramento')
 
     if not caminho_monitorar.exists():
-        pass
         return []
 
     for i in caminho_monitorar.glob("*.json"):
@@ -103,7 +119,6 @@ def lista_perfil_monitorados(cliente_usuario):
 
     return lista
     
-
 
 
 
@@ -130,7 +145,7 @@ selecionado = {'perfil': {'pk': 65832742299,
   'id': None,
   'username': 'thallyta.isabelly',
   'nome': '𝐓',
-  'biografia': '𝘴𝘦 𝘩á 𝘢𝘭𝘨𝘰 𝘣𝘰𝘮\n𝘦𝘮 𝘮𝘪𝘮,é 𝘑𝘦𝘴𝘶𝘴',
+  'biografia': '𝘴𝘦 𝘩á 𝘢𝘭𝘨𝘰 𝘣𝘰𝘮\\n𝘦𝘮 𝘮𝘪𝘮,é 𝘑𝘦𝘴𝘶𝘴',
   'privado': True,
   'verificado': False,
   'memorializado': None,
@@ -157,11 +172,3 @@ if __name__ == "__main__":
     monitorar = monitorar_perfil(cliente_usuario,selecionado,monitorando=True)
 
     lista_monitoramento_perfil = lista_perfil_monitorados(cliente_usuario)
-
-
-
-
-
-
-
-
