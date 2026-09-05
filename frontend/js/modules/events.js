@@ -38,15 +38,24 @@ function startFeedAutoRefresh(){
   };
   schedule();
 }
+function uiLoading(label='Carregando'){return `<div class="card ui-state ui-loading" role="status" aria-live="polite"><div class="ui-state-icon" aria-hidden="true">◌</div><div><strong>${esc(label)}…</strong><p class="muted">Aguarde enquanto buscamos os dados.</p></div></div>`}
+function uiEmpty(title='Nenhum dado disponível',message='Ainda não existem dados suficientes para exibir esta seção.',action=''){
+  return `<div class="card ui-state ui-empty"><div class="ui-state-icon" aria-hidden="true">◌</div><div><strong>${esc(title)}</strong><p class="muted">${esc(message)}</p>${action}</div></div>`
+}
+function uiError(message='Não foi possível carregar esta página.',retry=true){
+  return `<div class="card ui-state ui-error" role="alert"><div class="ui-state-icon" aria-hidden="true">⚠</div><div><strong>Não foi possível carregar</strong><p class="muted">${esc(message)}</p>${retry?'<button class="primary-btn" data-retry-page="true">↻ Tentar novamente</button>':''}</div></div>`
+}
+function uiPageLoading(){const root=$('#content');if(root)root.innerHTML=uiLoading('Carregando página')}
+function uiFriendlyError(e){if(e?.name==='AbortError')return null;if(e?.status===401)return 'Sua sessão expirou. Entre novamente para continuar.';return e?.message||'Ocorreu um erro inesperado ao carregar os dados.'}
 function bind(){
   document.querySelectorAll('[data-route]').forEach(b=>b.onclick=e=>{e.preventDefault();const r=b.dataset.route;if(r==='compare'){state.compare=null;go('compare')}else if(r==='public-profile'){go('public-profile')}else{go(r)}});
   document.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>{state.route=b.dataset.back;if(state.route==='saved'){state.summary=null;state.summaryPk=null;state.historyField=null}go(state.route)});
+  document.querySelectorAll('[data-retry-page]').forEach(b=>b.onclick=()=>render());
   const input=$('#analysis-input'),btn=$('#analysis-btn');
   if(btn)btn.onclick=async()=>{
     const username=input.value.trim();
     if(!username){toast('Informe um usuário.');return}
-    const requestId=Symbol('analysis');
-    btn._farejadorRequestId=requestId;
+    const requestId=Symbol('analysis');btn._farejadorRequestId=requestId;
     state.analysisError=null;state.analysis=null;btn.disabled=true;btn.textContent='CONSULTANDO...';
     try{
       const result=await api('/api/profile/analyze',{method:'POST',body:JSON.stringify({username})});
@@ -59,9 +68,7 @@ function bind(){
     }catch(e){
       if(btn._farejadorRequestId!==requestId||e.name==='AbortError')return;
       state.analysis=null;state.analysisError=e.message||'Usuário não encontrado.';render();
-    }finally{
-      if(btn._farejadorRequestId===requestId){btn.disabled=false;btn.textContent='ANALISAR'}
-    }
+    }finally{if(btn._farejadorRequestId===requestId){btn.disabled=false;btn.textContent='ANALISAR'}}
   };
   const clear=$('#clear-analysis');if(clear)clear.onclick=()=>{state.analysis=null;state.analysisError=null;render()};
   const tryAgain=$('#analysis-try-again');if(tryAgain)tryAgain.onclick=()=>{state.analysis=null;state.analysisError=null;const input=$('#analysis-input');if(input){input.value='';input.focus()}render()};
@@ -92,8 +99,7 @@ function bind(){
       const url=`${endpoint}?username_a=${encodeURIComponent(a)}&username_b=${encodeURIComponent(b)}`;
       const data=await api(url);
       if(compareBtn._farejadorRequestId!==requestId)return;
-      state.compare={a,b,data};
-      history.replaceState({},'',`/comparar?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);render();
+      state.compare={a,b,data};history.replaceState({},'',`/comparar?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);render();
     }catch(e){if(compareBtn._farejadorRequestId!==requestId||e.name==='AbortError')return;toast(e.message)}
     finally{if(compareBtn._farejadorRequestId===requestId){compareBtn.disabled=false;compareBtn.textContent='⚡ COMPARAR AGORA'}}
   };
