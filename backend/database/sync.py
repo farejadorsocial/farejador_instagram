@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime
 from typing import Any, Optional
+from zoneinfo import ZoneInfo
 
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
@@ -10,16 +11,27 @@ from backend.database.connection import get_engine
 from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, PerfilSalvo
 
 
+TZ_LOCAL = ZoneInfo("America/Sao_Paulo")
+
+
 def _datetime(valor: Any) -> Optional[datetime]:
     if not valor:
         return None
     if isinstance(valor, datetime):
-        return valor
-    try:
-        resultado = datetime.fromisoformat(str(valor).replace("Z", "+00:00"))
-        return resultado
-    except (TypeError, ValueError):
-        return None
+        resultado = valor
+    else:
+        try:
+            resultado = datetime.fromisoformat(str(valor).replace("Z", "+00:00"))
+        except (TypeError, ValueError):
+            return None
+    if resultado.tzinfo is None:
+        resultado = resultado.replace(tzinfo=TZ_LOCAL)
+    return resultado
+
+
+def _chave_datetime(valor: Any) -> str:
+    resultado = _datetime(valor)
+    return resultado.isoformat() if resultado else ""
 
 
 def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
@@ -27,7 +39,7 @@ def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
     if not isinstance(perfil, dict) or perfil.get("pk") is None:
         return
     pk = str(perfil["pk"])
-    agora = datetime.now().astimezone()
+    agora = datetime.now(TZ_LOCAL)
     with Session(get_engine()) as session:
         registro = session.scalar(select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario, PerfilSalvo.instagram_pk == pk))
         if registro is None:
@@ -45,7 +57,7 @@ def sincronizar_monitoramento(cliente_usuario: str, dados: dict) -> None:
     if not isinstance(dados, dict) or dados.get("pk") is None:
         return
     pk = str(dados["pk"])
-    agora = _datetime(dados.get("atualizado")) or datetime.now().astimezone()
+    agora = _datetime(dados.get("atualizado")) or datetime.now(TZ_LOCAL)
     with Session(get_engine()) as session:
         registro = session.scalar(select(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario, Monitoramento.instagram_pk == pk))
         valores = dict(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(dados.get("username") or "") or None, monitorando=bool(dados.get("monitorando", False)), sleep=int(dados.get("sleep", 10) or 10), dados=dados, atualizado_em=agora)
@@ -66,13 +78,18 @@ def sincronizar_historico(cliente_usuario: str, item: dict) -> None:
         return
     pk = str(perfil["pk"])
     timestamp = _datetime(item.get("timestamp_capture"))
+    hash_item = str(item.get("hash") or "").strip()
     dados_extra = {k: v for k, v in item.items() if k != "perfil"}
     with Session(get_engine()) as session:
-        consulta = select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.timestamp_capture == timestamp)
-        registro = session.scalar(consulta)
+        registro = None
+        if hash_item:
+            registro = session.scalar(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.dados["hash"].astext == hash_item))
+        if registro is None and timestamp is not None:
+            registro = session.scalar(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.timestamp_capture == timestamp))
         if registro is None:
             session.add(HistoricoPerfil(cliente_usuario=cliente_usuario, instagram_pk=pk, timestamp_capture=timestamp, perfil=perfil, dados=dados_extra))
         else:
+            registro.timestamp_capture = timestamp
             registro.perfil = perfil
             registro.dados = dados_extra
         session.commit()
