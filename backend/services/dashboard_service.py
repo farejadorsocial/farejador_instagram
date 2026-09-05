@@ -1,15 +1,14 @@
 from backend.repositories.perfil_repository import get_saved_profiles
-from backend.repositories.feed_repository import feed
-from backend.services.common import PUBLIC_CLIENTE, limitar, data_root, load_json
-from backend.services.feed_service import feed_publico, carregar_config_atualizacao_paginas
+from backend.repositories.feed_repository import feed, get_feed_all
+from backend.services.common import PUBLIC_CLIENTE, limitar
+from backend.services.feed_service import feed_publico
 
 
 def dashboard(cliente_usuario):
     profiles = get_saved_profiles(cliente_usuario)
     active = sum(1 for x in profiles if x["monitoramento"].get("monitorando") is True)
     paused = max(0, len(profiles) - active)
-    dados_feed = load_json(data_root(cliente_usuario) / "feed" / "feed.json", [])
-    dados_feed = sorted(dados_feed, key=lambda x: x.get("timestamp_capture", ""), reverse=True)
+    dados_feed = get_feed_all(cliente_usuario)
     movements = sum(1 for x in dados_feed if x.get("movimento") is True)
     last = dados_feed[0].get("timestamp_capture") if dados_feed else None
     return {
