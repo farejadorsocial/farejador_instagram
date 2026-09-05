@@ -1,7 +1,5 @@
 from datetime import datetime
-import json
 import hashlib
-from pathlib import Path
 
 
 def gerador_hash(texto):
@@ -9,59 +7,25 @@ def gerador_hash(texto):
     return hashlib.sha256(texto.encode()).hexdigest()
 
 
-def carregar_dados(caminho_arquivo):
-    with open(caminho_arquivo, "r", encoding="utf-8") as arquivo:
-        return json.load(arquivo)
-
-
-def salvar_dados_json(dados, caminho):
-    caminho = Path(caminho)
-    caminho.parent.mkdir(parents=True, exist_ok=True)
-    with open(caminho, "w", encoding="utf-8") as arquivo:
-        json.dump(dados, arquivo, ensure_ascii=False, indent=4)
-
-
-def caminho_base(*caminho_final, nome_projeto="farejador_instagram"):
-    try:
-        caminho_atual = Path(__file__).resolve()
-    except NameError:
-        caminho_atual = Path.cwd().resolve()
-    for pasta in [caminho_atual] + list(caminho_atual.parents):
-        if pasta.name == nome_projeto:
-            return pasta.joinpath(*caminho_final)
-    raise FileNotFoundError(f"Não foi encontrada a pasta '{nome_projeto}'.")
-
-
-def salvar_recorrente(metadata_perfil, CAMINHO, cliente_usuario=None):
-    """Registra a captura no PostgreSQL e mantém o JSON apenas como espelho."""
+def salvar_recorrente(metadata_perfil, CAMINHO=None, cliente_usuario=None):
+    """Registra a captura diretamente no PostgreSQL."""
     if not isinstance(metadata_perfil, dict):
         return None
 
-    if cliente_usuario:
-        from backend.database.sync import sincronizar_historico
-        sincronizar_historico(cliente_usuario, metadata_perfil)
+    if not cliente_usuario:
+        raise ValueError("cliente_usuario é obrigatório para salvar o histórico no PostgreSQL.")
 
-    caminho = CAMINHO if isinstance(CAMINHO, Path) else caminho_base(*CAMINHO)
-    caminho.parent.mkdir(parents=True, exist_ok=True)
-    if not caminho.exists():
-        caminho.write_text("[]", encoding="utf-8")
+    from backend.database.sync import sincronizar_historico
+    from backend.repositories.perfil_repository import get_history
 
-    try:
-        dados = carregar_dados(caminho)
-    except (OSError, json.JSONDecodeError):
-        dados = []
-    if not isinstance(dados, list):
-        dados = []
+    sincronizar_historico(cliente_usuario, metadata_perfil)
 
-    novo_hash = metadata_perfil.get("hash")
-    if dados:
-        ultimo = dados[-1]
-        if isinstance(ultimo, dict) and ultimo.get("hash") == novo_hash:
-            return dados
+    perfil = metadata_perfil.get("perfil") or {}
+    pk = perfil.get("pk")
+    if pk is None:
+        return None
 
-    dados.append(metadata_perfil)
-    salvar_dados_json(dados, caminho)
-    return dados
+    return get_history(cliente_usuario, pk)
 
 
 import instaloader
@@ -189,9 +153,7 @@ def monitorar_perfil_usuario(selecionado, cliente_usuario):
     perfil_monitorar["perfil"]["foto_perfil"] = foto_perfil
     perfil_monitorar["conteudo"] = conteudo
 
-    pk = perfil_monitorar["perfil"]["pk"]
-    caminho_historico = caminho_base("sistema", "user", cliente_usuario, "dados", "historico", f"{pk}.json")
-    return salvar_recorrente(perfil_monitorar, caminho_historico, cliente_usuario=cliente_usuario)
+    return salvar_recorrente(perfil_monitorar, cliente_usuario=cliente_usuario)
 
 
 def lista_perfil_monitorados(cliente_usuario):
