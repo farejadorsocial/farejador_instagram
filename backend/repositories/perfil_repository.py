@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from backend.database.connection import get_engine
 from backend.database.models import PerfilSalvo, Monitoramento, HistoricoPerfil
-from backend.database.sync import sincronizar_historico
+from backend.database.sync import sincronizar_historico, sincronizar_perfil
 from backend.services.common import PUBLIC_CLIENTE, data_root, load_json
 from toolFarejador.perfis.toolRemoverPerfil import carregar_dados_perfil_salvos
 from toolFarejador.monitoramento.toolAtivarMonitoramento import lista_perfil_monitorados
@@ -90,7 +90,14 @@ def get_profile_by_pk(cliente_usuario, pk):
                 return {"perfil": registro.perfil or {}, "caminho_historico_salvo": registro.caminho_historico_salvo}
     except Exception as erro:
         print(f"[postgres] Falha ao consultar perfil: {erro}")
-    return load_json(data_root(cliente_usuario) / "perfil_salvos" / f"{pk}.json", {})
+
+    legado = load_json(data_root(cliente_usuario) / "perfil_salvos" / f"{pk}.json", {})
+    if isinstance(legado, dict) and isinstance(legado.get("perfil"), dict):
+        try:
+            sincronizar_perfil(cliente_usuario, legado)
+        except Exception as erro:
+            print(f"[postgres] Falha ao sincronizar perfil legado: {erro}")
+    return legado
 
 
 def get_history(cliente_usuario, pk):
