@@ -1,9 +1,8 @@
 from datetime import datetime
-import json
 
 from backend.database.connection import get_engine
 from backend.database.models import FeedItem, HistoricoPerfil, PerfilSalvo
-from backend.database.sync import consultar_notificacoes, sincronizar_feed, sincronizar_historico, sincronizar_notificacao
+from backend.database.sync import consultar_notificacoes, sincronizar_feed, sincronizar_notificacao
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -51,66 +50,65 @@ def _historico_total(cliente_usuario, pk):
         )).all())
 
 
-def _sincronizar_historico_legado(cliente_usuario, pk):
-    """Importa a captura recém-gerada pelo monitor para o PostgreSQL.
-
-    O arquivo legado ainda é usado somente como ponte durante a transição.
-    A leitura das páginas/API passa a ocorrer no PostgreSQL.
-    """
-    from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
-    caminho = caminho_dados_usuario(cliente_usuario, "historico", f"{pk}.json")
-    try:
-        with caminho.open("r", encoding="utf-8") as arquivo:
-            historico = json.load(arquivo)
-    except (OSError, json.JSONDecodeError):
-        return
-    if isinstance(historico, list):
-        for item in historico:
-            if isinstance(item, dict):
-                sincronizar_historico(cliente_usuario, item)
-
-
 def notificacao_movimento(lista_usernames, cliente_usuario):
-    """Atualiza notificações e feed com PostgreSQL como persistência oficial."""
+    """Atualiza notificações e feed usando somente dados persistidos no PostgreSQL."""
+    existentes = {
+        str(item.get("pk")): item
+        for item in consultar_notificacoes(cliente_usuario)
+    }
+
     for username in lista_usernames or []:
         identificacao = consultar_id_pk(username, cliente_usuario)
         if not identificacao:
             continue
 
         pk = identificacao["pk"]
-        _sincronizar_historico_legado(cliente_usuario, pk)
         total_atual = _historico_total(cliente_usuario, pk)
-
-        existentes = {str(item.get("pk")): item for item in consultar_notificacoes(cliente_usuario)}
         anterior = existentes.get(str(pk))
 
         if anterior is None:
             notificacao = {
-                "pk": pk, "username": username, "total": total_atual,
-                "movimento": None, "timestamp_capture": datetime.now().isoformat(),
-                "icone": "👤✨", "texto": "Novo usuário detectado",
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": None,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "👤✨",
+                "texto": "Novo usuário detectado",
                 "mensagem": f"👤✨ Novo usuário detectado: {username}",
             }
         elif total_atual > int(anterior.get("total", 0) or 0):
             notificacao = {
-                "pk": pk, "username": username, "total": total_atual,
-                "movimento": True, "timestamp_capture": datetime.now().isoformat(),
-                "icone": "🚨", "texto": "Movimento detectado no perfil do usuário",
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": True,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "🚨",
+                "texto": "Movimento detectado no perfil do usuário",
                 "mensagem": f"🚨 Movimento detectado no perfil do usuário: {username}",
             }
         else:
             notificacao = {
-                "pk": pk, "username": username, "total": total_atual,
-                "movimento": False, "timestamp_capture": datetime.now().isoformat(),
-                "icone": "💤", "texto": "Sem movimento no perfil do usuário",
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": False,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "💤",
+                "texto": "Sem movimento no perfil do usuário",
                 "mensagem": f"💤 Sem movimento no perfil do usuário: {username}",
             }
 
         sincronizar_notificacao(cliente_usuario, notificacao)
-        sincronizar_feed(cliente_usuario, consultar_notificacoes(cliente_usuario))
+        existentes[str(pk)] = notificacao
 
-        if notificacao["movimento"]:
-            return notificacao
+    sincronizar_feed(cliente_usuario, consultar_notificacoes(cliente_usuario))
+
+    for item in existentes.values():
+        if item.get("movimento") is True:
+            return item
+    return None
 
 
 def carregar_feed(cliente_usuario):
