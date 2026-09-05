@@ -46,8 +46,8 @@ def _extensao_midia(content_type: str, url: str, kind: str):
     ext = mimetypes.guess_extension(content_type or "")
     if ext:
         return ext
-    ext = mimetypes.guess_type(urlparse(url).path)[0]
-    ext = mimetypes.guess_extension(ext or "")
+    tipo_url = mimetypes.guess_type(urlparse(url).path)[0]
+    ext = mimetypes.guess_extension(tipo_url or "")
     return ext or (".mp4" if kind == "video" else ".jpg")
 
 
@@ -108,7 +108,7 @@ def do_remove(request: Request, username: str):
 def profile_image(url: str):
     _media_url_permitida(url)
     try:
-        req = UrlRequest(url, headers={"User-Agent": _MEDIA_USER_AGENT, "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"})
+        req = UrlRequest(url, headers={"User-Agent": _MEDIA_USER_AGENT, "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8", "Referer": "https://www.instagram.com/"})
         with urlopen(req, timeout=12) as resposta:
             content_type = resposta.headers.get_content_type()
             if not content_type.startswith("image/"): raise HTTPException(status_code=415, detail="O recurso não é uma imagem.")
@@ -150,9 +150,13 @@ def media_download(request: Request, url: str, pk: str, username: str, kind: str
         resposta = urlopen(req, timeout=30)
         content_type = resposta.headers.get_content_type().lower()
         content_length = resposta.headers.get("Content-Length")
-        if content_length and int(content_length) > _MEDIA_MAX_BYTES:
-            resposta.close()
-            raise HTTPException(status_code=413, detail="A mídia é maior que o limite permitido para download.")
+        if content_length:
+            try:
+                if int(content_length) > _MEDIA_MAX_BYTES:
+                    resposta.close()
+                    raise HTTPException(status_code=413, detail="A mídia é maior que o limite permitido para download.")
+            except ValueError:
+                content_length = None
         esperado = "video/" if kind == "video" else "image/"
         if not content_type.startswith(esperado):
             resposta.close()
