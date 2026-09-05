@@ -1,83 +1,63 @@
-"""Sincronização da fonte administrativa para os dados públicos."""
+"""Publicação dos dados administrativos no espaço público do PostgreSQL."""
 
-from pathlib import Path
-import shutil
+from sqlalchemy import delete, select
+from sqlalchemy.orm import Session
 
-from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
-
-
-def caminho_base(*partes, nome_projeto="instagram"):
-    try:
-        atual = Path(__file__).resolve()
-    except NameError:
-        atual = Path.cwd().resolve()
-    for pasta in [atual] + list(atual.parents):
-        if pasta.name == nome_projeto:
-            return pasta.joinpath(*partes)
-    raise FileNotFoundError(f"Não foi encontrada a pasta '{nome_projeto}'.")
-
-
-def _arquivo_precisa_copiar(origem: Path, destino: Path) -> bool:
-    if not destino.exists():
-        return True
-    try:
-        a, b = origem.stat(), destino.stat()
-        return a.st_size != b.st_size or a.st_mtime_ns > b.st_mtime_ns
-    except OSError:
-        return True
+from backend.database.connection import get_engine
+from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, Notificacao, PerfilSalvo
 
 
 def sincronizar_dados_publicos() -> dict:
-    """Espelha dados/admin em sistema/dados/publico sem alterar o admin."""
-    origem = caminho_dados_usuario("admin")
-    destino = caminho_base("sistema", "dados", "publico")
-    origem.mkdir(parents=True, exist_ok=True)
-    destino.mkdir(parents=True, exist_ok=True)
+    """Replica somente os dados públicos do admin para o cliente 'publico'."""
+    with Session(get_engine()) as session:
+        perfis = session.scalars(select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == "admin")).all()
+        monitoramentos = session.scalars(select(Monitoramento).where(Monitoramento.cliente_usuario == "admin")).all()
+        historicos = session.scalars(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == "admin")).all()
+        notificacoes = session.scalars(select(Notificacao).where(Notificacao.cliente_usuario == "admin")).all()
+        feeds = session.scalars(select(FeedItem).where(FeedItem.cliente_usuario == "admin")).all()
 
-    copiados = mantidos = removidos = 0
-    arquivos_origem = set()
+        session.execute(delete(PerfilSalvo).where(PerfilSalvo.cliente_usuario == "publico"))
+        session.execute(delete(Monitoramento).where(Monitoramento.cliente_usuario == "publico"))
+        session.execute(delete(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == "publico"))
+        session.execute(delete(Notificacao).where(Notificacao.cliente_usuario == "publico"))
+        session.execute(delete(FeedItem).where(FeedItem.cliente_usuario == "publico"))
 
-    for arquivo in origem.rglob("*"):
-        if not arquivo.is_file():
-            continue
-        relativo = arquivo.relative_to(origem)
-        arquivos_origem.add(relativo)
-        alvo = destino / relativo
-        alvo.parent.mkdir(parents=True, exist_ok=True)
-        if _arquivo_precisa_copiar(arquivo, alvo):
-            temporario = alvo.with_name(f".{alvo.name}.tmp")
-            shutil.copy2(arquivo, temporario)
-            temporario.replace(alvo)
-            copiados += 1
-        else:
-            mantidos += 1
+        for r in perfis:
+            session.add(PerfilSalvo(
+                cliente_usuario="publico", instagram_pk=r.instagram_pk, username=r.username,
+                perfil=r.perfil, caminho_historico_salvo=r.caminho_historico_salvo,
+                criado_em=r.criado_em, atualizado_em=r.atualizado_em,
+            ))
+        for r in monitoramentos:
+            session.add(Monitoramento(
+                cliente_usuario="publico", instagram_pk=r.instagram_pk, username=r.username,
+                monitorando=r.monitorando, sleep=r.sleep, dados=r.dados, atualizado_em=r.atualizado_em,
+            ))
+        for r in historicos:
+            session.add(HistoricoPerfil(
+                cliente_usuario="publico", instagram_pk=r.instagram_pk, timestamp_capture=r.timestamp_capture,
+                perfil=r.perfil, dados=r.dados,
+            ))
+        for r in notificacoes:
+            session.add(Notificacao(
+                cliente_usuario="publico", instagram_pk=r.instagram_pk, username=r.username,
+                total=r.total, movimento=r.movimento, timestamp_capture=r.timestamp_capture,
+                icone=r.icone, texto=r.texto, mensagem=r.mensagem, dados=r.dados,
+            ))
+        for r in feeds:
+            session.add(FeedItem(
+                cliente_usuario="publico", timestamp_capture=r.timestamp_capture,
+                movimento=r.movimento, item=r.item,
+            ))
 
-    for arquivo in list(destino.rglob("*")):
-        if not arquivo.is_file():
-            continue
-        relativo = arquivo.relative_to(destino)
-        if relativo not in arquivos_origem:
-            try:
-                arquivo.unlink()
-                removidos += 1
-            except OSError:
-                pass
-
-    for pasta in sorted(
-        [p for p in destino.rglob("*") if p.is_dir()],
-        key=lambda p: len(p.parts),
-        reverse=True,
-    ):
-        try:
-            pasta.rmdir()
-        except OSError:
-            pass
+        session.commit()
 
     return {
-        "origem": str(origem),
-        "destino": str(destino),
-        "copiados": copiados,
-        "mantidos": mantidos,
-        "removidos": removidos,
-        "arquivos_publicos": len(arquivos_origem),
+        "origem": "admin",
+        "destino": "publico",
+        "perfis": len(perfis),
+        "monitoramentos": len(monitoramentos),
+        "historico": len(historicos),
+        "notificacoes": len(notificacoes),
+        "feed": len(feeds),
     }
