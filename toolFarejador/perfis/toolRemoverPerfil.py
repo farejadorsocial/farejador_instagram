@@ -4,7 +4,6 @@ from pathlib import Path
 from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
 
 
-from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
 def caminho_base(*caminho_final, nome_projeto="instagram"):
     try:
         caminho_atual = Path(__file__).resolve()
@@ -33,36 +32,19 @@ def salvar_dados_json(dados, caminho):
 
 
 def carregar_dados_perfil_salvos(cliente_usuario):
-    caminho_perfil_salvos = caminho_dados_usuario(
-        cliente_usuario, "perfil_salvos"
-    )
+    """Lê perfis salvos do PostgreSQL; JSON é apenas compatibilidade de retorno."""
+    from backend.repositories.perfil_repository import get_saved_profiles
 
-    lista = []
-
-    if not caminho_perfil_salvos.exists():
-        return {
-            "lista_username_salvos": [],
-            "dados_perfil": [],
-        }
-
-    for arquivo in caminho_perfil_salvos.glob("*.json"):
-        try:
-            dados = carregar_dados(arquivo)
-        except (OSError, json.JSONDecodeError):
-            continue
-
-        if isinstance(dados, dict):
-            lista.append(dados)
-
+    dados = get_saved_profiles(cliente_usuario)
     lista_username = [
         item.get("perfil", {}).get("username")
-        for item in lista
+        for item in dados
         if item.get("perfil", {}).get("username")
     ]
 
     return {
         "lista_username_salvos": lista_username,
-        "dados_perfil": lista,
+        "dados_perfil": dados,
     }
 
 
@@ -75,38 +57,21 @@ def _remover_arquivo(caminho):
 
 
 def _reconstruir_feed(cliente_usuario):
-    pasta_notificacoes = caminho_dados_usuario(cliente_usuario, "notificacoes")
-    caminho_feed = caminho_dados_usuario(cliente_usuario, 'feed', 'feed.json')
+    """Mantém o arquivo legado de feed coerente durante a migração."""
+    from backend.services.feed_service import feed
 
-    notificacoes = []
-
-    if pasta_notificacoes.exists():
-        for arquivo in pasta_notificacoes.glob("*.json"):
-            try:
-                dados = carregar_dados(arquivo)
-            except (OSError, json.JSONDecodeError):
-                continue
-
-            if isinstance(dados, dict):
-                notificacoes.append(dados)
-
-    notificacoes.sort(
-        key=lambda item: item.get("timestamp_capture", ""),
-        reverse=True,
-    )
-
-    salvar_dados_json(notificacoes, caminho_feed)
-    return notificacoes
+    dados = feed(cliente_usuario)
+    caminho_feed = caminho_dados_usuario(cliente_usuario, "feed", "feed.json")
+    salvar_dados_json(dados, caminho_feed)
+    return dados
 
 
 def remover_perfil(perfil_selecionado, cliente_usuario="admin"):
     """
     Remove um perfil e todos os dados derivados pertencentes ao cliente.
 
-    A remoção usa cliente_usuario + pk como identidade física dos arquivos.
-    Os campos caminho_perfil_salvo/caminho_historico_salvo existentes nos
-    JSONs são tratados apenas como metadados, pois versões antigas podem
-    conter caminhos absolutos de outra máquina.
+    PostgreSQL é a fonte oficial da remoção. Os arquivos JSON são removidos
+    somente como espelhos legados e nunca determinam se o perfil existe.
     """
     username = str(perfil_selecionado or "").strip().lstrip("@").lower()
     if not username:
@@ -135,11 +100,18 @@ def remover_perfil(perfil_selecionado, cliente_usuario="admin"):
 
     perfil = selecionado.get("perfil", {})
     pk = perfil.get("pk")
-
     if pk is None:
         raise ValueError("O perfil salvo não possui pk.")
 
-    # A identidade dos dados é sempre cliente_usuario + pk.
+    # ==========================================================
+    # POSTGRESQL — REMOÇÃO CANÔNICA
+    # ==========================================================
+    from backend.database.sync import remover_dados_perfil
+    remover_dados_perfil(cliente_usuario, pk)
+
+    # ==========================================================
+    # ESPELHOS JSON — LIMPEZA DE COMPATIBILIDADE
+    # ==========================================================
     caminhos = [
         caminho_dados_usuario(cliente_usuario, "perfil_salvos", f"{pk}.json"),
         caminho_dados_usuario(cliente_usuario, "historico", f"{pk}.json"),
@@ -154,6 +126,13 @@ def remover_perfil(perfil_selecionado, cliente_usuario="admin"):
             removidos.append(str(caminho))
 
     _reconstruir_feed(cliente_usuario)
+
+    if cliente_usuario == "admin":
+        try:
+            from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
+            sincronizar_dados_publicos()
+        except Exception as erro:
+            print(f"[postgres] Falha ao atualizar dados públicos: {erro}")
 
     return {
         "removido": True,
