@@ -8,7 +8,7 @@ from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from backend.database.connection import get_engine
-from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, Notificacao, PerfilSalvo
+from backend.database.models import AtividadeVisitante, FeedItem, HistoricoPerfil, Monitoramento, Notificacao, PerfilSalvo, Visitante
 
 TZ_LOCAL = ZoneInfo("America/Sao_Paulo")
 
@@ -102,16 +102,7 @@ def sincronizar_notificacao(cliente_usuario: str, dados: dict) -> None:
         total = max(0, int(dados.get("total", 0) or 0))
     except (TypeError, ValueError):
         total = 0
-    campos = dict(
-        username=str(dados.get("username") or "") or None,
-        total=total,
-        movimento=dados.get("movimento") if isinstance(dados.get("movimento"), bool) else None,
-        timestamp_capture=timestamp,
-        icone=str(dados.get("icone") or "") or None,
-        texto=str(dados.get("texto") or "") or None,
-        mensagem=str(dados.get("mensagem") or "") or None,
-        dados={k: v for k, v in dados.items() if k not in {"pk", "username", "total", "movimento", "timestamp_capture", "icone", "texto", "mensagem"}},
-    )
+    campos = dict(username=str(dados.get("username") or "") or None, total=total, movimento=dados.get("movimento") if isinstance(dados.get("movimento"), bool) else None, timestamp_capture=timestamp, icone=str(dados.get("icone") or "") or None, texto=str(dados.get("texto") or "") or None, mensagem=str(dados.get("mensagem") or "") or None, dados={k: v for k, v in dados.items() if k not in {"pk", "username", "total", "movimento", "timestamp_capture", "icone", "texto", "mensagem"}})
     with Session(get_engine()) as session:
         registro = session.scalar(select(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario, Notificacao.instagram_pk == pk))
         if registro is None:
@@ -125,20 +116,7 @@ def sincronizar_notificacao(cliente_usuario: str, dados: dict) -> None:
 def consultar_notificacoes(cliente_usuario: str) -> list[dict]:
     with Session(get_engine()) as session:
         registros = session.scalars(select(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario).order_by(Notificacao.timestamp_capture.desc(), Notificacao.id.desc())).all()
-    resultado = []
-    for r in registros:
-        resultado.append({
-            "pk": r.instagram_pk,
-            "username": r.username,
-            "total": r.total,
-            "movimento": r.movimento,
-            "timestamp_capture": r.timestamp_capture.isoformat() if r.timestamp_capture else None,
-            "icone": r.icone,
-            "texto": r.texto,
-            "mensagem": r.mensagem,
-            **(r.dados or {}),
-        })
-    return resultado
+    return [{"pk": r.instagram_pk, "username": r.username, "total": r.total, "movimento": r.movimento, "timestamp_capture": r.timestamp_capture.isoformat() if r.timestamp_capture else None, "icone": r.icone, "texto": r.texto, "mensagem": r.mensagem, **(r.dados or {})} for r in registros]
 
 
 def sincronizar_feed(cliente_usuario: str, itens: list[dict]) -> None:
@@ -153,6 +131,25 @@ def sincronizar_feed(cliente_usuario: str, itens: list[dict]) -> None:
             if session.scalar(consulta) is None:
                 session.add(FeedItem(cliente_usuario=cliente_usuario, timestamp_capture=timestamp, movimento=item.get("movimento") if isinstance(item.get("movimento"), bool) else None, item=item))
         session.commit()
+
+
+def registrar_visitante(visitante_id: str, acesso: dict, timestamp: Any = None) -> str:
+    visitante_id = str(visitante_id or "").strip()
+    if not visitante_id:
+        raise ValueError("visitante_id é obrigatório.")
+    acesso = acesso if isinstance(acesso, dict) else {}
+    momento = _datetime(timestamp) or datetime.now(TZ_LOCAL)
+    with Session(get_engine()) as session:
+        visitante = session.scalar(select(Visitante).where(Visitante.visitante_id == visitante_id))
+        if visitante is None:
+            visitante = Visitante(visitante_id=visitante_id, criado_em=momento, ultimo_acesso=momento, total_acessos=0, acesso=acesso)
+            session.add(visitante)
+        visitante.ultimo_acesso = momento
+        visitante.total_acessos = max(0, int(visitante.total_acessos or 0)) + 1
+        visitante.acesso = acesso
+        session.add(AtividadeVisitante(visitante_id=visitante_id, tipo="visita", timestamp=momento, acesso=acesso))
+        session.commit()
+    return visitante_id
 
 
 def remover_dados_perfil(cliente_usuario: str, pk: Any) -> None:
