@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 
 from backend.database.connection import get_engine
 from backend.database.models import PerfilSalvo, Monitoramento, HistoricoPerfil
+from backend.database.sync import sincronizar_historico
 from backend.services.common import PUBLIC_CLIENTE, data_root, load_json
 from toolFarejador.perfis.toolRemoverPerfil import carregar_dados_perfil_salvos
 from toolFarejador.monitoramento.toolAtivarMonitoramento import lista_perfil_monitorados
@@ -45,7 +46,6 @@ def get_saved_profiles(cliente_usuario):
     except Exception as erro:
         print(f"[postgres] Falha ao consultar perfis salvos: {erro}")
 
-    # Compatibilidade temporária: JSON continua disponível como fallback.
     if cliente_usuario == PUBLIC_CLIENTE:
         pasta = data_root(cliente_usuario) / "perfil_salvos"
         pasta_monitoramento = data_root(cliente_usuario) / "monitoramento"
@@ -112,4 +112,16 @@ def get_history(cliente_usuario, pk):
                 ]
     except Exception as erro:
         print(f"[postgres] Falha ao consultar histórico: {erro}")
-    return load_json(data_root(cliente_usuario) / "historico" / f"{pk}.json", [])
+
+    # Compatibilidade temporária: se o histórico ainda não estiver no banco,
+    # lê o JSON legado e replica seus snapshots para o PostgreSQL.
+    historico = load_json(data_root(cliente_usuario) / "historico" / f"{pk}.json", [])
+    if not isinstance(historico, list):
+        return []
+    try:
+        for item in historico:
+            if isinstance(item, dict):
+                sincronizar_historico(cliente_usuario, item)
+    except Exception as erro:
+        print(f"[postgres] Falha ao sincronizar histórico legado: {erro}")
+    return historico
