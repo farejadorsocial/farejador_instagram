@@ -14,6 +14,7 @@ from backend.database.models import (
     FeedItem,
     HistoricoPerfil,
     Monitoramento,
+    Notificacao,
     PerfilSalvo,
     Sessao,
     Usuario,
@@ -26,6 +27,7 @@ EXPECTED_TABLES = {
     "monitoramentos",
     "historico_perfis",
     "feed_itens",
+    "notificacoes",
 }
 
 EXPECTED_COUNTS = {
@@ -94,13 +96,14 @@ def verificar(expect_migrated: bool = False) -> int:
         "monitoramentos": Monitoramento,
         "historico_perfis": HistoricoPerfil,
         "feed_itens": FeedItem,
+        "notificacoes": Notificacao,
     }
 
     try:
         with Session(get_engine()) as session:
             for nome, modelo in modelos.items():
                 quantidade = _count(session, modelo)
-                if expect_migrated:
+                if expect_migrated and nome in EXPECTED_COUNTS:
                     esperado = EXPECTED_COUNTS[nome]
                     ok = quantidade == esperado
                     detalhe = f"{quantidade}/{esperado}" if not ok else str(quantidade)
