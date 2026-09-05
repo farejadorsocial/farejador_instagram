@@ -1,9 +1,51 @@
+from sqlalchemy import select
+from sqlalchemy.orm import Session
+
+from backend.database.connection import get_engine
+from backend.database.models import PerfilSalvo, Monitoramento, HistoricoPerfil
 from backend.services.common import PUBLIC_CLIENTE, data_root, load_json
 from toolFarejador.perfis.toolRemoverPerfil import carregar_dados_perfil_salvos
 from toolFarejador.monitoramento.toolAtivarMonitoramento import lista_perfil_monitorados
 
 
+def _db_profiles(cliente_usuario):
+    with Session(get_engine()) as session:
+        registros = session.scalars(
+            select(PerfilSalvo)
+            .where(PerfilSalvo.cliente_usuario == cliente_usuario)
+            .order_by(PerfilSalvo.id)
+        ).all()
+        return [
+            {
+                "perfil": r.perfil or {},
+                "monitoramento": {"monitorando": False, "sleep": 10},
+                "caminho_historico_salvo": r.caminho_historico_salvo,
+            }
+            for r in registros
+        ]
+
+
+def _db_monitoring(cliente_usuario):
+    with Session(get_engine()) as session:
+        registros = session.scalars(
+            select(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario)
+        ).all()
+        return {str(r.instagram_pk): (r.dados or {"pk": r.instagram_pk, "username": r.username, "monitorando": r.monitorando, "sleep": r.sleep}) for r in registros}
+
+
 def get_saved_profiles(cliente_usuario):
+    try:
+        items = _db_profiles(cliente_usuario)
+        monitoring = _db_monitoring(cliente_usuario)
+        if items:
+            for item in items:
+                pk = str(item.get("perfil", {}).get("pk"))
+                item["monitoramento"] = monitoring.get(pk, {"monitorando": False, "sleep": 10})
+            return items
+    except Exception as erro:
+        print(f"[postgres] Falha ao consultar perfis salvos: {erro}")
+
+    # Compatibilidade temporária: JSON continua disponível como fallback.
     if cliente_usuario == PUBLIC_CLIENTE:
         pasta = data_root(cliente_usuario) / "perfil_salvos"
         pasta_monitoramento = data_root(cliente_usuario) / "monitoramento"
@@ -13,50 +55,61 @@ def get_saved_profiles(cliente_usuario):
                 dados = load_json(arquivo, None)
                 if isinstance(dados, dict):
                     items.append(dados)
-
         monitoring = {}
         if pasta_monitoramento.exists():
             for arquivo in pasta_monitoramento.glob("*.json"):
                 dados = load_json(arquivo, None)
                 if isinstance(dados, dict):
                     monitoring[str(dados.get("pk"))] = dados
-
         return [
             {
                 "perfil": item.get("perfil", {}),
-                "monitoramento": monitoring.get(
-                    str(item.get("perfil", {}).get("pk")),
-                    {"monitorando": False, "sleep": 10},
-                ),
+                "monitoramento": monitoring.get(str(item.get("perfil", {}).get("pk")), {"monitorando": False, "sleep": 10}),
                 "caminho_historico_salvo": item.get("caminho_historico_salvo"),
             }
             for item in items
         ]
 
     result = carregar_dados_perfil_salvos(cliente_usuario)
-    profiles = []
-    monitoring = {
-        str(x.get("pk")): x for x in lista_perfil_monitorados(cliente_usuario)
-    }
-
-    for item in result.get("dados_perfil", []):
-        perfil = item.get("perfil", {})
-        pk = str(perfil.get("pk"))
-        profiles.append({
-            "perfil": perfil,
-            "monitoramento": monitoring.get(
-                pk,
-                {"monitorando": False, "sleep": 10},
-            ),
+    monitoring = {str(x.get("pk")): x for x in lista_perfil_monitorados(cliente_usuario)}
+    return [
+        {
+            "perfil": item.get("perfil", {}),
+            "monitoramento": monitoring.get(str(item.get("perfil", {}).get("pk")), {"monitorando": False, "sleep": 10}),
             "caminho_historico_salvo": item.get("caminho_historico_salvo"),
-        })
-
-    return profiles
+        }
+        for item in result.get("dados_perfil", [])
+    ]
 
 
 def get_profile_by_pk(cliente_usuario, pk):
+    try:
+        with Session(get_engine()) as session:
+            registro = session.scalar(select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario, PerfilSalvo.instagram_pk == str(pk)))
+            if registro:
+                return {"perfil": registro.perfil or {}, "caminho_historico_salvo": registro.caminho_historico_salvo}
+    except Exception as erro:
+        print(f"[postgres] Falha ao consultar perfil: {erro}")
     return load_json(data_root(cliente_usuario) / "perfil_salvos" / f"{pk}.json", {})
 
 
 def get_history(cliente_usuario, pk):
+    try:
+        with Session(get_engine()) as session:
+            registros = session.scalars(
+                select(HistoricoPerfil)
+                .where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == str(pk))
+                .order_by(HistoricoPerfil.timestamp_capture, HistoricoPerfil.id)
+            ).all()
+            if registros:
+                return [
+                    {
+                        "perfil": r.perfil or {},
+                        **(r.dados or {}),
+                        "timestamp_capture": r.timestamp_capture.isoformat() if r.timestamp_capture else None,
+                    }
+                    for r in registros
+                ]
+    except Exception as erro:
+        print(f"[postgres] Falha ao consultar histórico: {erro}")
     return load_json(data_root(cliente_usuario) / "historico" / f"{pk}.json", [])
