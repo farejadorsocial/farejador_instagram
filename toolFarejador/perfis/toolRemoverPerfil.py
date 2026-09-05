@@ -55,13 +55,6 @@ def remover_perfil(perfil_selecionado, cliente_usuario="admin"):
     from backend.database.sync import remover_dados_perfil
     remover_dados_perfil(cliente_usuario, pk)
 
-    if cliente_usuario == "admin":
-        try:
-            from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
-            sincronizar_dados_publicos()
-        except Exception as erro:
-            print(f"[postgres] Falha ao atualizar dados públicos: {erro}")
-
     return {
         "removido": True,
         "pk": pk,
