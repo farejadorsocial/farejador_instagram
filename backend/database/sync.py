@@ -81,7 +81,7 @@ def sincronizar_historico(cliente_usuario: str, item: dict) -> None:
     with Session(get_engine()) as session:
         registro = None
         if hash_item:
-            registro = session.scalar(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.dados["hash"].astext == hash_item))
+            registro = session.scalar(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.dados["hash"].as_string() == hash_item))
         if registro is None and timestamp is not None:
             registro = session.scalar(select(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk, HistoricoPerfil.timestamp_capture == timestamp))
         if registro is None:
@@ -162,5 +162,5 @@ def remover_dados_perfil(cliente_usuario: str, pk: Any) -> None:
         session.execute(delete(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario, Monitoramento.instagram_pk == pk))
         session.execute(delete(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk))
         session.execute(delete(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario, Notificacao.instagram_pk == pk))
-        session.execute(delete(FeedItem).where(FeedItem.cliente_usuario == cliente_usuario, FeedItem.item["pk"].astext == pk))
+        session.execute(delete(FeedItem).where(FeedItem.cliente_usuario == cliente_usuario, FeedItem.item["pk"].as_string() == pk))
         session.commit()
