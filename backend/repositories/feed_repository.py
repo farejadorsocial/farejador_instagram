@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 
 from backend.database.connection import get_engine
 from backend.database.models import FeedItem
+from backend.database.sync import sincronizar_feed
 from backend.services.common import data_root, load_json, limitar
 
 
@@ -30,4 +31,12 @@ def feed(cliente_usuario):
         key=lambda x: x.get("timestamp_capture", ""),
         reverse=True,
     )
+
+    # Durante a migração, qualquer feed legado ainda existente é replicado
+    # para o PostgreSQL sem interromper o funcionamento do JSON.
+    try:
+        sincronizar_feed(cliente_usuario, ordenado)
+    except Exception as erro:
+        print(f"[postgres] Falha ao sincronizar feed legado: {erro}")
+
     return limitar(cliente_usuario, "feed", ordenado, 10)
