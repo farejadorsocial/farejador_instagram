@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Request, Response
 from backend.schemas.auth import AuthBody
 from backend.services.auth_service import register, login, logout
-from backend.core.dependencies import current_user, dados_acesso_request, cookie_kwargs, rate_limit
+from backend.core.dependencies import current_user, dados_acesso_request, cookie_kwargs, rate_limit, request_token
 from backend.core.visitor import registrar_visitante
 from backend.core.config import carregar_permissoes_navegador
 
@@ -45,7 +45,7 @@ def do_login(body: AuthBody, request: Request, response: Response):
 
 @router.post("/api/auth/logout")
 def do_logout(request: Request, response: Response):
-    token = request.cookies.get("farejador_token")
+    token = request_token(request)
     if token:
         logout(token)
     response.delete_cookie("farejador_token")
