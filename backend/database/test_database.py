@@ -9,7 +9,7 @@ from backend.core.auth import get_user, login, logout, register
 from backend.database.connection import get_engine, testar_conexao
 from backend.database.init_db import criar_tabelas
 from backend.database.migrate_json import executar
-from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, PerfilSalvo, Sessao, Usuario
+from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, Notificacao, PerfilSalvo, Sessao, Usuario
 
 
 TABELAS = {
@@ -19,6 +19,7 @@ TABELAS = {
     "monitoramentos": Monitoramento,
     "historico_perfis": HistoricoPerfil,
     "feed_itens": FeedItem,
+    "notificacoes": Notificacao,
 }
 
 
@@ -27,10 +28,7 @@ def _ok(nome: str) -> None:
 
 
 def _contagens(session: Session) -> dict[str, int]:
-    return {
-        nome: int(session.scalar(select(func.count()).select_from(modelo.__table__)) or 0)
-        for nome, modelo in TABELAS.items()
-    }
+    return {nome: int(session.scalar(select(func.count()).select_from(modelo.__table__)) or 0) for nome, modelo in TABELAS.items()}
 
 
 def executar_validacao() -> None:
@@ -49,8 +47,8 @@ def executar_validacao() -> None:
     _ok("estrutura das tabelas")
 
     with engine.connect() as connection:
-        connection.execute(text("SELECT 1 FROM usuarios LIMIT 1"))
-        connection.execute(text("SELECT 1 FROM sessoes LIMIT 1"))
+        for nome in TABELAS:
+            connection.execute(text(f'SELECT 1 FROM "{nome}" LIMIT 1'))
     _ok("consultas básicas")
 
     with Session(engine) as session:
@@ -93,11 +91,7 @@ def executar_validacao() -> None:
     with Session(engine) as session:
         depois_idempotencia = _contagens(session)
     if depois_apply != depois_idempotencia:
-        diferencas = {
-            nome: (depois_apply[nome], depois_idempotencia[nome])
-            for nome in TABELAS
-            if depois_apply[nome] != depois_idempotencia[nome]
-        }
+        diferencas = {nome: (depois_apply[nome], depois_idempotencia[nome]) for nome in TABELAS if depois_apply[nome] != depois_idempotencia[nome]}
         raise RuntimeError(f"A migração não é idempotente. Diferenças={diferencas}; segunda_execução={resultado_idempotencia}")
     if any(int(valor or 0) != 0 for valor in resultado_idempotencia.values()):
         raise RuntimeError(f"A segunda migração informou novas inserções: {resultado_idempotencia}")
