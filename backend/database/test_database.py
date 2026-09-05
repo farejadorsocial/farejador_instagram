@@ -57,7 +57,6 @@ def executar_validacao() -> None:
         contagens = _contagens(session)
         for nome, quantidade in contagens.items():
             print(f"[INFO] {nome}: {quantidade}")
-
         usuarios = {u.username for u in session.scalars(select(Usuario)).all()}
         sessoes = session.scalars(select(Sessao)).all()
         invalidas = [s.username for s in sessoes if s.username not in usuarios]
@@ -76,7 +75,7 @@ def executar_validacao() -> None:
     with Session(engine) as session:
         depois_dry = _contagens(session)
     if antes != depois_dry:
-        raise RuntimeError("A simulação alterou os dados do PostgreSQL.")
+        raise RuntimeError(f"A simulação alterou os dados do PostgreSQL: antes={antes}, depois={depois_dry}")
     _ok("simulação sem escrita")
 
     resultado_apply = executar(dry_run=False)
@@ -87,14 +86,21 @@ def executar_validacao() -> None:
     with Session(engine) as session:
         depois_apply = _contagens(session)
     if any(depois_apply[nome] < antes[nome] for nome in TABELAS):
-        raise RuntimeError("A migração reduziu a quantidade de registros.")
+        raise RuntimeError(f"A migração reduziu a quantidade de registros: antes={antes}, depois={depois_apply}")
     _ok("migração sem perda aparente")
 
-    executar(dry_run=False)
+    resultado_idempotencia = executar(dry_run=False)
     with Session(engine) as session:
         depois_idempotencia = _contagens(session)
     if depois_apply != depois_idempotencia:
-        raise RuntimeError("A migração não é idempotente.")
+        diferencas = {
+            nome: (depois_apply[nome], depois_idempotencia[nome])
+            for nome in TABELAS
+            if depois_apply[nome] != depois_idempotencia[nome]
+        }
+        raise RuntimeError(f"A migração não é idempotente. Diferenças={diferencas}; segunda_execução={resultado_idempotencia}")
+    if any(int(valor or 0) != 0 for valor in resultado_idempotencia.values()):
+        raise RuntimeError(f"A segunda migração informou novas inserções: {resultado_idempotencia}")
     _ok("migração idempotente")
 
     username = "__teste_db_" + secrets.token_hex(6)
