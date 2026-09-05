@@ -5,13 +5,16 @@ import time
 from typing import Optional
 from urllib.parse import parse_qs, urlparse
 from urllib.request import Request as UrlRequest, urlopen
+
 from fastapi import HTTPException, Request
+
 from backend.core.auth import get_user
 
 _PROVEDOR_IP_CACHE = {}
 _RATE_WINDOW_SECONDS = 60
 _RATE_LIMIT = int(os.getenv("FAREJADOR_RATE_LIMIT", "30"))
 _RATE_BUCKET = {}
+
 
 def consultar_provedor_ip(ip: Optional[str]) -> dict:
     vazio = {"provedor": None, "organizacao": None, "asn": None, "pais": None, "cidade": None, "regiao": None, "timezone": None, "localizacao": None}
@@ -43,6 +46,7 @@ def consultar_provedor_ip(ip: Optional[str]) -> dict:
         print(f"[ipinfo] Falha ao consultar {ip}: {erro}")
     _PROVEDOR_IP_CACHE[ip] = dict(resultado)
     return resultado
+
 
 def dados_acesso_request(request: Request, dispositivo_cliente: Optional[dict] = None) -> dict:
     headers = request.headers
@@ -80,14 +84,28 @@ def dados_acesso_request(request: Request, dispositivo_cliente: Optional[dict] =
     rede = consultar_provedor_ip(ip)
     return {"conexao": {"ip": ip, "tipo_ip": "IPv6" if ip and ":" in ip else "IPv4" if ip else None, "origem_ip": origem_ip, "rede": rede}, "origem": {"referer": referer, "site": origem_site, "campanha": {"source": source, "medium": medium, "campaign": campaign, "term": term, "content": content}}, "dispositivo": {"user_agent": user_agent, "navegador": (dispositivo_cliente.get("navegador") or {}).get("nome"), "versao_navegador": (dispositivo_cliente.get("navegador") or {}).get("versao"), "sistema": sec_ch_platform.strip('"') if sec_ch_platform else dispositivo_cliente.get("sistema"), "plataforma": (dispositivo_cliente.get("navegador") or {}).get("plataforma") or sec_ch_platform, "modelo": dispositivo_cliente.get("modelo"), "idioma": dispositivo_cliente.get("idioma") or headers.get("accept-language", "").split(",")[0].strip() or None, "sec_ch_ua": sec_ch_ua, "sec_ch_mobile": sec_ch_mobile, "timezone": dispositivo_cliente.get("timezone"), "tela": dispositivo_cliente.get("tela") or {"largura": None, "altura": None, "pixel_ratio": None}, "touch": dispositivo_cliente.get("touch")}, "permissoes": permissao_cliente}
 
+
+def _token_request(request: Request) -> Optional[str]:
+    token = request.cookies.get("farejador_token")
+    if token:
+        return token
+    authorization = request.headers.get("authorization", "")
+    scheme, _, credentials = authorization.partition(" ")
+    if scheme.lower() == "bearer" and credentials.strip():
+        return credentials.strip()
+    return None
+
+
 def current_user(request: Request) -> Optional[str]:
-    return get_user(request.cookies.get("farejador_token"))
+    return get_user(_token_request(request))
+
 
 def require_user(request: Request) -> str:
     user = current_user(request)
     if not user:
-        raise HTTPException(status_code=401, detail="Login necessário para esta ação.")
+        raise HTTPException(status_code=401, detail="Autenticação necessária para acessar este recurso.", headers={"WWW-Authenticate": "Bearer"})
     return user
+
 
 def rate_limit(request: Request, bucket="default"):
     now = time.monotonic()
@@ -98,6 +116,7 @@ def rate_limit(request: Request, bucket="default"):
         raise HTTPException(status_code=429, detail="Muitas solicitações. Aguarde um momento e tente novamente.")
     recentes.append(now)
     _RATE_BUCKET[key] = recentes
+
 
 def cookie_kwargs():
     return {"httponly": True, "samesite": os.getenv("FAREJADOR_COOKIE_SAMESITE", "lax"), "secure": os.getenv("FAREJADOR_COOKIE_SECURE", "0") == "1", "max_age": 604800}
