@@ -16,6 +16,11 @@ def _feed_postgresql(cliente_usuario):
     return [r.item for r in registros if isinstance(r.item, dict)]
 
 
+def get_feed_all(cliente_usuario):
+    """Retorna todos os eventos do feed persistidos no PostgreSQL."""
+    return _feed_postgresql(cliente_usuario)
+
+
 def feed(cliente_usuario):
     """Lê o feed exclusivamente do PostgreSQL."""
     return limitar(cliente_usuario, "feed", _feed_postgresql(cliente_usuario), 10)
