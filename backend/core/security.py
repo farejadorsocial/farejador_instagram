@@ -85,7 +85,8 @@ def dados_acesso_request(request: Request, dispositivo_cliente: Optional[dict] =
     return {"conexao": {"ip": ip, "tipo_ip": "IPv6" if ip and ":" in ip else "IPv4" if ip else None, "origem_ip": origem_ip, "rede": rede}, "origem": {"referer": referer, "site": origem_site, "campanha": {"source": source, "medium": medium, "campaign": campaign, "term": term, "content": content}}, "dispositivo": {"user_agent": user_agent, "navegador": (dispositivo_cliente.get("navegador") or {}).get("nome"), "versao_navegador": (dispositivo_cliente.get("navegador") or {}).get("versao"), "sistema": sec_ch_platform.strip('"') if sec_ch_platform else dispositivo_cliente.get("sistema"), "plataforma": (dispositivo_cliente.get("navegador") or {}).get("plataforma") or sec_ch_platform, "modelo": dispositivo_cliente.get("modelo"), "idioma": dispositivo_cliente.get("idioma") or headers.get("accept-language", "").split(",")[0].strip() or None, "sec_ch_ua": sec_ch_ua, "sec_ch_mobile": sec_ch_mobile, "timezone": dispositivo_cliente.get("timezone"), "tela": dispositivo_cliente.get("tela") or {"largura": None, "altura": None, "pixel_ratio": None}, "touch": dispositivo_cliente.get("touch")}, "permissoes": permissao_cliente}
 
 
-def _token_request(request: Request) -> Optional[str]:
+def request_token(request: Request) -> Optional[str]:
+    """Obtém o token de sessão do cookie seguro ou do cabeçalho Bearer."""
     token = request.cookies.get("farejador_token")
     if token:
         return token
@@ -97,7 +98,7 @@ def _token_request(request: Request) -> Optional[str]:
 
 
 def current_user(request: Request) -> Optional[str]:
-    return get_user(_token_request(request))
+    return get_user(request_token(request))
 
 
 def require_user(request: Request) -> str:
@@ -119,4 +120,6 @@ def rate_limit(request: Request, bucket="default"):
 
 
 def cookie_kwargs():
-    return {"httponly": True, "samesite": os.getenv("FAREJADOR_COOKIE_SAMESITE", "lax"), "secure": os.getenv("FAREJADOR_COOKIE_SECURE", "0") == "1", "max_age": 604800}
+    ambiente = os.getenv("FAREJADOR_ENV", "development").strip().lower()
+    secure = os.getenv("FAREJADOR_COOKIE_SECURE", "1" if ambiente == "production" else "0") == "1"
+    return {"httponly": True, "samesite": os.getenv("FAREJADOR_COOKIE_SAMESITE", "lax"), "secure": secure, "max_age": 604800}
