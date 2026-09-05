@@ -13,9 +13,11 @@ const api=async(url,opt={})=>{
   const headers=new Headers(opt.headers||{});
   if(!headers.has('Content-Type')&&method!=='GET'&&method!=='HEAD')headers.set('Content-Type','application/json');
   const legado=tokenLegado();if(legado&&!headers.has('Authorization'))headers.set('Authorization',`Bearer ${legado}`);
-  const controller=opt.signal?null:new AbortController(),signal=opt.signal||controller?.signal,timeoutMs=Number(opt.timeoutMs??15000);let timeout=null;
-  if(controller&&timeoutMs>0)timeout=setTimeout(()=>controller.abort(),timeoutMs);
-  const request=fetch(url,{cache:'no-store',credentials:'same-origin',...opt,headers,signal}).then(async r=>{
+  const externalSignal=opt.signal||null,controller=new AbortController(),signal=controller.signal,timeoutMs=Number(opt.timeoutMs??15000);let timeout=null,abortExternal=null;
+  if(externalSignal){if(externalSignal.aborted)controller.abort();else{abortExternal=()=>controller.abort();externalSignal.addEventListener('abort',abortExternal,{once:true})}}
+  if(timeoutMs>0)timeout=setTimeout(()=>controller.abort(),timeoutMs);
+  const fetchOptions={...opt};delete fetchOptions.timeoutMs;delete fetchOptions.signal;
+  const request=fetch(url,{cache:'no-store',credentials:'same-origin',...fetchOptions,headers,signal}).then(async r=>{
     let d={};try{d=await r.json()}catch{}
     if(!r.ok){
       if(r.status===401){limparTokenLegado();if(state.session?.autenticado){state.session={autenticado:false,cliente_usuario:null,modo_publico:true,publico_cliente_usuario:'admin',versao:state.session?.versao??null};document.dispatchEvent(new CustomEvent('farejador:session-expired'))}}
@@ -24,11 +26,11 @@ const api=async(url,opt={})=>{
     if(isGet&&cacheTtl)apiCache.set(cacheKey,{time:Date.now(),data:d});
     if(!isGet)invalidarCacheApi('/api/session');
     return d;
-  }).finally(()=>{if(timeout)clearTimeout(timeout);if(apiInflight.get(cacheKey)===request)apiInflight.delete(cacheKey)});
+  }).finally(()=>{if(timeout)clearTimeout(timeout);if(externalSignal&&abortExternal)externalSignal.removeEventListener('abort',abortExternal);if(apiInflight.get(cacheKey)===request)apiInflight.delete(cacheKey)});
   if(isGet)apiInflight.set(cacheKey,request);
   return request;
 };
-const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>'\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]));
 const imageUrl=v=>v?`/api/profile-image?url=${encodeURIComponent(v)}`:'';
 const fmtDate=v=>v?new Date(v).toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'}):'—';
 const fmtTime=v=>v?new Date(v).toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}):'—';
@@ -45,5 +47,5 @@ function applyTheme(){document.body.classList.toggle('dark',state.theme==='dark'
 function cancelarAtualizacoes(){if(state.feedTimer){clearTimeout(state.feedTimer);state.feedTimer=null}if(state.feedAbortController){state.feedAbortController.abort();state.feedAbortController=null}}
 function go(route,replace=false){cancelarAtualizacoes();state.route=route;const path=route==='dashboard'?'/':route==='public-profile'?`/perfil/${encodeURIComponent(state.publicProfile?.perfil?.username||state.publicUsername||'')}`:route==='compare'?'/comparar':route==='explore'?'/explorar':'/';if(replace)history.replaceState({},'',path);else history.pushState({},'',path);render()}
 function detectRoute(){const m=location.pathname.match(/^\/perfil\/([^/]+)$/);if(m){state.route='public-profile';state.publicUsername=decodeURIComponent(m[1]);return}if(location.pathname==='/comparar'){state.route='compare';return}if(location.pathname==='/explorar'){state.route='explore';return}state.route='dashboard'}
-function nav(){const auth=state.session?.autenticado,items=auth?['dashboard|Painel','analyze|Analisar','saved|Usuários salvos','feed|Feed','explore|Explorar','compare|Comparar']:['dashboard|Início','explore|Explorar','feed|Feed','compare|Comparar'];const navEl=$('#main-nav');if(navEl)navEl.innerHTML=items.map(x=>{let[a,b]=x.split('|');return `<button class="${state.route===a?'active':''}" data-route="${a}">${b}</button>`}).join('');const authBtn=$('#auth-btn');if(authBtn)authBtn.textContent=auth?`Sair · ${state.session.cliente_usuario}`:'Entrar';document.body.classList.remove('mobile-nav-open');const m=$('#mobile-menu-toggle');if(m)m.setAttribute('aria-expanded','false')}
+function nav(){const auth=state.session?.autenticado,items=auth?['dashboard|Painel','analyze|Analisar','saved|Usuários salvos','feed|Feed','explore|Explorar','compare|Comparar']:['dashboard|Início','explore|Explorar','feed|Feed','compare|Comparar'];const navEl=$('#main-nav');if(navEl)navEl.innerHTML=items.map(x=>{let[a,b]=x.split('|');return `<button class=\"${state.route===a?'active':''}\" data-route=\"${a}\">${b}</button>`}).join('');const authBtn=$('#auth-btn');if(authBtn)authBtn.textContent=auth?`Sair · ${state.session.cliente_usuario}`:'Entrar';document.body.classList.remove('mobile-nav-open');const m=$('#mobile-menu-toggle');if(m)m.setAttribute('aria-expanded','false')}
 async function boot(){detectRoute();try{state.session=await api('/api/session')}catch(e){state.session={autenticado:false,cliente_usuario:null,modo_publico:true,publico_cliente_usuario:'admin',versao:null};console.error('Falha ao iniciar sessão:',e)}try{state.pageConfig=await api('/api/config/atualizacao-paginas')}catch(_){state.pageConfig={feed:{intervalo_segundos:2,ativo:true},paginas:{intervalo_segundos:10}}}applyTheme();await render()}
