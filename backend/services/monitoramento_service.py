@@ -1,8 +1,10 @@
 from backend.repositories.perfil_repository import get_saved_profiles
 from backend.repositories.monitoramento_repository import (
-    set_monitoring_data, solicitar_atualizacao as repository_solicitar_atualizacao, notificar_movimentos,
+    set_monitoring_data,
+    solicitar_atualizacao as repository_solicitar_atualizacao,
+    notificar_movimentos,
 )
-from backend.services.common import normalizar_username, data_root, load_json
+from backend.services.common import normalizar_username
 from backend.services.feed_service import feed
 
 
@@ -25,6 +27,7 @@ def set_monitoring(cliente_usuario, username, enabled):
 
 
 def refresh_notifications(cliente_usuario):
+    """Atualiza notificações usando somente os dados persistidos no PostgreSQL."""
     usernames = [
         p["perfil"].get("username")
         for p in get_saved_profiles(cliente_usuario)
@@ -32,14 +35,6 @@ def refresh_notifications(cliente_usuario):
     ]
     if usernames:
         notificar_movimentos(usernames, cliente_usuario)
-        try:
-            caminho_feed = data_root(cliente_usuario) / "feed" / "feed.json"
-            dados_feed = load_json(caminho_feed, [])
-            if isinstance(dados_feed, list):
-                from backend.database.sync import sincronizar_feed
-                sincronizar_feed(cliente_usuario, dados_feed)
-        except Exception as erro:
-            print(f"[postgres] Falha ao sincronizar feed: {erro}")
     return feed(cliente_usuario)
 
 
