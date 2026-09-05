@@ -20,9 +20,6 @@ def set_monitoring(cliente_usuario, username, enabled):
 
     resultado = set_monitoring_data(cliente_usuario, selected, enabled)
     solicitar_atualizacao()
-    if cliente_usuario == "admin":
-        from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
-        sincronizar_dados_publicos()
     return resultado
 
 
