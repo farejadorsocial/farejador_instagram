@@ -6,8 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from backend.core.config import BASE, FRONTEND
-from backend.core.auth import preparar_usuarios
+from backend.core.config import FRONTEND
 from backend.api.auth import router as auth_router
 from backend.api.dashboard import router as dashboard_router
 from backend.api.feed import router as feed_router
@@ -68,13 +67,6 @@ def iniciar_monitoramento_sistema():
 
 @app.on_event("startup")
 def startup_event():
-    try:
-        preparar_usuarios()
-    except Exception as erro:
-        print(f"[usuarios] Falha na preparação: {erro}")
-
-    # A estrutura antiga continua sendo lida apenas para concluir a
-    # importação inicial. Depois disso, as APIs usam PostgreSQL.
     try:
         migrar_dados_legados()
     except Exception as erro:
