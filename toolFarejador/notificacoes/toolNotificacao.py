@@ -158,6 +158,17 @@ def notificacao_movimento(lista_usernames,cliente_usuario):
 
         historico = carregar_dados(caminho_historico)
 
+        # Durante a migração, o histórico legado continua sendo a origem
+        # compatível com o fluxo atual, mas cada captura também é gravada
+        # no PostgreSQL. O sincronizador é idempotente e preserva o JSON.
+        try:
+            from backend.database.sync import sincronizar_historico
+            if isinstance(historico, list):
+                for item_historico in historico:
+                    sincronizar_historico(cliente_usuario, item_historico)
+        except Exception as erro:
+            print(f"[postgres] Falha ao sincronizar histórico: {erro}")
+
         total_atual = len(historico)
 
         # Primeira execução
