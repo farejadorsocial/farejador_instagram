@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import secrets
 
-from sqlalchemy import inspect, select, text
+from sqlalchemy import func, inspect, select, text
 from sqlalchemy.orm import Session
 
 from backend.core.auth import get_user, login, logout, register
@@ -26,6 +26,13 @@ def _ok(nome: str) -> None:
     print(f"[OK] {nome}")
 
 
+def _contagens(session: Session) -> dict[str, int]:
+    return {
+        nome: int(session.scalar(select(func.count()).select_from(modelo.__table__)) or 0)
+        for nome, modelo in TABELAS.items()
+    }
+
+
 def executar_validacao() -> None:
     print("=== VALIDAÇÃO AUTOMÁTICA DO POSTGRESQL ===")
 
@@ -47,8 +54,8 @@ def executar_validacao() -> None:
     _ok("consultas básicas")
 
     with Session(engine) as session:
-        for nome, modelo in TABELAS.items():
-            quantidade = session.scalar(select(text("count(*)")).select_from(modelo.__table__))
+        contagens = _contagens(session)
+        for nome, quantidade in contagens.items():
             print(f"[INFO] {nome}: {quantidade}")
 
         usuarios = {u.username for u in session.scalars(select(Usuario)).all()}
@@ -58,10 +65,8 @@ def executar_validacao() -> None:
             raise RuntimeError(f"Sessões sem usuário correspondente: {invalidas}")
     _ok("integridade das sessões")
 
-    antes = {}
     with Session(engine) as session:
-        for nome, modelo in TABELAS.items():
-            antes[nome] = session.scalar(select(text("count(*)")).select_from(modelo.__table__))
+        antes = _contagens(session)
 
     resultado_dry = executar(dry_run=True)
     if not isinstance(resultado_dry, dict):
@@ -69,10 +74,7 @@ def executar_validacao() -> None:
     _ok("migração em modo simulação")
 
     with Session(engine) as session:
-        depois_dry = {
-            nome: session.scalar(select(text("count(*)")).select_from(modelo.__table__))
-            for nome, modelo in TABELAS.items()
-        }
+        depois_dry = _contagens(session)
     if antes != depois_dry:
         raise RuntimeError("A simulação alterou os dados do PostgreSQL.")
     _ok("simulação sem escrita")
@@ -83,26 +85,18 @@ def executar_validacao() -> None:
     _ok("migração real")
 
     with Session(engine) as session:
-        depois_apply = {
-            nome: session.scalar(select(text("count(*)")).select_from(modelo.__table__))
-            for nome, modelo in TABELAS.items()
-        }
+        depois_apply = _contagens(session)
     if any(depois_apply[nome] < antes[nome] for nome in TABELAS):
         raise RuntimeError("A migração reduziu a quantidade de registros.")
     _ok("migração sem perda aparente")
 
-    # Verifica que uma segunda execução não duplica os registros já migrados.
     executar(dry_run=False)
     with Session(engine) as session:
-        depois_idempotencia = {
-            nome: session.scalar(select(text("count(*)")).select_from(modelo.__table__))
-            for nome, modelo in TABELAS.items()
-        }
+        depois_idempotencia = _contagens(session)
     if depois_apply != depois_idempotencia:
         raise RuntimeError("A migração não é idempotente.")
     _ok("migração idempotente")
 
-    # Teste isolado do fluxo de autenticação no banco.
     username = "__teste_db_" + secrets.token_hex(6)
     password = "TestePostgreSQL!2026"
     try:
