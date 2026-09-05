@@ -1,8 +1,10 @@
 const state={session:null,route:'dashboard',profiles:[],analysis:null,analysisError:null,summary:null,summaryPk:null,historyField:null,publicProfile:null,compare:null,explore:null,exploreRank:'activity',publicUsername:null,feedFilter:'todos',feedTimer:null,feedAbortController:null,pageConfig:null,displayLimits:null,theme:localStorage.getItem('farejador-theme')||'dark'};
 const $=s=>document.querySelector(s);
 const API_CACHE_TTL={'/api/session':5000,'/api/config/atualizacao-paginas':30000};
+const API_SINGLE_FLIGHT_BASES=new Set(['/api/profile/analyze','/api/public/profiles','/api/compare','/api/public/compare']);
 const apiCache=new Map();
 const apiInflight=new Map();
+const apiControllers=new Map();
 function tokenLegado(){try{return localStorage.getItem('farejador_token')||localStorage.getItem('laboratorio_bet_token')||null}catch(_){return null}}
 function limparTokenLegado(){try{localStorage.removeItem('farejador_token');localStorage.removeItem('laboratorio_bet_token')}catch(_){} }
 function invalidarCacheApi(url){const base=String(url||'').split('?')[0];[...apiCache.keys()].filter(k=>k===base||k.startsWith(`${base}?`)).forEach(k=>apiCache.delete(k))}
@@ -14,6 +16,7 @@ const api=async(url,opt={})=>{
   if(!headers.has('Content-Type')&&method!=='GET'&&method!=='HEAD')headers.set('Content-Type','application/json');
   const legado=tokenLegado();if(legado&&!headers.has('Authorization'))headers.set('Authorization',`Bearer ${legado}`);
   const externalSignal=opt.signal||null,controller=new AbortController(),signal=controller.signal,timeoutMs=Number(opt.timeoutMs??15000);let timeout=null,abortExternal=null;
+  if(API_SINGLE_FLIGHT_BASES.has(baseUrl)){const previous=apiControllers.get(baseUrl);if(previous)previous.abort();apiControllers.set(baseUrl,controller)}
   if(externalSignal){if(externalSignal.aborted)controller.abort();else{abortExternal=()=>controller.abort();externalSignal.addEventListener('abort',abortExternal,{once:true})}}
   if(timeoutMs>0)timeout=setTimeout(()=>controller.abort(),timeoutMs);
   const fetchOptions={...opt};delete fetchOptions.timeoutMs;delete fetchOptions.signal;
@@ -26,7 +29,7 @@ const api=async(url,opt={})=>{
     if(isGet&&cacheTtl)apiCache.set(cacheKey,{time:Date.now(),data:d});
     if(!isGet)invalidarCacheApi('/api/session');
     return d;
-  }).finally(()=>{if(timeout)clearTimeout(timeout);if(externalSignal&&abortExternal)externalSignal.removeEventListener('abort',abortExternal);if(apiInflight.get(cacheKey)===request)apiInflight.delete(cacheKey)});
+  }).finally(()=>{if(timeout)clearTimeout(timeout);if(externalSignal&&abortExternal)externalSignal.removeEventListener('abort',abortExternal);if(apiControllers.get(baseUrl)===controller)apiControllers.delete(baseUrl);if(apiInflight.get(cacheKey)===request)apiInflight.delete(cacheKey)});
   if(isGet)apiInflight.set(cacheKey,request);
   return request;
 };
