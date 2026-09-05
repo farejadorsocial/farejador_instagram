@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional
 from zoneinfo import ZoneInfo
@@ -44,7 +44,9 @@ def normalizar_datetime(valor: Any) -> Optional[datetime]:
 
 def chave_datetime(valor: Any) -> str:
     resultado = normalizar_datetime(valor)
-    return resultado.isoformat() if resultado else ""
+    if not resultado:
+        return ""
+    return resultado.astimezone(timezone.utc).isoformat()
 
 
 def iterar_json(diretorio: Path, nome: str) -> Iterable[Path]:
