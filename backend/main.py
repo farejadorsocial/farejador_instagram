@@ -18,7 +18,15 @@ from backend.api.monitoramento import router as monitoramento_router
 from backend.database.init_db import criar_tabelas
 from toolFarejador.monitoramento.toolMonitoramentoSistema import monitoramento_perfis_tempo_real, solicitar_parada_monitoramento
 
-app = FastAPI(title="Farejador Instagram", version="1.8.0")
+_DOCS_ENABLED = os.getenv("FAREJADOR_ENABLE_DOCS", "0") == "1"
+
+app = FastAPI(
+    title="Farejador Instagram",
+    version="1.8.0",
+    docs_url="/docs" if _DOCS_ENABLED else None,
+    redoc_url="/redoc" if _DOCS_ENABLED else None,
+    openapi_url="/openapi.json" if _DOCS_ENABLED else None,
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[x.strip() for x in os.getenv("FAREJADOR_CORS_ORIGINS", "").split(",") if x.strip()] or ["http://127.0.0.1:8000", "http://localhost:8000"],
