@@ -1,5 +1,5 @@
 from backend.repositories.perfil_repository import get_saved_profiles
-from backend.repositories.feed_repository import feed, get_feed_all
+from backend.repositories.feed_repository import get_feed_all
 from backend.services.common import PUBLIC_CLIENTE, limitar
 from backend.services.feed_service import feed_publico, carregar_config_atualizacao_paginas
 
@@ -23,8 +23,6 @@ def dashboard(cliente_usuario):
 
 
 def public_dashboard():
-    from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
-    sincronizar_dados_publicos()
     profiles = get_saved_profiles(PUBLIC_CLIENTE)
     public_profiles = [p for p in profiles if isinstance(p.get("perfil"), dict)]
     dados_feed = feed_publico()
