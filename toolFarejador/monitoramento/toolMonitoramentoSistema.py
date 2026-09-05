@@ -12,7 +12,7 @@ from backend.database.connection import get_engine
 from backend.database.models import Monitoramento
 
 
-def caminho_base(*caminho_final, nome_projeto="instagram"):
+def caminho_base(*caminho_final, nome_projeto="farejador_instagram"):
     try:
         caminho_atual = Path(__file__).resolve()
     except NameError:
