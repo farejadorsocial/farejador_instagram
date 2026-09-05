@@ -120,6 +120,7 @@ async function publicSearch(query){
   const box=$('#public-search-results');if(!box)return;
   const q=(query||$('#public-search-input')?.value||'').trim().replace(/^@/,'').toLowerCase();
   if(!q){box.innerHTML='';return}
+  const requestId=Symbol('public-search');box._farejadorRequestId=requestId;
   try{
     let r;
     if(state.session?.autenticado){
@@ -131,9 +132,13 @@ async function publicSearch(query){
     }else{
       r=await api(`/api/public/profiles?search=${encodeURIComponent(q)}&limit=8`);
     }
+    if(box._farejadorRequestId!==requestId)return;
     box.innerHTML=r.length?r.map(publicCard).join(''):'<div class="search-empty">Nenhum usuário salvo encontrado na sua conta.</div>';
     bindImages();bindPublicCards();
-  }catch(e){box.innerHTML=`<div class="search-empty">${esc(e.message)}</div>`}
+  }catch(e){
+    if(box._farejadorRequestId!==requestId||e.name==='AbortError')return;
+    box.innerHTML=`<div class="search-empty">${esc(e.message)}</div>`
+  }
 }
 function bindPublicCards(){document.querySelectorAll('[data-public-profile]').forEach(b=>b.onclick=()=>{const u=b.dataset.publicProfile;if(u){state.publicUsername=u;state.publicProfile=null;go('public-profile')}})}
 async function loadPublicProfile(){try{const endpoint=state.session?.autenticado?`/api/profiles/${encodeURIComponent(state.publicUsername)}/view`:`/api/public/profiles/${encodeURIComponent(state.publicUsername)}`;state.publicProfile=await api(endpoint);document.title=`@${state.publicUsername} · Farejador`}catch(e){state.publicProfile=null;toast(e.message)}}
