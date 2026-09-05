@@ -9,7 +9,6 @@ from backend.services.historico_service import summary
 from toolFarejador.extracao.toolExtrairUsuarioSemLogin import extraindo_perfil
 from toolFarejador.perfis.toolSalvarPerfil import salvar_perfil, salvar_perfil_dados
 from toolFarejador.perfis.toolRemoverPerfil import remover_perfil
-from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
 from toolFarejador.perfis.toolAnalisePerfil import analisar_perfil
 
 PUBLIC_PROFILE_FIELDS = (
@@ -28,12 +27,8 @@ def analyze(cliente_usuario, username):
 
 def save_current_profile(cliente_usuario, dados_perfil=None):
     if dados_perfil is not None:
-        resultado = salvar_perfil_dados(cliente_usuario, dados_perfil)
-    else:
-        resultado = salvar_perfil(cliente_usuario)
-    if cliente_usuario == "admin":
-        sincronizar_dados_publicos()
-    return resultado
+        return salvar_perfil_dados(cliente_usuario, dados_perfil)
+    return salvar_perfil(cliente_usuario)
 
 
 def remove_saved(cliente_usuario, username):
@@ -43,8 +38,6 @@ def remove_saved(cliente_usuario, username):
     resultado = remover_perfil(username, cliente_usuario)
     if not resultado.get("removido"):
         raise ValueError("Usuário salvo não encontrado.")
-    if cliente_usuario == "admin":
-        sincronizar_dados_publicos()
     return resultado
 
 
@@ -65,7 +58,6 @@ def _public_profile_card(item):
 
 
 def get_public_profiles(search=None, limit=100):
-    sincronizar_dados_publicos()
     perfis = [_public_profile_card(p) for p in get_saved_profiles(PUBLIC_CLIENTE)]
     termo = normalizar_username(search) if search else ""
     if termo:
@@ -79,7 +71,6 @@ def get_public_profiles(search=None, limit=100):
 
 
 def _find_public_profile(username):
-    sincronizar_dados_publicos()
     username = normalizar_username(username)
     for item in get_saved_profiles(PUBLIC_CLIENTE):
         perfil = item.get("perfil", {})
@@ -118,7 +109,6 @@ def get_public_profile(username):
 
 
 def public_profile_by_pk(pk):
-    sincronizar_dados_publicos()
     for item in get_saved_profiles(PUBLIC_CLIENTE):
         if str(item.get("perfil", {}).get("pk")) == str(pk):
             return get_public_profile(item.get("perfil", {}).get("username"))
