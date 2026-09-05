@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Any, Optional
 
-from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text, UniqueConstraint
+from sqlalchemy import Boolean, DateTime, ForeignKey, Index, Integer, String, Text, UniqueConstraint
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -82,6 +82,9 @@ class Monitoramento(Base):
 
 class HistoricoPerfil(Base):
     __tablename__ = "historico_perfis"
+    __table_args__ = (
+        Index("ix_historico_cliente_perfil_data", "cliente_usuario", "instagram_pk", "timestamp_capture"),
+    )
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
@@ -93,6 +96,9 @@ class HistoricoPerfil(Base):
 
 class FeedItem(Base):
     __tablename__ = "feed_itens"
+    __table_args__ = (
+        Index("ix_feed_cliente_data", "cliente_usuario", "timestamp_capture"),
+    )
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     cliente_usuario: Mapped[str] = mapped_column(String(64), index=True, nullable=False)
