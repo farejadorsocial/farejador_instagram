@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Request, Response
 from backend.schemas.auth import AuthBody
 from backend.services.auth_service import register, login, logout
-from backend.core.dependencies import current_user, dados_acesso_request, cookie_kwargs
+from backend.core.dependencies import current_user, dados_acesso_request, cookie_kwargs, rate_limit
 from backend.core.visitor import registrar_visitante
 from backend.core.config import carregar_permissoes_navegador
 
@@ -20,6 +20,7 @@ def session(request: Request, response: Response):
 
 @router.post("/api/auth/register")
 def do_register(body: AuthBody, request: Request, response: Response):
+    rate_limit(request, "auth")
     if body.password != body.confirmar_senha:
         raise HTTPException(status_code=400, detail="As senhas não conferem.")
     acesso = dados_acesso_request(request, body.dispositivo_cliente)
@@ -33,6 +34,7 @@ def do_register(body: AuthBody, request: Request, response: Response):
 
 @router.post("/api/auth/login")
 def do_login(body: AuthBody, request: Request, response: Response):
+    rate_limit(request, "auth")
     acesso = dados_acesso_request(request, body.dispositivo_cliente)
     try:
         token, username = login(body.username, body.password, acesso)
