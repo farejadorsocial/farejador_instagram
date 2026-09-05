@@ -14,7 +14,7 @@ function bindImages(){document.querySelectorAll('.profile-image').forEach(img=>{
   img.addEventListener('error',()=>wrap.classList.add('image-failed'),{once:true});
   img.addEventListener('load',()=>wrap.classList.remove('image-failed'),{once:true});
 })}
-function resetViewState(){if(state.feedTimer){clearInterval(state.feedTimer);state.feedTimer=null}if(state.feedAbortController){state.feedAbortController.abort();state.feedAbortController=null}state.analysis=null;state.analysisError=null;state.summary=null;state.summaryPk=null;state.historyField=null;state.profiles=[];state.explore=null;state.compare=null;state.exploreRank='activity';state.feedFilter='todos'}
+function resetViewState(){if(state.feedTimer){clearTimeout(state.feedTimer);state.feedTimer=null}if(state.feedAbortController){state.feedAbortController.abort();state.feedAbortController=null}state.analysis=null;state.analysisError=null;state.summary=null;state.summaryPk=null;state.historyField=null;state.profiles=[];state.explore=null;state.compare=null;state.exploreRank='activity';state.feedFilter='todos'}
 function startFeedAutoRefresh(){
   cancelarAtualizacoes();
   if(state.route!=='feed'||state.pageConfig?.feed?.ativo===false)return;
@@ -42,7 +42,27 @@ function bind(){
   document.querySelectorAll('[data-route]').forEach(b=>b.onclick=e=>{e.preventDefault();const r=b.dataset.route;if(r==='compare'){state.compare=null;go('compare')}else if(r==='public-profile'){go('public-profile')}else{go(r)}});
   document.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>{state.route=b.dataset.back;if(state.route==='saved'){state.summary=null;state.summaryPk=null;state.historyField=null}go(state.route)});
   const input=$('#analysis-input'),btn=$('#analysis-btn');
-  if(btn)btn.onclick=async()=>{try{const username=input.value.trim();if(!username){toast('Informe um usuário.');return}state.analysisError=null;state.analysis=null;btn.disabled=true;btn.textContent='CONSULTANDO...';const result=await api('/api/profile/analyze',{method:'POST',body:JSON.stringify({username})});if(!result||!result.perfil||!result.perfil.username)throw new Error('Não retornou dados suficientes para esse usuário.');state.analysis=result;state.profiles=await api('/api/profiles');render()}catch(e){state.analysis=null;state.analysisError=e.message||'Usuário não encontrado.';render()}finally{if(btn){btn.disabled=false;btn.textContent='ANALISAR'}}};
+  if(btn)btn.onclick=async()=>{
+    const username=input.value.trim();
+    if(!username){toast('Informe um usuário.');return}
+    const requestId=Symbol('analysis');
+    btn._farejadorRequestId=requestId;
+    state.analysisError=null;state.analysis=null;btn.disabled=true;btn.textContent='CONSULTANDO...';
+    try{
+      const result=await api('/api/profile/analyze',{method:'POST',body:JSON.stringify({username})});
+      if(btn._farejadorRequestId!==requestId)return;
+      if(!result||!result.perfil||!result.perfil.username)throw new Error('Não retornou dados suficientes para esse usuário.');
+      state.analysis=result;
+      state.profiles=await api('/api/profiles');
+      if(btn._farejadorRequestId!==requestId)return;
+      render();
+    }catch(e){
+      if(btn._farejadorRequestId!==requestId||e.name==='AbortError')return;
+      state.analysis=null;state.analysisError=e.message||'Usuário não encontrado.';render();
+    }finally{
+      if(btn._farejadorRequestId===requestId){btn.disabled=false;btn.textContent='ANALISAR'}
+    }
+  };
   const clear=$('#clear-analysis');if(clear)clear.onclick=()=>{state.analysis=null;state.analysisError=null;render()};
   const tryAgain=$('#analysis-try-again');if(tryAgain)tryAgain.onclick=()=>{state.analysis=null;state.analysisError=null;const input=$('#analysis-input');if(input){input.value='';input.focus()}render()};
   const save=$('#save-profile');if(save)save.onclick=async()=>{try{await api('/api/profile/save',{method:'POST',body:JSON.stringify({dados:state.analysis})});state.profiles=await api('/api/profiles');toast('Usuário salvo na sua conta.');render()}catch(e){toast(e.message)}};
@@ -61,7 +81,22 @@ function bind(){
   document.querySelectorAll('[data-compare-toggle]').forEach(button=>button.onclick=e=>{e.preventDefault();const side=button.dataset.compareToggle;const menu=$(`#compare-menu-${side}`);if(!menu)return;const willOpen=!menu.classList.contains('open');document.querySelectorAll('.compare-select-menu.open').forEach(x=>x.classList.remove('open'));document.querySelectorAll('[data-compare-toggle]').forEach(x=>x.setAttribute('aria-expanded','false'));if(willOpen){menu.classList.add('open');button.setAttribute('aria-expanded','true')}});
   document.querySelectorAll('[data-compare-option]').forEach(option=>option.onclick=()=>{const side=option.dataset.compareOption,user=option.dataset.compareUser;const current=state.compare||{};state.compare={...current,[side]:user,data:null};render()});
   const compareSwap=$('#compare-swap');if(compareSwap)compareSwap.onclick=()=>{const current=state.compare||{};const a=current.a,b=current.b;state.compare={...current,a:b,b:a,data:null};render()};
-  const compareBtn=$('#compare-btn');if(compareBtn)compareBtn.onclick=async()=>{const a=String(state.compare?.a||'').trim().replace(/^@/,''),b=String(state.compare?.b||'').trim().replace(/^@/,'');if(!a||!b){toast('Escolha os dois perfis.');return}if(a.toLowerCase()===b.toLowerCase()){toast('Escolha dois perfis diferentes.');return}try{compareBtn.disabled=true;compareBtn.textContent='COMPARANDO...';const endpoint=state.session?.autenticado?'/api/compare':'/api/public/compare';const url=state.session?.autenticado?`${endpoint}?username_a=${encodeURIComponent(a)}&username_b=${encodeURIComponent(b)}`:`${endpoint}?username_a=${encodeURIComponent(a)}&username_b=${encodeURIComponent(b)}`;state.compare={a,b,data:await api(url)};history.replaceState({},'',`/comparar?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);render()}catch(e){toast(e.message)}finally{compareBtn.disabled=false;compareBtn.textContent='⚡ COMPARAR AGORA'}};
+  const compareBtn=$('#compare-btn');if(compareBtn)compareBtn.onclick=async()=>{
+    const a=String(state.compare?.a||'').trim().replace(/^@/,''),b=String(state.compare?.b||'').trim().replace(/^@/,'');
+    if(!a||!b){toast('Escolha os dois perfis.');return}
+    if(a.toLowerCase()===b.toLowerCase()){toast('Escolha dois perfis diferentes.');return}
+    const requestId=Symbol('compare');compareBtn._farejadorRequestId=requestId;
+    try{
+      compareBtn.disabled=true;compareBtn.textContent='COMPARANDO...';
+      const endpoint=state.session?.autenticado?'/api/compare':'/api/public/compare';
+      const url=`${endpoint}?username_a=${encodeURIComponent(a)}&username_b=${encodeURIComponent(b)}`;
+      const data=await api(url);
+      if(compareBtn._farejadorRequestId!==requestId)return;
+      state.compare={a,b,data};
+      history.replaceState({},'',`/comparar?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);render();
+    }catch(e){if(compareBtn._farejadorRequestId!==requestId||e.name==='AbortError')return;toast(e.message)}
+    finally{if(compareBtn._farejadorRequestId===requestId){compareBtn.disabled=false;compareBtn.textContent='⚡ COMPARAR AGORA'}}
+  };
   const mobileMenu=$('#mobile-menu-toggle');if(mobileMenu)mobileMenu.onclick=()=>{const open=document.body.classList.toggle('mobile-nav-open');mobileMenu.setAttribute('aria-expanded',open?'true':'false')};
   document.querySelectorAll('#main-nav button').forEach(b=>b.addEventListener('click',()=>{document.body.classList.remove('mobile-nav-open');if(mobileMenu)mobileMenu.setAttribute('aria-expanded','false')}));
   startFeedAutoRefresh();
