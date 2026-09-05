@@ -8,8 +8,7 @@ from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from backend.database.connection import get_engine
-from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, PerfilSalvo
-
+from backend.database.models import FeedItem, HistoricoPerfil, Monitoramento, Notificacao, PerfilSalvo
 
 TZ_LOCAL = ZoneInfo("America/Sao_Paulo")
 
@@ -29,11 +28,6 @@ def _datetime(valor: Any) -> Optional[datetime]:
     return resultado
 
 
-def _chave_datetime(valor: Any) -> str:
-    resultado = _datetime(valor)
-    return resultado.isoformat() if resultado else ""
-
-
 def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
     perfil = dados.get("perfil") if isinstance(dados, dict) else None
     if not isinstance(perfil, dict) or perfil.get("pk") is None:
@@ -43,8 +37,7 @@ def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
     with Session(get_engine()) as session:
         registro = session.scalar(select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario, PerfilSalvo.instagram_pk == pk))
         if registro is None:
-            registro = PerfilSalvo(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(perfil.get("username") or "") or None, perfil=perfil, caminho_historico_salvo=str(dados.get("caminho_historico_salvo") or "") or None, criado_em=agora, atualizado_em=agora)
-            session.add(registro)
+            session.add(PerfilSalvo(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(perfil.get("username") or "") or None, perfil=perfil, caminho_historico_salvo=str(dados.get("caminho_historico_salvo") or "") or None, criado_em=agora, atualizado_em=agora))
         else:
             registro.username = str(perfil.get("username") or "") or None
             registro.perfil = perfil
@@ -57,16 +50,21 @@ def sincronizar_monitoramento(cliente_usuario: str, dados: dict) -> None:
     if not isinstance(dados, dict) or dados.get("pk") is None:
         return
     pk = str(dados["pk"])
+    try:
+        sleep = max(1, int(dados.get("sleep", 10) or 10))
+    except (TypeError, ValueError):
+        sleep = 10
     agora = _datetime(dados.get("atualizado")) or datetime.now(TZ_LOCAL)
     with Session(get_engine()) as session:
         registro = session.scalar(select(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario, Monitoramento.instagram_pk == pk))
-        valores = dict(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(dados.get("username") or "") or None, monitorando=bool(dados.get("monitorando", False)), sleep=int(dados.get("sleep", 10) or 10), dados=dados, atualizado_em=agora)
         if registro is None:
-            session.add(Monitoramento(**valores))
+            session.add(Monitoramento(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(dados.get("username") or "") or None, monitorando=bool(dados.get("monitorando", False)), sleep=sleep, dados=dados, atualizado_em=agora))
         else:
-            for chave, valor in valores.items():
-                if chave not in {"cliente_usuario", "instagram_pk"}:
-                    setattr(registro, chave, valor)
+            registro.username = str(dados.get("username") or "") or None
+            registro.monitorando = bool(dados.get("monitorando", False))
+            registro.sleep = sleep
+            registro.dados = dados
+            registro.atualizado_em = agora
         session.commit()
 
 
@@ -95,6 +93,54 @@ def sincronizar_historico(cliente_usuario: str, item: dict) -> None:
         session.commit()
 
 
+def sincronizar_notificacao(cliente_usuario: str, dados: dict) -> None:
+    if not isinstance(dados, dict) or dados.get("pk") is None:
+        return
+    pk = str(dados["pk"])
+    timestamp = _datetime(dados.get("timestamp_capture")) or datetime.now(TZ_LOCAL)
+    try:
+        total = max(0, int(dados.get("total", 0) or 0))
+    except (TypeError, ValueError):
+        total = 0
+    campos = dict(
+        username=str(dados.get("username") or "") or None,
+        total=total,
+        movimento=dados.get("movimento") if isinstance(dados.get("movimento"), bool) else None,
+        timestamp_capture=timestamp,
+        icone=str(dados.get("icone") or "") or None,
+        texto=str(dados.get("texto") or "") or None,
+        mensagem=str(dados.get("mensagem") or "") or None,
+        dados={k: v for k, v in dados.items() if k not in {"pk", "username", "total", "movimento", "timestamp_capture", "icone", "texto", "mensagem"}},
+    )
+    with Session(get_engine()) as session:
+        registro = session.scalar(select(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario, Notificacao.instagram_pk == pk))
+        if registro is None:
+            session.add(Notificacao(cliente_usuario=cliente_usuario, instagram_pk=pk, **campos))
+        else:
+            for chave, valor in campos.items():
+                setattr(registro, chave, valor)
+        session.commit()
+
+
+def consultar_notificacoes(cliente_usuario: str) -> list[dict]:
+    with Session(get_engine()) as session:
+        registros = session.scalars(select(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario).order_by(Notificacao.timestamp_capture.desc(), Notificacao.id.desc())).all()
+    resultado = []
+    for r in registros:
+        resultado.append({
+            "pk": r.instagram_pk,
+            "username": r.username,
+            "total": r.total,
+            "movimento": r.movimento,
+            "timestamp_capture": r.timestamp_capture.isoformat() if r.timestamp_capture else None,
+            "icone": r.icone,
+            "texto": r.texto,
+            "mensagem": r.mensagem,
+            **(r.dados or {}),
+        })
+    return resultado
+
+
 def sincronizar_feed(cliente_usuario: str, itens: list[dict]) -> None:
     if not isinstance(itens, list):
         return
@@ -115,5 +161,6 @@ def remover_dados_perfil(cliente_usuario: str, pk: Any) -> None:
         session.execute(delete(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario, PerfilSalvo.instagram_pk == pk))
         session.execute(delete(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario, Monitoramento.instagram_pk == pk))
         session.execute(delete(HistoricoPerfil).where(HistoricoPerfil.cliente_usuario == cliente_usuario, HistoricoPerfil.instagram_pk == pk))
+        session.execute(delete(Notificacao).where(Notificacao.cliente_usuario == cliente_usuario, Notificacao.instagram_pk == pk))
         session.execute(delete(FeedItem).where(FeedItem.cliente_usuario == cliente_usuario, FeedItem.item["pk"].astext == pk))
         session.commit()
