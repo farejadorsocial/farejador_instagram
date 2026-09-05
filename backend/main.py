@@ -15,11 +15,9 @@ from backend.api.comparador import router as comparador_router
 from backend.api.historico import router as historico_router
 from backend.api.exploracao import router as exploracao_router
 from backend.api.monitoramento import router as monitoramento_router
+from backend.database.init_db import criar_tabelas
 from toolFarejador.monitoramento.toolMonitoramentoSistema import monitoramento_perfis_tempo_real, solicitar_parada_monitoramento
 from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
-from toolFarejador.usuarios.toolDadosUsuario import migrar_dados_legados
-from backend.database.migrate_json import executar as migrar_json_postgresql
-from backend.database.migrate_notificacoes import executar as migrar_notificacoes
 
 app = FastAPI(title="Farejador Instagram", version="1.8.0")
 app.add_middleware(
@@ -68,21 +66,11 @@ def iniciar_monitoramento_sistema():
 @app.on_event("startup")
 def startup_event():
     try:
-        migrar_dados_legados()
+        criar_tabelas()
+        print("[postgres] Estrutura do banco verificada.")
     except Exception as erro:
-        print(f"[dados] Falha na preparação compatível: {erro}")
-
-    try:
-        resultado_migracao = migrar_json_postgresql(dry_run=False)
-        print(f"[postgres] Dados legados persistidos: {resultado_migracao}")
-    except Exception as erro:
-        print(f"[postgres] Falha na migração automática dos JSONs: {erro}")
-
-    try:
-        quantidade = migrar_notificacoes()
-        print(f"[postgres] Notificações persistidas: {quantidade}")
-    except Exception as erro:
-        print(f"[postgres] Falha na migração das notificações: {erro}")
+        print(f"[postgres] Falha ao preparar o banco: {erro}")
+        raise
 
     try:
         sincronizar_dados_publicos()
