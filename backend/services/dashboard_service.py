@@ -1,7 +1,7 @@
 from backend.repositories.perfil_repository import get_saved_profiles
 from backend.repositories.feed_repository import feed, get_feed_all
 from backend.services.common import PUBLIC_CLIENTE, limitar
-from backend.services.feed_service import feed_publico
+from backend.services.feed_service import feed_publico, carregar_config_atualizacao_paginas
 
 
 def dashboard(cliente_usuario):
