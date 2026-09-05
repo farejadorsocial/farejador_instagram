@@ -30,25 +30,27 @@ def caminho_base(*caminho_final, nome_projeto="instagram"):
     - Anaconda
     """
 
-    # VSCode / Scripts
     try:
         caminho_atual = Path(__file__).resolve()
     except NameError:
-        # Jupyter Notebook
         caminho_atual = Path.cwd().resolve()
 
-    # Procura a raiz do projeto
     for pasta in [caminho_atual] + list(caminho_atual.parents):
-
         if pasta.name == nome_projeto:
-
-            # junta os caminhos corretamente
             return pasta.joinpath(*caminho_final)
 
-    raise FileNotFoundError(
-        f"Não foi encontrada a pasta '{nome_projeto}'."
-    )
+    raise FileNotFoundError(f"Não foi encontrada a pasta '{nome_projeto}'.")
 
+
+
+def _sincronizar_postgresql(cliente_usuario, dados):
+    """Replica a escrita no PostgreSQL sem remover o JSON legado."""
+    try:
+        from backend.database.sync import sincronizar_perfil
+        sincronizar_perfil(cliente_usuario, dados)
+    except Exception as erro:
+        # O JSON continua sendo a cópia de segurança durante a migração.
+        print(f"[postgres] Falha ao sincronizar perfil: {erro}")
 
 
 
@@ -82,16 +84,16 @@ def salvar_perfil_dados(cliente_usuario, dados_perfil):
     if not caminho_historico_salvar.exists():
         caminho_historico_salvar.write_text("[]", encoding="utf-8")
 
-    # Copia para não alterar o objeto que permanece no estado da interface.
     dados = json.loads(json.dumps(dados_perfil, ensure_ascii=False))
     dados["caminho_perfil_salvo"] = str(caminho_perfil_salvar)
     dados["caminho_historico_salvo"] = str(caminho_historico_salvar)
 
     salvar_dados_json(dados, caminho_perfil_salvar)
+    _sincronizar_postgresql(cliente_usuario, dados)
     return dados
 
-def salvar_perfil(cliente_usuario):
 
+def salvar_perfil(cliente_usuario):
     from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
     caminho_log  = caminho_dados_usuario(cliente_usuario, 'log', 'perfil.json')
     perfil_log   = carregar_dados(caminho_log)
@@ -105,23 +107,16 @@ def salvar_perfil(cliente_usuario):
 
     if not caminho_historico_salvar.exists():
         caminho_historico_salvar.write_text("[]", encoding="utf-8")
-    
+
     perfil_log['caminho_perfil_salvo']    = str(caminho_perfil_salvar)
     perfil_log['caminho_historico_salvo'] = str(caminho_historico_salvar)
-    
+
     salvar_dados_json(perfil_log,caminho_perfil_salvar)
-    
+    _sincronizar_postgresql(cliente_usuario, perfil_log)
     return perfil_log
 
 
 
 if __name__ == "__main__":
-
     cliente_usuario  = 'admin'
-
     resultado = salvar_perfil(cliente_usuario)
-
-
-
-
-
