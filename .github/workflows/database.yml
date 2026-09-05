@@ -43,5 +43,8 @@ jobs:
       - name: Validate PostgreSQL and migration
         run: python -m backend.database.test_database
 
+      - name: Validate synchronization
+        run: python -m backend.database.test_sync
+
       - name: Compile backend
         run: python -m compileall -q backend
