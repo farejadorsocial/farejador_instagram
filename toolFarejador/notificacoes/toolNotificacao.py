@@ -1,280 +1,136 @@
 from datetime import datetime
-import json
-import os
-from pathlib import Path
 
-
-
-def carregar_dados(caminho_arquivo):
-    with open(caminho_arquivo, 'r', encoding='utf-8') as f:
-        dados = json.load(f)
-    return dados
-
-
-
-def salvar_dados_json(dados,caminho):
-    """Grava atomicamente para o endpoint de feed nunca ler JSON parcial."""
-    caminho = Path(caminho)
-    caminho.parent.mkdir(parents=True, exist_ok=True)
-    temporario = caminho.with_name(f".{caminho.name}.tmp")
-    with open(temporario, "w", encoding="utf-8") as arquivo:
-        json.dump(dados, arquivo, ensure_ascii=False, indent=4)
-        arquivo.flush()
-        os.fsync(arquivo.fileno())
-    temporario.replace(caminho)
-
-
-
-def caminho_base(*caminho_final, nome_projeto="instagram"):
-    """
-    Retorna caminhos relativos à raiz do projeto.
-
-    Funciona no:
-    - VSCode
-    - Jupyter Notebook
-    - Scripts Python
-    - Anaconda
-    """
-
-    # VSCode / Scripts
-    try:
-        caminho_atual = Path(__file__).resolve()
-    except NameError:
-        # Jupyter Notebook
-        caminho_atual = Path.cwd().resolve()
-
-    # Procura a raiz do projeto
-    for pasta in [caminho_atual] + list(caminho_atual.parents):
-
-        if pasta.name == nome_projeto:
-
-            # junta os caminhos corretamente
-            return pasta.joinpath(*caminho_final)
-
-    raise FileNotFoundError(
-        f"Não foi encontrada a pasta '{nome_projeto}'."
-    )
-
+from backend.database.connection import get_engine
+from backend.database.models import HistoricoPerfil, PerfilSalvo
+from backend.database.sync import consultar_notificacoes, sincronizar_feed, sincronizar_notificacao
+from sqlalchemy import select
+from sqlalchemy.orm import Session
 
 
 def carregar_perfis_salvos(cliente_usuario):
-    
-    from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
-    caminho_perfil_salvos = caminho_dados_usuario(cliente_usuario, 'perfil_salvos')
-    
-    lista = []
-
-    if not caminho_perfil_salvos.exists():
-        return {
-            'usernames': [],
-            'dados_perfis': []
-        }
-    
-    for c in caminho_perfil_salvos.glob('*.json'):
-        try:
-            dados = carregar_dados(c)
-        except (OSError, json.JSONDecodeError):
-            continue
-        if isinstance(dados, dict):
-            lista.append(dados)
-        
-    lista_username = [i['perfil']['username'] for i in lista]
-        
+    """Carrega perfis salvos exclusivamente do PostgreSQL."""
+    with Session(get_engine()) as session:
+        registros = session.scalars(
+            select(PerfilSalvo)
+            .where(PerfilSalvo.cliente_usuario == cliente_usuario)
+            .order_by(PerfilSalvo.id)
+        ).all()
+    lista = [
+        {"perfil": r.perfil or {}}
+        for r in registros
+        if isinstance(r.perfil, dict)
+    ]
     return {
-        'usernames':lista_username,
-        'dados_perfis':lista
+        "usernames": [x.get("perfil", {}).get("username") for x in lista],
+        "dados_perfis": lista,
     }
-    
 
 
+def consultar_id_pk(valor, cliente_usuario):
+    valor = str(valor or "").strip().lstrip("@").lower()
+    with Session(get_engine()) as session:
+        registro = session.scalar(
+            select(PerfilSalvo).where(
+                PerfilSalvo.cliente_usuario == cliente_usuario,
+                PerfilSalvo.username == valor,
+            )
+        )
+        if registro:
+            return {"pk": registro.instagram_pk}
 
-
-def consultar_id_pk(valor,cliente_usuario):
-    
-    perfis_salvos = carregar_perfis_salvos(cliente_usuario)
-
-    for i in perfis_salvos['dados_perfis']:
-
-        if (
-            i['perfil']['username'] == valor
-            or i['perfil']['nome'] == valor
-        ):
-            return {
-                'pk': i['perfil']['pk']
-            }
-
+        registros = session.scalars(
+            select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario)
+        ).all()
+        for item in registros:
+            perfil = item.perfil or {}
+            if perfil.get("username") == valor or perfil.get("nome") == valor:
+                return {"pk": item.instagram_pk}
     return None
 
 
+def _historico_total(cliente_usuario, pk):
+    with Session(get_engine()) as session:
+        return len(session.scalars(
+            select(HistoricoPerfil).where(
+                HistoricoPerfil.cliente_usuario == cliente_usuario,
+                HistoricoPerfil.instagram_pk == str(pk),
+            )
+        ).all())
 
 
-
-def notificacao_movimento(lista_usernames,cliente_usuario):
-
-    for username in lista_usernames:
-
+def notificacao_movimento(lista_usernames, cliente_usuario):
+    """Atualiza notificações e feed usando somente dados do PostgreSQL."""
+    for username in lista_usernames or []:
         identificacao = consultar_id_pk(username, cliente_usuario)
         if not identificacao:
             continue
 
-        pk = identificacao['pk']
+        pk = identificacao["pk"]
+        total_atual = _historico_total(cliente_usuario, pk)
 
-        from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
-        caminho_notificacoes = caminho_dados_usuario(
-            cliente_usuario,
-            'notificacoes',
-            f"{pk}.json"
-        )
-        
-        
-        caminho_feed = caminho_dados_usuario(cliente_usuario, 'feed', 'feed.json')
+        existentes = {
+            str(item.get("pk")): item
+            for item in consultar_notificacoes(cliente_usuario)
+        }
+        anterior = existentes.get(str(pk))
 
-        caminho_notificacoes.parent.mkdir(
-            parents=True,
-            exist_ok=True
-        )
-        
-        caminho_feed.parent.mkdir(
-            parents=True,
-            exist_ok=True
-        )
-
-        if not caminho_notificacoes.exists():
-            caminho_notificacoes.write_text(
-                "{}",
-                encoding="utf-8"
-            )
-            
-        if not caminho_feed.exists():
-            caminho_feed.write_text(
-                "[]",
-                encoding="utf-8"
-            )
-
-        notificacao = carregar_dados(caminho_notificacoes)
-        notificacao['cliente_usuario'] = cliente_usuario
-
-        caminho_historico = caminho_dados_usuario(cliente_usuario, 'historico', f'{pk}.json')
-
-        historico = carregar_dados(caminho_historico)
-
-        # Durante a migração, o histórico legado continua sendo a origem
-        # compatível com o fluxo atual, mas cada captura também é gravada
-        # no PostgreSQL. O sincronizador é idempotente e preserva o JSON.
-        try:
-            from backend.database.sync import sincronizar_historico
-            if isinstance(historico, list):
-                for item_historico in historico:
-                    sincronizar_historico(cliente_usuario, item_historico)
-        except Exception as erro:
-            print(f"[postgres] Falha ao sincronizar histórico: {erro}")
-
-        total_atual = len(historico)
-
-        # Primeira execução
-        if 'total' not in notificacao:
-
-            notificacao['pk'] = pk
-            notificacao['username'] = username
-            notificacao['total']     = total_atual
-            notificacao['movimento'] = None
-            notificacao['timestamp_capture'] = datetime.now().isoformat()
-            notificacao['icone']    = '👤✨'
-            notificacao['texto']    = 'Novo usuário detectado'
-            notificacao['mensagem'] = (
-            
-                f"👤✨ Novo usuário detectado: {username}"
-            )
-
-        # Houve novos registros no histórico
-        elif total_atual > notificacao['total']:
-
-            notificacao['pk'] = pk
-            notificacao['username'] = username
-            notificacao['total'] = total_atual
-            notificacao['movimento'] = True
-            notificacao['timestamp_capture'] = datetime.now().isoformat()
-            notificacao['icone']    = '🚨'
-            notificacao['texto']    = 'Movimento detectado no perfil do usuário'
-            notificacao['mensagem'] = (
-                f"🚨 Movimento detectado no perfil do usuário: {username}"
-            )
-            
-
-        # Não houve novos registros
+        if anterior is None:
+            notificacao = {
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": None,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "👤✨",
+                "texto": "Novo usuário detectado",
+                "mensagem": f"👤✨ Novo usuário detectado: {username}",
+            }
+        elif total_atual > int(anterior.get("total", 0) or 0):
+            notificacao = {
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": True,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "🚨",
+                "texto": "Movimento detectado no perfil do usuário",
+                "mensagem": f"🚨 Movimento detectado no perfil do usuário: {username}",
+            }
         else:
+            notificacao = {
+                "pk": pk,
+                "username": username,
+                "total": total_atual,
+                "movimento": False,
+                "timestamp_capture": datetime.now().isoformat(),
+                "icone": "💤",
+                "texto": "Sem movimento no perfil do usuário",
+                "mensagem": f"💤 Sem movimento no perfil do usuário: {username}",
+            }
 
-            notificacao['pk'] = pk
-            notificacao['username'] = username
-            notificacao['total'] = total_atual
-            notificacao['movimento'] = False
-            notificacao['timestamp_capture'] = datetime.now().isoformat()
-            notificacao['icone']    = '💤'
-            notificacao['texto']    = 'Sem movimento no perfil do usuário'
-            notificacao['mensagem'] = (
-                f"💤 Sem movimento no perfil do usuário: {username}"
-            )
-            
-            
-            
+        sincronizar_notificacao(cliente_usuario, notificacao)
 
-        salvar_dados_json(
-            notificacao,
-            caminho_notificacoes
-        )
-        
-        
-        caminho_notificacoes2 = caminho_dados_usuario(cliente_usuario, 'notificacoes')
-        
-        
-        feed = []
-        
-        for i in sorted(caminho_notificacoes2.glob("*.json")):
-            try:
-                d = carregar_dados(i)
-            except (OSError, json.JSONDecodeError):
-                continue
-            if isinstance(d, dict):
-                feed.append(d)
+        # O feed continua sendo derivado das notificações, mas agora a
+        # persistência definitiva ocorre no PostgreSQL.
+        sincronizar_feed(cliente_usuario, consultar_notificacoes(cliente_usuario))
 
-        feed.sort(
-            key=lambda item: item.get("timestamp_capture", ""),
-            reverse=True,
-        )
-            
-            
-        salvar_dados_json(
-            feed,
-            caminho_feed
-        )
-        
-        if notificacao['movimento']:
+        if notificacao["movimento"]:
             return notificacao
-            
-        
 
 
 def carregar_feed(cliente_usuario):
-    from toolFarejador.usuarios.toolDadosUsuario import caminho_dados_usuario
-    caminho_feed = caminho_dados_usuario(cliente_usuario, 'feed', 'feed.json')
-
-    try:
-        feed = carregar_dados(caminho_feed)
-    except (OSError, json.JSONDecodeError):
-        return []
-
-    return feed if isinstance(feed, list) else []
+    from backend.database.models import FeedItem
+    with Session(get_engine()) as session:
+        registros = session.scalars(
+            select(FeedItem)
+            .where(FeedItem.cliente_usuario == cliente_usuario)
+            .order_by(FeedItem.timestamp_capture.desc(), FeedItem.id.desc())
+        ).all()
+    return [r.item for r in registros if isinstance(r.item, dict)]
 
 
 if __name__ == "__main__":
-
-    cliente_usuario ='admin'
-
-    lista_usernames = carregar_perfis_salvos(cliente_usuario)['usernames']
-
-    notificacao_movimento(lista_usernames,cliente_usuario)
-
-
+    cliente_usuario = "admin"
+    lista_usernames = carregar_perfis_salvos(cliente_usuario)["usernames"]
+    notificacao_movimento(lista_usernames, cliente_usuario)
     feed = carregar_feed(cliente_usuario)
-
-
