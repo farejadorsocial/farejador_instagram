@@ -15,6 +15,20 @@
     const scrollY=window.scrollY||window.pageYOffset||0;
     await renderOriginal.apply(this,arguments);
 
+    // Se algum renderer anterior estiver sendo usado, força uma única renderização
+    // do Explore com o filtro de categoria. O marker vem do módulo dedicado.
+    if(state.route==='explore'&&window.__farejadorEnhancedExplore&&!document.querySelector('#ranking-category-select')){
+      const content=$('#content');
+      if(content){
+        const html=await window.exploreView();
+        if(state.route==='explore'){
+          content.innerHTML=html;
+          if(typeof bind==='function')bind();
+          if(typeof bindImages==='function')bindImages();
+        }
+      }
+    }
+
     // Navegação real entre telas continua podendo iniciar no topo.
     // Atualizações na mesma tela preservam exatamente a posição anterior.
     if(state.route===routeBefore&&scrollY>0){
@@ -25,7 +39,5 @@
     }
   };
 
-  // Garante que a nova propriedade exista mesmo em sessões iniciadas antes
-  // da implementação do filtro por categoria.
   if(state&&!Object.prototype.hasOwnProperty.call(state,'exploreCategory'))state.exploreCategory='';
 })();
