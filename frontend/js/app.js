@@ -5,7 +5,7 @@
 (function carregarModulos(lista, indice) {
   if (indice >= lista.length) return;
   const script = document.createElement("script");
-  script.src = `${lista[indice]}?v=20260905-category1`;
+  script.src = `${lista[indice]}?v=20260905-category2`;
   script.onload = function () { carregarModulos(lista, indice + 1); };
   script.onerror = function () {
     console.error("Falha ao carregar módulo:", lista[indice]);
@@ -21,6 +21,7 @@
   "/static/js/modules/dashboard.js",
   "/static/js/modules/analysis-enhanced.js",
   "/static/js/modules/profile-category.js",
+  "/static/js/modules/explore-category.js",
   "/static/js/modules/profiles.js",
   "/static/js/modules/compare.js",
   "/static/js/modules/auth.js",
