@@ -9,10 +9,7 @@
     return valid.length?valid:FALLBACK_CATEGORIES.slice();
   };
 
-  const categoryValue=()=>{
-    const select=document.querySelector('#profile-category-select');
-    return String(select?.value||categories[0]||'').trim();
-  };
+  const categoryValue=()=>String(document.querySelector('#profile-category-select')?.value||categories[0]||'').trim();
 
   const renderSelector=()=>{
     const button=document.querySelector('#save-profile');
@@ -24,7 +21,13 @@
       wrap.className='analysis-category-control';
       button.parentNode.insertBefore(wrap,button);
     }
+    const signature=`${loading?'1':'0'}|${categories.join('|')}`;
+    if(wrap.dataset.signature===signature)return;
+    const previous=document.querySelector('#profile-category-select')?.value||state.analysis?.perfil?.categoria||categories[0]||'';
     wrap.innerHTML=`<span class="analysis-category-label">Categoria</span><select id="profile-category-select" class="analysis-category-select" aria-label="Categoria do perfil" ${loading?'disabled':''}>${categories.map(category=>`<option value="${esc(category)}">${esc(category)}</option>`).join('')}</select>`;
+    const select=wrap.querySelector('#profile-category-select');
+    if(select&&categories.includes(previous))select.value=previous;
+    wrap.dataset.signature=signature;
   };
 
   const saveWithCategory=async()=>{
@@ -51,11 +54,7 @@
     }
   };
 
-  const install=()=>{
-    renderSelector();
-    const select=document.querySelector('#profile-category-select');
-    if(select&&state.analysis?.perfil?.categoria&&categories.includes(state.analysis.perfil.categoria))select.value=state.analysis.perfil.categoria;
-  };
+  const install=()=>renderSelector();
 
   document.addEventListener('click',event=>{
     const button=event.target.closest?.('#save-profile');
@@ -65,14 +64,13 @@
     saveWithCategory();
   },true);
 
-  const observer=new MutationObserver(()=>install());
+  const observer=new MutationObserver(install);
   observer.observe(document.body,{childList:true,subtree:true});
 
+  loading=true;
+  install();
   fetch('/static/config/profile-categories.json',{cache:'no-store',credentials:'same-origin'})
     .then(response=>response.ok?response.json():null)
     .then(data=>{categories=normalizeCategories(data);loading=false;install();})
     .catch(()=>{loading=false;install();});
-
-  loading=true;
-  install();
 })();
