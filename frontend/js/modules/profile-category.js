@@ -1,5 +1,5 @@
 (function(){
-  const FALLBACK_CATEGORIES=['Influenciador','Música','Ator','Atriz','Celebridade','Esporte','Futebol','Humor','Jornalismo','Empresa/Marca','Criador de conteúdo','Streamer','Outro'];
+  const FALLBACK_CATEGORIES=['Influenciador','Música','Ator','Atriz','Esporte','Futebol','Atleta','Política','TV','Humor','Jornalismo','Criador de conteúdo','Streamer','Outro'];
   let categories=FALLBACK_CATEGORIES.slice();
   let loading=false;
 
