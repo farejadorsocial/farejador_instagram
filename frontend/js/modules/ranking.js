@@ -90,8 +90,13 @@
     render=async function(){
       if(state.route!=='ranking')return renderOriginal.apply(this,arguments);
       const content=$('#content');if(!content)return renderOriginal.apply(this,arguments);
-      try{content.innerHTML=uiLoading('Carregando ranking');content.innerHTML=await window.rankingView();if(typeof bind==='function')bind();if(typeof bindImages==='function')bindImages()}
-      catch(error){content.innerHTML=uiError(error?.message||'Não foi possível carregar o ranking.');if(typeof bind==='function')bind()}
+      try{
+        if(typeof nav==='function')nav();
+        content.innerHTML=uiLoading('Carregando ranking');
+        content.innerHTML=await window.rankingView();
+        if(typeof bind==='function')bind();
+        if(typeof bindImages==='function')bindImages();
+      }catch(error){content.innerHTML=uiError(error?.message||'Não foi possível carregar o ranking.');if(typeof bind==='function')bind()}
     };
   };
   installRoute();
