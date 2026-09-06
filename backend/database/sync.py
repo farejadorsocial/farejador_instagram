@@ -29,6 +29,7 @@ def _datetime(valor: Any) -> Optional[datetime]:
 
 
 def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
+    """Persiste o perfil e preserva metadados locais, como a categoria atribuída pelo usuário."""
     perfil = dados.get("perfil") if isinstance(dados, dict) else None
     if not isinstance(perfil, dict) or perfil.get("pk") is None:
         return
@@ -39,8 +40,12 @@ def sincronizar_perfil(cliente_usuario: str, dados: dict) -> None:
         if registro is None:
             session.add(PerfilSalvo(cliente_usuario=cliente_usuario, instagram_pk=pk, username=str(perfil.get("username") or "") or None, perfil=perfil, caminho_historico_salvo=str(dados.get("caminho_historico_salvo") or "") or None, criado_em=agora, atualizado_em=agora))
         else:
-            registro.username = str(perfil.get("username") or "") or None
-            registro.perfil = perfil
+            categoria_anterior = str((registro.perfil or {}).get("categoria") or "").strip()
+            perfil_atualizado = dict(perfil)
+            if categoria_anterior and not str(perfil_atualizado.get("categoria") or "").strip():
+                perfil_atualizado["categoria"] = categoria_anterior
+            registro.username = str(perfil_atualizado.get("username") or "") or None
+            registro.perfil = perfil_atualizado
             registro.caminho_historico_salvo = str(dados.get("caminho_historico_salvo") or "") or None
             registro.atualizado_em = agora
         session.commit()
