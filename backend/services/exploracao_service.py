@@ -4,23 +4,29 @@ from backend.services.perfil_service import _public_profile, profile_public_metr
 from toolFarejador.sistema.toolSistemaPublico import sincronizar_dados_publicos
 
 
-def _explore_for_client(cliente_usuario, public=False):
+def _explore_for_client(cliente_usuario, public=False, categoria=""):
     if public:
         sincronizar_dados_publicos()
         fonte = PUBLIC_CLIENTE
     else:
         fonte = cliente_usuario
 
+    categoria = str(categoria or "").strip()
     items = []
     for item in get_saved_profiles(fonte):
         perfil = item.get("perfil", {}) or {}
         if not perfil.get("username"):
             continue
+        categoria_perfil = str(perfil.get("categoria") or "").strip()
+        if categoria and categoria_perfil.lower() != categoria.lower():
+            continue
         try:
-            items.append(profile_public_metrics(item, fonte))
+            metricas = profile_public_metrics(item, fonte)
+            metricas.setdefault("perfil", {})["categoria"] = categoria_perfil or None
+            items.append(metricas)
         except Exception:
             items.append({
-                "perfil": _public_profile(perfil),
+                "perfil": {**_public_profile(perfil), "categoria": categoria_perfil or None},
                 "seguidores": safe_number(perfil.get("seguidores")),
                 "crescimento": 0, "crescimento_percentual": 0,
                 "eventos": 0, "capturas": 0,
@@ -41,6 +47,7 @@ def _explore_for_client(cliente_usuario, public=False):
         "total_perfis": len(items),
         "total_eventos": sum(int(x["eventos"]) for x in items),
         "total_capturas": sum(int(x["capturas"]) for x in items),
+        "categoria": categoria or None,
         "maior_crescimento": limitar(fonte, "explorar", by_growth_pct, 10),
         "maior_crescimento_absoluto": limitar(fonte, "explorar", by_growth_abs, 10),
         "mais_seguidores": limitar(fonte, "explorar", by_followers, 10),
@@ -51,9 +58,9 @@ def _explore_for_client(cliente_usuario, public=False):
     }
 
 
-def public_explore():
-    return _explore_for_client(PUBLIC_CLIENTE, public=True)
+def public_explore(categoria=""):
+    return _explore_for_client(PUBLIC_CLIENTE, public=True, categoria=categoria)
 
 
-def explore(cliente_usuario):
-    return _explore_for_client(cliente_usuario, public=False)
+def explore(cliente_usuario, categoria=""):
+    return _explore_for_client(cliente_usuario, public=False, categoria=categoria)
