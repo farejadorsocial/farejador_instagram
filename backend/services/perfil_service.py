@@ -15,6 +15,7 @@ PUBLIC_PROFILE_FIELDS = (
     "pk", "username", "nome", "biografia", "privado", "verificado",
     "memorializado", "seguidores", "seguindo", "total_posts",
     "total_reels", "total_destaques", "pronomes", "links", "foto_perfil",
+    "categoria",
 )
 
 
