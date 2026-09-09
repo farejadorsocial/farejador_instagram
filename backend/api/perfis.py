@@ -9,6 +9,7 @@ from backend.schemas.perfil import AnalyzeBody, SaveProfileBody, MonitorBody
 from backend.core.dependencies import require_user, rate_limit
 from backend.services.perfil_service import get_public_profiles as service_get_public_profiles, get_public_profile as service_get_public_profile, public_profile_by_pk as service_public_profile_by_pk, get_private_profile as service_get_private_profile, analyze as service_analyze, save_current_profile as service_save_current_profile, remove_saved as service_remove_saved
 from backend.services.monitoramento_service import set_monitoring
+from backend.services.credito_service import obter_usuario_id, obter_saldo, debitar
 
 router = APIRouter()
 
@@ -78,13 +79,43 @@ def private_profile_view(request: Request, username: str):
 
 @router.post("/api/profile/analyze")
 def do_analyze(request: Request, body: AnalyzeBody):
-    user = require_user(request); rate_limit(request, "analyze")
+    user = require_user(request)
+    rate_limit(request, "analyze")
+
+    try:
+        usuario_id = obter_usuario_id(user)
+        saldo = obter_saldo(usuario_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    if saldo < 1:
+        raise HTTPException(
+            status_code=402,
+            detail="Você não possui créditos suficientes para realizar uma análise."
+        )
+
     try:
         resultado = service_analyze(user, body.username)
         if not isinstance(resultado, dict) or not isinstance(resultado.get("perfil"), dict):
             raise ValueError("O Instagram não retornou dados suficientes para esse usuário.")
-        return resultado
-    except Exception as e: raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+    try:
+        debitar(
+            usuario_id,
+            1,
+            descricao="Análise de perfil",
+            referencia_id=str(body.username or "").strip().lower(),
+            chave_idempotencia=request.headers.get("Idempotency-Key"),
+            dados={"operacao": "analyze", "username": str(body.username or "").strip().lower()},
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=402, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"A análise foi concluída, mas não foi possível registrar o consumo de crédito: {e}")
+
+    return resultado
 
 @router.post("/api/profile/save")
 def do_save(request: Request, body: Optional[SaveProfileBody] = None):
