@@ -5,7 +5,7 @@
 (function carregarModulos(lista, indice) {
   if (indice >= lista.length) return;
   const script = document.createElement("script");
-  script.src = `${lista[indice]}?v=20260906-ranking4`;
+  script.src = `${lista[indice]}?v=20260909-credits1`;
   script.onload = function () { carregarModulos(lista, indice + 1); };
   script.onerror = function () {
     console.error("Falha ao carregar módulo:", lista[indice]);
