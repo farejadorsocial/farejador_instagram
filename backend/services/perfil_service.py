@@ -1,5 +1,5 @@
 from backend.repositories.perfil_repository import (
-    get_saved_profiles, get_profile_by_pk, get_history,
+    get_saved_profiles, get_profile_by_pk, get_history, profile_is_saved,
 )
 from backend.services.common import (
     PUBLIC_CLIENTE, normalizar_username, limitar, limite, safe_number,
@@ -30,6 +30,10 @@ def save_current_profile(cliente_usuario, dados_perfil=None):
     if dados_perfil is not None:
         return salvar_perfil_dados(cliente_usuario, dados_perfil)
     return salvar_perfil(cliente_usuario)
+
+
+def is_profile_saved(cliente_usuario, pk):
+    return profile_is_saved(cliente_usuario, pk)
 
 
 def remove_saved(cliente_usuario, username):
