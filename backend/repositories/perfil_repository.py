@@ -10,7 +10,7 @@ def _db_profiles(cliente_usuario):
     with Session(get_engine()) as session:
         registros = session.scalars(select(PerfilSalvo).where(PerfilSalvo.cliente_usuario == cliente_usuario).order_by(PerfilSalvo.id)).all()
         monitoring = {
-            str(r.instagram_pk): (r.dados or {"pk": r.instagram_pk, "username": r.username, "monitorando": r.monitorando, "sleep": r.sleep})
+            str(r.instagram_pk): (r.dados or {"pk": r.instagram_pk, "username": r.username, "monitorando": r.monitorando, "sleep": 10})
             for r in session.scalars(select(Monitoramento).where(Monitoramento.cliente_usuario == cliente_usuario)).all()
         }
         return [
@@ -34,6 +34,18 @@ def get_profile_by_pk(cliente_usuario, pk):
         if not registro:
             return {}
         return {"perfil": registro.perfil or {}, "caminho_historico_salvo": registro.caminho_historico_salvo}
+
+
+def profile_is_saved(cliente_usuario, pk):
+    if pk is None:
+        return False
+    with Session(get_engine()) as session:
+        return session.scalar(
+            select(PerfilSalvo.id).where(
+                PerfilSalvo.cliente_usuario == cliente_usuario,
+                PerfilSalvo.instagram_pk == str(pk),
+            )
+        ) is not None
 
 
 def get_history(cliente_usuario, pk):
