@@ -5,11 +5,14 @@ from fastapi.responses import StreamingResponse
 from typing import Optional
 import mimetypes
 import re
+from sqlalchemy import func, select
+from sqlalchemy.orm import Session
+from backend.database.connection import get_engine
 from backend.schemas.perfil import AnalyzeBody, SaveProfileBody, MonitorBody
 from backend.core.dependencies import require_user, rate_limit
 from backend.services.perfil_service import get_public_profiles as service_get_public_profiles, get_public_profile as service_get_public_profile, public_profile_by_pk as service_public_profile_by_pk, get_private_profile as service_get_private_profile, analyze as service_analyze, save_current_profile as service_save_current_profile, remove_saved as service_remove_saved, is_profile_saved as service_is_profile_saved
 from backend.services.monitoramento_service import set_monitoring
-from backend.services.credito_service import obter_usuario_id, obter_saldo, debitar
+from backend.services.credito_service import obter_usuario_id, obter_saldo, debitar, creditar
 
 router = APIRouter()
 
@@ -50,6 +53,12 @@ def _extensao_midia(content_type: str, url: str, kind: str):
     tipo_url = mimetypes.guess_type(urlparse(url).path)[0]
     ext = mimetypes.guess_extension(tipo_url or "")
     return ext or (".mp4" if kind == "video" else ".jpg")
+
+
+def _bloquear_salvamento(session: Session, usuario_id: int, pk: object):
+    """Serializa salvamentos do mesmo usuário/perfil para impedir cobrança duplicada concorrente."""
+    chave = f"farejador:save:{int(usuario_id)}:{str(pk)}"
+    session.execute(select(func.pg_advisory_xact_lock(func.hashtext(chave))))
 
 
 @router.get("/api/public/profiles")
@@ -131,46 +140,71 @@ def do_save(request: Request, body: Optional[SaveProfileBody] = None):
         raise HTTPException(status_code=400, detail="O perfil precisa possuir pk e username para ser salvo.")
 
     try:
-        ja_salvo = service_is_profile_saved(user, pk)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Não foi possível verificar o perfil salvo: {e}")
-
-    if ja_salvo:
-        try:
-            resultado = service_save_current_profile(user, dados)
-            return {"salvo": True, "novo_salvamento": False, "creditos_consumidos": 0, "resultado": resultado}
-        except Exception as e:
-            raise HTTPException(status_code=400, detail=str(e))
-
-    try:
         usuario_id = obter_usuario_id(user)
-        saldo = obter_saldo(usuario_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-    if saldo < 10:
-        raise HTTPException(status_code=402, detail="Você não possui créditos suficientes para salvar este usuário. São necessários 10 créditos.")
-
+    lock_session = Session(get_engine())
+    debitado = False
     try:
-        resultado = service_save_current_profile(user, dados)
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        _bloquear_salvamento(lock_session, usuario_id, pk)
 
-    try:
+        ja_salvo = service_is_profile_saved(user, pk)
+        if ja_salvo:
+            resultado = service_save_current_profile(user, dados)
+            lock_session.commit()
+            return {"salvo": True, "novo_salvamento": False, "creditos_consumidos": 0, "resultado": resultado}
+
+        saldo = obter_saldo(usuario_id)
+        if saldo < 10:
+            lock_session.rollback()
+            raise HTTPException(status_code=402, detail="Você não possui créditos suficientes para salvar este usuário. São necessários 10 créditos.")
+
+        chave_idempotencia = request.headers.get("Idempotency-Key") or f"save:{usuario_id}:{pk}:{username}"
         transacao = debitar(
             usuario_id,
             10,
             descricao="Salvar usuário",
             referencia_id=str(pk),
-            chave_idempotencia=f"save:{pk}",
+            chave_idempotencia=chave_idempotencia,
             dados={"operacao": "save_profile", "username": username, "pk": str(pk)},
         )
+        debitado = not bool(transacao.get("idempotente"))
+
+        try:
+            resultado = service_save_current_profile(user, dados)
+        except Exception as erro_salvamento:
+            if debitado:
+                try:
+                    creditar(
+                        usuario_id,
+                        10,
+                        tipo="estorno",
+                        descricao="Estorno de salvamento não concluído",
+                        referencia_id=str(pk),
+                        chave_idempotencia=f"refund:{chave_idempotencia}",
+                        dados={"operacao": "refund_save_profile", "username": username, "pk": str(pk)},
+                    )
+                except Exception as erro_estorno:
+                    raise HTTPException(status_code=500, detail=f"O salvamento falhou e o estorno automático não pôde ser concluído: {erro_estorno}")
+            raise HTTPException(status_code=400, detail=str(erro_salvamento))
+
+        lock_session.commit()
+        return {"salvo": True, "novo_salvamento": True, "creditos_consumidos": 10, "transacao_credito": transacao, "resultado": resultado}
+    except HTTPException:
+        if lock_session.in_transaction():
+            lock_session.rollback()
+        raise
     except ValueError as e:
+        if lock_session.in_transaction():
+            lock_session.rollback()
         raise HTTPException(status_code=402, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"O usuário foi salvo, mas não foi possível registrar o consumo de créditos: {e}")
-
-    return {"salvo": True, "novo_salvamento": True, "creditos_consumidos": 10, "transacao_credito": transacao, "resultado": resultado}
+        if lock_session.in_transaction():
+            lock_session.rollback()
+        raise HTTPException(status_code=500, detail=f"Não foi possível concluir o salvamento: {e}")
+    finally:
+        lock_session.close()
 
 @router.post("/api/profiles/{username}/monitor")
 def do_monitor(request: Request, username: str, body: MonitorBody):
