@@ -89,7 +89,7 @@ function bind(){
   document.querySelectorAll('[data-compare-option]').forEach(option=>option.onclick=()=>{const side=option.dataset.compareOption,user=option.dataset.compareUser;const current=state.compare||{};state.compare={...current,[side]:user,data:null};render()});
   const compareSwap=$('#compare-swap');if(compareSwap)compareSwap.onclick=()=>{const current=state.compare||{};const a=current.a,b=current.b;state.compare={...current,a:b,b:a,data:null};render()};
   const compareBtn=$('#compare-btn');if(compareBtn)compareBtn.onclick=async()=>{
-    const a=String(state.compare?.a||'').trim().replace(/^@/,'');b=String(state.compare?.b||'').trim().replace(/^@/,'');
+    const a=String(state.compare?.a||'').trim().replace(/^@/,''),b=String(state.compare?.b||'').trim().replace(/^@/,'');
     if(!a||!b){toast('Escolha os dois perfis.');return}
     if(a.toLowerCase()===b.toLowerCase()){toast('Escolha dois perfis diferentes.');return}
     const requestId=Symbol('compare');compareBtn._farejadorRequestId=requestId;
