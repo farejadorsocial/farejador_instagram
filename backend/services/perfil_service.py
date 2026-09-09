@@ -6,7 +6,7 @@ from backend.services.common import (
     history_values, biography_history,
 )
 from backend.services.historico_service import summary
-from toolFarejador.extracao.toolExtrairUsuarioSemLogin import extraindo_perfil
+from toolFarejador.extracao.toolExtracaoUsuarioSemLogin import extraindo_perfil
 from toolFarejador.perfis.toolSalvarPerfil import salvar_perfil, salvar_perfil_dados
 from toolFarejador.perfis.toolRemoverPerfil import remover_perfil
 from toolFarejador.perfis.toolAnalisePerfil import analisar_perfil
@@ -40,6 +40,9 @@ def remove_saved(cliente_usuario, username):
     username = normalizar_username(username)
     if not username:
         raise ValueError("Perfil inválido para remoção.")
+    from backend.services.monitoramento_service import verificar_monitoramento_ativo
+    if verificar_monitoramento_ativo(cliente_usuario, username):
+        raise ValueError("Este usuário está em monitoramento ativo pelos próximos 30 dias e não pode ser removido antes do vencimento.")
     resultado = remover_perfil(username, cliente_usuario)
     if not resultado.get("removido"):
         raise ValueError("Usuário salvo não encontrado.")
@@ -66,11 +69,7 @@ def get_public_profiles(search=None, limit=100):
     perfis = [_public_profile_card(p) for p in get_saved_profiles(PUBLIC_CLIENTE)]
     termo = normalizar_username(search) if search else ""
     if termo:
-        perfis = [
-            p for p in perfis
-            if termo in normalizar_username(p["perfil"].get("username"))
-            or termo in str(p["perfil"].get("nome", "")).lower()
-        ]
+        perfis = [p for p in perfis if termo in normalizar_username(p["perfil"].get("username")) or termo in str(p["perfil"].get("nome", "")).lower()]
     limite_max = min(max(1, int(limit)), limite(PUBLIC_CLIENTE, "usuario_salvos", 10))
     return perfis[:limite_max]
 
@@ -100,15 +99,9 @@ def get_public_profile(username):
         "eventos": data.get("eventos", 0),
         "capturas": data.get("capturas", 0),
         "monitorando": bool(item.get("monitoramento", {}).get("monitorando")),
-        "series": {
-            campo: limitar(PUBLIC_CLIENTE, "series_historico", history_values(bruto, campo), 10)
-            for campo in ("seguidores", "seguindo", "total_posts", "total_reels", "total_destaques")
-        },
+        "series": {campo: limitar(PUBLIC_CLIENTE, "series_historico", history_values(bruto, campo), 10) for campo in ("seguidores", "seguindo", "total_posts", "total_reels", "total_destaques")},
         "biografia_historico": biography_history(bruto),
-        "historico_perfil": {
-            campo: limitar(PUBLIC_CLIENTE, "historico_perfil", history_values(bruto, campo), 10)
-            for campo in ("biografia", "privado", "verificado", "memorializado", "pronomes", "links")
-        },
+        "historico_perfil": {campo: limitar(PUBLIC_CLIENTE, "historico_perfil", history_values(bruto, campo), 10) for campo in ("biografia", "privado", "verificado", "memorializado", "pronomes", "links")},
         "analise": analisar_perfil(bruto, data),
     }
 
@@ -122,16 +115,9 @@ def public_profile_by_pk(pk):
 
 def _profile_view(cliente_usuario, username):
     username = normalizar_username(username)
-    item = next(
-        (
-            x for x in get_saved_profiles(cliente_usuario)
-            if normalizar_username(x.get("perfil", {}).get("username")) == username
-        ),
-        None,
-    )
+    item = next((x for x in get_saved_profiles(cliente_usuario) if normalizar_username(x.get("perfil", {}).get("username")) == username), None)
     if not item:
         raise ValueError("Perfil não encontrado entre os seus usuários salvos.")
-
     pk = item.get("perfil", {}).get("pk")
     data = summary(cliente_usuario, pk)
     historico = get_history(cliente_usuario, pk)
@@ -143,15 +129,9 @@ def _profile_view(cliente_usuario, username):
         "eventos": data.get("eventos", 0),
         "capturas": data.get("capturas", 0),
         "monitorando": bool(item.get("monitoramento", {}).get("monitorando")),
-        "series": {
-            campo: history_values(historico, campo)
-            for campo in ("seguidores", "seguindo", "total_posts", "total_reels", "total_destaques")
-        },
+        "series": {campo: history_values(historico, campo) for campo in ("seguidores", "seguindo", "total_posts", "total_reels", "total_destaques")},
         "biografia_historico": biography_history(historico),
-        "historico_perfil": {
-            campo: history_values(historico, campo)
-            for campo in ("biografia", "privado", "verificado", "memorializado", "pronomes", "links")
-        },
+        "historico_perfil": {campo: history_values(historico, campo) for campo in ("biografia", "privado", "verificado", "memorializado", "pronomes", "links")},
         "analise": analisar_perfil(historico, data),
     }
 
@@ -168,14 +148,12 @@ def profile_public_metrics(item, cliente_usuario=PUBLIC_CLIENTE):
         resumo = summary(cliente_usuario, pk) if pk else {}
     except Exception:
         resumo = {}
-
     deltas = resumo.get("deltas", {}) or {}
     seguidores = safe_number(perfil.get("seguidores"))
     analise = analisar_perfil(historico, resumo)
     crescimento = safe_number(deltas.get("seguidores", {}).get("variacao"))
     inicial = safe_number(deltas.get("seguidores", {}).get("inicial"))
     crescimento_pct = (crescimento / inicial * 100) if inicial > 0 else 0
-
     timeline = resumo.get("timeline") or resumo.get("timiline") or []
     eventos = len(timeline)
     capturas = len(historico)
@@ -185,7 +163,6 @@ def profile_public_metrics(item, cliente_usuario=PUBLIC_CLIENTE):
     atividade = eventos + mudancas_perfil + mudancas_rede + max(capturas - 1, 0)
     ritmo = safe_number(analise.get("projecao", {}).get("ritmo_diario"))
     score = safe_number(analise.get("atividade", {}).get("score"))
-
     return {
         "perfil": _public_profile(perfil),
         "seguidores": seguidores,
