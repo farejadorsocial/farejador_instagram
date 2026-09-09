@@ -21,6 +21,7 @@ class Usuario(Base):
     sessoes: Mapped[list["Sessao"]] = relationship(back_populates="usuario", cascade="all, delete-orphan")
     creditos: Mapped[Optional["CreditoUsuario"]] = relationship(back_populates="usuario", uselist=False, cascade="all, delete-orphan")
     transacoes_creditos: Mapped[list["TransacaoCredito"]] = relationship(back_populates="usuario", cascade="all, delete-orphan")
+    pagamentos_creditos: Mapped[list["PagamentoCredito"]] = relationship(back_populates="usuario", cascade="all, delete-orphan")
 
 
 class Sessao(Base):
@@ -66,6 +67,26 @@ class TransacaoCredito(Base):
     dados: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
     criado_em: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
     usuario: Mapped["Usuario"] = relationship(back_populates="transacoes_creditos")
+
+
+class PagamentoCredito(Base):
+    __tablename__ = "pagamentos_creditos"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    usuario_id: Mapped[int] = mapped_column(Integer, ForeignKey("usuarios.id", ondelete="CASCADE"), index=True, nullable=False)
+    pacote: Mapped[str] = mapped_column(String(32), nullable=False)
+    creditos: Mapped[int] = mapped_column(Integer, nullable=False)
+    valor_centavos: Mapped[int] = mapped_column(Integer, nullable=False)
+    moeda: Mapped[str] = mapped_column(String(8), default="BRL", nullable=False)
+    status: Mapped[str] = mapped_column(String(32), default="pendente", nullable=False)
+    referencia_externa: Mapped[str] = mapped_column(String(128), unique=True, nullable=False)
+    preferencia_id: Mapped[Optional[str]] = mapped_column(String(128), nullable=True)
+    pagamento_id: Mapped[Optional[str]] = mapped_column(String(128), unique=True, nullable=True)
+    chave_idempotencia: Mapped[str] = mapped_column(String(128), unique=True, nullable=False)
+    dados: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict, nullable=False)
+    criado_em: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    atualizado_em: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    creditado_em: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True), nullable=True)
+    usuario: Mapped["Usuario"] = relationship(back_populates="pagamentos_creditos")
 
 
 class PerfilSalvo(Base):
