@@ -14,7 +14,7 @@ function bindImages(){document.querySelectorAll('.profile-image').forEach(img=>{
   img.addEventListener('error',()=>wrap.classList.add('image-failed'),{once:true});
   img.addEventListener('load',()=>wrap.classList.remove('image-failed'),{once:true});
 })}
-function resetViewState(){if(state.feedTimer){clearTimeout(state.feedTimer);state.feedTimer=null}if(state.feedAbortController){state.feedAbortController.abort();state.feedAbortController=null}state.analysis=null;state.analysisError=null;state.summary=null;state.summaryPk=null;state.historyField=null;state.profiles=[];state.explore=null;state.compare=null;state.exploreRank='activity';state.feedFilter='todos'}
+function resetViewState(){if(state.feedTimer){clearTimeout(state.feedTimer);state.feedTimer=null}if(state.feedAbortController){state.feedAbortController.abort();state.feedAbortController=null}state.analysis=null;state.analysisError=null;state.analysisErrorStatus=null;state.summary=null;state.summaryPk=null;state.historyField=null;state.profiles=[];state.explore=null;state.compare=null;state.exploreRank='activity';state.feedFilter='todos'}
 function startFeedAutoRefresh(){
   cancelarAtualizacoes();
   if(state.route!=='feed'||state.pageConfig?.feed?.ativo===false)return;
@@ -56,7 +56,7 @@ function bind(){
     const username=input.value.trim();
     if(!username){toast('Informe um usuário.');return}
     const requestId=Symbol('analysis');btn._farejadorRequestId=requestId;
-    state.analysisError=null;state.analysis=null;btn.disabled=true;btn.textContent='CONSULTANDO...';
+    state.analysisError=null;state.analysisErrorStatus=null;state.analysis=null;btn.disabled=true;btn.textContent='CONSULTANDO...';
     try{
       const result=await api('/api/profile/analyze',{method:'POST',body:JSON.stringify({username})});
       if(btn._farejadorRequestId!==requestId)return;
@@ -67,11 +67,11 @@ function bind(){
       render();
     }catch(e){
       if(btn._farejadorRequestId!==requestId||e.name==='AbortError')return;
-      state.analysis=null;state.analysisError=e.message||'Usuário não encontrado.';render();
+      state.analysis=null;state.analysisErrorStatus=Number(e.status)||0;state.analysisError=e.message||'Usuário não encontrado.';render();
     }finally{if(btn._farejadorRequestId===requestId){btn.disabled=false;btn.textContent='ANALISAR'}}
   };
-  const clear=$('#clear-analysis');if(clear)clear.onclick=()=>{state.analysis=null;state.analysisError=null;render()};
-  const tryAgain=$('#analysis-try-again');if(tryAgain)tryAgain.onclick=()=>{state.analysis=null;state.analysisError=null;const input=$('#analysis-input');if(input){input.value='';input.focus()}render()};
+  const clear=$('#clear-analysis');if(clear)clear.onclick=()=>{state.analysis=null;state.analysisError=null;state.analysisErrorStatus=null;render()};
+  const tryAgain=$('#analysis-try-again');if(tryAgain)tryAgain.onclick=()=>{state.analysis=null;state.analysisError=null;state.analysisErrorStatus=null;const input=$('#analysis-input');if(input){input.value='';input.focus()}render()};
   const save=$('#save-profile');if(save)save.onclick=async()=>{try{await api('/api/profile/save',{method:'POST',body:JSON.stringify({dados:state.analysis})});state.profiles=await api('/api/profiles');toast('Usuário salvo na sua conta.');render()}catch(e){toast(e.message)}};
   document.querySelectorAll('[data-summary]').forEach(b=>b.onclick=()=>{state.summaryPk=b.dataset.summary;state.route='summary';render()});
   document.querySelectorAll('[data-history]').forEach(b=>b.onclick=()=>{state.historyField=b.dataset.history;state.route='history';render()});
@@ -89,7 +89,7 @@ function bind(){
   document.querySelectorAll('[data-compare-option]').forEach(option=>option.onclick=()=>{const side=option.dataset.compareOption,user=option.dataset.compareUser;const current=state.compare||{};state.compare={...current,[side]:user,data:null};render()});
   const compareSwap=$('#compare-swap');if(compareSwap)compareSwap.onclick=()=>{const current=state.compare||{};const a=current.a,b=current.b;state.compare={...current,a:b,b:a,data:null};render()};
   const compareBtn=$('#compare-btn');if(compareBtn)compareBtn.onclick=async()=>{
-    const a=String(state.compare?.a||'').trim().replace(/^@/,''),b=String(state.compare?.b||'').trim().replace(/^@/,'');
+    const a=String(state.compare?.a||'').trim().replace(/^@/,'');b=String(state.compare?.b||'').trim().replace(/^@/,'');
     if(!a||!b){toast('Escolha os dois perfis.');return}
     if(a.toLowerCase()===b.toLowerCase()){toast('Escolha dois perfis diferentes.');return}
     const requestId=Symbol('compare');compareBtn._farejadorRequestId=requestId;
