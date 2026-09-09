@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 def criando_registro_monitorar_perfil(selecionado, monitorando):
@@ -17,31 +17,51 @@ def criando_registro_monitorar_perfil(selecionado, monitorando):
 
 def _sincronizar_postgresql(cliente_usuario, dados):
     from backend.database.sync import sincronizar_monitoramento
-    sincronizar_monitoramento(cliente_usuario, dados)
+    _sincronizar = sincronizar_monitoramento
+    _sincronizar(cliente_usuario, dados)
 
 
 def lista_perfil_monitorados(cliente_usuario):
-    """Retorna exclusivamente o estado persistente do PostgreSQL."""
+    """Retorna exclusivamente o estado persistente do PostgreSQL e encerra ciclos vencidos."""
     from sqlalchemy import select
     from sqlalchemy.orm import Session
     from backend.database.connection import get_engine
     from backend.database.models import Monitoramento
 
+    agora = datetime.now(timezone.utc)
     with Session(get_engine()) as session:
         registros = session.scalars(
             select(Monitoramento)
             .where(Monitoramento.cliente_usuario == cliente_usuario)
             .order_by(Monitoramento.id)
         ).all()
-        return [
-            r.dados or {
+        alterado = False
+        resultado = []
+        for r in registros:
+            fim = r.fim_monitoramento
+            if fim and fim.tzinfo is None:
+                fim = fim.replace(tzinfo=timezone.utc)
+            if r.monitorando and fim and fim <= agora:
+                r.monitorando = False
+                r.inicio_monitoramento = None
+                r.fim_monitoramento = None
+                dados = dict(r.dados or {})
+                dados['monitorando'] = False
+                dados['monitoramento_expirado'] = True
+                dados.pop('inicio_monitoramento', None)
+                dados.pop('fim_monitoramento', None)
+                r.dados = dados
+                r.atualizado_em = agora
+                alterado = True
+            resultado.append(r.dados or {
                 'pk': r.instagram_pk,
                 'username': r.username,
                 'monitorando': r.monitorando,
                 'sleep': r.sleep,
-            }
-            for r in registros
-        ]
+            })
+        if alterado:
+            session.commit()
+        return resultado
 
 
 def monitorar_perfil(cliente_usuario, selecionado, monitorando=False):
