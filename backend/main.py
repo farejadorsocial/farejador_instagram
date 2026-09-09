@@ -16,8 +16,10 @@ from backend.api.historico import router as historico_router
 from backend.api.exploracao import router as exploracao_router
 from backend.api.monitoramento import router as monitoramento_router
 from backend.api.creditos import router as creditos_router
+from backend.api.pagamentos import router as pagamentos_router
 from backend.database.init_db import criar_tabelas
 from backend.database.migrate_creditos import executar as migrar_creditos
+from backend.database.migrate_pagamentos import executar as migrar_pagamentos
 from toolFarejador.monitoramento.toolMonitoramentoSistema import monitoramento_perfis_tempo_real, solicitar_parada_monitoramento
 
 _DOCS_ENABLED = os.getenv("FAREJADOR_ENABLE_DOCS", "0") == "1"
@@ -50,7 +52,7 @@ async def cabecalhos_seguranca(request, call_next):
 
 app.mount("/static", StaticFiles(directory=FRONTEND), name="static")
 
-for router in (auth_router, dashboard_router, feed_router, perfis_router, comparador_router, historico_router, exploracao_router, monitoramento_router, creditos_router):
+for router in (auth_router, dashboard_router, feed_router, perfis_router, comparador_router, historico_router, exploracao_router, monitoramento_router, creditos_router, pagamentos_router):
     app.include_router(router)
 
 _monitor_thread = None
@@ -89,6 +91,7 @@ def startup_event():
     try:
         criar_tabelas()
         migrar_creditos()
+        migrar_pagamentos()
         print("[postgres] Estrutura do banco verificada.")
     except Exception as erro:
         print(f"[postgres] Falha ao preparar o banco: {erro}")
