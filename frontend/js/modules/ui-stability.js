@@ -15,6 +15,20 @@
     const scrollY=window.scrollY||window.pageYOffset||0;
     await renderOriginal.apply(this,arguments);
 
+    // Se a análise foi bloqueada por falta de créditos, não devemos apresentar
+    // o erro como se o usuário não existisse. O status vem preservado pelo
+    // runtime e registrado pelo handler da análise.
+    if(state.route==='analyze'&&state.analysisErrorStatus===402){
+      const content=$('#content');
+      const card=content?.querySelector('.friendly-empty');
+      if(card){
+        const icon=card.querySelector('.friendly-icon');
+        const title=card.querySelector('h2');
+        if(icon)icon.textContent='💳';
+        if(title)title.textContent='Créditos insuficientes';
+      }
+    }
+
     // Se algum renderer anterior estiver sendo usado, força uma única renderização
     // do Explore com o filtro de categoria. O marker vem do módulo dedicado.
     if(state.route==='explore'&&window.__farejadorEnhancedExplore&&!document.querySelector('#ranking-category-select')){
