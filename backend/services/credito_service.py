@@ -29,11 +29,25 @@ def _normalizar_usuario(usuario_id: int) -> int:
     return valor
 
 
+def obter_usuario_id(username: str) -> int:
+    username = str(username or "").strip().lower()
+    if not username:
+        raise ValueError("Usuário inválido.")
+    with Session(get_engine()) as session:
+        usuario_id = session.scalar(
+            select(Usuario.id).where(
+                Usuario.username == username,
+                Usuario.ativo.is_(True),
+            )
+        )
+        if usuario_id is None:
+            raise ValueError("Usuário não encontrado ou inativo.")
+        return int(usuario_id)
+
+
 def _obter_conta_bloqueada(session: Session, usuario_id: int) -> CreditoUsuario:
     usuario_id = _normalizar_usuario(usuario_id)
 
-    # Garante a existência da carteira sem depender de corrida entre
-    # requisições concorrentes. O conflito é resolvido pelo PostgreSQL.
     session.execute(
         insert(CreditoUsuario)
         .values(usuario_id=usuario_id, saldo=0, atualizado_em=_agora())
@@ -142,8 +156,6 @@ def _movimentar(
         _verificar_usuario(session, usuario_id)
         conta = _obter_conta_bloqueada(session, usuario_id)
 
-        # O bloqueio da carteira serializa operações concorrentes do mesmo
-        # usuário. Assim, a checagem e a alteração do saldo são atômicas.
         if chave_idempotencia:
             existente = session.scalar(
                 select(TransacaoCredito)
