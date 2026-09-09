@@ -7,7 +7,7 @@ import mimetypes
 import re
 from backend.schemas.perfil import AnalyzeBody, SaveProfileBody, MonitorBody
 from backend.core.dependencies import require_user, rate_limit
-from backend.services.perfil_service import get_public_profiles as service_get_public_profiles, get_public_profile as service_get_public_profile, public_profile_by_pk as service_public_profile_by_pk, get_private_profile as service_get_private_profile, analyze as service_analyze, save_current_profile as service_save_current_profile, remove_saved as service_remove_saved
+from backend.services.perfil_service import get_public_profiles as service_get_public_profiles, get_public_profile as service_get_public_profile, public_profile_by_pk as service_public_profile_by_pk, get_private_profile as service_get_private_profile, analyze as service_analyze, save_current_profile as service_save_current_profile, remove_saved as service_remove_saved, is_profile_saved as service_is_profile_saved
 from backend.services.monitoramento_service import set_monitoring
 from backend.services.credito_service import obter_usuario_id, obter_saldo, debitar
 
@@ -120,8 +120,57 @@ def do_analyze(request: Request, body: AnalyzeBody):
 @router.post("/api/profile/save")
 def do_save(request: Request, body: Optional[SaveProfileBody] = None):
     user = require_user(request)
-    try: return service_save_current_profile(user, body.dados if body else None)
-    except Exception as e: raise HTTPException(status_code=400, detail=str(e))
+    dados = body.dados if body else None
+    if not isinstance(dados, dict) or not isinstance(dados.get("perfil"), dict):
+        raise HTTPException(status_code=400, detail="Dados do perfil inválidos para salvamento.")
+
+    perfil = dados["perfil"]
+    pk = perfil.get("pk")
+    username = str(perfil.get("username") or "").strip().lower()
+    if pk is None or not username:
+        raise HTTPException(status_code=400, detail="O perfil precisa possuir pk e username para ser salvo.")
+
+    try:
+        ja_salvo = service_is_profile_saved(user, pk)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Não foi possível verificar o perfil salvo: {e}")
+
+    if ja_salvo:
+        try:
+            resultado = service_save_current_profile(user, dados)
+            return {"salvo": True, "novo_salvamento": False, "creditos_consumidos": 0, "resultado": resultado}
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=str(e))
+
+    try:
+        usuario_id = obter_usuario_id(user)
+        saldo = obter_saldo(usuario_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    if saldo < 10:
+        raise HTTPException(status_code=402, detail="Você não possui créditos suficientes para salvar este usuário. São necessários 10 créditos.")
+
+    try:
+        resultado = service_save_current_profile(user, dados)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    try:
+        transacao = debitar(
+            usuario_id,
+            10,
+            descricao="Salvar usuário",
+            referencia_id=str(pk),
+            chave_idempotencia=f"save:{pk}",
+            dados={"operacao": "save_profile", "username": username, "pk": str(pk)},
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=402, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"O usuário foi salvo, mas não foi possível registrar o consumo de créditos: {e}")
+
+    return {"salvo": True, "novo_salvamento": True, "creditos_consumidos": 10, "transacao_credito": transacao, "resultado": resultado}
 
 @router.post("/api/profiles/{username}/monitor")
 def do_monitor(request: Request, username: str, body: MonitorBody):
