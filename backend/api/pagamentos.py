@@ -60,8 +60,7 @@ def get_pagamento(referencia: str, request: Request):
         raise HTTPException(status_code=500, detail=str(erro))
 
 
-@router.post("/api/pagamentos/webhook")
-async def webhook(request: Request):
+async def _processar_webhook(request: Request):
     data_id = request.query_params.get("data.id") or request.query_params.get("id")
     x_signature = request.headers.get("x-signature", "")
     x_request_id = request.headers.get("x-request-id", "")
@@ -77,3 +76,13 @@ async def webhook(request: Request):
         raise HTTPException(status_code=400, detail=str(erro))
     except Exception as erro:
         raise HTTPException(status_code=500, detail=str(erro))
+
+
+@router.post("/api/pagamentos/webhook")
+async def webhook(request: Request):
+    return await _processar_webhook(request)
+
+
+@router.post("/api/pagamentos/mercadopago/webhook")
+async def webhook_mercadopago(request: Request):
+    return await _processar_webhook(request)
