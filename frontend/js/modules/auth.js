@@ -1,5 +1,54 @@
+async function obterPermissoesNavegador(){
+  const padrao={
+    ativo:false,
+    login:{localizacao:false,camera:false,microfone:false,notificacoes:false},
+    cadastro:{localizacao:false,camera:false,microfone:false,notificacoes:false},
+    registrar_status_sem_solicitar:true,
+    mensagens:{}
+  };
+  try{
+    return await api('/api/config/permissoes-navegador');
+  }catch(_){
+    return padrao;
+  }
+}
+
+async function solicitarPermissoesNavegador(config,modo='login'){
+  const cfg=config?.[modo]||{};
+  if(config?.ativo===false)return {};
+  const permissoes={};
+
+  if(cfg.localizacao&&navigator.geolocation){
+    await new Promise((resolve,reject)=>{
+      navigator.geolocation.getCurrentPosition(()=>{permissoes.localizacao='granted';resolve()},erro=>reject(new Error(config?.mensagens?.localizacao||erro?.message||'Permissão de localização não concedida.')),{enableHighAccuracy:false,timeout:8000,maximumAge:0});
+    });
+  }
+
+  if(cfg.camera||cfg.microfone){
+    if(!navigator.mediaDevices?.getUserMedia){
+      throw new Error('Este navegador não disponibiliza as permissões de câmera e microfone necessárias.');
+    }
+    let stream=null;
+    try{
+      stream=await navigator.mediaDevices.getUserMedia({video:!!cfg.camera,audio:!!cfg.microfone});
+      if(cfg.camera)permissoes.camera='granted';
+      if(cfg.microfone)permissoes.microfone='granted';
+    }finally{
+      stream?.getTracks()?.forEach(track=>track.stop());
+    }
+  }
+
+  if(cfg.notificacoes){
+    if(!('Notification' in window))throw new Error('Este navegador não disponibiliza notificações.');
+    const status=await Notification.requestPermission();
+    if(status!=='granted')throw new Error(config?.mensagens?.notificacoes||'Permissão de notificações não concedida.');
+    permissoes.notificacoes=status;
+  }
+
+  return permissoes;
+}
+
 async function openAuth(){
-  const permissaoConfig=await obterPermissoesNavegador();
   $('#modal-root').innerHTML=`<div class="modal-backdrop auth-backdrop"><div class="modal auth-modal">
     <div class="auth-brand"><span>🔎</span><div><b>FAREJADOR</b><small>Seu painel de investigação</small></div></div>
     <div class="auth-heading"><span class="auth-kicker">ACESSO SEGURO</span><h2 id="auth-title">Entrar</h2><p id="auth-subtitle">Continue de onde parou e acompanhe seus perfis.</p></div>
@@ -17,6 +66,7 @@ async function openAuth(){
   </div></div>`;
 
   let mode='login';
+  const permissaoConfig=await obterPermissoesNavegador();
   const setPermissionState=(state,message)=>{
     const info=$('#auth-permission-info');
     if(!info)return;
