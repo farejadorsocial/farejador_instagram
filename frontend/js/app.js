@@ -5,7 +5,7 @@
 (function carregarModulos(lista, indice) {
   if (indice >= lista.length) return;
   const script = document.createElement("script");
-  script.src = `${lista[indice]}?v=20260909-credits3`;
+  script.src = `${lista[indice]}?v=20260909-credits4`;
   script.onload = function () { carregarModulos(lista, indice + 1); };
   script.onerror = function () {
     console.error("Falha ao carregar módulo:", lista[indice]);
@@ -27,6 +27,7 @@
   "/static/js/modules/monitoramento-ui.js",
   "/static/js/modules/compare.js",
   "/static/js/modules/auth.js",
+  "/static/js/modules/auth-fix.js",
   "/static/js/modules/creditos-ui.js",
   "/static/js/modules/events.js",
   "/static/js/modules/ui-stability.js"
