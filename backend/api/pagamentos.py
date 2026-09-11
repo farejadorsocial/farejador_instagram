@@ -62,6 +62,29 @@ def get_pagamento(referencia: str, request: Request):
 
 async def _processar_webhook(request: Request):
     data_id = request.query_params.get("data.id") or request.query_params.get("id")
+    tipo = str(request.query_params.get("type") or "").strip().lower()
+    topic = str(request.query_params.get("topic") or "").strip().lower()
+
+    # IPN legado do Mercado Pago usa topic=payment&id=... e não permite
+    # validação HMAC por chave secreta. O serviço ainda consulta o pagamento
+    # diretamente na API do Mercado Pago e só associa uma ordem local quando
+    # external_reference, valor e moeda conferem exatamente.
+    if topic == "payment" and not tipo:
+        if not data_id:
+            raise HTTPException(status_code=400, detail="Notificação sem ID do pagamento.")
+        try:
+            processar_webhook({"type": "payment"}, data_id=data_id)
+            return {"recebido": True, "origem": "ipn"}
+        except ValueError as erro:
+            raise HTTPException(status_code=400, detail=str(erro))
+        except Exception as erro:
+            raise HTTPException(status_code=500, detail=str(erro))
+
+    # merchant_order não participa do fluxo de créditos. Confirmamos a
+    # recepção para impedir que o Mercado Pago continue reenviando o evento.
+    if topic == "merchant_order" and not tipo:
+        return {"recebido": True, "ignorado": True, "motivo": "merchant_order_nao_utilizado"}
+
     x_signature = request.headers.get("x-signature", "")
     x_request_id = request.headers.get("x-request-id", "")
 
@@ -71,7 +94,7 @@ async def _processar_webhook(request: Request):
     try:
         payload = await request.json()
         processar_webhook(payload, data_id=data_id)
-        return {"recebido": True}
+        return {"recebido": True, "origem": "webhook"}
     except ValueError as erro:
         raise HTTPException(status_code=400, detail=str(erro))
     except Exception as erro:
