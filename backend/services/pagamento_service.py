@@ -150,7 +150,10 @@ def criar_checkout(usuario_id: int, pacote_id: str, idempotency_key: Optional[st
                 "failure": f"{base_publica}/?pagamento=falha",
             }
             payload["auto_return"] = "approved"
-            payload["notification_url"] = f"{base_publica}/api/pagamentos/webhook"
+            # Força a notification_url específica da preferência a usar Webhooks.
+            # Sem este parâmetro, o Mercado Pago pode entregar notificações no
+            # formato IPN (topic=payment / id=...), que não possui validação HMAC.
+            payload["notification_url"] = f"{base_publica}/api/pagamentos/webhook?source_news=webhooks"
 
         preference = _mp_request("POST", "/checkout/preferences", payload, idempotency_key=chave)
         pagamento.preferencia_id = str(preference.get("id") or "")[:128] or None
@@ -194,6 +197,20 @@ def _associar_e_creditar(pagamento_id: str) -> dict[str, Any]:
 
         if pagamento.pagamento_id and str(pagamento.pagamento_id) != str(pagamento_id):
             raise ValueError("Pedido associado a outro pagamento.")
+
+        # O pagamento só pode liquidar a ordem se valor e moeda forem
+        # exatamente os mesmos definidos no pedido local.
+        moeda_mp = str(pagamento_mp.get("currency_id") or "").strip().upper()
+        if moeda_mp != str(pagamento.moeda or "BRL").strip().upper():
+            raise ValueError("Moeda do pagamento diferente da moeda do pedido.")
+
+        valor_mp = pagamento_mp.get("transaction_amount")
+        try:
+            valor_centavos_mp = round(float(valor_mp) * 100)
+        except (TypeError, ValueError):
+            raise ValueError("Pagamento sem valor válido.")
+        if valor_centavos_mp != int(pagamento.valor_centavos):
+            raise ValueError("Valor do pagamento diferente do valor do pedido.")
 
         pagamento.pagamento_id = str(pagamento_id)[:128]
         pagamento.status = novo_status
@@ -255,8 +272,6 @@ def validar_assinatura_webhook(x_signature: str, x_request_id: str, data_id: str
     if not ts or not v1 or not data_id:
         return False
 
-    # O Mercado Pago determina que cada par só entra no manifesto
-    # quando o respectivo valor existe na notificação recebida.
     partes_manifesto = [f"id:{data_id};"]
     if x_request_id:
         partes_manifesto.append(f"request-id:{x_request_id};")
