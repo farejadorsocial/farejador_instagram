@@ -4,7 +4,6 @@ import hashlib
 import hmac
 import json
 import os
-import time
 import uuid
 from datetime import datetime, timezone
 from typing import Any, Optional
@@ -240,19 +239,35 @@ def validar_assinatura_webhook(x_signature: str, x_request_id: str, data_id: str
     secret = _webhook_secret()
     if not secret:
         return False
+
     assinatura = str(x_signature or "")
-    partes = {}
+    partes: dict[str, str] = {}
     for parte in assinatura.split(","):
         if "=" in parte:
             chave, valor = parte.split("=", 1)
             partes[chave.strip()] = valor.strip()
+
     ts = partes.get("ts")
     v1 = partes.get("v1")
+    data_id = str(data_id or "").strip()
+    x_request_id = str(x_request_id or "").strip()
+
     if not ts or not v1 or not data_id:
         return False
 
-    manifest = f"id:{data_id};request-id:{x_request_id};ts:{ts};"
-    calculado = hmac.new(secret.encode("utf-8"), manifest.encode("utf-8"), hashlib.sha256).hexdigest()
+    # O Mercado Pago determina que cada par só entra no manifesto
+    # quando o respectivo valor existe na notificação recebida.
+    partes_manifesto = [f"id:{data_id};"]
+    if x_request_id:
+        partes_manifesto.append(f"request-id:{x_request_id};")
+    partes_manifesto.append(f"ts:{ts};")
+    manifest = "".join(partes_manifesto)
+
+    calculado = hmac.new(
+        secret.encode("utf-8"),
+        manifest.encode("utf-8"),
+        hashlib.sha256,
+    ).hexdigest()
     return hmac.compare_digest(calculado, v1)
 
 
