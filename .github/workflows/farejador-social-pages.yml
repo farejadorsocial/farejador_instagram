@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: read
@@ -20,6 +20,7 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -126,6 +127,7 @@ jobs:
           for arquivo in PERFIS_DIR.glob("*.json"):
               if arquivo.stem not in ids_atuais:
                   arquivo.unlink()
+                  print(f"Removido da publicação: {arquivo.stem}")
 
           (SITE / "index.html").write_text(
               """<!doctype html>
@@ -146,6 +148,7 @@ jobs:
           )
 
           print(f"Total publicado: {len(ids_atuais)}")
+          print(f"Atualização concluída: {documento['atualizado_em']}")
           PY
 
       - name: Enviar artefato para o GitHub Pages
