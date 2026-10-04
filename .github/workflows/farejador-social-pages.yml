@@ -7,11 +7,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-  repository_dispatch:
-    types:
-      - farejador_drive_changed
-  schedule:
-    - cron: "*/5 * * * *"
 
 permissions:
   contents: read
@@ -26,116 +21,24 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
       - name: Preparar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Gerar fonte pública dos dados
-        env:
-          PROXY_URL: "https://script.google.com/macros/s/AKfycbwNaLDHLQy4sXvbysxvZ8Z6MZd_d8MADztOmE4YpS8Tyq217qnuvNekgwsAjZlhEYK2/exec"
+      - name: Garantir estrutura pública
         run: |
-          python - <<'PY'
-          import json
-          import os
-          import re
-          import time
-          from pathlib import Path
-          from urllib.parse import urlencode
-          from urllib.request import Request, urlopen
-
-          BASE_URL = os.environ["PROXY_URL"]
-          PREFIX = "farejadorGitHubSync"
-          SITE = Path("site")
-          PERFIS_DIR = SITE / "instagram" / "perfis"
-          PERFIS_DIR.mkdir(parents=True, exist_ok=True)
-
-          def buscar_arquivo(acao, **params):
-              query = {
-                  "acao": acao,
-                  "prefix": PREFIX,
-                  "_": str(int(time.time() * 1000)),
-                  **params,
-              }
-              url = BASE_URL + "?" + urlencode(query)
-              req = Request(
-                  url,
-                  headers={
-                      "User-Agent": "FarejadorSocial-GitHubActions/1.0",
-                      "Accept": "*/*",
-                  },
-              )
-              with urlopen(req, timeout=60) as resposta:
-                  texto = resposta.read().decode("utf-8")
-
-              padrao = rf"^{re.escape(PREFIX)}\((.*)\);?\s*$"
-              match = re.match(padrao, texto, re.DOTALL)
-              if not match:
-                  raise RuntimeError("Resposta inesperada do Apps Script.")
-              return json.loads(match.group(1))
-
-          resumo = buscar_arquivo("listar_resumos")
-
-          if not resumo.get("sucesso"):
-              raise RuntimeError(resumo.get("erro", "Apps Script retornou erro."))
-
-          perfis = resumo.get("perfis") or []
-
-          documento = {
-              "sucesso": True,
-              "fonte": "Farejador Social",
-              "atualizado_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-              "total": len(perfis),
-              "categorias": resumo.get("categorias") or {},
-              "perfis": perfis,
-          }
-
-          (SITE / "instagram").mkdir(parents=True, exist_ok=True)
-          (SITE / "instagram" / "perfis.json").write_text(
-              json.dumps(documento, ensure_ascii=False, separators=(",", ":")),
-              encoding="utf-8",
-          )
-
-          ids_atuais = set()
-
-          for perfil in perfis:
-              perfil_id = str(perfil.get("id") or "").strip()
-              file_id = str(perfil.get("file_id") or "").strip()
-
-              if not perfil_id or not file_id:
-                  print("Perfil ignorado: ID ou file_id ausente.")
-                  continue
-
-              dados = buscar_arquivo("arquivo", id=file_id)
-
-              if not dados.get("sucesso"):
-                  raise RuntimeError(
-                      f"Falha ao carregar o perfil {perfil_id}: "
-                      f"{dados.get('erro', 'erro desconhecido')}"
-                  )
-
-              conteudo = dados.get("dados")
-              if conteudo is None:
-                  raise RuntimeError(f"Perfil {perfil_id} sem campo dados.")
-
-              destino = PERFIS_DIR / f"{perfil_id}.json"
-              destino.write_text(
-                  json.dumps(conteudo, ensure_ascii=False, separators=(",", ":")),
-                  encoding="utf-8",
-              )
-              ids_atuais.add(perfil_id)
-              print(f"Publicado: {perfil_id}")
-
-          for arquivo in PERFIS_DIR.glob("*.json"):
-              if arquivo.stem not in ids_atuais:
-                  arquivo.unlink()
-                  print(f"Removido da publicação: {arquivo.stem}")
-
-          (SITE / "index.html").write_text(
-              """<!doctype html>
+          mkdir -p site/instagram/perfis
+          if [ ! -f site/index.html ]; then
+            cat > site/index.html <<'HTML'
+          <!doctype html>
           <html lang="pt-BR">
           <head>
             <meta charset="utf-8">
@@ -148,13 +51,8 @@ jobs:
             <p>Fonte pública de dados do monitoramento.</p>
           </body>
           </html>
-          """,
-              encoding="utf-8",
-          )
-
-          print(f"Total publicado: {len(ids_atuais)}")
-          print(f"Atualização concluída: {documento['atualizado_em']}")
-          PY
+          HTML
+          fi
 
       - name: Enviar artefato para o GitHub Pages
         uses: actions/upload-pages-artifact@v4
