@@ -1,3 +1,5 @@
+# Publicação automática dos dados do Farejador Social
+
 name: Publicar dados do Farejador Social
 
 on:
